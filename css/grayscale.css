@@ -30,7 +30,8 @@
 
   .parallax__layer--back {
     height: 362vw;
-     background-image: url("../img/fan.jpg");
+     background-image: url("../img/brooklynbridge.jpg");
+     background-size : cover;
     -webkit-transform: translateZ(-1px) scale(2);
     transform: translateZ(-1px) scale(2);
   }
