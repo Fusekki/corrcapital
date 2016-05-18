@@ -20,7 +20,6 @@ $(document).ready(collapseNavbar);
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
-        console.log($($anchor.attr('href')).offset().top);
         $('.parallax').stop().animate({
         // $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
@@ -35,4 +34,8 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
   }
 });
+
+// var newHeight = window.innerWidth * .13;
+// console.log(newHeight);
+// $('.parallax__layer--back').height(newHeight + 'vh');
 
