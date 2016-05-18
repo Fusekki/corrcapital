@@ -59,7 +59,7 @@ src: local('Sansation Bold'), url('../fonts/sansation/Sansation_Bold.woff') form
   .parallax__layer--back {
 /*    height should be .13 * vw*/
     height: 362vw;
-     background-image: url("../img/brooklynbridge-sm.png");
+     background-image: url("../img/brooklynbridge-sm-white-1920x1200.jpg");
      background-size : cover;
     -webkit-transform: translateZ(-1px) scale(2);
     transform: translateZ(-1px) scale(2);
