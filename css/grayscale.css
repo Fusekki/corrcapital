@@ -30,57 +30,18 @@ src: local('Sansation Bold'), url('../fonts/sansation/Sansation_Bold.woff') form
 }
 
 
-
- /* Parallax base styles
-  --------------------------------------------- */
-
-  .parallax {
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-    -webkit-perspective: 1px;
-    perspective: 1px;
-  }
-
-  .parallax__layer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
-
-  .parallax__layer--base {
-    background-color: transparent;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-  }
-
-  .parallax__layer--back {
-/*    height should be .13 * vw*/
-    height: 362vw;
-     background-image: url("../img/brooklynbridge-sm-white-1920x1200.jpg");
-     background-size : cover;
-    -webkit-transform: translateZ(-1px) scale(2);
-    transform: translateZ(-1px) scale(2);
-  }
-
-
-
-
 body {
     width: 100%;
     height: 100%;
 /*    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
     font-family: 'Sansation', 'Sansation Light', 'Sansation Bold';
     color: #fff;
-    background: transparent;
+
 /*    background-color: #000;*/
 }
 
 footer {
-    background: transparent;
-/*    background: white;*/
+
 }
 
 footer p {
@@ -105,8 +66,18 @@ h6 {
     font-weight: 700;
     letter-spacing: 1px;
 }
+
+.bg-green {
+    background: #8cce1e;
+}
+
 .img-center {
     margin: 0 auto
+}
+
+.img-full {
+    margin: 0;
+    width: 100%;
 }
 
 p {
@@ -127,7 +98,23 @@ p {
     color: black;
 }
 
+.text-white {
+    color: white;
+}
 
+@media(min-width:375px) {
+/*    #background {
+        height: 175vh;
+      }*/
+
+}
+
+@media(min-width:474px) {
+/*    #background {
+        height: 195vh;
+      }*/
+
+}
 
 @media(min-width:768px) {
     p {
@@ -135,6 +122,11 @@ p {
         font-size: 20px;
         line-height: 1.6;
     }
+
+/*        #background {
+
+        height: 115vh;
+      }*/
 }
 
 a {
@@ -222,7 +214,7 @@ a:focus {
 
 .navbar-custom .nav li a:hover {
     outline: 0;
-    color: rgba(255,255,255,.8);
+    color: red;
     background-color: transparent;
 }
 
@@ -241,7 +233,11 @@ a:focus {
 }
 
 .navbar-custom .nav li.active a:hover {
-    color: #fff;
+    color: red;
+}
+
+#team {
+    background: #f4ebeb;
 }
 
 .team-member {
@@ -254,6 +250,8 @@ a:focus {
     margin-bottom: 0;
     text-transform: none;
 }
+
+
 
 @media(min-width:768px) {
     .navbar-custom {
@@ -280,13 +278,21 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: rgba(153,153,153,.7);
-/*    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;*/
-/*    background-color: #fff;*/
-    background: transparent;
+/*    background-color: gainsboro;*/
+    background: url('../img/nybuilding.jpg');
+        background-attachment: scroll;
+    background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+/*    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;*/
+/*    background-color: #fff;*/
+/*    background: transparent;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;*/
 }
 
 .intro .intro-body {
@@ -323,11 +329,11 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid black;
+    border: 2px solid grey;
     border-radius: 100%!important;
     font-size: 40px;
 /*    color: #fff;*/
-color: black;
+color: indianred;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -337,7 +343,7 @@ color: black;
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: black;
+    color: indianred;
 /*    color: #fff;*/
     background: rgba(255,255,255,.1);
 }
@@ -466,10 +472,19 @@ ul.banner-social-buttons {
 }
 
 @media screen and (min-width:1024px) {
-    .parallax__layer--back {
-    height: 100vw;
-  }
+/*        #background {
+
+        height: 160vh;
+      }*/
 }
+
+@media screen and (min-width:1200px) {
+/*        #background {
+
+        height: 185vh;
+      }*/
+}
+
 
 @media(max-width:767px) {
     ul.banner-social-buttons li {
@@ -485,6 +500,7 @@ ul.banner-social-buttons {
 
 footer {
     padding: 50px 0;
+    background: #f0f0f0;
 }
 
 footer p {

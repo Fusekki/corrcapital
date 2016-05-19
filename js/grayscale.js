@@ -20,8 +20,8 @@ $(document).ready(collapseNavbar);
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
-        $('.parallax').stop().animate({
-        // $('html, body').stop().animate({
+        // $('.parallax').stop().animate({
+        $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
@@ -35,7 +35,12 @@ $('.navbar-collapse ul li a').click(function() {
   }
 });
 
-// var newHeight = window.innerWidth * .13;
-// console.log(newHeight);
-// $('.parallax__layer--back').height(newHeight + 'vh');
+// if (window.innerWidth > 769) {
+//     var newHeight = window.innerWidth * .22;
+//     console.log(newHeight);
+
+//     $('.parallax__layer--back').height(newHeight + 'vh');
+// }
+
+
 
