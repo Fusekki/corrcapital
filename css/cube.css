@@ -1,3 +1,12 @@
+canvas {
+    position:relative;
+/*    left:270px;*/
+    margin-top: 150px;
+    z-index: 1;
+    height: 200px;
+    width: 200px;
+}
+
 body1 {
 /*
       background-color: black;

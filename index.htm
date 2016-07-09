@@ -18,11 +18,13 @@
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/grayscale.css" rel="stylesheet">
     <link href="css/cube.css" rel="stylesheet">
+    <link href="css/interactions.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -36,7 +38,11 @@
 
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
+<!--
+    <canvas id="canvas" height="285" width="285" style="display:none"></canvas>
+    <canvas id="canvas2" height="570" width="570" style="display:none"></canvas>
+    <canvas id="canvas3" height="570" width="570"></canvas>
+-->
 
     <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top navbar-default" role="navigation">
@@ -46,7 +52,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll light-gray" href="#page-top">
-                    <span class="light text-red">Corr</span><span class="text-gray small"> Capital Concepts</span>
+                    <span class="light text-red">Watermark</span><span class="text-gray small"> Capital </span>
                 </a>
             </div>
 
@@ -79,61 +85,118 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-8 col-md-offset-2">
+                                <!--<canvas id="canvas"></canvas>-->
 <!--                                 <img src="img/label.png" class="img-responsive img-center" alt=""> -->
-                                <h1 class="brand-heading text-red">Company</h1>
-                                <p class="intro-text text-white">Sub heading</p>
+                                <h1 class="brand-heading text-red">Watermark Capital</h1>
+                                <!--<p class="intro-text text-white">Sub heading</p>-->
                                 <a href="#companies" class="btn btn-circle page-scroll">
                                     <i class="fa fa-angle-double-down animated"></i>
                                 </a>
-                                
+                                                   
                             </div>
                         </div>
+                        <!--<div class="row">-->
+                            <!--<div class="intro_bottom">-->
+                                <!--&lt;!&ndash;<img src="img/brick.svg" alt="">&ndash;&gt;-->
+                                <!--<div class="company_wrapper">-->
+                                    <!--<div class="link_wrap">-->
+
+                                        <!--<div class="ball_wrap">-->
+                                            <!--<div class="blue_ball"></div>-->
+                                            <!--<div class="green_ball"></div>-->
+                                            <!--<div class="green_ball"></div>-->
+                                            <!--<div class="green_ball"></div>-->
+                                        <!--</div>-->
+
+                                        <!--<div class="shape_wrapper" id="jewelry">-->
+                                        <!--<div class="shapewrap">-->
+                                        <!--<span class="globe-text">Jewelry</span>-->
+                                        <!--<div class="globe"></div>-->
+                                        <!--</div>-->
+                                        <!--</div>-->
+
+                                        <!--<div class="shape_wrapper" id="tele">-->
+                                        <!--<div class="shapewrap">-->
+                                        <!--<span class="globe-text">Telemedicine</span>-->
+                                        <!--<div class="globe"></div>-->
+                                        <!--</div>-->
+                                        <!--</div>-->
+
+
+                                        <!--<div class="shape_wrapper" id="energy">-->
+                                        <!--<div class="shapewrap">-->
+                                        <!--<span class="globe-text">Energy</span>-->
+                                        <!--<div class="globe"></div>-->
+                                        <!--</div>-->
+                                        <!--</div>-->
+
+                                        <!--<div class="shape_wrapper" id="benefits">-->
+                                        <!--<div class="shapewrap">-->
+                                        <!--<span class="globe-text">Bernefits</span>-->
+                                        <!--<div class="globe"></div>-->
+                                        <!--</div>-->
+                                        <!--</div>-->
+
+                                        <!--<div class="shape_wrapper" id="art">-->
+                                        <!--<div class="shapewrap">-->
+                                        <!--<span class="globe-text">Art</span>-->
+                                        <!--<div class="globe"></div>-->
+                                        <!--</div>-->
+                                        <!--</div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+
                     </div>
+
 <!--                    Start Cube-->
-                    <div id="cube-container" class="animated zoomIn">
-                        <div id="stage">
-                          <div id="shape" class="cube backfaces">
-                            <div class="plane one">
-                                <img src="img/art.png" alt="Smiley face" height="50" width="200">
-                              </div>
-                            <div class="plane two">
-                                <img src="img/auto.png" alt="Smiley face" height="50" width="200">
-                              </div>
-                            <div class="plane three">
-                              <img src="img/benefits.png" alt="Smiley face" height="50" width="200">
-                              </div>
-                            <div class="plane four">
-                                <img src="img/energy.png" alt="Smiley face" height="50" width="200">
-                              </div>
-                            <div class="plane five">
-                                <img src="img/entertainment.png" alt="Smiley face" height="50" width="200">
-                              </div>
-                            <div class="plane six">
-                                <img src="img/fundraising.png" alt="Smiley face" height="50" width="200">
-                              </div>
-                            <div class="plane seven">
-                                <img src="img/luxury.png" alt="Smiley face" height="50" width="200">
-                              </div>
-                            <div class="plane eight">
-                                <img src="img/realty.png" alt="Smiley face" height="50" width="200">
-                            </div>
-            
-                            <div class="plane nine">
-                                <img src="img/south.png" alt="Smiley face" height="50" width="200">
-                              </div>
-                            <div class="plane ten">
-                                <img src="img/tech.png" alt="Smiley face" height="50" width="200">
-                              </div>
-                            <div class="plane eleven">
-                                <img src="img/tele.png" alt="Smiley face" height="50" width="200">
-                              </div>
-                            <div class="plane twelve">
-<!--                                <img src="img/art.png" alt="Smiley face" height="50" width="200">-->
-                              </div>
-            
-                          </div>
-                        </div>
-                      </div>
+                    <!--<div id="cube-container" class="animated zoomIn">                            -->
+
+                        <!--<div id="stage">-->
+                          <!--<div id="shape" class="cube backfaces">                        -->
+       <!---->
+                            <!--<div class="plane one">-->
+                                <!--<img src="img/art.png" alt="Smiley face" height="50" width="200">-->
+                              <!--</div>-->
+                            <!--<div class="plane two">-->
+                                <!--<img src="img/auto.png" alt="Smiley face" height="50" width="200">-->
+                              <!--</div>-->
+                            <!--<div class="plane three">-->
+                              <!--<img src="img/benefits.png" alt="Smiley face" height="50" width="200">-->
+                              <!--</div>-->
+                            <!--<div class="plane four">-->
+                                <!--<img src="img/energy.png" alt="Smiley face" height="50" width="200">-->
+                              <!--</div>-->
+                            <!--<div class="plane five">-->
+                                <!--<img src="img/entertainment.png" alt="Smiley face" height="50" width="200">-->
+                              <!--</div>-->
+                            <!--<div class="plane six">-->
+                                <!--<img src="img/fundraising.png" alt="Smiley face" height="50" width="200">-->
+                              <!--</div>-->
+                            <!--<div class="plane seven">-->
+                                <!--<img src="img/luxury.png" alt="Smiley face" height="50" width="200">-->
+                              <!--</div>-->
+                            <!--<div class="plane eight">-->
+                                <!--<img src="img/realty.png" alt="Smiley face" height="50" width="200">-->
+                            <!--</div>-->
+
+                            <!--<div class="plane nine">-->
+                                <!--<img src="img/south.png" alt="Smiley face" height="50" width="200">-->
+                              <!--</div>-->
+                            <!--<div class="plane ten">-->
+                                <!--<img src="img/tech.png" alt="Smiley face" height="50" width="200">-->
+                              <!--</div>-->
+                            <!--<div class="plane eleven">-->
+                                <!--<img src="img/tele.png" alt="Smiley face" height="50" width="200">-->
+                              <!--</div>-->
+                            <!--<div class="plane twelve">-->
+<!--&lt;!&ndash;                                <img src="img/art.png" alt="Smiley face" height="50" width="200">&ndash;&gt;-->
+                              <!--</div>-->
+            <!---->
+                          <!--</div>-->
+                        <!--</div>-->
+                      <!--</div>-->
 <!--                    End Cube-->
                 </div>
             </header>
@@ -141,55 +204,106 @@
 
 
                     <!-- About Section -->
+            <div class="container full_width">
             <section id="companies" class="container content-section text-center">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
-                        <h2 class="text-black">Companies</h2>
-                        <img src="img/ACL Logo.png" class="img-responsive img-center" alt="">
-                        <p class="text-grey">Great ideas come from many different avenues. Some are born out of tragedy, some from innovation, and others from overcoming the trials that life gives us. Difficult life experiences and the desire to give back have created a charitable life.</p>
-                        <img src="img/RxCut Logo-sm.png" class="img-responsive img-center" alt="">
-                        <p class="text-grey">The RxCut® free prescription savings card was created to help people across the United States and Puerto Rico obtain affordable medication. Medications have been the fastest growing component of healthcare costs for the past ten years. The free RxCut® prescription savings card allows anyone to easily save money on prescription medications. Anyone with or without insurance can save on their prescription medications with RxCut®.</p>
-                        <img src="img/AMPS Logo-sm.png" class="img-responsive img-center" alt="">
+                        <h2 class="text-white">Companies</h2>
+                        <div class="ball_wrap">
+                            <div class="shapewrap">
+                                <!--<a href="#portfolioModal2" data-toggle="modal" class="green_ball globe"><span class="globe-text-large">Corr</span></a>-->
+                                <div class="blue_ball globe"><span class="globe-text globe-text-large">Corr</span></div>
+                            </div>
+                            <div class="shapewrap">
+                                <a href="#portfolioModal1" data-toggle="modal" class="green_ball globe"><span class="globe-text">Jewelry</span></a>
+                                <!--<div class="green_ball globe"><span class="globe-text">Jewelry</span></div>-->
+                            </div>
+                            <div class="shapewrap">
+                                <a href="#portfolioModal2" data-toggle="modal" class="green_ball globe"><span class="globe-text globe-text-small">Telemedicine</span></a>
+                                <!--<div class="green_ball globe"><span class="globe-text globe-text-small">Telemedicine</span></div>-->
+                            </div>
+                            <div class="shapewrap">
+                                <a href="#portfolioModal3" data-toggle="modal" class="green_ball globe"><span class="globe-text">Energy</span></a>
+                                <!--<div class="green_ball globe"><span class="globe-text">Energy</span></div>-->
+                            </div>
+                            <div class="shapewrap">
+                                <a href="#portfolioModal4" data-toggle="modal" class="green_ball globe"><span class="globe-text">Bernefits</span></a>
+                                <!--<div class="green_ball globe"><span class="globe-text">Bernefits</span></div>-->
+                            </div>
+                            <div class="shapewrap">
+                                <a href="#portfolioModal5" data-toggle="modal" class="green_ball globe"><span class="globe-text">Art</span></a>
+                                <!--<div class="green_ball globe"><span class="globe-text">Art</span></div>-->
+                            </div>
+                            <div class="circle"></div>
+                        </div>
                     </div>
                 </div>
             </section>
-
+            </div>
            <!-- Team Section -->
             <section id="team" class="container text-center content-section text-black">
+                
+                
+<!--
+            <div class="photo-container">
+				<div class="photo">
+				  <img src="img/photos/4.jpg" alt="An awkward horse head">	
+				  <div class="photo-overlay">
+					  <h3>Snarky Horse</h3>
+					  <p>Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+					</div>
+				</div>
+				<a href="#" class="button">download</a>
+			</div>
+-->
 
                     <div class="row">
                         <div class="col-lg-12">
-                            <h2 class="section-heading">Our People</h2>
-
+                            <span class="people-icon"></span>
+                            <h2 class="section-heading">Our People </h2>
                         </div>
                     </div>
-                    <div class="row text-center">
-
-                        <div class="col-sm-3 ">
-                            <div class="team-member">
-                                <img src="http://loremflickr.com/150/150" class="img-responsive img-circle img-center" alt="">
-                                <h4>David Redlener</h4>
+                    <div class="row">                    
+                        <div class="col-sm-3 photo-container">
+                            <div class="photo">
+                            <span>
+                                <img src="img/William-Shatner-headshot.png" class="img-responsive" alt=""></span>
+                                <div class="photo-overlay">
+                                    <h3>David Redlener</h3>
+                                        <p>Owner</p>
+                                    <a href="#" class="button">Contact<span class="btn-icon"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 photo-container">
+                            <div class="photo">
+                                <img src="img/William-Shatner-headshot.png" class="img-responsive" alt="">
+                                <div class="photo-overlay">
+                                    <h3>Nick Stefanov</h3>
+                                        <p>Playboy</p>
+                                    <a href="#" class="button">Contact<span class="btn-icon"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 photo-container">
+                            <div class="photo">
+                                <img src="img/William-Shatner-headshot.png" class="img-responsive" alt="">
+                                  <div class="photo-overlay">
+                                    <h3>Ryan Hemphill</h3>
+                                      <p>Lawyer</p>
+                                    <a href="#" class="button">Contact<span class="btn-icon"></span></a>
+                                    </div>
 
                             </div>
                         </div>
-                        <div class="col-sm-3">
-                            <div class="team-member">
-                                <img src="http://loremflickr.com/150/150" class="img-responsive img-circle img-center" alt="">
-                                <h4>Nick Stefanov</h4>
-
-                            </div>
-                        </div>
-                        <div class="col-sm-3">
-                            <div class="team-member">
-                                <img src="http://loremflickr.com/150/150" class="img-responsive img-circle img-center" alt="">
-                                <h4>Ryan Hemphill</h4>
-
-                            </div>
-                        </div>
-                        <div class="col-sm-3">
-                            <div class="team-member">
-                                <img src="http://loremflickr.com/150/150" class="img-responsive img-circle img-center" alt="">
-                                <h4>Roseann Ragano</h4>
+                        <div class="col-sm-3 photo-container">
+                            <div class="photo">
+                                <img src="img/William-Shatner-headshot.png" class="img-responsive" alt="">
+                                  <div class="photo-overlay">
+                                    <h3>Roseann Ragano</h3>
+                                      <p>Managing Director</p>
+                                    <a href="#" class="button">Contact<span class="btn-icon"></span></a>
+                                </div>
 
                             </div>
                         </div>
@@ -205,10 +319,243 @@
                 </div>
             </footer>
 
+        <!-- Portfolio Modals -->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2><span class="text-red">CORR</span> <span class="text-grey h2-medium">Jewelry</span></h2>
+                                <hr class="star-primary">
+                                <img src="img/jewelry.png" class="img-responsive img-center img-medium" alt="">
+                                <span class="text-red text-italic left-span text-margin-bottom">What Is CORR Jewelry?</span>
+                                <p class="left-align">
+                                    <span class="text-red">CORR JEWELRY</span> is  a  full-service concierge  jewelry  service  available  exclusively  to  American  Expres
+                                    Centurion Cardholders and select clientele of our CORR Hotels properties. From elegant bespok
+                                    creations  to  private  collection  management, CORR  Jewelry provides  an  unrivaled  level  of  service
+                                    sophistication and access for a privileged and discerning few.
+                                </p>
+                                <span class="text-red left-span text-underline text-margin-bottom">Among Our Many Services and Offerings:</span>
+                                    <span class="left-span text-red text-uppercase">Create</span>
+                                    <li class="li-text-medium left-align">CORR Jewelry will design and craft bespoke, one-off pieces using renown craftsmen and the
+                                    finest, impeccably-sourced gems for any unique or emulative design our clients so desire.</li>
+                                <span class="left-span text-red text-uppercase">Curate</span>
+                                    <li class="li-text-medium left-align">CORR Jewelry will provide comprehensive collection management and assessment services to
+                                        inventory, update and correct the jewelry collections for our high net worth clients.</li>
+                                <span class="left-span text-red text-uppercase">Curate</span>
+                                <li class="li-text-medium left-align">CORR Jewelry provides unrivaled access to collection-defining pieces for our members to
+                                    enjoy on event or calendar-based terms of their convenience.</li>
+                                <hr>
+                                <span class="left-span text-margin-bottom"><span class="text-red">CORR JEWELRY</span> can also provide comprehensive and secure on-site vault storage - including use of
+                                    our exclusive <span class="text-italic">valet privé</span> - where clients’ can safely access their special pieces or entire collections.</span>
+                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Crisis <br>Management</h2>
+                                <hr class="star-primary">
+                                <img src="img/3-1.jpg" class="img-responsive img-centered" alt="">
+                                <p>We offer our clients an elite level of personalized service.  Where the situation dictates, members of our team can be by your side at a moment’s notice, to guide you through the process of stopping identity theft as it happens.  Experience has taught us that it is most productive to meet with victims of identity theft at a location where they are best able to best access their financial information, account statements, etc.  Therefore, we often recommend meeting at our client’s homes or places of business, so that their personal information will be accessible as we begin the process of making all of the necessary notifications and requests.  Additionally, we accompany our clients to their local police precinct to file a police report, which includes and FTC Affidavit.  Although it may be time consuming, it is imperative to file a police report as soon as possible after identity theft has been detected, in order to limit future liability and exposure.</p>
+                                <!--
+                                                            <ul class="list-inline item-details">
+                                                                <li>Client:
+                                                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                                                    </strong>
+                                                                </li>
+                                                                <li>Date:
+                                                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                                                    </strong>
+                                                                </li>
+                                                                <li>Service:
+                                                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                                                    </strong>
+                                                                </li>
+                                                            </ul>
+                                -->
+                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Victims</h2>
+                                <hr class="star-primary">
+                                <img src="img/4.jpg" class="img-responsive img-centered" alt="">
+                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                                <!--
+                                                            <ul class="list-inline item-details">
+                                                                <li>Client:
+                                                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                                                    </strong>
+                                                                </li>
+                                                                <li>Date:
+                                                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                                                    </strong>
+                                                                </li>
+                                                                <li>Service:
+                                                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                                                    </strong>
+                                                                </li>
+                                                            </ul>
+                                -->
+                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Project Title</h2>
+                                <hr class="star-primary">
+                                <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
+                                <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                                <ul class="list-inline item-details">
+                                    <li>Client:
+                                        <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                        </strong>
+                                    </li>
+                                    <li>Date:
+                                        <strong><a href="http://startbootstrap.com">April 2014</a>
+                                        </strong>
+                                    </li>
+                                    <li>Service:
+                                        <strong><a href="http://startbootstrap.com">Web Development</a>
+                                        </strong>
+                                    </li>
+                                </ul>
+                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Project Title</h2>
+                                <hr class="star-primary">
+                                <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
+                                <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                                <ul class="list-inline item-details">
+                                    <li>Client:
+                                        <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                        </strong>
+                                    </li>
+                                    <li>Date:
+                                        <strong><a href="http://startbootstrap.com">April 2014</a>
+                                        </strong>
+                                    </li>
+                                    <li>Service:
+                                        <strong><a href="http://startbootstrap.com">Web Development</a>
+                                        </strong>
+                                    </li>
+                                </ul>
+                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Project Title</h2>
+                                <hr class="star-primary">
+                                <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
+                                <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                                <ul class="list-inline item-details">
+                                    <li>Client:
+                                        <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                        </strong>
+                                    </li>
+                                    <li>Date:
+                                        <strong><a href="http://startbootstrap.com">April 2014</a>
+                                        </strong>
+                                    </li>
+                                    <li>Service:
+                                        <strong><a href="http://startbootstrap.com">Web Development</a>
+                                        </strong>
+                                    </li>
+                                </ul>
+                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
 
+<div class="bg-image"></div>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -221,7 +568,10 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
-    <script src="js/cubes.js"></script>
+
+<script src="js/AnimatedIntro.js"></script>
+    <!--<script src="js/cubes.js"></script>-->
+    <!--<script src="js/smoke.js"></script>-->
 
 
 </body>
