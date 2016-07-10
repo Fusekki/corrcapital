@@ -641,8 +641,6 @@ body {
     position: relative;
     width: 100%;
     max-width: 375px;
-    max-width: 375px;
-
     margin: 0 auto;
     width: 65%;
     height: 200px;
@@ -650,6 +648,34 @@ body {
     /*display: flex;*/
     /*overflow: hidden;*/
 
+
+}
+
+.table-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 375px;
+    max-width: 375px;
+
+    margin: 0 auto;
+    /*width: 65%;*/
+    /*height: 200px;*/
+    /*left: 25%;*/
+    /*display: flex;*/
+    /*overflow: hidden;*/
+
+
+}
+
+.strategy-table {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1em;
+}
+
+.span-in-line {
+    display: inline;
 
 }
 
@@ -1120,6 +1146,10 @@ hr.star-primary:after {
 
 }
 
+.table-sm > tbody >tr >td {
+    text-align: left;
+}
+
 
 
 .left-align {
@@ -1144,4 +1174,8 @@ hr.star-primary:after {
 
 .text-uppercase {
     transform: uppercase;
+}
+
+.text-bold {
+    font-weight: bold;
 }

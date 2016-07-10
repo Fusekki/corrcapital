@@ -25,6 +25,30 @@
 	transform: scale(1.2);
 }
 
+.photo-overlay {
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    display: flex; /* For centering text inside .photo-overlay */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0, .5);
+}
+.photo-overlay h3 {
+    margin-top: 0;
+}
+
+.photo-overlay p {
+    color: white;
+}
+
 
 
 
