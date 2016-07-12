@@ -91,6 +91,10 @@
     opacity: 1;
 }
 
+.fa-book {
+    transition: opacity .5s ease-in-out .3s, left .5s ease-out .3s;
+}
+
 .btn-icon {
     transition: opacity .5s ease-in-out .3s, left .5s ease-out .3s;
 /*
@@ -107,4 +111,8 @@
     left: 61%;
 }
 
+.button:hover .fa-book {
+    opacity: 1;
+    left: 61%;
+}
 

@@ -54,6 +54,7 @@ footer p {
 }
 
 html {
+    overflow-x: hidden;
     width: 100%;
     height: 100%;
 }
@@ -67,13 +68,17 @@ h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
 /*    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
-    font-family: 'Sansation Bold';
+    /*font-family: 'Sansation Bold';*/
     font-weight: 700;
     letter-spacing: 1px;
 }
 
 .bg-green {
     background: #8cce1e;
+}
+
+.brand-heading, .flip-container {
+    font-family: "Sansation Bold";
 }
 
 .img-full {
@@ -273,17 +278,19 @@ a:focus {
 }
 
 .photo-container {
+    margin: auto 0 4em 0;
 	text-align: center;
-	margin-bottom: 4em;
+	/*margin-bottom: 4em;*/
 }
 
 .photo-container img {
+    margin: auto;
     max-width: 100%;
 }
 
 #team {
     width: 100%;
-    /*background: #f4ebeb;*/
+    background: white;
 }
 
 
@@ -308,6 +315,15 @@ a:focus {
 	position: absolute;
 	left: 45%;
 	top: 68%;
+}
+
+.fa-book {
+    opacity: 0;
+    display: inline-block;
+    font-size: 1.5em;
+    position: absolute;
+    left: 45%;
+    top: 70%;
 }
 
 .people-icon {
@@ -505,7 +521,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding: 150px 0 300px;
+        padding: 0 0 300px;
     }
 
     .download-section {
@@ -613,7 +629,7 @@ body {
 }
 
 .bg-image {
-    background: url('../img/stock-photo-76360995-double-exposure-with-business-graph.jpg');
+    background: url('../img/stock-colorized.jpg');
     background-size: cover;
     position: absolute;
     top: 0;
@@ -630,11 +646,12 @@ body {
 
 .intro_bottom {
     background-color: hsla(0, 0%, 0%, .65);
-    height: 204px;
-    width: 100%;
-    right: 0;
+    height: 1000px;
+    width: 160%;
+    right: -583px;
     position: absolute;
-    top: 560px;
+    top: 492px;
+    transform: rotate(-26deg)
 }
 
 .company_wrapper {
@@ -758,8 +775,12 @@ body {
 
 .shapewrap {
     /*display: flex;*/
-    /*display: inline-flex;*/
+    display: inline-flex;
     align-items: center;
+    width: 200px;
+    height: 200px;
+
+    border: 2px solid white;
 
 }
 
@@ -789,16 +810,64 @@ body {
 }
 
 .shapewrap:hover .globe-text{
-    color: white;
+    color: red;
 
 
 }
 
-.shapewrap:hover .globe {
-
-    box-shadow: 0 0 20px 10px #fff;  /* inner white */
-    transform: scale(1.7);
+/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+    transform: rotateY(180deg);
 }
+
+.flip-container, .front img {
+    height: 200px;
+    width: 200px;
+}
+
+.flip-container, .front, .back {
+    width: 200px;
+    height: 200px;
+}
+
+.tile-odd:hover a{
+    color: red;
+}
+
+/* flip speed goes here */
+.flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+
+    position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+    backface-visibility: hidden;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+    z-index: 2;
+    /* for firefox 31 */
+    transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+    transform: rotateY(180deg);
+}
+
+/*.shapewrap:hover .globe {*/
+
+    /*box-shadow: 0 0 20px 10px silver;  !* inner white *!*/
+    /*transform: scale(1.7);*/
+/*}*/
 
 .globe:focus {
     outline:none;
@@ -814,140 +883,238 @@ body {
 }
 
 .ball_wrap {
-    position: relative;
+    display: inline;
+    /*position: absolute;*/
     margin: auto;
-    width: 90px;
-    margin-top: 300px;
+    width: 100%;
+    /*background: white;*/
+    /*margin-top: 240px;*/
+    /*left: 85%;*/
+    /*top: 100%;*/
+    /*right: 180px;*/
 }
-
-
 .circle {
     position: absolute;
     /*background: #2F9BC1;*/
-    left: -101px;
-    top: -132%;
-    height: 290px;
-    width: 290px;
+    /*left: 416px;*/
+    /*top: -61%;*/
+    height: 500px;
+    top: -256px;
+    width: 500px;
     border-radius: 50%;
-    border: 3px solid grey;
+    border: 15px solid white;
     z-index: 0;
+    /*background-image: url('../img/stock-vector-empire-state-building-385378354.jpg');*/
+    /*background-size: cover;*/
 }
 
-.green_ball {
-    background: #00C762;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    border: 3px solid #ccc;
-    position: absolute;
-    z-index: 1;
+.tile-even {
+    background: grey;
 }
 
-.blue_ball {
-    left: 4px;
-    background: #2F9BC1;
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
-    border: 3px solid #ccc;
-    z-index: 2;
+.tile-odd {
+    background: white;
 }
 
-.ball_wrap div:nth-of-type(2) a{
-    top: -25px;
-    left: -115px;
-    background: #75372f;
+.tile-odd a {
+    line-height: 200px;
+    color: white;
 }
 
-.ball_wrap div:nth-of-type(2) a:after {
-    content: "";
-    display: block;
-    border-bottom: 1px solid grey;
-    position: absolute;
-    width: 69px;
-    right: -72px;
-    top: 80%;
-    -webkit-transform: rotate(19deg);
-    transform: rotate(19deg);
+
+.tile-inline-block {
+    padding-top: 65px;
+    display: inline-block;
 }
 
-.ball_wrap div:nth-of-type(3) a {
-    top: -25px;
-    right: -115px;
-    background: #48976c;
+
+
+.tile-text-medium {
+     line-height: 200px;
+ }
+
+.tile-text-small {
+    line-height: 50px;
+}
+.tile-odd {
+    color: white;
+    font-size: 2em;
 }
 
-.ball_wrap div:nth-of-type(3) a:after {
-    content: "";
-    display: block;
-    border-bottom: 1px solid grey;
-    position: absolute;
-    width: 69px;
-    left: -72px;
-    top: 80%;
-    -webkit-transform: rotate(-19deg);
-    transform: rotate(-19deg);
+.table-companies {
+    margin: auto;
 }
 
-.ball_wrap div:nth-of-type(4) a {
-    /*right: 105px;*/
-    left: -65px;
-    bottom: -100px;
-    background: #99517a;
+
+.table-companies > tbody > tr > td {
+    height: 200px;
+    width: 200px;
+}
+.tile-small-text {
+    line-height: 100px;
 }
 
-.ball_wrap div:nth-of-type(4) a:after {
-    content: "";
-    display: block;
-    border-left: 1px solid grey;
-    position: absolute;
-    height: 73px;
-    left: 62px;
-    top: -64px;
-    -webkit-transform: rotate(38deg);
-    transform: rotate(38deg);
-}
+/*.circle {*/
+    /*position: absolute;*/
+    /*!*background: #2F9BC1;*!*/
+    /*left: -175px;*/
+    /*top: -100%;*/
+    /*height: 500px;*/
+    /*width: 500px;*/
+    /*border-radius: 50%;*/
+    /*border: 10px solid white;*/
+    /*z-index: 0;*/
+/*}*/
 
-.ball_wrap div:nth-of-type(5) a {
-    right: -65px;
-    bottom: -100px;
-    background: #5f457a;
-}
+/*.green_ball {*/
+    /*background: #00C762;*/
+    /*height: 100px;*/
+    /*width: 100px;*/
+    /*border-radius: 50%;*/
+    /*border: 3px solid #ccc;*/
+    /*position: absolute;*/
+    /*z-index: 1;*/
+/*}*/
 
-.ball_wrap div:nth-of-type(5) a:after {
-    content: "";
-    display: block;
-    border-left: 1px solid grey;
-    position: absolute;
-    height: 73px;
-    /*left: -29px;*/
-    right: 62px;
-    top: -64px;
-    -webkit-transform: rotate(-38deg);
-    transform: rotate(-38deg);
-}
+/*.blue_ball {*/
+    /*background: #2F9BC1;*/
+    /*left: -30px;*/
+    /*height: 160px;*/
+    /*width: 160px;*/
+    /*border-radius: 50%;*/
+    /*border: 3px solid #ccc;*/
+    /*z-index: 2;*/
+/*}*/
 
-.ball_wrap div:nth-of-type(6) a {
-    background: #9f8750;
-    right: 20px;
-    top: -124px;
-}
+/*.green_ball {*/
+    /*!*background: #00C762;*!*/
+    /*background: #6f6d65;*/
+    /*height: 50px;*/
+    /*width: 50px;*/
+    /*border-radius: 50%;*/
+    /*border: 3px solid #ccc;*/
+    /*position: absolute;*/
+    /*z-index: 1;*/
+/*}*/
 
-.ball_wrap div:nth-of-type(6) a:after {
-    content: "";
-    display: block;
-    border-left: 1px solid grey;
-    position: absolute;
-    height: 67px;
-    /*left: -29px;*/
-    right: 22px;
-    top: 50px;
+/*.blue_ball {*/
+    /*!*background: #2F9BC1;*!*/
+    /*background: #6f6d65;*/
+    /*!*left: 199px;*!*/
+    /*!*top: -325px;*!*/
+    /*height: 50px;*/
+    /*width: 50px;*/
+    /*border-radius: 50%;*/
+    /*border: 3px solid #ccc;*/
+    /*z-index: 2;*/
+/*}*/
 
-}
+/*.ball_wrap div:nth-of-type(2) a{*/
+    /*!*top: -300px;*!*/
+    /*!*left: 101px;*!*/
+    /*!*background: #75372f;*!*/
+/*}*/
+
+/*.ball_wrap div:nth-of-type(2) a:after {*/
+    /*content: "";*/
+    /*display: block;*/
+    /*border-bottom: 1px solid grey;*/
+    /*position: absolute;*/
+    /*width: 69px;*/
+    /*!*right: -72px;*!*/
+    /*!*top: 80%;*!*/
+    /*-webkit-transform: rotate(19deg);*/
+    /*transform: rotate(19deg);*/
+/*}*/
+
+/*.ball_wrap div:nth-of-type(3) a {*/
+    /*!*top: -251px;*!*/
+    /*!*left: 24px;*!*/
+    /*!*background: #48976c;*!*/
+/*}*/
+
+/*.ball_wrap div:nth-of-type(3) a:after {*/
+    /*content: "";*/
+    /*display: block;*/
+    /*border-bottom: 1px solid grey;*/
+    /*position: absolute;*/
+    /*width: 69px;*/
+    /*left: -72px;*/
+    /*top: 80%;*/
+    /*-webkit-transform: rotate(-19deg);*/
+    /*transform: rotate(-19deg);*/
+/*}*/
+
+/*.ball_wrap div:nth-of-type(4) a {*/
+    /*!*right: 105px;*!*/
+    /*!*top: -168px;*!*/
+    /*!*left: -37px;*!*/
+    /*!*background: #99517a;*!*/
+/*}*/
+
+/*.ball_wrap div:nth-of-type(4) a:after {*/
+    /*content: "";*/
+    /*display: block;*/
+    /*border-left: 1px solid grey;*/
+    /*position: absolute;*/
+    /*height: 73px;*/
+    /*left: 62px;*/
+    /*top: -64px;*/
+    /*-webkit-transform: rotate(38deg);*/
+    /*transform: rotate(38deg);*/
+/*}*/
+
+/*.ball_wrap div:nth-of-type(5) a {*/
+    /*!*top: -84px;*!*/
+    /*!*left: -69px;*!*/
+    /*!*background: #5f457a;*!*/
+/*}*/
+
+/*.ball_wrap div:nth-of-type(5) a:after {*/
+    /*content: "";*/
+    /*display: block;*/
+    /*border-left: 1px solid grey;*/
+    /*position: absolute;*/
+    /*height: 73px;*/
+    /*!*left: -29px;*!*/
+    /*right: 62px;*/
+    /*top: -64px;*/
+    /*-webkit-transform: rotate(-38deg);*/
+    /*transform: rotate(-38deg);*/
+/*}*/
+
+/*.ball_wrap div:nth-of-type(6) a {*/
+    /*background: #9f8750;*/
+    /*left: 131px;*/
+    /*top: -200px;*/
+/*}*/
+
+/*.ball_wrap div:nth-of-type(6) a:after {*/
+    /*content: "";*/
+    /*display: block;*/
+    /*border-left: 1px solid grey;*/
+    /*position: absolute;*/
+    /*height: 67px;*/
+    /*!*left: -29px;*!*/
+    /*right: 22px;*/
+    /*top: 50px;*/
+
+/*}*/
 
 .full_width {
-    background: black;
+    background: #272b2d; /* Standard syntax */ ;
     width: 100%;
+    padding: 0;
+}
+
+.grey_section {
+    height: 200px;
+ width: 100%;
+    background: #272b2d;
+}
+
+.grey_section h2 {
+    padding-top: 75px;
 }
 
 #portfolio {
@@ -1178,4 +1345,8 @@ hr.star-primary:after {
 
 .text-bold {
     font-weight: bold;
+}
+
+.section-top-padding {
+    padding-top: 200px;
 }
