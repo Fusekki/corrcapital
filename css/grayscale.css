@@ -105,6 +105,14 @@ p {
     color: #777;
 }
 
+.text-light-grey {
+    color: darkgray;
+}
+
+.text-lighter-grey {
+    color: lightgray;
+}
+
 .text-black {
     color: black;
 }
@@ -521,7 +529,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding: 0 0 300px;
+        padding: 0;
     }
 
     .download-section {
@@ -597,11 +605,13 @@ ul.banner-social-buttons {
 
 footer {
     padding: 50px 0;
-    background: #f0f0f0;
+    background: black;
 }
 
 footer p {
     margin: 0;
+    letter-spacing: .2em;
+    font-size: 13px;
 }
 
 ::-moz-selection {
@@ -876,9 +886,9 @@ body {
 
 
 .btn-circle {
-    position: absolute;
-    right: -70px;
-    bottom: -175px;
+    /*position: absolute;*/
+    /*right: -70px;*/
+    /*bottom: -175px;*/
     z-index: 2;
 }
 
@@ -1211,6 +1221,23 @@ body {
 .portfolio-modal .close-modal:hover {
     opacity: .3;
 }
+#portfolioModal6 .close-modal:hover,
+#portfolioModal7 .close-modal:hover,
+#portfolioModal8 .close-modal:hover {
+    opacity: 1;
+}
+
+#portfolioModal6 .close-modal:hover .lr,
+#portfolioModal6 .close-modal:hover .lr .rl,
+#portfolioModal7 .close-modal:hover .lr,
+#portfolioModal7 .close-modal:hover .lr .rl,
+#portfolioModal8 .close-modal:hover .lr,
+#portfolioModal8 .close-modal:hover .lr .rl
+{
+
+   background-color: white;
+}
+
 
 .portfolio-modal .close-modal .lr {
     z-index: 1051;
@@ -1350,3 +1377,94 @@ hr.star-primary:after {
 .section-top-padding {
     padding-top: 200px;
 }
+
+#portfolioModal3 {
+    background-image: url('../img/stock-photo-wind-turbines-in-oiz-eolic-park-at-sunset-269002526.jpg');
+    background-size: cover;
+}
+
+#portfolioModal2 {
+    background-image: url('../img/stock-photo-prescription-rx-medicine-bottles-on-white-background-243602188 .jpg');
+    background-size: cover;
+}
+
+#portfolioModal1 {
+    background-image: url('../img/stock-photo-portrait-of-beautiful-blonde-woman-in-black-dress-fashion-photo-127612799.jpg');
+    background-size: cover;
+}
+
+#portfolioModal5 {
+    background-image: url('../img/stock-photo-vienna-austria-august-the-leopold-museum-housed-in-the-museumsquartier-in-vienna-is-318414821.jpg');
+    background-size: cover;
+}
+
+#portfolioModal4 {
+    background-image: url('../img/stock-photo-closeup-of-an-employee-benefit-package-86250418.jpg');
+    background-size: cover;
+}
+
+#portfolioModal3 > .modal-content,
+#portfolioModal2 > .modal-content,
+#portfolioModal1 > .modal-content,
+#portfolioModal5 > .modal-content,
+#portfolioModal4 > .modal-content
+{
+    background-color: transparent;
+}
+
+#portfolioModal8 > .modal-content,
+#portfolioModal7 > .modal-content,
+#portfolioModal6 > .modal-content {
+    background-color: black;
+}
+
+#portfolioModal3 > .modal-content > .container,
+#portfolioModal1 > .modal-content > .container,
+#portfolioModal2 > .modal-content > .container,
+#portfolioModal5 > .modal-content > .container,
+#portfolioModal4 > .modal-content > .container {
+    background-color: hsla(0, 0%, 100%, .65);
+}
+
+.modal {
+    /*position: relative;*/
+}
+
+.section_header {
+    padding: 3.5em 0 2em;
+    background-color:  #29303a;
+    margin-bottom: 4em;
+}
+
+.section_header h2 {
+    font-size: 1.3em;
+    font-weight: bold;
+    letter-spacing: 0.5em;
+}
+
+.section_header h1:after,
+.section_header h2:after,
+.section_header h3:after,
+.section_header h4:after,
+.section_header h5:after,
+.section_header h6:after {
+    content: "";
+    display: block;
+    width: 3.875em;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 1.500em auto 0;
+    position: relative;
+    left: -3px;
+
+}
+
+.section_header h1::after, .section_header h2::after, .section_header h3::after, .section_header h4::after, .section_header h5::after, .section_header h6::after {
+    background-color: #FFFFFF;
+    margin-top: .4em;
+}
+
+#companies {
+    margin-bottom: 4em;
+}
+
