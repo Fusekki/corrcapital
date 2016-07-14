@@ -10,6 +10,8 @@
     /*border: solid 1px red;*/
 /*}*/
 
+
+
 @font-face {
 font-family: 'Sansation Light';
 font-style: normal;
@@ -41,6 +43,7 @@ body {
     /*font-family: 'Sansation', 'Sansation Light', 'Sansation Bold';*/
     font-family: 'PT Sans', sans-serif;
     color: black;
+    font-size: 22px;
 
 /*    background-color: #000;*/
 }
@@ -93,6 +96,9 @@ p {
     line-height: 1.5;
 }
 
+.navbar-brand {
+    font-size: 24px;
+}
 .text-red {
     color: #d71919;
 }
@@ -331,7 +337,8 @@ a:focus {
     font-size: 1.5em;
     position: absolute;
     left: 45%;
-    top: 70%;
+    top: 72%;
+    font-size: 20px;
 }
 
 .people-icon {
@@ -660,7 +667,7 @@ body {
     width: 160%;
     right: -583px;
     position: absolute;
-    top: 492px;
+    top: 511px;
     transform: rotate(-26deg)
 }
 
@@ -821,21 +828,21 @@ body {
 .globe-text {
     /*position: relative;*/
     color: #aaa;
-    font-size: 13px;
+    font-size: 18px;
     transition: color 1s ease;
     position: relative;
-    top: -50%;
-    left: -57px;
+    top: -97%;
+    left: -76px;
 }
 
 #globe-text-first {
     top: -15%;
-    left: -28px;
+    left: -37px;
 }
 
 #globe-text-last {
-    top: -53%;
-    left: -89px;
+    top: -94%;
+    left: -112px;
 }
 
 .globe-text-small {
@@ -1048,7 +1055,8 @@ box-shadow: 0 0 10px 5px silver;  /* inner white */
 
 .grey_ball i {
     color: cornflowerblue;
-    margin-top: 11px;
+    margin-top: 8px;
+    font-size: 15px;
 }
 
 /*.ball_wrap div:nth-of-type(2) a{*/
