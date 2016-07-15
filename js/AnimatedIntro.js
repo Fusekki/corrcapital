@@ -31,3 +31,4 @@ $(function() {
 //         $('.navbar-toggle:visible').click();
 //     }
 // });
+
