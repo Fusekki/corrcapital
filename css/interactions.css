@@ -100,7 +100,7 @@ opacity: 1;
     /*top: 70px;*/
     color: #fff;
     opacity: 0;
-    background: #4a99ca;
+    background: #29303a;
     border-radius: 1em;
 
     transition: opacity .3s .2s, background .4s .3s, box-shadow .5s 0s;
@@ -114,7 +114,8 @@ opacity: 1;
 
 .button:hover {
     color: #fff;
-    background: rgba(74, 137, 202, 1);
+    /*background: rgba(74, 137, 202, 1);*/
+    background: #29303a;
     box-shadow: 0 0 0 3px rgba(255, 255, 255, .7);
 }
 

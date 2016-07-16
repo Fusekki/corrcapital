@@ -11,6 +11,10 @@
 /*}*/
 
 
+/*This hack stops the page resetting back to the top when the modal is opened.*/
+body.modal-open {
+    overflow: visible;
+}
 
 @font-face {
 font-family: 'Sansation Light';
@@ -441,7 +445,8 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid grey;
+    /*border: 2px solid grey;*/
+    border: 2px solid white;
     border-radius: 100%!important;
     font-size: 40px;
 /*    color: #fff;*/
@@ -961,18 +966,18 @@ box-shadow: 0 0 10px 5px silver;  /* inner white */
     opacity: 0;
     transition: opacity .15s ease-in-out;
 }
+.tile.tile-show {
+    opacity: 1;
+}
 
 .tile-even {
-    background: grey;
+    background: #29303a;
 }
 
 .tile-odd {
     background: white;
 }
 
-.tile-show {
-    opacity: 1;
-}
 
 .tile-odd a {
     line-height: 200px;
