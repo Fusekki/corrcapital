@@ -1380,7 +1380,7 @@ hr.star-primary:after {
 }
 
 .h2-medium {
-    font-size: 1.1em;
+    font-size: .8em;
 }
 
 .h2-large {
@@ -1391,7 +1391,7 @@ hr.star-primary:after {
     text-align: left;
     float: left;
     width: 100%;
-    font-size: 1.4em;
+    /*font-size: 1.4em;*/
 }
 
 .modal-body > li {
@@ -1407,6 +1407,32 @@ hr.star-primary:after {
 
 .left-align {
     text-align: left;
+}
+
+.left-margin {
+    margin-left: 40px;
+
+}
+
+.ul-table {
+    /*counter-reset: foo;*/
+    display: table;
+}
+
+.ul-table > li {
+    /*counter-increment: foo;*/
+    /*list-style-type: square;*/
+    /*display: table-row;*/
+}
+
+/*.ul-table > li::before {*/
+    /*!*content: counter(foo) ".";*!*/
+    /*display: table-cell; !* aha! *!*/
+    /*text-align: right;*/
+/*}*/
+
+.list-circle {
+    list-style: circle;
 }
 .text-underline {
     text-decoration: underline;
@@ -1532,4 +1558,9 @@ hr.star-primary:after {
     border-left: 100vw solid transparent;
     position: absolute;
     bottom: 0;
+}
+
+.text-spacing {
+    letter-spacing: .2em;
+
 }
