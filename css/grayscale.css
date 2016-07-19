@@ -13,7 +13,7 @@
 
 /*This hack stops the page resetting back to the top when the modal is opened.*/
 body.modal-open {
-    overflow: visible;
+    /*overflow: visible;*/
 }
 
 @font-face {
@@ -419,6 +419,7 @@ a:focus {
 /*    font-size: 40px;*/
     /*margin-top: 400px;*/
     font-size: 30px;
+    white-space: nowrap;
 }
 
 .intro .intro-body .intro-text {
@@ -668,12 +669,13 @@ body {
 
 .intro_bottom {
     background-color: hsla(0, 0%, 0%, .65);
-    height: 1000px;
-    width: 160%;
-    right: -583px;
-    position: absolute;
-    top: 511px;
-    transform: rotate(-26deg)
+    height: 50%;
+    width: 100%;
+    /*right: -583px;*/
+    position: relative;
+    top: 46%;
+    z-index: 2;
+    /*transform: rotate(-26deg)*/
 }
 
 .company_wrapper {
@@ -806,28 +808,73 @@ body {
 
 }
 
+.ball_wrap .shapewrap:nth-of-type(1) {
+    left: -10px;
+    bottom: -80px;
+}
 .ball_wrap .shapewrap:nth-of-type(2) {
-    right: -143px;
-    bottom: 245px;
+    left: 55px;
+    bottom: -189px;
 }
 .ball_wrap .shapewrap:nth-of-type(3) {
-    right: -36px;
-    bottom: 206px;
+    left: 229px;
+    bottom: -251px;
 }
+
+.ball_wrap .shapewrap:nth-of-type(3) .globe .globe-text {
+    left: -11px;
+    top: 6px;
+}
+
+
+
+
+
 .ball_wrap .shapewrap:nth-of-type(4) {
-    right: 35px;
-    bottom: 147px;
+    left: 468px;
+    bottom: -80px;
+}
+
+.ball_wrap .shapewrap:nth-of-type(4) .globe .globe-text {
+    left: 50px;
 }
 .ball_wrap .shapewrap:nth-of-type(5) {
-    right: 79px;
-    bottom: 73px;
+    left: 420px;
+    bottom: -189px;
+}
+
+.ball_wrap .shapewrap:nth-of-type(5) .globe .globe-text {
+    left: 50px
 }
 
 .ball_wrap .shapewrap:nth-of-type(6) {
-    right: 102px;
-    bottom: -8px;
+    left: 438px;
+    bottom: -236px;
 
 }
+
+/*.ball_wrap .shapewrap:nth-of-type(2) {*/
+    /*right: -143px;*/
+    /*bottom: 245px;*/
+/*}*/
+/*.ball_wrap .shapewrap:nth-of-type(3) {*/
+    /*right: -36px;*/
+    /*bottom: 206px;*/
+/*}*/
+/*.ball_wrap .shapewrap:nth-of-type(4) {*/
+    /*right: 35px;*/
+    /*bottom: 147px;*/
+/*}*/
+/*.ball_wrap .shapewrap:nth-of-type(5) {*/
+    /*right: 79px;*/
+    /*bottom: 73px;*/
+/*}*/
+
+/*.ball_wrap .shapewrap:nth-of-type(6) {*/
+    /*right: 102px;*/
+    /*bottom: -8px;*/
+
+/*}*/
 
 
 .globe-text {
@@ -845,10 +892,10 @@ body {
     left: -37px;
 }
 
-#globe-text-last {
-    top: -94%;
-    left: -112px;
-}
+/*#globe-text-last {*/
+    /*top: -94%;*/
+    /*left: -112px;*/
+/*}*/
 
 .globe-text-small {
     font-size: 7px;
@@ -934,32 +981,60 @@ box-shadow: 0 0 10px 5px silver;  /* inner white */
     /*bottom: -175px;*/
     z-index: 2;
 }
-
 .ball_wrap {
-    display: inline;
-    /*position: absolute;*/
-    margin: auto;
-    width: 100%;
-    /*background: white;*/
-    /*margin-top: 240px;*/
-    /*left: 85%;*/
-    /*top: 100%;*/
-    /*right: 180px;*/
-}
-.circle {
-    border-top-left-radius: 250px;
-    border-top-right-radius: 250px;
-    position: absolute;
-    height: 250px;
-    bottom: 0;
-    right: -250px;
     width: 500px;
-    /*border-radius: 50%;*/
+    position: relative;
+    margin: auto;
+    display: table;
+}
+
+/*.ball_wrap {*/
+    /*display: inline;*/
+    /*!*position: absolute;*!*/
+    /*margin: auto;*/
+    /*width: 100%;*/
+    /*!*background: white;*!*/
+    /*!*margin-top: 240px;*!*/
+    /*!*left: 85%;*!*/
+    /*!*top: 100%;*!*/
+    /*!*right: 180px;*!*/
+/*}*/
+/*.circle {*/
+    /*border-top-left-radius: 250px;*/
+    /*border-top-right-radius: 250px;*/
+    /*position: absolute;*/
+    /*height: 250px;*/
+    /*bottom: 0;*/
+    /*right: -250px;*/
+    /*width: 500px;*/
+    /*border: 15px solid white;*/
+    /*border-bottom: 0;*/
+    /*z-index: 0;*/
+
+/*}*/
+
+.circle-wrap {
+    width: 400px;
+    position: inherit;
+    margin: auto;
+    display: table;
+}
+
+.circle {
+    /*border-bottom-left-radius: 250px;*/
+    /*border-bottom-right-radius: 250px;*/
+    border-radius: 0 0 200px 200px;
+    position: absolute;
+    height: 200px;
+    /*bottom: 53px;*/
+    /*left: 220px;*/
+    width: 400px;
+
     border: 15px solid white;
-    border-bottom: 0;
+    /*border-bottom: 0;*/
+    border-top: none;
     z-index: 0;
-    /*background-image: url('../img/stock-vector-empire-state-building-385378354.jpg');*/
-    /*background-size: cover;*/
+    margin: auto;
 }
 
 .tile {
@@ -1553,12 +1628,12 @@ hr.star-primary:after {
     margin-bottom: 4em;
 }
 
-.triangle-bottomright {
-    border-bottom: 78vh solid hsla(0, 0%, 0%, .65);
-    border-left: 100vw solid transparent;
-    position: absolute;
-    bottom: 0;
-}
+/*.triangle-bottomright {*/
+    /*border-bottom: 78vh solid hsla(0, 0%, 0%, .65);*/
+    /*border-left: 100vw solid transparent;*/
+    /*position: absolute;*/
+    /*bottom: 0;*/
+/*}*/
 
 .text-spacing {
     letter-spacing: .2em;
