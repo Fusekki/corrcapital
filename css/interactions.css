@@ -119,6 +119,10 @@ opacity: 1;
     box-shadow: 0 0 0 3px rgba(255, 255, 255, .7);
 }
 
+.button:focus {
+    outline: none;
+}
+
 .photo-overlay:hover .button {
     opacity: 1;
 }

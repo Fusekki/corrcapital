@@ -12,9 +12,10 @@
 
 
 /*This hack stops the page resetting back to the top when the modal is opened.*/
-body.modal-open {
+/*body.modal-open {*/
     /*overflow: visible;*/
-}
+    /*height: auto;*/
+/*}*/
 
 @font-face {
 font-family: 'Sansation Light';
@@ -43,13 +44,10 @@ src: local('Sansation Bold'), url('../fonts/sansation/Sansation_Bold.woff') form
 body {
     width: 100%;
     height: 100%;
-/*    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
-    /*font-family: 'Sansation', 'Sansation Light', 'Sansation Bold';*/
     font-family: 'PT Sans', sans-serif;
     color: black;
     font-size: 22px;
-
-/*    background-color: #000;*/
+    overflow-x: hidden;
 }
 
 footer {
@@ -61,9 +59,9 @@ footer p {
 }
 
 html {
-    overflow-x: hidden;
-    width: 100%;
-    height: 100%;
+    /*overflow-x: hidden;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
 }
 
 h1,
@@ -74,8 +72,6 @@ h5,
 h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
-/*    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
-    /*font-family: 'Sansation Bold';*/
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -132,16 +128,11 @@ p {
 }
 
 @media(min-width:375px) {
-/*    #background {
-        height: 175vh;
-      }*/
 
 }
 
 @media(min-width:474px) {
-/*    #background {
-        height: 195vh;
-      }*/
+
 
 }
 
@@ -152,10 +143,6 @@ p {
         line-height: 1.6;
     }
 
-/*        #background {
-
-        height: 115vh;
-      }*/
 }
 
 a {
@@ -208,12 +195,11 @@ a:focus {
     margin-bottom: 0;
     border-bottom: 1px solid white;
     text-transform: uppercase;
-/*    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
+
     font-family: 'Sansation Bold';
     /*background-color: hsla(0, 0%, 11%, 1);*/
 
     color: #999;
-/*    background-color: */
 }
 
 .navbar-custom .navbar-brand {
@@ -278,6 +264,10 @@ a:focus {
 	line-height: 0;
 	overflow: hidden;
     margin-bottom: 2em;
+
+    /*This is to keep the image within the container.  This was added for the current photo*/
+    max-width: 65%;
+    margin: 0 auto;
 }
 
 .photo-overlay {
@@ -285,7 +275,7 @@ a:focus {
     position: absolute;
 	top: 0;
 	right: 0;
-	bottom: 0; 
+	bottom: 0;
 	left: 0;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -298,7 +288,6 @@ a:focus {
 .photo-container {
     margin: auto 0 4em 0;
 	text-align: center;
-	/*margin-bottom: 4em;*/
 }
 
 .photo-container img {
@@ -380,11 +369,12 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: rgba(153,153,153,.7);
+
+    /*background: url('../img/stock-colorized.jpg');*/
+    /*background-size: cover;*/
+
     background-color: hsla(0, 0%, 0%, 0);
-    /*background: black;*/
-/*    background-color: black;*/
-    /*background: url('../img/stock-photo-76360995-double-exposure-with-business-graph.jpg');*/
-        background-attachment: scroll;
+    background-attachment: scroll;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -393,13 +383,7 @@ a:focus {
     transition: background-color .25s ease-in-out;
     -moz-transition: background-color.25s ease-in-out;
     -webkit-transition: background-color .25s ease-in-out;
-/*    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;*/
-/*    background-color: #fff;*/
-/*    background: transparent;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;*/
+
 }
 
 .intro.fadeOut {
@@ -415,9 +399,11 @@ a:focus {
     opacity: 0;
 }
 
+.intro-body {
+    padding-bottom: 390px
+}
+
 .intro .intro-body .brand-heading {
-/*    font-size: 40px;*/
-    /*margin-top: 400px;*/
     font-size: 30px;
     white-space: nowrap;
 }
@@ -426,7 +412,15 @@ a:focus {
     font-size: 18px;
 }
 
-@media(min-width:768px) {
+.intro .intro-body .container .row {
+    padding-top: 300px;
+}
+
+.intro .intro-body .container .row .maintitle {
+    /*padding-bottom: 300px;*/
+}
+
+@media(min-width: 768px) {
     .intro {
         height: 100%;
         padding: 0;
@@ -446,11 +440,9 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    /*border: 2px solid grey;*/
     border: 2px solid white;
     border-radius: 100%!important;
     font-size: 40px;
-/*    color: #fff;*/
     color: indianred;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
@@ -462,7 +454,6 @@ a:focus {
 .btn-circle:focus {
     outline: 0;
     color: indianred;
-/*    color: #fff;*/
     background: rgba(255,255,255,.1);
 }
 
@@ -590,17 +581,11 @@ ul.banner-social-buttons {
 }
 
 @media screen and (min-width:1024px) {
-/*        #background {
 
-        height: 160vh;
-      }*/
 }
 
 @media screen and (min-width:1200px) {
-/*        #background {
 
-        height: 185vh;
-      }*/
 }
 
 
@@ -657,25 +642,19 @@ body {
     position: absolute;
     top: 0;
     z-index: -1;
-    /*-webkit-perspective: 300px;*/
-    /*perspective: 300px;*/
     height: 100vh;
     width: 100%;
-    /*transform: translateZ(-100px);*/
     -webkit-transform: translateZ(-300px) scale(1);
     transform: translateZ(-300px) scale(1);
-    /*background-attachment: fixed;*/
 }
 
 .intro_bottom {
     background-color: hsla(0, 0%, 0%, .65);
-    height: 50%;
+    height: 37%;
     width: 100%;
-    /*right: -583px;*/
     position: relative;
-    top: 46%;
+    top: 63%;
     z-index: 2;
-    /*transform: rotate(-26deg)*/
 }
 
 .company_wrapper {
@@ -685,11 +664,6 @@ body {
     margin: 0 auto;
     width: 65%;
     height: 200px;
-    /*left: 25%;*/
-    /*display: flex;*/
-    /*overflow: hidden;*/
-
-
 }
 
 .table-wrapper {
@@ -697,15 +671,7 @@ body {
     width: 100%;
     max-width: 375px;
     max-width: 375px;
-
     margin: 0 auto;
-    /*width: 65%;*/
-    /*height: 200px;*/
-    /*left: 25%;*/
-    /*display: flex;*/
-    /*overflow: hidden;*/
-
-
 }
 
 .strategy-table {
@@ -736,16 +702,11 @@ body {
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     border-radius: 40px;
-    /*border: 10px solid white;*/
-
     position: relative;
     transition: transform .75s ease-in-out, box-shadow .5s ease-in-out;
-    /*transition: box-shadow 1s ease-in-out, transfom 1s ease-in-out;*/
-
     -webkid-transition:  transform .75s ease-in-out, box-shadow .5s ease-in-out;
     box-shadow: none;
-    /*top: 40px;*/
-    /*left: 500px;*/
+
 }
 
 #jewelry {
@@ -798,14 +759,11 @@ body {
 }
 
 .shapewrap {
-    /*display: flex;*/
     display: inline-flex;
     align-items: center;
     width: 200px;
     height: 50px;
     position: absolute;
-    /*border: 2px solid white;*/
-
 }
 
 .ball_wrap .shapewrap:nth-of-type(1) {
@@ -814,11 +772,11 @@ body {
 }
 .ball_wrap .shapewrap:nth-of-type(2) {
     left: 55px;
-    bottom: -189px;
+    bottom: -215px;
 }
 .ball_wrap .shapewrap:nth-of-type(3) {
     left: 229px;
-    bottom: -265px;
+    bottom: -297px;
 }
 
 .ball_wrap .shapewrap:nth-of-type(3) .globe .globe-text {
@@ -840,7 +798,7 @@ body {
 }
 .ball_wrap .shapewrap:nth-of-type(5) {
     left: 420px;
-    bottom: -189px;
+    bottom: -215px;
 }
 
 .ball_wrap .shapewrap:nth-of-type(5) .globe .globe-text {
@@ -1035,6 +993,7 @@ box-shadow: 0 0 10px 5px silver;  /* inner white */
     border-top: none;
     z-index: 0;
     margin: auto;
+    bottom: 152px;
 }
 
 .tile {
@@ -1450,7 +1409,6 @@ hr.star-primary {
 
 hr.star-primary:after {
     color: #2c3e50;
-    /*background-color: #fff;*/
     background-color: hsla(0, 0%, 100%, .55);
 }
 
@@ -1466,7 +1424,6 @@ hr.star-primary:after {
     text-align: left;
     float: left;
     width: 100%;
-    /*font-size: 1.4em;*/
 }
 
 .modal-body > li {
@@ -1490,21 +1447,8 @@ hr.star-primary:after {
 }
 
 .ul-table {
-    /*counter-reset: foo;*/
     display: table;
 }
-
-.ul-table > li {
-    /*counter-increment: foo;*/
-    /*list-style-type: square;*/
-    /*display: table-row;*/
-}
-
-/*.ul-table > li::before {*/
-    /*!*content: counter(foo) ".";*!*/
-    /*display: table-cell; !* aha! *!*/
-    /*text-align: right;*/
-/*}*/
 
 .list-circle {
     list-style: circle;
@@ -1572,6 +1516,7 @@ hr.star-primary:after {
     background-color: transparent;
 }
 
+#portfolioModal9 > .modal-content,
 #portfolioModal8 > .modal-content,
 #portfolioModal7 > .modal-content,
 #portfolioModal6 > .modal-content {
@@ -1628,14 +1573,8 @@ hr.star-primary:after {
     margin-bottom: 4em;
 }
 
-/*.triangle-bottomright {*/
-    /*border-bottom: 78vh solid hsla(0, 0%, 0%, .65);*/
-    /*border-left: 100vw solid transparent;*/
-    /*position: absolute;*/
-    /*bottom: 0;*/
-/*}*/
 
 .text-spacing {
     letter-spacing: .2em;
-
 }
+
