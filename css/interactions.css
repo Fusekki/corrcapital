@@ -83,7 +83,7 @@ opacity: 1;
 
 .photo-container img {
 /*    transition: transform .5s;*/
-    
+
 }
 
 .photo-container:hover img {
@@ -140,7 +140,7 @@ opacity: 1;
     transition-delay: .3s;
     transition-timing-function: ease-in-out, ease-out;
 */
-    
+
 }
 
 .button:hover .btn-icon {
