@@ -68,10 +68,10 @@ opacity: 1;
     align-items: center;
     background: rgba(0,0,0, .5);
 }
-.photo-overlay h3,
-.photo-text-overlay h3 {
-    margin-top: 0;
-}
+/*.photo-overlay h3,*/
+/*.photo-text-overlay h3 {*/
+    /*margin-top: 0;*/
+/*}*/
 
 .photo-overlay p,
 .photo-text-overlay p {
