@@ -26,6 +26,10 @@
     /*opacity: 1;*/
 }
 
+.photo-overlay .button {
+    display: none;
+}
+
 .photo img {
     transition: transform .5s;
 }
@@ -60,7 +64,7 @@
     left: 0;
     padding-left: 20px;
     padding-right: 20px;
-opacity: 1;
+    opacity: 1;
 
     display: flex; /* For centering text inside .photo-overlay */
     flex-direction: column;
@@ -150,7 +154,7 @@ opacity: 1;
 
 .button:hover .fa-book {
     opacity: 1;
-    left: 110px;
+    left: 95px;
 }
 
 
@@ -197,4 +201,50 @@ opacity: 1;
     /*background: black;*/
 /*}*/
 
+@media(min-width:768px) {
+    .button .btn-icon {
+        opacity: 1;
+        left: 61%;
+    }
 
+    .button .fa-book {
+        opacity: 1;
+        left: 55px;
+    }
+
+    .fa-book {
+        top: 1px;
+    }
+
+    .photo-overlay h3,
+    .photo-overlay p {
+        font-size: 20px;
+    }
+
+    .photo-overlay p {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .photo-overlay .button {
+        font-size: 1.5vmin;
+        padding: 10px 30px 10px 30px;
+    }
+}
+
+@media screen and (min-width:1025px) {
+
+    .photo-overlay .button {
+        display: block;
+    }
+
+    .button:hover .fa-book {
+        opacity: 1;
+        left: 58px;
+        font-size: 1.2em;
+    }
+    .photo-overlay:hover .button {
+        font-size: 1.2vmin;
+        padding: 20px 50px 20px 50px;
+    }
+}

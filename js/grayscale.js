@@ -6,7 +6,7 @@
 
 // jQuery to collapse the navbar on scroll
 function collapseNavbar() {
-    console.log('here');
+    // console.log('here');
     if ($(".navbar").offset().top > 50) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
     } else {
@@ -27,6 +27,7 @@ $(function() {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
+
 });
 
 // Closes the Responsive Menu on Menu Item Click
@@ -36,11 +37,31 @@ $('.navbar-collapse ul li a').click(function() {
   }
 });
 
-// if (window.innerWidth > 769) {
-//     var newHeight = window.innerWidth * .22;
-//     console.log(newHeight);
+$(function() {
+    var mq = window.matchMedia( "(max-width: 1024px)" );
+    var photos = $('.photo-container').get();
+    var idx_start = 6;
+    console.log(mq);
+    console.log(photos);
+    console.log('test now');
+    console.log(photos.length);
 
-//     $('.parallax__layer--back').height(newHeight + 'vh');
-// }
+
+    // media query event handler
+    if (mq.matches) {
+        for (var idx = 0; idx < photos.length; idx++) {
+            photos[idx].setAttribute("data-target", "#portfolioModal" + (idx_start + idx));
+            photos[idx].setAttribute("data-toggle", "modal")
+            console.log(photos[idx]);
+        }
+    }
+});
+
+if (window.innerWidth > 769) {
+    var newHeight = window.innerWidth * .22;
+    // console.log(newHeight);
+
+    $('.parallax__layer--back').height(newHeight + 'vh');
+}
 
 
