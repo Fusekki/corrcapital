@@ -16,8 +16,9 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <!-- Custom CSS -->
     <link href="css/animate.css" rel="stylesheet">
-    <link href="css/grayscale.css" rel="stylesheet">
-    <link href="css/interactions.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <!--<link href="css/grayscale.css" rel="stylesheet">-->
+    <!--<link href="css/interactions.css" rel="stylesheet">-->
 
     <!-- Custom Fonts -->
 
@@ -136,7 +137,7 @@
                     <h2 class="text-white text-center">Companies</h2>
                 </div>
             <section id="companies" class="container content-section text-center">
-                        <table class="table-companies">
+                        <table class="table-companies companies-desktop">
                             <tbody>
                                 <tr>
                                     <td class="tile tile-odd" id="tile-art">
@@ -174,7 +175,7 @@
                                         <div class="flip-container">
                                             <div class="flipper">
                                                 <div class="front">
-                                                    <img src="img/stock-photo-electric-lighting-effect-abstract-techno-backgrounds-for-your-design-131090639.jpg">
+                                                    <img class="img-responsive" src="img/stock-photo-electric-lighting-effect-abstract-techno-backgrounds-for-your-design-131090639.jpg">
 
                                                 </div>
                                                 <div class="back">
@@ -192,7 +193,7 @@
                                         <div class="flip-container">
                                             <div class="flipper">
                                                 <div class="front">
-                                                    <img src="img/stock-photo-a-lot-of-rings-in-jewelry-window-display-250372291.jpg">
+                                                    <img class="img-responsive" src="img/stock-photo-a-lot-of-rings-in-jewelry-window-display-250372291.jpg">
 
                                                 </div>
                                                 <div class="back">
@@ -206,7 +207,7 @@
                                         <div class="flip-container">
                                             <div class="flipper">
                                                 <div class="front">
-                                                    <img src="img/stock-photo-pharmacy-background-on-a-black-table-tablets-on-a-black-background-pills-medicine-and-healthy-376019320.jpg">
+                                                    <img class="img-responsive" src="img/stock-photo-pharmacy-background-on-a-black-table-tablets-on-a-black-background-pills-medicine-and-healthy-376019320.jpg">
 
                                                 </div>
                                                 <div class="back">
@@ -218,6 +219,64 @@
                                 </tr>
                             </tbody>
                         </table>
+
+                <table class="table-companies companies-mobile">
+                    <tbody>
+                    <tr>
+                        <td class="tile-mobile tile-odd" id="tile-art1" data-target="#portfolioModal5" data-toggle="modal">
+                            <div class="text-overlay">
+                                <h2 class="tile-text-medium"><span class="text-red">CORR<br></span> <span class="text-grey"> Art</span></h2>
+                            </div>
+                            <!--<div class="image-underlay">-->
+                                <!--<img class="img-responsive" src="img/stock-photo-portrait-with-digital-effects-350581832.jpg">-->
+                            <!--</div>-->
+                        </td>
+                        <td class="tile-mobile tile-even"></td>
+                        <td class="tile-mobile tile-odd" data-target="#portfolioModal5" data-toggle="modal">
+                            <div class="text-overlay">
+                                <h2 class="tile-text-medium"><span class="text-red">CORR<br></span><span class="text-grey"> Benefits</span></h2>
+                            </div>
+                            <!--<div class="image-underlay">-->
+                                <!--<img class="img-responsive" src="img/stock-photo-businessman-offer-positive-thing-like-benefits-personal-development-social-networking-363324212.jpg">-->
+                            <!--</div>-->
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tile-mobile tile-even"></td>
+                        <td class="tile-mobile tile-odd" data-target="#portfolioModal3" data-toggle="modal">
+                            <div class="text-overlay">
+                                <h2 class="tile-text-medium"><span class="text-red">CORR<br></span> <span class="text-grey"> Energy</span></h2>
+                            </div>
+                            <!--<div class="image-underlay">-->
+                                <!--<img class="img-responsive" src="img/stock-photo-electric-lighting-effect-abstract-techno-backgrounds-for-your-design-131090639.jpg">-->
+                            <!--</div>-->
+                        </td>
+                        <td class="tile-mobile tile-even"></td>
+                    </tr>
+                    <tr>
+                        <td class="tile-mobile tile-odd" data-target="#portfolioModal1" data-toggle="modal">
+                            <div class="text-overlay">
+                                <h2 class="tile-text-medium"><span class="text-red">CORR<br></span> <span class="text-grey"> Jewelry</span></h2>
+                            </div>
+
+                            <!--<div class="image-underlay">-->
+                                <!--<img class="img-responsive" src="img/stock-photo-a-lot-of-rings-in-jewelry-window-display-250372291.jpg">-->
+                            <!--</div>-->
+                        </td>
+                        <td class="tile-mobile tile-even"></td>
+                        <td class="tile-mobile tile-odd" data-target="#portfolioModal2" data-toggle="modal">
+                            <div class="text-overlay">
+                                <h2 class="tile-inline-block tile-text-medium"><span class="text-red">CORR<br></span> <span class="text-grey" id="span_telemed"> Telemedicine</span></h2>
+                            </div>
+                            <!--<div class="image-underlay">-->
+                                <!--<img class="img-responsive" src="img/stock-photo-pharmacy-background-on-a-black-table-tablets-on-a-black-background-pills-medicine-and-healthy-376019320.jpg">-->
+                            <!--</div>-->
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+
             </section>
 
             </div>
@@ -862,7 +921,7 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
-    <script src="js/AnimatedIntro.js"></script>
+    <!--<script src="js/AnimatedIntro.js"></script>-->
     <script src="js/AnimatedOpacity.js"></script>
 
 
