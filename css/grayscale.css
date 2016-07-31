@@ -208,6 +208,10 @@ table a:not(.btn), .table a:not(.btn) {
     color: white;
 }
 
+.tile-text-nowhitespace {
+    white-space: pre-wrap;
+}
+
 .wheel_link {
         position: absolute;
     display: inline-flex;
@@ -719,13 +723,19 @@ body {
 }
 
 .bg-image {
-    background: url('../img/stock-colorized.jpg');
-    background-size: cover;
     position: absolute;
     top: 0;
-    z-index: -1;
-    height: 100vmax;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    box-sizing: border-box;
     width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background: url('../img/stock-colorized.jpg');
+    background-size: cover;
+    z-index: -1;
     /*-webkit-transform: translateZ(-300px) scale(1);*/
     /*transform: translateZ(-300px) scale(1);*/
 }
@@ -1019,7 +1029,7 @@ body {
 /* back, initially hidden pane */
 .back {
     transform: rotateY(180deg);
-    padding-top: 1vh;
+    /*padding-top: 1vh;*/
 }
 
 
@@ -1640,11 +1650,11 @@ hr.star-primary:after {
 }
 
 .back a h2 span:nth-of-type(2) {
-    font-size: 3vmax;
+    font-size: 2.4vmax;
 }
 
 #span_telemed {
-    font-size: 2vh;
+    font-size: 1.7vmax;
 }
 
 .section-top-padding {
@@ -1752,6 +1762,9 @@ hr.star-primary:after {
 .text-spacing {
     letter-spacing: .2em;
 }
+
+
+    /*MEDIA QUERIES BEGIN*/
 
 @media(min-width:375px) {
 
@@ -1876,6 +1889,13 @@ hr.star-primary:after {
 
 @media(min-width:768px) {
 
+    .back a h2 span {
+        font-size: 5.5vmax;
+    }
+
+    .back a h2 span:nth-of-type(2) {
+        font-size: 4.2vmax;
+    }
 
 
     .brand-heading {
@@ -2003,6 +2023,10 @@ hr.star-primary:after {
         margin-bottom: 4em;
     }
 
+    #span_telemed {
+        font-size: 2.7vmax;
+    }
+
     .tile-odd a {
         line-height: 200px;
     }
@@ -2037,10 +2061,16 @@ hr.star-primary:after {
 
 }
 
+@media(min-width:815px) {
+    .back {
+        padding-top: 0;
+    }
+}
+
 @media screen and (min-width:1024px) {
 .back {
     padding-top: 0;
-}
+    }
 
 }
 
@@ -2048,6 +2078,19 @@ hr.star-primary:after {
 
 
 @media screen and (min-width:1025px) {
+
+    .back a h2 span {
+        font-size: 7.4vmax;
+    }
+
+    .back a h2 span:nth-of-type(2) {
+        font-size: 4.6vmax;
+    }
+
+
+    #span_telemed {
+        font-size: 3.3vmax;
+    }
 
     h1,
     h2,
@@ -2114,7 +2157,73 @@ hr.star-primary:after {
 }
 
 @media screen and (min-width:1200px) {
+    .back a h2 span {
+        font-size: 6vmax;
+    }
 
+    .back a h2 span:nth-of-type(2) {
+        font-size: 3.6vmax;
+    }
+
+    #span_telemed {
+        font-size: 2.8vmax;
+    }
+}
+
+@media screen and (min-width:1400px) {
+    .back a h2 span {
+        font-size: 5.5vmax;
+    }
+
+    .back a h2 span:nth-of-type(2) {
+        font-size: 3.6vmax;
+    }
+
+    #span_telemed {
+        font-size: 2.4vmax;
+    }
+}
+
+@media screen and (min-width:1600px) {
+    .back a h2 span {
+        font-size: 4.6vmax;
+    }
+
+    .back a h2 span:nth-of-type(2) {
+        font-size: 3vmax;
+    }
+
+    #span_telemed {
+        font-size: 2vmax;
+    }
+}
+
+@media screen and (min-width:1800px) {
+    .back a h2 span {
+        font-size: 4.2vmax;
+    }
+
+    .back a h2 span:nth-of-type(2) {
+        font-size: 2.6vmax;
+    }
+
+    #span_telemed {
+        font-size: 1.8vmax;
+    }
+}
+
+@media screen and (min-width:2200px) {
+    .back a h2 span {
+        font-size: 3.6vmax;
+    }
+
+    .back a h2 span:nth-of-type(2) {
+        font-size: 2.2vmax;
+    }
+
+    #span_telemed {
+        font-size: 1.4vmax;
+    }
 }
 
 

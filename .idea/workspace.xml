@@ -20,47 +20,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.htm" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.htm" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="863" column="29" selection-start-line="863" selection-start-column="29" selection-end-line="863" selection-end-column="29" />
+            <state relative-caret-position="611">
+              <caret line="212" column="170" selection-start-line="212" selection-start-column="170" selection-end-line="212" selection-end-column="170" />
               <folding>
-                <element signature="e#17203#17209#0" expanded="true" />
-                <marker date="1469896418125" expanded="true" signature="16345:17037" ph="..." />
+                <element signature="e#17223#17229#0" expanded="true" />
+                <marker date="1469924258729" expanded="true" signature="16365:17057" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="grayscale.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/grayscale.js">
+      <file leaf-file-name="grayscale.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/grayscale.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="681">
-              <caret line="52" column="91" selection-start-line="52" selection-start-column="91" selection-end-line="52" selection-end-column="91" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <marker date="1469897565266" expanded="true" signature="484:517" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AnimatedIntro.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/AnimatedIntro.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AnimatedOpacity.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/AnimatedOpacity.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+            <state relative-caret-position="748">
+              <caret line="2224" column="22" selection-start-line="2224" selection-start-column="22" selection-end-line="2224" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -79,12 +56,12 @@
         <option value="$PROJECT_DIR$/water.html" />
         <option value="$PROJECT_DIR$/js/water.js" />
         <option value="$PROJECT_DIR$/js/demo-2.js" />
-        <option value="$PROJECT_DIR$/css/grayscale.css" />
         <option value="$PROJECT_DIR$/css/interactions.css" />
         <option value="$PROJECT_DIR$/js/AnimatedIntro.js" />
-        <option value="$PROJECT_DIR$/index.htm" />
         <option value="$PROJECT_DIR$/js/AnimatedOpacity.js" />
         <option value="$PROJECT_DIR$/js/grayscale.js" />
+        <option value="$PROJECT_DIR$/index.htm" />
+        <option value="$PROJECT_DIR$/css/grayscale.css" />
       </list>
     </option>
   </component>
@@ -125,8 +102,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -145,12 +120,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="corrgroup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="corrgroup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="font-awesome" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="corrgroup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="corrgroup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../identitytheft" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="E:\Program Files\nodejs\node.exe" />
@@ -261,18 +266,20 @@
       <workItem from="1469537837361" duration="6507000" />
       <workItem from="1469789827524" duration="17364000" />
       <workItem from="1469882937205" duration="14730000" />
+      <workItem from="1469919788091" duration="7323000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202889000" />
+    <option name="totallyTimeSpent" value="210212000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -305,20 +312,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/cubes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/demo-2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -342,8 +335,8 @@
         <state relative-caret-position="1547">
           <caret line="91" column="49" selection-start-line="91" selection-start-column="49" selection-end-line="91" selection-end-column="49" />
           <folding>
-            <element signature="e#17203#17209#0" expanded="true" />
-            <marker date="1469896418125" expanded="true" signature="16345:17037" ph="..." />
+            <element signature="e#17223#17229#0" expanded="true" />
+            <marker date="1469924258729" expanded="true" signature="16365:17057" ph="..." />
           </folding>
         </state>
       </provider>
@@ -361,8 +354,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#17203#17209#0" expanded="true" />
-            <marker date="1469896418125" expanded="true" signature="16345:17037" ph="..." />
+            <element signature="e#17223#17229#0" expanded="true" />
+            <marker date="1469924258729" expanded="true" signature="16365:17057" ph="..." />
           </folding>
         </state>
       </provider>
@@ -396,8 +389,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#17203#17209#0" expanded="true" />
-            <marker date="1469896418125" expanded="true" signature="16345:17037" ph="..." />
+            <element signature="e#17223#17229#0" expanded="true" />
+            <marker date="1469924258729" expanded="true" signature="16365:17057" ph="..." />
           </folding>
         </state>
       </provider>
@@ -423,8 +416,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#17203#17209#0" expanded="true" />
-            <marker date="1469896418125" expanded="true" signature="16345:17037" ph="..." />
+            <element signature="e#17223#17229#0" expanded="true" />
+            <marker date="1469924258729" expanded="true" signature="16365:17057" ph="..." />
           </folding>
         </state>
       </provider>
@@ -472,8 +465,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#17203#17209#0" expanded="true" />
-            <marker date="1469896418125" expanded="true" signature="16345:17037" ph="..." />
+            <element signature="e#17223#17229#0" expanded="true" />
+            <marker date="1469924258729" expanded="true" signature="16365:17057" ph="..." />
           </folding>
         </state>
       </provider>
@@ -507,8 +500,8 @@
         <state relative-caret-position="5984">
           <caret line="352" column="78" selection-start-line="352" selection-start-column="78" selection-end-line="352" selection-end-column="78" />
           <folding>
-            <element signature="e#17203#17209#0" expanded="true" />
-            <marker date="1469896418125" expanded="true" signature="16345:17037" ph="..." />
+            <element signature="e#17223#17229#0" expanded="true" />
+            <marker date="1469924258729" expanded="true" signature="16365:17057" ph="..." />
           </folding>
         </state>
       </provider>
@@ -541,8 +534,8 @@
         <state relative-caret-position="1683">
           <caret line="99" column="50" selection-start-line="99" selection-start-column="50" selection-end-line="99" selection-end-column="50" />
           <folding>
-            <element signature="e#17203#17209#0" expanded="true" />
-            <marker date="1469896418125" expanded="true" signature="16345:17037" ph="..." />
+            <element signature="e#17223#17229#0" expanded="true" />
+            <marker date="1469924258729" expanded="true" signature="16365:17057" ph="..." />
           </folding>
         </state>
       </provider>
@@ -582,8 +575,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#17203#17209#0" expanded="true" />
-            <marker date="1469896418125" expanded="true" signature="16345:17037" ph="..." />
+            <element signature="e#17223#17229#0" expanded="true" />
+            <marker date="1469924258729" expanded="true" signature="16365:17057" ph="..." />
           </folding>
         </state>
       </provider>
@@ -661,13 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100538">
-          <caret line="5914" column="11" selection-start-line="5914" selection-start-column="1" selection-end-line="5914" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -680,27 +666,6 @@
         <state relative-caret-position="757">
           <caret line="237" column="23" selection-start-line="237" selection-start-column="23" selection-end-line="237" selection-end-column="23" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/grayscale.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5610">
-          <caret line="1700" column="1" selection-start-line="1700" selection-start-column="1" selection-end-line="1700" selection-end-column="1" />
-          <caret line="1701" column="0" selection-start-line="1701" selection-start-column="0" selection-end-line="1701" selection-end-column="0" />
-          <caret line="1702" column="8" selection-start-line="1702" selection-start-column="8" selection-end-line="1702" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="863" column="29" selection-start-line="863" selection-start-column="29" selection-end-line="863" selection-end-column="29" />
-          <folding>
-            <element signature="e#17203#17209#0" expanded="true" />
-            <marker date="1469896418125" expanded="true" signature="16345:17037" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -725,9 +690,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/AnimatedOpacity.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+        <state relative-caret-position="102">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1683">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="5914" column="11" selection-start-line="5914" selection-start-column="1" selection-end-line="5914" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/grayscale.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="2224" column="22" selection-start-line="2224" selection-start-column="22" selection-end-line="2224" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="212" column="170" selection-start-line="212" selection-start-column="170" selection-end-line="212" selection-end-column="170" />
+          <folding>
+            <element signature="e#17223#17229#0" expanded="true" />
+            <marker date="1469924258729" expanded="true" signature="16365:17057" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
