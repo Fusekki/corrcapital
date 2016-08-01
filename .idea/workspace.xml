@@ -39,8 +39,8 @@
       <file leaf-file-name="AnimatedOpacity.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/AnimatedOpacity.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="136">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -49,8 +49,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="1622" column="19" selection-start-line="1622" selection-start-column="19" selection-end-line="1622" selection-end-column="19" />
+            <state relative-caret-position="482">
+              <caret line="2170" column="5" selection-start-line="2170" selection-start-column="5" selection-end-line="2170" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -297,12 +297,12 @@
       <workItem from="1469919788091" duration="7908000" />
       <workItem from="1469981582573" duration="16400000" />
       <workItem from="1470011249930" duration="6033000" />
-      <workItem from="1470051719918" duration="5567000" />
+      <workItem from="1470051719918" duration="6357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="238797000" />
+    <option name="totallyTimeSpent" value="239587000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -731,14 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/AnimatedOpacity.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/grayscale.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
@@ -760,10 +752,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/AnimatedOpacity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="1622" column="19" selection-start-line="1622" selection-start-column="19" selection-end-line="1622" selection-end-column="19" />
+        <state relative-caret-position="482">
+          <caret line="2170" column="5" selection-start-line="2170" selection-start-column="5" selection-end-line="2170" selection-end-column="5" />
           <folding />
         </state>
       </provider>

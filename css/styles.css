@@ -1767,7 +1767,7 @@ hr.star-primary:after {
 /*MEDIA QUERIES BEGIN*/
 
 /*iphone 5 LS*/
-@media (min-width:320px) and (orientation: landscape) {
+@media (min-device-width:320px) and (orientation: landscape) {
     .bg-image {
         height: 120vh;
     }
@@ -1812,15 +1812,8 @@ hr.star-primary:after {
 
 }
 
-@media(min-width:375px) {
 
-    #tile-art .flip-container .back h2 {
-        margin-top: 30%;
-    }
-
-}
-
-@media(min-width:375px) and
+@media(min-device-width:375px) and
 (orientation : landscape) {
 
     .portfolio-modal .close-modal .box-close i {
@@ -2164,13 +2157,17 @@ and (orientation : landscape){
         font-size: 2.7vmax;
     }
 
+    #tile-art .flip-container .back h2 {
+        margin-top: 30%;
+    }
+
     .tile-odd a {
         line-height: 200px;
     }
 
 
     .tile-text-medium {
-        /*margin-top: 25%;*/
+        margin-top: 25%;
     }
 
     .tile-text-small {
