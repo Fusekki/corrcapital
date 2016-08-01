@@ -923,13 +923,13 @@ navbar-default .navbar-brand:focus {
     opacity: 1;
 }
 
-.wheel_link:hover .globe-text{
+.wheel-link:hover .globe-text{
     color: white;
 
 
 }
 
-.wheel_link:hover .globe {
+.wheel-link:hover .globe {
     box-shadow: 0 0 5px 5px silver;  /* inner white */
     /*overflow: visible;*/
 }
