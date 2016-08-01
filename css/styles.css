@@ -1942,6 +1942,8 @@ and (orientation : portrait){
     }
 }
 
+/*ipad landscape*/
+
 @media(min-device-width:768px)
 and (max-device-width : 1024px)
 and (orientation : landscape){
@@ -1957,7 +1959,7 @@ and (orientation : landscape){
         font-size: 3vw;
     }
     .navbar-nav {
-        font-size: 2.5vw;
+        font-size: 1.75vw;
     }
 
 
@@ -1968,10 +1970,14 @@ and (orientation : landscape){
     .photo-overlay p {
         font-size: 2.5vh;
     }
+
+    #tile-art .flip-container .back h2 {
+        margin-top: 30%;
+    }
 }
 
-/*This works for desktops*/
-@media(min-width:768px)  {
+ /*DESKTOPS START*/
+@media(min-device-width:769px)  {
 
 
 
@@ -2017,14 +2023,14 @@ and (orientation : landscape){
 
     .navbar-brand {
 
-        font-size: 2.5vw;
+        font-size: 2.5vmin;
     }
     .navbar-nav {
-        font-size: 1.5vw;
+        font-size: 1.5vmin;
     }
     .navbar-custom .navbar-brand span:nth-of-type(2){
 
-        font-size: 2vw;
+        font-size: 2vmin;
     }
 
     .photo {
@@ -2180,13 +2186,6 @@ and (orientation : landscape){
 
 
 
-@media(min-width:768px) and
-(orientation : landscape) {
-    #tile-art .flip-container .back h2 {
-        margin-top: 30%;
-    }
-
-}
 
 @media(min-width:815px) {
     .back {
