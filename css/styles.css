@@ -827,6 +827,10 @@ img::-moz-selection {
     display: none;
 }
 
+.maintitle {
+    z-index: 1;
+}
+
 .shapewrap {
     display: inline-flex;
     align-items: center;
@@ -887,6 +891,15 @@ img::-moz-selection {
 
 
 /*PAGE 1 ID START*/
+
+#bg-canvas {
+    /* height: 100vw; */
+    /* width: 100vw; */
+    position: absolute;
+    top: -349vh;
+    left: -6vw;
+    z-index: -1;
+}
 
 #jewelry {
     left: -100px;
@@ -1717,6 +1730,17 @@ hr.star-primary:after {
 /*MODAL 2 END*/
 
 /*MEDIA QUERIES BEGIN*/
+@media (min-device-width:320px) {
+    #bg-canvas {
+        /*height: 100vw;*/
+        /*width: 100vw;*/
+        /*position: absolute;*/
+        /*top: -17vh;*/
+        /*left: -36vw;*/
+        /*z-index: -1;*/
+    }
+}
+
 
 /*iphone 5 LS*/
 @media (min-device-width:320px) and (orientation: landscape) {

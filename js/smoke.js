@@ -3,17 +3,25 @@
     window.requestAnimationFrame = requestAnimationFrame;
 })();
 
-var canvas = document.getElementById("canvas"),
+var canvas = document.getElementById("bg-canvas"),
     ctx = canvas.getContext("2d");
+// canvas.height = 600;
+// canvas.height = document.body.offsetHeight;
+// canvas.width = 600;
 
-canvas.height = document.body.offsetHeight;
-canvas.width = 600;
+    canvas.height = document.body.offsetHeight;
+    canvas.width =  800;
+
+    console.log(screen.height);
+console.log(screen.width);
+
 
 var parts = [],
     minSpawnTime = 40,
     lastTime = new Date().getTime(),
     maxLifeTime = Math.min(5000, (canvas.height/(1.5*60)*1000)),
     emitterX = canvas.width / 2,
+    // emitterX = canvas.width / 2,
     emitterY = canvas.height - 10,
     smokeImage = new Image();
 
@@ -26,6 +34,7 @@ function spawn() {
 
 function render() {
     var len = parts.length;
+    // console.log(len);
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
     while (len--) {
@@ -35,8 +44,10 @@ function render() {
             parts[len].update();
 
             ctx.save();
-            var offsetX = -parts[len].size/2,
-                offsetY = -parts[len].size/2;
+            var offsetX = -parts[len].size,
+                offsetY = -parts[len].size;
+            // var offsetX = -parts[len].size/2,
+            //     offsetY = -parts[len].size/2;
          
             ctx.translate(parts[len].x-offsetX, parts[len].y-offsetY);
             ctx.rotate(parts[len].angle / 180 * Math.PI);
@@ -54,8 +65,11 @@ function smoke(x, y, index) {
     this.y = y;
 
     this.size = 2;
-    this.startSize = 25;
-    this.endSize = 40;
+    // this.startSize = 25;
+    this.startSize = 5;
+    // this.endSize = 40;
+    this.endSize = 10;
+
 
     this.angle = Math.random() * 339;
 
@@ -82,6 +96,7 @@ smoke.prototype.update = function () {
 }
 
 smokeImage.src = "img/smoke-particle.gif";
+// smokeImage.src = "img/smoke-large.jpg";
 smokeImage.onload = function () {
     render();
 }
