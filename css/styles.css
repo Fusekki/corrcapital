@@ -1620,6 +1620,7 @@ hr.star-primary:after {
 }
 
 .portfolio-modal .close-modal .box-close {
+    color: #8a8787;
     z-index: 1051;
     width: 1px;
     height: 75px;
