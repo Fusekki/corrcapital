@@ -493,6 +493,7 @@ img::-moz-selection {
     text-transform: uppercase;
     font-family: 'Sansation Bold';
     background-color: hsla(0, 0%, 11%, 1);
+    padding-bottom: 10px;
 
     color: #999;
 }
@@ -1926,6 +1927,11 @@ and (orientation : portrait){
         font-size: 2.5vw;
     }
 
+    .photo {
+        /*This is to keep the image within the container.  This was added for the current photo*/
+        max-width: 53%;
+    }
+
 
     .photo-overlay h3 {
         font-size: 2.3vh;
@@ -1965,7 +1971,8 @@ and (orientation : landscape){
 }
 
 /*This works for desktops*/
-@media(min-width:768px) and (min-height:1024px) {
+@media(min-width:768px)  {
+
 
 
     .back a h2 span {
@@ -2017,7 +2024,11 @@ and (orientation : landscape){
     }
     .navbar-custom .navbar-brand span:nth-of-type(2){
 
-        font-size: 1.5vw;
+        font-size: 2vw;
+    }
+
+    .photo {
+        max-width: 100%;
     }
 
 
@@ -2102,10 +2113,7 @@ and (orientation : landscape){
         line-height: 1.6;
     }
 
-    .photo {
-        /*This is to keep the image within the container.  This was added for the current photo*/
-        max-width: 53%;
-    }
+
 
     .photo-overlay h3,
     .photo-text-overlay h3 {
@@ -2239,7 +2247,7 @@ and (orientation : landscape){
 
     .photo-overlay h3 {
         padding-top: 0;
-        font-size: 2.3vw;
+        font-size: 1.5vw;
         margin-bottom: 0;
     }
 
