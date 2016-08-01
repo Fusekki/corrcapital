@@ -1817,7 +1817,7 @@ hr.star-primary:after {
 
 
 @media(min-device-width:375px) and
-(orientation : landscape) {
+(orientation: landscape) {
 
     .portfolio-modal .close-modal .box-close i {
         font-size: 2.5em;
@@ -1859,8 +1859,12 @@ hr.star-primary:after {
     }
 
 }
-@media(min-width:414px) and
-(orientation : landscape) {
+@media(min-device-width:414px) and
+(max-device-height:736px) {
+
+    /*.portfolio-modal .close-modal .box-close {*/
+        /*margin-left: 50px;*/
+    /*}*/
 
     #span_telemed {
         font-size: 2.4vmax;
@@ -1909,6 +1913,10 @@ hr.star-primary:after {
 @media(min-device-width:768px)
 and (max-device-width : 1024px)
 and (orientation : portrait){
+    .portfolio-modal .close-modal .box-close {
+    margin-left: 30px;
+    }
+
     .container {
         width: 100%
     }
@@ -2184,10 +2192,6 @@ and (orientation : landscape){
 }
 
 
-
-
-
-
 @media(min-width:815px) {
     .back {
         padding-top: 0;
@@ -2206,6 +2210,21 @@ and (orientation : landscape){
     }
 
 }
+
+/*This doesn't work.  It is supposed to be for wider desktops with lower screen height for the circle to fit*/
+/*@media screen and (min-width:1025px)*/
+    /*and (max-width:925px) {*/
+
+    /*.intro {*/
+        /*height: 115vh;*/
+    /*}*/
+
+    /*.intro_bottom {*/
+        /*height: 39vh;*/
+        /*top: 76vh;*/
+    /*}*/
+
+/*}*/
 
 
 @media screen and (min-width:1025px) {
@@ -2287,7 +2306,8 @@ and (orientation : landscape){
     }
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1200px) and
+(min-height:1200px){
     .back a h2 span {
         font-size: 6vmax;
     }
