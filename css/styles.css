@@ -1106,64 +1106,64 @@ navbar-default .navbar-brand:focus {
     position: relative;
 }
 
-/*.tile-mobile.tile-odd {*/
+.tile-mobile.tile-odd {
 
-    /*font-family: 'PT Sans', arial, serif;*/
+    font-family: 'PT Sans', arial, serif;
     /*color:#ffffff;*/
     /*text-align:center;*/
     /*font-size:24px;*/
     /*font-weight:bold;*/
     /*padding:10px;*/
 
-    /*text-shadow: !* Simulating Text Stroke *!*/
-            /*-1px -1px 0 #000,*/
-            /*1px -1px 0 #000,*/
-            /*-1px 1px 0 #000,*/
-            /*1px 1px 0 #000;*/
+    text-shadow: /* Simulating Text Stroke */
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
 
-    /*border: 1px solid rgba(0,0,0,0.5);*/
-    /*border-bottom: 3px solid rgba(0,0,0,0.5);*/
+    border: 1px solid rgba(0,0,0,0.5);
+    border-bottom: 3px solid rgba(0,0,0,0.5);
 
-    /*-webkit-border-radius: 3px;*/
-    /*-moz-border-radius: 3px;*/
-    /*border-radius: 3px;*/
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
 
-    /*background: rgba(0,0,0,0.25);*/
+    background: rgba(0,0,0,0.25);
 
-    /*-o-box-shadow:*/
-            /*0 2px 8px rgba(0,0,0,0.5),*/
-            /*inset 0 1px rgba(255,255,255,0.3),*/
-            /*inset 0 10px rgba(255,255,255,0.2),*/
-            /*inset 0 10px 20px rgba(255,255,255,0.25),*/
-            /*inset 0 -15px 30px rgba(0,0,0,0.3);*/
+    -o-box-shadow:
+            0 2px 8px rgba(0,0,0,0.5),
+            inset 0 1px rgba(255,255,255,0.3),
+            inset 0 10px rgba(255,255,255,0.2),
+            inset 0 10px 20px rgba(255,255,255,0.25),
+            inset 0 -15px 30px rgba(0,0,0,0.3);
 
-    /*-webkit-box-shadow:*/
-            /*0 2px 8px rgba(0,0,0,0.5),*/
-            /*inset 0 1px rgba(255,255,255,0.3),*/
-            /*inset 0 10px rgba(255,255,255,0.2),*/
-            /*inset 0 10px 20px rgba(255,255,255,0.25),*/
-            /*inset 0 -15px 30px rgba(0,0,0,0.3);*/
+    -webkit-box-shadow:
+            0 2px 8px rgba(0,0,0,0.5),
+            inset 0 1px rgba(255,255,255,0.3),
+            inset 0 10px rgba(255,255,255,0.2),
+            inset 0 10px 20px rgba(255,255,255,0.25),
+            inset 0 -15px 30px rgba(0,0,0,0.3);
 
-    /*-moz-box-shadow:*/
-            /*0 2px 8px rgba(0,0,0,0.5),*/
-            /*inset 0 1px rgba(255,255,255,0.3),*/
-            /*inset 0 10px rgba(255,255,255,0.2),*/
-            /*inset 0 10px 20px rgba(255,255,255,0.25),*/
-            /*inset 0 -15px 30px rgba(0,0,0,0.3);*/
+    -moz-box-shadow:
+            0 2px 8px rgba(0,0,0,0.5),
+            inset 0 1px rgba(255,255,255,0.3),
+            inset 0 10px rgba(255,255,255,0.2),
+            inset 0 10px 20px rgba(255,255,255,0.25),
+            inset 0 -15px 30px rgba(0,0,0,0.3);
 
-    /*box-shadow:*/
-            /*0 2px 8px rgba(0,0,0,0.5), !* Exterior Shadow *!*/
-            /*inset 0 1px rgba(255,255,255,0.3), !* Top light Line *!*/
-            /*inset 0 10px rgba(255,255,255,0.2), !* Top Light Shadow *!*/
-            /*inset 0 10px 20px rgba(255,255,255,0.25), !* Sides Light Shadow *!*/
-            /*inset 0 -15px 30px rgba(0,0,0,0.3); !* Dark Background *!*/
+    box-shadow:
+            0 2px 8px rgba(0,0,0,0.5), /* Exterior Shadow */
+            inset 0 1px rgba(255,255,255,0.3), /* Top light Line */
+            inset 0 10px rgba(255,255,255,0.2), /* Top Light Shadow */
+            inset 0 10px 20px rgba(255,255,255,0.25), /* Sides Light Shadow */
+            inset 0 -15px 30px rgba(0,0,0,0.3); /* Dark Background */
 
     /*margin: 40px;*/
     /*display: inline-block;*/
-    /*text-decoration: none;*/
+    text-decoration: none;
 
 
-/*}*/
+}
 
 
 .tile.tile-show {
@@ -1909,7 +1909,8 @@ hr.star-primary:after {
 /*ipad*/
 
 @media(min-device-width:768px)
-and (max-device-width : 1024px) {
+and (max-device-width : 1024px)
+and (orientation : portrait){
     .container {
         width: 100%
     }
@@ -1932,6 +1933,34 @@ and (max-device-width : 1024px) {
 
     .photo-overlay p {
         font-size: 2vh;
+    }
+}
+
+@media(min-device-width:768px)
+and (max-device-width : 1024px)
+and (orientation : landscape){
+    .container {
+        width: 100%
+    }
+
+    .navbar-brand {
+        font-size: 3.5vw;
+    }
+
+    .navbar-custom .navbar-brand span:nth-of-type(2) {
+        font-size: 3vw;
+    }
+    .navbar-nav {
+        font-size: 2.5vw;
+    }
+
+
+    .photo-overlay h3 {
+        font-size: 3.3vh;
+    }
+
+    .photo-overlay p {
+        font-size: 2.5vh;
     }
 }
 
