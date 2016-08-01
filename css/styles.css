@@ -644,16 +644,17 @@ navbar-default .navbar-brand:focus {
     left: 150px;
 }
 
-
 .ball_wrap1 a:nth-of-type(4) {
-    top: 15px;
-    right: -115px;
+    top: 132px;
+    right: -58px;
 }
 
 .ball_wrap1 a:nth-of-type(5) {
-    top: 132px;
-    right: -106px;
+    top: 15px;
+    right: -157px;
 }
+
+
 
 .bg-image {
     position: absolute;
@@ -911,13 +912,15 @@ navbar-default .navbar-brand:focus {
 }
 
 
-.tile-text-nowhitespace {
-    white-space: pre-wrap;
-}
-
-.wheel_link {
+.wheel-link {
     position: absolute;
     display: inline-flex;
+    opacity: 0;
+    transition: opacity .25s ease-in-out;
+}
+
+.wheel-link.wheel-show {
+    opacity: 1;
 }
 
 .wheel_link:hover .globe-text{

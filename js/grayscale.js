@@ -41,10 +41,10 @@ $(function() {
     var mq = window.matchMedia( "(max-width: 1024px)" );
     var photos = $('.photo-container').get();
     var idx_start = 6;
-    console.log(mq);
-    console.log(photos);
-    console.log('test now');
-    console.log(photos.length);
+    // console.log(mq);
+    // console.log(photos);
+    // console.log('test now');
+    // console.log(photos.length);
 
 
     // media query event handler

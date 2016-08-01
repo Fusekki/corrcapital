@@ -1,10 +1,11 @@
 var x = 1;
 var tiles = $('.tile').get();
 var tile;
-var wheels = $('.wheel_link').get();
-var wheel_fade = false;
+var wheel;
+var wheels = $('.wheel-link').get();
 var fade = false;
 var r;
+var c = 0;
 
 
 function isElementInViewport(elem) {
@@ -61,52 +62,109 @@ function addFadeListeners() {
         // console.log(tiles[idx]);
 
     }
+
+    for (var idx = 0; idx < wheels.length; idx++) {
+        wheels[idx].addEventListener("transitionend", wheelFadein, false);
+        wheels[idx].addEventListener("webkitTransitionEnd", wheelFadein, false);
+        wheels[idx].addEventListener("mozTransitionEnd", wheelFadein, false);
+        wheels[idx].addEventListener("msTransitionEnd", wheelFadein, false);
+        wheels[idx].addEventListener("oTransitionEnd", wheelFadein, false);
+        // console.log('added listener to...');
+        // console.log(wheels[idx]);
+
+    }
+
+    // Initiate Fade on first wheel
+    var $elem = $('#wheel-link-one');
+    // console.log('Adding show to first wheel');
+    $elem.addClass('wheel-show');
+}
+
+function wheelFade() {
+
 }
 
 $(document).ready(addFadeListeners);
+// $(document).ready(wheelFade);
 
-    function tileFadein(e) {
-        // console.log(this);
-        if (!tile) {
-            tile = $('#tile-art');
+function tileFadein(e) {
+    // console.log(this);
+    if (!tile) {
+        tile = $('#tile-art');
 
-        }
-        // console.log('Finish fading for... ');
-        // console.log(this);
-        this.removeEventListener("transitionend", tileFadein, false);
-        this.removeEventListener("webkitTransitionEnd", tileFadein, false);
-        this.removeEventListener("mozTransitionEnd", tileFadein, false);
-        this.removeEventListener("msTransitionEnd", tileFadein, false);
-        this.removeEventListener("oTransitionEnd", tileFadein, false);
-        // console.log('removed event listener from....');
-        // console.log(tile);
-        r = Math.floor(Math.random() * tiles.length);
-        // console.log('random tile selected = '  + r.toString());
-        // console.log('tiles length before splice = ' + tiles.length);
+    }
+    // console.log('Finish fading for... ');
+    // console.log(this);
+    this.removeEventListener("transitionend", tileFadein, false);
+    this.removeEventListener("webkitTransitionEnd", tileFadein, false);
+    this.removeEventListener("mozTransitionEnd", tileFadein, false);
+    this.removeEventListener("msTransitionEnd", tileFadein, false);
+    this.removeEventListener("oTransitionEnd", tileFadein, false);
+    // console.log('removed event listener from....');
+    // console.log(tile);
+    // console.log(tile);
+    r = Math.floor(Math.random() * tiles.length);
 
-        tile = tiles.splice(r, 1);
-        // console.log('tiles length = ' + tiles.length);
+    // console.log('random tile selected = '  + r.toString());
+    // console.log('tiles length before splice = ' + tiles.length);
 
-        $(tile).addClass('tile-show');
-        // console.log('adding tile-show to tile...');
-        // console.log($(tile));
+    tile = tiles.splice(r, 1);
+    // console.log('tiles length = ' + tiles.length);
+
+    $(tile).addClass('tile-show');
+    // console.log('adding tile-show to tile...');
+    // console.log($(tile));
+}
+
+function wheelFadein(e) {
+
+    if (!wheel) {
+        wheel = $('#wheel-link-one');
+
     }
 
+    // console.log(wheel);
+
+    this.removeEventListener("transitionend", wheelFadein, false);
+    this.removeEventListener("webkitTransitionEnd", wheelFadein, false);
+    this.removeEventListener("mozTransitionEnd", wheelFadein, false);
+    this.removeEventListener("msTransitionEnd", wheelFadein, false);
+    this.removeEventListener("oTransitionEnd", wheelFadein, false);
+    // console.log('removed event listener from....');
+    // console.log(wheel);
+
+    // console.log('random tile selected = '  + r.toString());
+    // console.log('tiles length before splice = ' + tiles.length);
 
 
+    // console.log('wheels length = ' + wheels.length);
+    // console.log(c);
+    wheel = wheels.splice(c, 1);
+    //  console.log('wheels length = ' + wheels.length);
+    // console.log(wheels);
+    // c++;
+    wheel = wheels[c];
+    // console.log($(wheel));
 
+    $(wheel).addClass('wheel-show');
 
-
-function isScrolledIntoView(elem)
-{
-    var docViewTop = $(window).scrollTop();
-    var docViewBottom = docViewTop + $(window).height();
-
-    var elemTop = $('#company').offset().top;
-    var elemBottom = elemTop + $(elem).height();
-
-    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+    // console.log('adding tile-show to tile...');
+    // console.log($(tile));
 }
+
+
+
+
+// function isScrolledIntoView(elem)
+// {
+//     var docViewTop = $(window).scrollTop();
+//     var docViewBottom = docViewTop + $(window).height();
+//
+//     var elemTop = $('#company').offset().top;
+//     var elemBottom = elemTop + $(elem).height();
+//
+//     return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+// }
 
 
 
