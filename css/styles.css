@@ -1009,6 +1009,8 @@ navbar-default .navbar-brand:focus {
     font-size: 2.5vmax;
 }
 
+
+
 .brand-heading, .flip-container {
     font-family: "Sansation Bold";
 }
@@ -1021,7 +1023,7 @@ navbar-default .navbar-brand:focus {
 }
 
 .companies-mobile {
-    display: block;
+    display: table;
 }
 
 .flip-container {
@@ -1075,8 +1077,10 @@ navbar-default .navbar-brand:focus {
 
 .companies-mobile > tbody > tr > td {
     position: relative;
-    height: calc(33vw - 80px);
-    width: calc(33vw - 80px);
+    /*height: calc(33vw - 80px);*/
+    /*width: calc(33vw - 80px);*/
+    height: 30vw;
+    width: 30vw;
 }
 .companies-desktop > tbody > tr > td {
     height: 25vh;
@@ -1102,64 +1106,64 @@ navbar-default .navbar-brand:focus {
     position: relative;
 }
 
-.tile-mobile.tile-odd {
+/*.tile-mobile.tile-odd {*/
 
-    font-family: 'PT Sans', arial, serif;
-    color:#ffffff;
-    text-align:center;
-    font-size:24px;
-    font-weight:bold;
-    padding:10px;
+    /*font-family: 'PT Sans', arial, serif;*/
+    /*color:#ffffff;*/
+    /*text-align:center;*/
+    /*font-size:24px;*/
+    /*font-weight:bold;*/
+    /*padding:10px;*/
 
-    text-shadow: /* Simulating Text Stroke */
-            -1px -1px 0 #000,
-            1px -1px 0 #000,
-            -1px 1px 0 #000,
-            1px 1px 0 #000;
+    /*text-shadow: !* Simulating Text Stroke *!*/
+            /*-1px -1px 0 #000,*/
+            /*1px -1px 0 #000,*/
+            /*-1px 1px 0 #000,*/
+            /*1px 1px 0 #000;*/
 
-    border: 1px solid rgba(0,0,0,0.5);
-    border-bottom: 3px solid rgba(0,0,0,0.5);
+    /*border: 1px solid rgba(0,0,0,0.5);*/
+    /*border-bottom: 3px solid rgba(0,0,0,0.5);*/
 
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
+    /*-webkit-border-radius: 3px;*/
+    /*-moz-border-radius: 3px;*/
+    /*border-radius: 3px;*/
 
-    background: rgba(0,0,0,0.25);
+    /*background: rgba(0,0,0,0.25);*/
 
-    -o-box-shadow:
-            0 2px 8px rgba(0,0,0,0.5),
-            inset 0 1px rgba(255,255,255,0.3),
-            inset 0 10px rgba(255,255,255,0.2),
-            inset 0 10px 20px rgba(255,255,255,0.25),
-            inset 0 -15px 30px rgba(0,0,0,0.3);
+    /*-o-box-shadow:*/
+            /*0 2px 8px rgba(0,0,0,0.5),*/
+            /*inset 0 1px rgba(255,255,255,0.3),*/
+            /*inset 0 10px rgba(255,255,255,0.2),*/
+            /*inset 0 10px 20px rgba(255,255,255,0.25),*/
+            /*inset 0 -15px 30px rgba(0,0,0,0.3);*/
 
-    -webkit-box-shadow:
-            0 2px 8px rgba(0,0,0,0.5),
-            inset 0 1px rgba(255,255,255,0.3),
-            inset 0 10px rgba(255,255,255,0.2),
-            inset 0 10px 20px rgba(255,255,255,0.25),
-            inset 0 -15px 30px rgba(0,0,0,0.3);
+    /*-webkit-box-shadow:*/
+            /*0 2px 8px rgba(0,0,0,0.5),*/
+            /*inset 0 1px rgba(255,255,255,0.3),*/
+            /*inset 0 10px rgba(255,255,255,0.2),*/
+            /*inset 0 10px 20px rgba(255,255,255,0.25),*/
+            /*inset 0 -15px 30px rgba(0,0,0,0.3);*/
 
-    -moz-box-shadow:
-            0 2px 8px rgba(0,0,0,0.5),
-            inset 0 1px rgba(255,255,255,0.3),
-            inset 0 10px rgba(255,255,255,0.2),
-            inset 0 10px 20px rgba(255,255,255,0.25),
-            inset 0 -15px 30px rgba(0,0,0,0.3);
+    /*-moz-box-shadow:*/
+            /*0 2px 8px rgba(0,0,0,0.5),*/
+            /*inset 0 1px rgba(255,255,255,0.3),*/
+            /*inset 0 10px rgba(255,255,255,0.2),*/
+            /*inset 0 10px 20px rgba(255,255,255,0.25),*/
+            /*inset 0 -15px 30px rgba(0,0,0,0.3);*/
 
-    box-shadow:
-            0 2px 8px rgba(0,0,0,0.5), /* Exterior Shadow */
-            inset 0 1px rgba(255,255,255,0.3), /* Top light Line */
-            inset 0 10px rgba(255,255,255,0.2), /* Top Light Shadow */
-            inset 0 10px 20px rgba(255,255,255,0.25), /* Sides Light Shadow */
-            inset 0 -15px 30px rgba(0,0,0,0.3); /* Dark Background */
+    /*box-shadow:*/
+            /*0 2px 8px rgba(0,0,0,0.5), !* Exterior Shadow *!*/
+            /*inset 0 1px rgba(255,255,255,0.3), !* Top light Line *!*/
+            /*inset 0 10px rgba(255,255,255,0.2), !* Top Light Shadow *!*/
+            /*inset 0 10px 20px rgba(255,255,255,0.25), !* Sides Light Shadow *!*/
+            /*inset 0 -15px 30px rgba(0,0,0,0.3); !* Dark Background *!*/
 
-    margin: 40px;
-    display: inline-block;
-    text-decoration: none;
+    /*margin: 40px;*/
+    /*display: inline-block;*/
+    /*text-decoration: none;*/
 
 
-}
+/*}*/
 
 
 .tile.tile-show {
@@ -1229,6 +1233,10 @@ navbar-default .navbar-brand:focus {
 }
 
 #span_telemed {
+    font-size: 3.5vw;
+}
+
+#span-mobile-telemed {
     font-size: 3.5vw;
 }
 
@@ -1756,7 +1764,49 @@ hr.star-primary:after {
 
 /*MEDIA QUERIES BEGIN*/
 
+/*iphone 5 LS*/
 @media (min-width:320px) and (orientation: landscape) {
+    .bg-image {
+        height: 120vh;
+    }
+
+    .companies-mobile > tbody > tr > td {
+        height: 25vw;
+        width: 25vw;
+    }
+
+    .navbar-brand {
+        font-size: 5.5vh;
+    }
+
+    .navbar-custom .navbar-brand span:nth-of-type(2) {
+        font-size: 4.5vh;
+    }
+
+    .navbar-nav {
+        font-size: 4.3vh;
+    }
+
+    .photo-container img {
+        max-width: 80%;
+    }
+
+    .tile-mobile .text-overlay h2 span {
+        font-size: 5.5vw;
+    }
+
+    .tile-mobile .text-overlay h2 span:nth-of-type(2) {
+        font-size: 4vw;
+    }
+
+    #span-mobile-telemed {
+        font-size: 2.5vw;
+    }
+
+
+
+
+
 
 }
 
@@ -1856,11 +1906,37 @@ hr.star-primary:after {
     }
 }
 
+/*ipad*/
+
+@media(min-device-width:768px)
+and (max-device-width : 1024px) {
+    .container {
+        width: 100%
+    }
+
+    .navbar-brand {
+        font-size: 3.5vw;
+    }
+
+    .navbar-custom .navbar-brand span:nth-of-type(2) {
+        font-size: 3vw;
+    }
+    .navbar-nav {
+        font-size: 2.5vw;
+    }
+
+
+    .photo-overlay h3 {
+        font-size: 2.3vh;
+    }
+
+    .photo-overlay p {
+        font-size: 2vh;
+    }
+}
+
 /*This works for desktops*/
 @media(min-width:768px) and (min-height:1024px) {
-
-
-
 
 
     .back a h2 span {
@@ -1914,6 +1990,7 @@ hr.star-primary:after {
 
         font-size: 1.5vw;
     }
+
 
     .photo-overlay h3,
     .photo-overlay p {
@@ -2083,7 +2160,7 @@ hr.star-primary:after {
 @media (min-width: 992px) {
     .container {
 
-         width: 992px;
+         width: 100%;
     }
 }
 @media screen and (min-width:1024px) {
@@ -2093,28 +2170,12 @@ hr.star-primary:after {
 
 }
 
-@media screen and (max-width:1024px)
-and (orientation : landscape) {
 
-    .navbar-brand {
-        font-size: 5.5vh;
-    }
-
-    .navbar-custom .navbar-brand span:nth-of-type(2) {
-        font-size: 4.5vh;
-    }
-
-    .navbar-nav {
-        font-size: 4.3vh;
-    }
-
-
-}
 @media screen and (min-width:1025px) {
 
 
     .companies-desktop {
-        display: block;
+        display: table;
     }
 
     .companies-mobile {
