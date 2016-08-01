@@ -129,8 +129,6 @@
     margin: 0 auto;
 }
 
-
-
 .img-full {
     margin: 0;
     width: 100%;
@@ -145,7 +143,6 @@
 }
 
 .light-gray {
-    /*    color: #999;*/
     color: #fafafa;
 }
 
@@ -194,9 +191,6 @@ ul.banner-social-buttons {
 }
 
 
-
-
-
 /*UNKNOWN CLASSES END*/
 
 /*UNKNOWN ID START*/
@@ -240,8 +234,6 @@ body {
      font-family: 'PT Sans', sans-serif;
      color: black;
      font-size: 3.5vmin;
-     /*overflow-x: hidden;*/
-     /*webkit-tap-highlight-color: rgba(255,255,255,.2);*/
 }
 
 .btn {
@@ -279,7 +271,6 @@ body {
 
 .button {
     position: relative;
-    /*top: 70px;*/
     color: #fff;
     opacity: 0;
     background: #29303a;
@@ -296,7 +287,6 @@ body {
 
 .button:hover {
     color: #fff;
-    /*background: rgba(74, 137, 202, 1);*/
     background: #29303a;
     box-shadow: 0 0 0 3px rgba(255, 255, 255, .7);
 }
@@ -308,13 +298,6 @@ body {
 
 .btn-icon {
     transition: opacity .5s ease-in-out .3s, left .5s ease-out .3s;
-    /*
-        transition-property: opacity, left;
-        transition-duration: .5s;
-        transition-delay: .3s;
-        transition-timing-function: ease-in-out, ease-out;
-    */
-
 }
 
 .button:hover .btn-icon {
@@ -337,6 +320,10 @@ body {
     padding-right: 0;
 }
 
+.container1 {
+    margin-right: auto;
+    margin-left: auto;
+}
 
 footer {
     padding: 50px 0;
@@ -360,11 +347,6 @@ footer p {
     padding-top: 75px;
 }
 
-html {
-    /*overflow-x: hidden;*/
-    /*width: 100%;*/
-    /*height: 100%;*/
-}
 
 h1,
 h2,
@@ -387,8 +369,6 @@ h4 {
 p {
     color: black;
     margin: 0 0 25px;
-    /*font-size: 18px;*/
-    /*font-size: 3.2vmax;*/
     font-size: 2.5vmax;
     line-height: 1.5;
 }
@@ -405,7 +385,6 @@ p {
 }
 
 .section_header h2 {
-    /*font-size: 1.3em;*/
     font-size: 3.5vmax;
     font-weight: bold;
     letter-spacing: 0.5em;
@@ -443,7 +422,6 @@ p {
 }
 
 .table {
-    /*font-size: 18px;*/
     font-size: 2.5vmax;
 }
 
@@ -502,8 +480,6 @@ img::-moz-selection {
 }
 
 .navbar-brand {
-    /*font-size: 18px;*/
-    /*font-size: 1.4vmax;*/
     font-size: 5.5vw;
 }
 
@@ -515,15 +491,12 @@ img::-moz-selection {
     margin-bottom: 0;
     border-bottom: 1px solid white;
     text-transform: uppercase;
-
     font-family: 'Sansation Bold';
     background-color: hsla(0, 0%, 11%, 1);
 
     color: #999;
 }
 .navbar-custom .navbar-brand span:nth-of-type(2){
-    /*font-size: 15px;*/
-    /*font-size: 1.2vmax;*/
     font-size: 5vw;
 }
 .navbar-custom .navbar-brand {
@@ -553,7 +526,6 @@ navbar-default .navbar-brand:focus {
 }
 
 .navbar-custom a {
-    /*    color: #fff;*/
     color: #999;
 }
 
@@ -588,8 +560,6 @@ navbar-default .navbar-brand:focus {
 }
 
 .navbar-nav {
-    /*font-size: 14px;*/
-    /*font-size: 1.1vmax;*/
     font-size: 4vw;
     font-family: 'PT Sans', sans-serif;
 }
@@ -698,8 +668,6 @@ navbar-default .navbar-brand:focus {
     background: url('../img/stock-colorized.jpg');
     background-size: cover;
     z-index: -1;
-    /*-webkit-transform: translateZ(-300px) scale(1);*/
-    /*transform: translateZ(-300px) scale(1);*/
 }
 
 
@@ -722,9 +690,6 @@ navbar-default .navbar-brand:focus {
     transition: background .3s ease-in-out;
 }
 .btn-circle {
-    /*position: absolute;*/
-    /*right: -70px;*/
-    /*bottom: -175px;*/
     z-index: 2;
 }
 
@@ -760,8 +725,6 @@ navbar-default .navbar-brand:focus {
     display: table;
 }
 .circle {
-    /*border-bottom-left-radius: 250px;*/
-    /*border-bottom-right-radius: 250px;*/
     border-radius: 0 0 200px 200px;
     position: absolute;
     height: 200px;
@@ -809,27 +772,16 @@ navbar-default .navbar-brand:focus {
     position: relative;
     transition: transform .75s ease-in-out, box-shadow .5s ease-in-out;
     -webkid-transition:  transform .75s ease-in-out, box-shadow .5s ease-in-out;
-    /*box-shadow: 0 0 5px 5px silver;*/
-
 }
 
 .globe:focus {
     outline:none;
 }
 
-
-
-
-
 .globe-text {
-    /*position: relative;*/
     color: #aaa;
     font-size: 18px;
     transition: color 1s ease;
-    /*position: relative;*/
-    /*top: -97%;*/
-    /*top: 0;*/
-    /*left: -76px;*/
 }
 
 .globe-text-small {
@@ -841,7 +793,6 @@ navbar-default .navbar-brand:focus {
     top: 30%;
     font-family: 'Sansation Bold';
     text-transform: uppercase;
-    /*color: red;*/
 }
 
 
@@ -859,7 +810,6 @@ navbar-default .navbar-brand:focus {
 .grey_ball i {
     margin: auto;
     color: cornflowerblue;
-    /*margin-top: 8px;*/
     font-size: 15px;
 }
 
@@ -867,7 +817,6 @@ navbar-default .navbar-brand:focus {
 
 .half_circle_navigation {
     display: none;
-    /*background-color: hsla(0, 0%, 0%, .65);*/
 }
 
 .intro {
@@ -879,9 +828,6 @@ navbar-default .navbar-brand:focus {
     color: rgba(153,153,153,.7);
     /*This is for iphone5*/
     padding-bottom: 32vh;
-
-    /*background: url('../img/stock-colorized.jpg');*/
-    /*background-size: cover;*/
 
     background-color: hsla(0, 0%, 0%, 0);
     background-attachment: scroll;
@@ -901,11 +847,7 @@ navbar-default .navbar-brand:focus {
     background-color: hsla(0, 0%, 0%, .65);
     height: 29vh;
     width: 100%;
-    /*position: relative;*/
-    /*top: calc(50vh + 180px);*/
-    /*top: calc(50vh + 13%);*/
     top: 71vh;
-    /*z-index: 2;*/
 }
 
 .intro.fadeOut {
@@ -921,11 +863,6 @@ navbar-default .navbar-brand:focus {
     opacity: 0;
 }
 
-.intro-body {
-    /*padding-bottom: 390px*/
-    /*padding-bottom: calc(100vh - 49%);*/
-}
-
 .intro .intro-body .brand-heading {
     font-size: 7vmax;
     white-space: nowrap;
@@ -933,11 +870,6 @@ navbar-default .navbar-brand:focus {
 
 .intro .intro-body .intro-text {
     font-size: 18px;
-}
-
-
-.intro .intro-body .container .row .maintitle {
-    /*padding-bottom: 300px;*/
 }
 
 .intro_bottom {
@@ -965,7 +897,6 @@ navbar-default .navbar-brand:focus {
 
 .shapewrap:hover .globe {
     box-shadow: 0 0 5px 5px silver;  /* inner white */
-    /*overflow: visible;*/
 }
 
 .shape_wrapper {
@@ -999,20 +930,10 @@ navbar-default .navbar-brand:focus {
     /*overflow: visible;*/
 }
 
-
-
-
-
-
 /*PAGE 1 CLASSES END*/
 
 
 /*PAGE 1 ID START*/
-
-#globe-text-first {
-    /*top: -15%;*/
-    /*left: -80px;*/
-}
 
 #jewelry {
     left: -100px;
@@ -1063,11 +984,6 @@ navbar-default .navbar-brand:focus {
 
 }
 
-
-
-
-
-
 /*PAGE 1 ID END*/
 
 /*PAGE 2 CLASSES START*/
@@ -1075,7 +991,6 @@ navbar-default .navbar-brand:focus {
 /* back, initially hidden pane */
 .back {
     transform: rotateY(180deg);
-    /*padding-top: 1vh;*/
 }
 
 .back a h2 span {
@@ -1086,13 +1001,23 @@ navbar-default .navbar-brand:focus {
     font-size: 2.4vmax;
 }
 
+.tile-mobile .text-overlay h2 span {
+     font-size: 3vmax;
+}
+
+.tile-mobile .text-overlay h2 span:nth-of-type(2) {
+    font-size: 2.5vmax;
+}
+
 .brand-heading, .flip-container {
     font-family: "Sansation Bold";
 }
 
 .companies-desktop {
     display: none;
-    width: 90vw
+    width: 90vw;
+    max-width: 675px;
+    max-height: 675px;
 }
 
 .companies-mobile {
@@ -1105,17 +1030,11 @@ navbar-default .navbar-brand:focus {
 }
 
 .flip-container, .front, .back {
-    /*height: 50px;*/
-    /*width: 100px;*/
-    /*width: 30%;*/
     height: 100%;
     width: 100%;
 }
 .flip-container, .front img {
-    /*height: 100px;*/
-    /*width: 100px;*/
-    /*height: 100%;*/
-    width: 100%;
+    overflow: hidden;
 }
 /* flip the pane when hovered */
 .flip-container:hover .flipper, .flip-container.hover .flipper {
@@ -1130,14 +1049,12 @@ navbar-default .navbar-brand:focus {
 .flipper {
     transition: 0.6s;
     transform-style: preserve-3d;
-
     position: relative;
 }
 
 /* hide back of pane during swap */
 .front, .back {
     backface-visibility: hidden;
-
     position: absolute;
     top: 0;
     left: 0;
@@ -1157,17 +1074,16 @@ navbar-default .navbar-brand:focus {
 }
 
 .companies-mobile > tbody > tr > td {
-    /*height: 50px;*/
-    /*width: 50px;*/
     position: relative;
-    height: 33vw;
-    width: 33vw;
+    height: calc(33vw - 80px);
+    width: calc(33vw - 80px);
 }
 .companies-desktop > tbody > tr > td {
-    /*height: 50px;*/
-    /*width: 50px;*/
-    height: 30vw;
+    height: 25vh;
     width: 30vw;
+    max-width: 225px;
+    max-height: 225px;
+
 
 }
 
@@ -1187,6 +1103,61 @@ navbar-default .navbar-brand:focus {
 }
 
 .tile-mobile.tile-odd {
+
+    font-family: 'PT Sans', arial, serif;
+    color:#ffffff;
+    text-align:center;
+    font-size:24px;
+    font-weight:bold;
+    padding:10px;
+
+    text-shadow: /* Simulating Text Stroke */
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+
+    border: 1px solid rgba(0,0,0,0.5);
+    border-bottom: 3px solid rgba(0,0,0,0.5);
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+
+    background: rgba(0,0,0,0.25);
+
+    -o-box-shadow:
+            0 2px 8px rgba(0,0,0,0.5),
+            inset 0 1px rgba(255,255,255,0.3),
+            inset 0 10px rgba(255,255,255,0.2),
+            inset 0 10px 20px rgba(255,255,255,0.25),
+            inset 0 -15px 30px rgba(0,0,0,0.3);
+
+    -webkit-box-shadow:
+            0 2px 8px rgba(0,0,0,0.5),
+            inset 0 1px rgba(255,255,255,0.3),
+            inset 0 10px rgba(255,255,255,0.2),
+            inset 0 10px 20px rgba(255,255,255,0.25),
+            inset 0 -15px 30px rgba(0,0,0,0.3);
+
+    -moz-box-shadow:
+            0 2px 8px rgba(0,0,0,0.5),
+            inset 0 1px rgba(255,255,255,0.3),
+            inset 0 10px rgba(255,255,255,0.2),
+            inset 0 10px 20px rgba(255,255,255,0.25),
+            inset 0 -15px 30px rgba(0,0,0,0.3);
+
+    box-shadow:
+            0 2px 8px rgba(0,0,0,0.5), /* Exterior Shadow */
+            inset 0 1px rgba(255,255,255,0.3), /* Top light Line */
+            inset 0 10px rgba(255,255,255,0.2), /* Top Light Shadow */
+            inset 0 10px 20px rgba(255,255,255,0.25), /* Sides Light Shadow */
+            inset 0 -15px 30px rgba(0,0,0,0.3); /* Dark Background */
+
+    margin: 40px;
+    display: inline-block;
+    text-decoration: none;
+
 
 }
 
@@ -1229,27 +1200,15 @@ navbar-default .navbar-brand:focus {
 
 }
 
-.tile-text-small {
-
-}
 .tile-odd {
     color: white;
 
 }
 
 
-.tile-small-text {
-    /*line-height: 160px;*/
-}
-
-
-
 .tile-text-nowhitespace {
     white-space: pre-wrap;
 }
-
-
-
 
 /*PAGE 2 CLASSES END*/
 
@@ -1259,7 +1218,6 @@ navbar-default .navbar-brand:focus {
 
 #company {
     background: #272b2d; /* Standard syntax */ ;
-    /*width: 100%;*/
     padding: 0;
 }
 
@@ -1273,11 +1231,6 @@ navbar-default .navbar-brand:focus {
 #span_telemed {
     font-size: 3.5vw;
 }
-
-
-
-
-
 
 /*PAGE 2 ID END*/
 
@@ -1306,11 +1259,9 @@ navbar-default .navbar-brand:focus {
 .fa-book {
     opacity: 0;
     display: inline-block;
-    /*font-size: 1.5em;*/
     position: absolute;
     left: 30px;
     top: 13px;
-    /*font-size: 20px;*/
     transition: opacity .5s ease-in-out .3s, left .5s ease-out .3s;
 }
 .photo {
@@ -1353,8 +1304,6 @@ navbar-default .navbar-brand:focus {
 
 .photo-overlay h3,
 .photo-overlay p {
-    /*color: grey;*/
-    /*transition: color .5s;*/
     color: white;
 }
 
@@ -1382,8 +1331,7 @@ navbar-default .navbar-brand:focus {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /*background: rgba(0,0,0, .5);*/
-}
+    }
 
 .photo-overlay {
     color: #fff;
@@ -1402,36 +1350,17 @@ navbar-default .navbar-brand:focus {
     align-items: center;
     background: rgba(0,0,0, .5);
 }
-/*.photo-overlay h3,*/
-/*.photo-text-overlay h3 {*/
-/*margin-top: 0;*/
-/*}*/
-
-.photo-overlay p,
-.photo-text-overlay p {
-    /*color: white;*/
-}
 
 
 
-
-.photo-container img {
-    /*    transition: transform .5s;*/
-
-}
-
-.photo-container:hover img {
-    /*    transform: scale(1.1);*/
-}
 
 .photo-overlay h3 {
-    /*padding-top: 6vh;*/
+
     font-size: 3.3vh;
     white-space: nowrap;
 }
 
 .photo-overlay p {
-    /*padding-top: 2vh;*/
     font-size: 3vw;
 }
 
@@ -1440,10 +1369,6 @@ navbar-default .navbar-brand:focus {
     margin-bottom: 0;
     text-transform: none;
 }
-
-
-
-
 
 /*PAGE 3 CLASSES END*/
 
@@ -1472,7 +1397,6 @@ navbar-default .navbar-brand:focus {
 hr.bio {
     margin: 25px auto 30px;
     padding: 0;
-    /*max-width: 250px;*/
     max-width: 180px;
     border: 0;
     border-top: solid 3px;
@@ -1484,7 +1408,6 @@ hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
     padding: 0;
-    /*max-width: 250px;*/
     max-width: 180px;
     border: 0;
     border-top: solid 3px;
@@ -1493,7 +1416,6 @@ hr.star-primary {
 
 hr.star-light:after,
 hr.star-primary:after {
-    /*content: "\f023";*/
     content: "\f1b2";
     display: inline-block;
     position: relative;
@@ -1525,23 +1447,18 @@ hr.star-primary {
 
 hr.star-primary:after {
     color: #2c3e50;
-    /*background-color: hsla(0, 0%, 100%, .55);*/
 }
 
 .h2-medium {
-    /*font-size: .8em;*/
     font-family: 'PT Sans', sans-serif;
 }
 
-.h2-large {
-    /*font-size: 1.4em;*/
-}
+
 
 .left-span {
     text-align: left;
     float: left;
     width: 100%;
-    /*font-size: 18px;*/
     font-size: 2.5vmax;
 }
 
@@ -1555,11 +1472,6 @@ hr.star-primary:after {
     text-align: left;
 }
 
-.left-margin {
-    /*margin-left: 40px;*/
-
-}
-
 
 .list-circle {
     list-style: circle;
@@ -1567,7 +1479,6 @@ hr.star-primary:after {
 
 
 .li-text-medium {
-    /*font-size: 1.3em;*/
     font-size: 2.5vmax;
 }
 
@@ -1703,7 +1614,6 @@ hr.star-primary:after {
     z-index: 1051;
     width: 1px;
     height: 75px;
-    /*margin-left: 35px;*/
     margin-left: 60px;
 }
 
@@ -1788,7 +1698,6 @@ hr.star-primary:after {
 }
 
 .references {
-    /*font-size: 15px;*/
     font-size: 2.3vmax;
 }
 
@@ -1835,7 +1744,6 @@ hr.star-primary:after {
 
 .ul-table {
     display: table;
-    /*font-size: 18px;*/
     font-size: 2.5vmax;
 }
 
@@ -1858,20 +1766,6 @@ hr.star-primary:after {
         margin-top: 30%;
     }
 
-    .flip-container, .front img {
-        /*height: 120px;*/
-        /*width: 120px;*/
-}
-
-    .flip-container, .front, .back {
-        /*width: 120px;*/
-    }
-
-    .table-companies > tbody > tr > td {
-        /*height: 120px;*/
-        /*width: 120px;*/
-
-    }
 }
 
 @media(min-width:375px) and
@@ -1889,21 +1783,11 @@ hr.star-primary:after {
         padding-top: 12vh;
     }
 
-
     .back a h2 span {
         font-size: 4.2vmax;
     }
     .back a h2 span:nth-of-type(2) {
         font-size: 3.8vmax;
-    }
-
-    .flip-container, .front img {
-        /*height: 150px;*/
-        /*width: 150px;*/
-    }
-
-    .flip-container, .front, .back {
-        /*width: 150px;*/
     }
 
     .photo-overlay {
@@ -1920,13 +1804,6 @@ hr.star-primary:after {
     }
     #span_telemed {
         font-size: 3vmax;
-    }
-
-
-    .table-companies > tbody > tr > td {
-        /*height: 150px;*/
-        /*width: 150px;*/
-
     }
 
     #tile-art .flip-container .back h2 {
@@ -1980,14 +1857,18 @@ hr.star-primary:after {
 }
 
 /*This works for desktops*/
-@media(min-width:768px) {
+@media(min-width:768px) and (min-height:1024px) {
+
+
+
+
 
     .back a h2 span {
-        font-size: 5.5vmax;
+        font-size: 4.5vmax;
     }
 
     .back a h2 span:nth-of-type(2) {
-        font-size: 4.2vmax;
+        font-size: 3.2vmax;
     }
 
 
@@ -2002,13 +1883,8 @@ hr.star-primary:after {
     .button:hover .fa-book{
         opacity: 1;
         left: 58px;
-        /*font-size: 1.2em;*/
     }
 
-    /*.button .fa-book {*/
-        /*opacity: 1;*/
-        /*left: 55px;*/
-    /*}*/
 
 
 
@@ -2022,31 +1898,21 @@ hr.star-primary:after {
         margin-top: -2px;
     }
 
-    /*.fa-book {*/
-        /*top: 1px;*/
-    /*}*/
+
     .fa-book {
         top: 6px;
     }
-    .flip-container, .front img {
-        /*height: 200px;*/
-        /*width: 200px;*/
-    }
 
-    .flip-container, .front, .back {
-        /*width: 200px;*/
-    }
     .navbar-brand {
-        /* font-size: 18px; */
-        /* font-size: 1.4vmax; */
-        font-size: 3.5vw;
+
+        font-size: 2.5vw;
     }
     .navbar-nav {
-        font-size: 2vw;
+        font-size: 1.5vw;
     }
     .navbar-custom .navbar-brand span:nth-of-type(2){
 
-        font-size: 3vw;
+        font-size: 1.5vw;
     }
 
     .photo-overlay h3,
@@ -2060,7 +1926,6 @@ hr.star-primary:after {
     .photo-overlay:hover p
     {
         color: white;
-        /*opacity: 1;*/
     }
 
     .photo-overlay:hover .button {
@@ -2070,12 +1935,6 @@ hr.star-primary:after {
 
     .photo:hover img {
         transform: scale(1.2);
-    }
-
-    .table-companies > tbody > tr > td {
-        /*height: 200px;*/
-        /*width: 200px;*/
-
     }
 
     .h2-medium {
@@ -2090,7 +1949,6 @@ hr.star-primary:after {
         width: 90px;
     }
     .intro {
-        /*height: 100%;*/
         padding: 0;
     }
 
@@ -2100,16 +1958,6 @@ hr.star-primary:after {
 
     .intro .intro-body .intro-text {
         font-size: 26px;
-    }
-
-    .intro .intro-body .container .row {
-        /*padding-top: 300px;*/
-    }
-
-
-    .intro-body {
-        /*padding-bottom: 64%;*/
-        /*padding-bottom: calc(100vh - 49%);*/
     }
 
     .left-margin {
@@ -2125,21 +1973,18 @@ hr.star-primary:after {
 
     .navbar-custom {
         padding: 15px 0;
-        /*border-bottom: 0;*/
         letter-spacing: 1px;
-        /*background: #3c2d22;*/
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
 
     .navbar-custom.top-nav-collapse {
-        padding: 0;
-        /*border-bottom: 1px solid rgba(255,255,255,.3);*/
+        padding: 10px;
         background: hsla(0, 0%, 11%, 1)
     }
     .navbar-fixed-top .navbar-brand {
-        /*font-size: 2em;*/
+
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -2153,7 +1998,6 @@ hr.star-primary:after {
 
     .photo {
         /*This is to keep the image within the container.  This was added for the current photo*/
-        /*max-width: 65%;*/
         max-width: 53%;
     }
 
@@ -2163,7 +2007,6 @@ hr.star-primary:after {
     }
 
     .photo-overlay h3 {
-        /*font-size: 20px;*/
         font-size: 2.2vw;
     }
 
@@ -2188,16 +2031,14 @@ hr.star-primary:after {
         font-size: 1.5em;
     }
 
-    .row {
-        /*margin-left: 15px;*/
-        /*margin-right: 15px;*/
-    }
-
     .section_header {
         padding: 3.5em 0 2em;
         margin-bottom: 4em;
     }
 
+    #span-mobile-telemed {
+        font-size: 1.7vmax;
+    }
     #span_telemed {
         font-size: 2.7vmax;
     }
@@ -2206,20 +2047,13 @@ hr.star-primary:after {
         line-height: 200px;
     }
 
-    .tile-inline-block {
-        /*padding-top: 100px;*/
-    }
 
     .tile-text-medium {
-        /*line-height: 300px;*/
-        margin-top: 30%;
+        /*margin-top: 25%;*/
     }
 
     .tile-text-small {
         line-height: 50px;
-    }
-    .tile-odd {
-        /*font-size: 2em;*/
     }
 
     .tile-small-text {
@@ -2246,6 +2080,12 @@ hr.star-primary:after {
     }
 }
 
+@media (min-width: 992px) {
+    .container {
+
+         width: 992px;
+    }
+}
 @media screen and (min-width:1024px) {
     .back {
         padding-top: 0;
@@ -2272,13 +2112,6 @@ and (orientation : landscape) {
 }
 @media screen and (min-width:1025px) {
 
-    .back a h2 span {
-        font-size: 7.4vmax;
-    }
-
-    .back a h2 span:nth-of-type(2) {
-        font-size: 4.6vmax;
-    }
 
     .companies-desktop {
         display: block;
@@ -2290,7 +2123,7 @@ and (orientation : landscape) {
 
 
     #span_telemed {
-        font-size: 3.3vmax;
+        font-size: 2.3vmax;
     }
 
     h1,
@@ -2308,25 +2141,6 @@ and (orientation : landscape) {
 
     .intro_bottom {
         display: block;
-    }
-
-    .page-scroll {
-        /*font-size: 2.2vmax;*/
-    }
-
-    .table-companies > tbody > tr > td {
-        /*height: 300px;*/
-        /*width: 300px;*/
-    }
-
-    .flip-container, .front img {
-        /*height: 300px;*/
-        /*width: 300px;*/
-    }
-
-    .flip-container, .front, .back {
-        /*width: 300px;*/
-        /*height: 300px;*/
     }
 
     .photo-overlay .button {
@@ -2347,14 +2161,13 @@ and (orientation : landscape) {
         display: block;
     }
     .fa-book {
-        /*font-size: 1.2em;*/
         top: 8px;
     }
 
     .button:hover .fa-book{
         opacity: 1;
         left: 95px;
-        /*font-size: 1.2em;*/
+
     }
     .photo-overlay .button {
         font-size: 1.5vw;
@@ -2363,7 +2176,7 @@ and (orientation : landscape) {
     }
 
     .tile-inline-block {
-        padding-top: 100px;
+        padding-top: 25%;
     }
 
 }
@@ -2418,7 +2231,7 @@ and (orientation : landscape) {
 
 @media screen and (min-width:1800px) {
     .back a h2 span {
-        font-size: 4.2vmax;
+        font-size: 3.2vw;
     }
 
     .back a h2 span:nth-of-type(2) {

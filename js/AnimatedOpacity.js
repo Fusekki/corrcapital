@@ -1,7 +1,8 @@
 var x = 1;
 var tiles = $('.tile').get();
 var tile;
-
+var wheels = $('.wheel_link').get();
+var wheel_fade = false;
 var fade = false;
 var r;
 
