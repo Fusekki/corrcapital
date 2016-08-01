@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.htm" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="791">
+            <state relative-caret-position="777">
               <caret line="864" column="0" selection-start-line="864" selection-start-column="0" selection-end-line="864" selection-end-column="49" />
               <folding>
                 <element signature="e#18103#18109#0" expanded="true" />
@@ -36,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="918" column="15" selection-start-line="918" selection-start-column="15" selection-end-line="918" selection-end-column="15" />
+            <state relative-caret-position="351">
+              <caret line="734" column="23" selection-start-line="734" selection-start-column="23" selection-end-line="734" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -64,8 +64,8 @@
         <option value="$PROJECT_DIR$/css/grayscale.css" />
         <option value="$PROJECT_DIR$/js/AnimatedOpacity.js" />
         <option value="$PROJECT_DIR$/js/grayscale.js" />
-        <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/index.htm" />
+        <option value="$PROJECT_DIR$/css/styles.css" />
       </list>
     </option>
   </component>
@@ -287,12 +287,12 @@
       <workItem from="1469919788091" duration="7908000" />
       <workItem from="1469981582573" duration="16400000" />
       <workItem from="1470011249930" duration="6033000" />
-      <workItem from="1470051719918" duration="12096000" />
+      <workItem from="1470051719918" duration="12232000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="245326000" />
+    <option name="totallyTimeSpent" value="245462000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -747,22 +747,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="918" column="15" selection-start-line="918" selection-start-column="15" selection-end-line="918" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="791">
+        <state relative-caret-position="777">
           <caret line="864" column="0" selection-start-line="864" selection-start-column="0" selection-end-line="864" selection-end-column="49" />
           <folding>
             <element signature="e#18103#18109#0" expanded="true" />
             <marker date="1470063821550" expanded="true" signature="17245:17937" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="734" column="23" selection-start-line="734" selection-start-column="23" selection-end-line="734" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>

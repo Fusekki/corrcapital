@@ -732,7 +732,7 @@ navbar-default .navbar-brand:focus {
     height: 200px;
     left: calc(50vw - 200px);
     width: 400px;
-    border: 25px solid white;
+    border: 25px solid grey;
     border-top: none;
     z-index: 0;
     margin: auto;
