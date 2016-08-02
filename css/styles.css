@@ -2185,19 +2185,19 @@ and (orientation : landscape){
 }
 
 /*This doesn't work.  It is supposed to be for wider desktops with lower screen height for the circle to fit*/
-/*@media screen and (min-width:1025px)*/
-    /*and (max-width:925px) {*/
+@media only screen and (min-width:1025px)
+    and (max-height:925px) {
 
-    /*.intro {*/
-        /*height: 115vh;*/
-    /*}*/
+    .intro {
+        height: 115vh;
+    }
 
-    /*.intro_bottom {*/
-        /*height: 39vh;*/
-        /*top: 76vh;*/
-    /*}*/
+    .intro_bottom {
+        height: 39vh;
+        top: 76vh;
+    }
 
-/*}*/
+}
 
 
 @media screen and (min-width:1025px) {
