@@ -957,6 +957,12 @@ img::-moz-selection {
 /* back, initially hidden pane */
 .back {
     transform: rotateY(180deg);
+    /*display: table-cell;*/
+    /*vertical-align: middle;*/
+}
+
+.back a h2 {
+    display: table-row;
 }
 
 .back a h2 span {
@@ -969,10 +975,12 @@ img::-moz-selection {
 
 .tile-mobile .text-overlay h2 span {
      font-size: 3vmax;
+    margin-bottom: 0;
 }
 
 .tile-mobile .text-overlay h2 span:nth-of-type(2) {
     font-size: 2.5vmax;
+    margin-bottom: 0;
 }
 
 
@@ -1004,10 +1012,14 @@ img::-moz-selection {
 .flip-container, .front img {
     overflow: hidden;
 }
-/* flip the pane when hovered */
-.flip-container:hover .flipper, .flip-container.hover .flipper {
+
+.tile-odd:hover .flipper  {
     transform: rotateY(180deg);
 }
+/* flip the pane when hovered */
+/*.flip-container:hover .flipper {*/
+    /*transform: rotateY(180deg);*/
+/*}*/
 
 
 
@@ -1018,21 +1030,32 @@ img::-moz-selection {
     transition: 0.6s;
     transform-style: preserve-3d;
     position: relative;
+    height: 100%;
+    width: 100%;
 }
 
 /* hide back of pane during swap */
 .front, .back {
     backface-visibility: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
 }
+
+
 
 /* front pane, placed above back */
 .front {
+    position: absolute;
+    top: 0;
+    left: 0;
     z-index: 2;
     /* for firefox 31 */
     transform: rotateY(0deg);
+}
+
+.front img {
+    height: 100%;
 }
 
 
@@ -1801,7 +1824,7 @@ hr.star-primary:after {
     }
     .back {
         transform: rotateY(180deg);
-        padding-top: 12vh;
+        /*padding-top: 12vh;*/
     }
 
     .back a h2 span {
@@ -1828,7 +1851,7 @@ hr.star-primary:after {
     }
 
     #tile-art .flip-container .back h2 {
-        margin-top: 5%;
+        /*margin-top: 5%;*/
     }
 
 }
@@ -1950,7 +1973,7 @@ and (orientation : landscape){
     }
 
     #tile-art .flip-container .back h2 {
-        margin-top: 30%;
+        /*margin-top: 30%;*/
     }
 }
 
@@ -2142,7 +2165,7 @@ and (orientation : landscape){
     }
 
     #tile-art .flip-container .back h2 {
-        margin-top: 30%;
+        /*margin-top: 30%;*/
     }
 
     .tile-odd a {
@@ -2151,7 +2174,7 @@ and (orientation : landscape){
 
 
     .tile-text-medium {
-        margin-top: 25%;
+        /*margin-top: 25%;*/
     }
 
     .tile-text-small {
@@ -2167,7 +2190,7 @@ and (orientation : landscape){
 
 @media(min-width:815px) {
     .back {
-        padding-top: 0;
+        /*padding-top: 0;*/
     }
 }
 
@@ -2179,7 +2202,7 @@ and (orientation : landscape){
 }
 @media screen and (min-width:1024px) {
     .back {
-        padding-top: 0;
+        /*padding-top: 0;*/
     }
 
 }
@@ -2294,37 +2317,10 @@ and (orientation : landscape){
     }
 }
 
+
 @media screen and (min-width:1400px) {
     .back a h2 span {
-        font-size: 5.5vmax;
-    }
-
-    .back a h2 span:nth-of-type(2) {
-        font-size: 3.6vmax;
-    }
-
-    #span_telemed {
-        font-size: 2.4vmax;
-    }
-}
-
-@media screen and (min-width:1600px) {
-    .back a h2 span {
-        font-size: 4.6vmax;
-    }
-
-    .back a h2 span:nth-of-type(2) {
-        font-size: 3vmax;
-    }
-
-    #span_telemed {
-        font-size: 2vmax;
-    }
-}
-
-@media screen and (min-width:1800px) {
-    .back a h2 span {
-        font-size: 3.2vw;
+        font-size: 4.5vmax;
     }
 
     .back a h2 span:nth-of-type(2) {
@@ -2332,13 +2328,13 @@ and (orientation : landscape){
     }
 
     #span_telemed {
-        font-size: 1.8vmax;
+        font-size: 1.4vmax;
     }
 }
 
-@media screen and (min-width:2200px) {
+@media screen and (min-width:1600px) {
     .back a h2 span {
-        font-size: 3.6vmax;
+        font-size: 4vmax;
     }
 
     .back a h2 span:nth-of-type(2) {
@@ -2346,6 +2342,34 @@ and (orientation : landscape){
     }
 
     #span_telemed {
-        font-size: 1.4vmax;
+        font-size: 1.5vw;
     }
 }
+
+@media screen and (min-width:1800px) {
+    .back a h2 span {
+        font-size: 3vw;
+    }
+
+    .back a h2 span:nth-of-type(2) {
+        font-size: 2.2vmax;
+    }
+
+    #span_telemed {
+        font-size: 1.5vmax;
+    }
+}
+
+/*@media screen and (min-width:2200px) {*/
+    /*.back a h2 span {*/
+        /*font-size: 3.6vmax;*/
+    /*}*/
+
+    /*.back a h2 span:nth-of-type(2) {*/
+        /*font-size: 2.2vmax;*/
+    /*}*/
+
+    /*#span_telemed {*/
+        /*font-size: 1.4vmax;*/
+    /*}*/
+/*}*/
