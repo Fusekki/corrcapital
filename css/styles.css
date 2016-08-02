@@ -893,12 +893,21 @@ img::-moz-selection {
 /*PAGE 1 ID START*/
 
 #bg-canvas {
+    width: 69vw;
+    position: absolute;
+    top: -26vh;
+    left: -4vw;
+    z-index: -1;
+}
+
+
+#bg-canvas {
     /* height: 100vw; */
     /* width: 100vw; */
-    position: absolute;
-    top: -349vh;
-    left: -6vw;
-    z-index: -1;
+    /*position: absolute;*/
+    /*top: -349vh;*/
+    /*left: -6vw;*/
+    /*z-index: -1;*/
 }
 
 #jewelry {
@@ -1754,14 +1763,7 @@ hr.star-primary:after {
 
 /*MEDIA QUERIES BEGIN*/
 @media (min-device-width:320px) {
-    #bg-canvas {
-        /*height: 100vw;*/
-        /*width: 100vw;*/
-        /*position: absolute;*/
-        /*top: -17vh;*/
-        /*left: -36vw;*/
-        /*z-index: -1;*/
-    }
+
 }
 
 

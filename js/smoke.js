@@ -5,14 +5,14 @@
 
 var canvas = document.getElementById("bg-canvas"),
     ctx = canvas.getContext("2d");
-// canvas.height = 600;
+canvas.height = 400;
 // canvas.height = document.body.offsetHeight;
 // canvas.width = 600;
 
-    canvas.height = document.body.offsetHeight;
-    canvas.width =  800;
+// canvas.height = document.body.offsetHeight;
+canvas.width =  800;
 
-    console.log(screen.height);
+console.log(screen.height);
 console.log(screen.width);
 
 
@@ -20,9 +20,9 @@ var parts = [],
     minSpawnTime = 40,
     lastTime = new Date().getTime(),
     maxLifeTime = Math.min(5000, (canvas.height/(1.5*60)*1000)),
-    emitterX = canvas.width / 2,
+    emitterX = canvas.width / 3,
     // emitterX = canvas.width / 2,
-    emitterY = canvas.height - 10,
+    emitterY = canvas.height - 100,
     smokeImage = new Image();
 
 function spawn() {
@@ -48,7 +48,7 @@ function render() {
                 offsetY = -parts[len].size;
             // var offsetX = -parts[len].size/2,
             //     offsetY = -parts[len].size/2;
-         
+
             ctx.translate(parts[len].x-offsetX, parts[len].y-offsetY);
             ctx.rotate(parts[len].angle / 180 * Math.PI);
             ctx.globalAlpha  = parts[len].alpha;
@@ -65,10 +65,10 @@ function smoke(x, y, index) {
     this.y = y;
 
     this.size = 2;
-    // this.startSize = 25;
     this.startSize = 5;
-    // this.endSize = 40;
-    this.endSize = 10;
+    // this.startSize = 5;
+    this.endSize = 30;
+    // this.endSize = 10;
 
 
     this.angle = Math.random() * 339;
@@ -83,20 +83,21 @@ function smoke(x, y, index) {
 smoke.prototype.update = function () {
     this.lifeTime = new Date().getTime() - this.startLife;
     this.angle += 0.2;
-    
+
     var lifePerc = ((this.lifeTime / maxLifeTime) * 100);
 
     this.size = this.startSize + ((this.endSize - this.startSize) * lifePerc * .1);
 
     this.alpha = 1 - (lifePerc * .01);
     this.alpha = Math.max(this.alpha,0);
-    
+
     this.x += this.velX;
     this.y += this.velY;
 }
 
-smokeImage.src = "img/smoke-particle.gif";
+// smokeImage.src = "img/smoke-particle.gif";
 // smokeImage.src = "img/smoke-large.jpg";
+smokeImage.src = "img/clouds.png";
 smokeImage.onload = function () {
     render();
 }
@@ -105,5 +106,5 @@ smokeImage.onload = function () {
 window.onresize = resizeMe;
 window.onload = resizeMe;
 function resizeMe() {
-   canvas.height = document.body.offsetHeight;
+    canvas.height = document.body.offsetHeight;
 }
