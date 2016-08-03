@@ -606,7 +606,7 @@ img::-moz-selection {
 
 
 .bg-image {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -624,6 +624,12 @@ img::-moz-selection {
 
 .brand-heading {
     margin-top: 35px;
+    background: #656565;
+    width: 557px;
+    margin: auto;
+    color: white;
+    letter-spacing: 10px;
+    padding: 18px;
 }
 
 .btn-circle {
@@ -2135,7 +2141,11 @@ and (orientation : landscape){
     }
 
     .intro .intro-body .brand-heading {
-        font-size: 100px;
+        font-size: 65px;
+    }
+
+    .intro .intro-body .brand-heading .text-heading-medium {
+        font-size: 60px;
     }
 
     .intro .intro-body .intro-text {
