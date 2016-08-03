@@ -625,7 +625,7 @@ img::-moz-selection {
 .brand-heading {
     margin-top: 35px;
     background: #656565;
-    width: 557px;
+    width: 95%;
     margin: auto;
     color: white;
     letter-spacing: 10px;
@@ -753,7 +753,6 @@ img::-moz-selection {
 }
 
 
-
 .blue_ball {
     left: 4px;
     background: #2F9BC1;
@@ -821,8 +820,16 @@ img::-moz-selection {
 }
 
 .intro .intro-body .brand-heading {
-    font-size: 7vmax;
+    /*font-size: 70px;*/
+    font-size: 7vw;
     white-space: nowrap;
+}
+
+
+
+.intro .intro-body .brand-heading .text-heading-medium {
+    font-size: 6.5vw;
+    /*font-size: 65px;*/
 }
 
 .intro .intro-body .intro-text {
@@ -1835,6 +1842,10 @@ hr.star-primary:after {
         height: 120vh;
     }
 
+    .brand-heading {
+        width: 71%;
+    }
+
     .companies-mobile > tbody > tr > td {
         height: 25vw;
         width: 25vw;
@@ -1875,9 +1886,19 @@ hr.star-primary:after {
 
 }
 
+@media(min-device-width:375px) {
+    .brand-heading {
+        width: 84%;
+    }
+}
+
 
 @media(min-device-width:375px) and
 (orientation: landscape) {
+
+    .brand-heading {
+        width: 67%;
+    }
 
     .portfolio-modal .close-modal .box-close i {
         font-size: 2.5em;
@@ -1973,6 +1994,11 @@ hr.star-primary:after {
 @media(min-device-width:768px)
 and (max-device-width : 1024px)
 and (orientation : portrait){
+
+    .brand-heading {
+        width: 64%;
+    }
+
     .portfolio-modal .close-modal .box-close {
     margin-left: 30px;
     }
@@ -2012,6 +2038,11 @@ and (orientation : portrait){
 @media(min-device-width:768px)
 and (max-device-width : 1024px)
 and (orientation : landscape){
+
+    .brand-heading {
+        width: 92%;
+    }
+
     .container {
         width: 100%
     }
@@ -2056,6 +2087,7 @@ and (orientation : landscape){
 
 
     .brand-heading {
+        width: 87%;
         margin-bottom: 0;
     }
 
@@ -2140,13 +2172,13 @@ and (orientation : landscape){
         padding: 0;
     }
 
-    .intro .intro-body .brand-heading {
-        font-size: 65px;
-    }
+    /*.intro .intro-body .brand-heading {*/
+        /*font-size: 65px;*/
+    /*}*/
 
-    .intro .intro-body .brand-heading .text-heading-medium {
-        font-size: 60px;
-    }
+    /*.intro .intro-body .brand-heading .text-heading-medium {*/
+        /*font-size: 65px;*/
+    /*}*/
 
     .intro .intro-body .intro-text {
         font-size: 26px;
