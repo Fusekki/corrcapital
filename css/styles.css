@@ -624,13 +624,23 @@ img::-moz-selection {
 
 .brand-heading {
     margin-top: 35px;
-    background: #656565;
-    width: 95%;
+    /*background: #656565;*/
+    /*width: 95%;*/
     margin: auto;
     color: white;
     letter-spacing: 10px;
-    padding: 18px;
+    /*padding: 18px;*/
 }
+.brand-heading span {
+    background: #656565;
+    padding: 18px 18px 18px 18px;
+}
+
+.brand-heading span span {
+    padding: 0;
+}
+
+
 
 .btn-circle {
     width: 70px;
@@ -1460,10 +1470,6 @@ img::-moz-selection {
 }
 
 
-
-
-
-
 /*PAGE 3 ID END*/
 
 
@@ -1831,19 +1837,41 @@ hr.star-primary:after {
 /*MODAL 2 END*/
 
 /*MEDIA QUERIES BEGIN*/
-@media (min-device-width:320px) {
+@media only screen and
+(min-device-width:320px) {
+
 
 }
 
+/*iphone 5 portrait*/
+@media only screen and
+(min-device-width: 320px) and
+(max-device-height: 568px)  and
+(orientation: portrait) {
+    .brand-heading {
+        margin-top: 40%;
+    }
+
+    .btn-circle {
+        margin-top: 50%
+    }
+}
 
 /*iphone 5 LS*/
-@media (min-device-width:320px) and (orientation: landscape) {
+@media only screen and
+(min-device-width: 320px) and
+(max-device-height: 568px) and
+(orientation: landscape) {
     .bg-image {
         height: 120vh;
     }
 
     .brand-heading {
-        width: 71%;
+        margin-top: 7%;
+    }
+
+    .btn-circle {
+        margin-top: 10%
     }
 
     .companies-mobile > tbody > tr > td {
@@ -1878,26 +1906,30 @@ hr.star-primary:after {
     #span-mobile-telemed {
         font-size: 2.5vw;
     }
-
-
-
-
-
-
 }
-
-@media(min-device-width:375px) {
+/*iphone 6 portrait*/
+@media only screen and
+(min-device-width:375px) and
+(max-device-height:667px) and
+(orientation: portrait) {
     .brand-heading {
-        width: 84%;
+        margin-top: 40%;
     }
+
+    .btn-circle {
+        margin-top: 50%
+    }
+
 }
+/*iphone 6 landscape*/
 
-
-@media(min-device-width:375px) and
+@media only screen and
+(min-device-width: 375px) and
+(max-device-height: 667px) and
 (orientation: landscape) {
 
     .brand-heading {
-        width: 67%;
+        /*width: 67%;*/
     }
 
     .portfolio-modal .close-modal .box-close i {
@@ -1940,29 +1972,52 @@ hr.star-primary:after {
     }
 
 }
-@media(min-device-width:414px) and
-(max-device-height:736px) {
+@media only screen and
+(min-device-width:414px) and
+(max-device-height:736px) and
+(orientation: portrait){
 
-    /*.portfolio-modal .close-modal .box-close {*/
-        /*margin-left: 50px;*/
-    /*}*/
+    .brand-heading {
+        margin-top: 40%;
+    }
+
+    .btn-circle {
+        margin-top: 50%
+    }
 
     #span_telemed {
         font-size: 2.4vmax;
     }
+}
+
+@media only screen and
+(min-device-width:414px) and
+(max-device-height:736px) and
+(orientation: landscape){
+
+    .brand-heading {
+        margin-top: 7%;
+    }
+
+    .btn-circle {
+        margin-top: 10%
+    }
+
 }
 @media(min-width:474px) {
 
 
 }
 
-@media(min-width:650px) {
+@media only screen and
+(min-width:650px) {
     .photo {
         max-width: 85%;
     }
 }
 
-@media(min-width:767px) {
+@media only screen and
+(min-width:767px) {
     .content-section {
         padding: 0;
     }
@@ -1977,7 +2032,8 @@ hr.star-primary:after {
     }
 }
 
-@media(max-width:767px) {
+@media only screen and
+(max-width:767px) {
     ul.banner-social-buttons li {
         display: block;
         margin-bottom: 20px;
@@ -1991,12 +2047,17 @@ hr.star-primary:after {
 
 /*ipad*/
 
-@media(min-device-width:768px)
+@media only screen and
+(min-device-width:768px)
 and (max-device-width : 1024px)
 and (orientation : portrait){
 
     .brand-heading {
-        width: 64%;
+        margin-top: 40%;
+    }
+
+    .btn-circle {
+        margin-top: 50%
     }
 
     .portfolio-modal .close-modal .box-close {
@@ -2035,12 +2096,17 @@ and (orientation : portrait){
 
 /*ipad landscape*/
 
-@media(min-device-width:768px)
+@media only screen and
+(min-device-width:768px)
 and (max-device-width : 1024px)
 and (orientation : landscape){
 
     .brand-heading {
-        width: 92%;
+        margin-top: 7%;
+    }
+
+    .btn-circle {
+        margin-top: 10%
     }
 
     .container {
@@ -2073,7 +2139,8 @@ and (orientation : landscape){
 }
 
  /*DESKTOPS START*/
-@media(min-device-width:769px)  {
+@media only screen and
+(min-device-width:769px)  {
 
 
 
@@ -2087,8 +2154,11 @@ and (orientation : landscape){
 
 
     .brand-heading {
-        width: 87%;
-        margin-bottom: 0;
+        margin-top: 7%;
+    }
+
+    .btn-circle {
+        margin-top: 10%
     }
 
     .button .btn-icon {
@@ -2288,26 +2358,29 @@ and (orientation : landscape){
 }
 
 
-@media(min-width:815px) {
+@media only screen and
+(min-width:815px) {
     .back {
         /*padding-top: 0;*/
     }
 }
 
-@media (min-width: 992px) {
+@media only screen and
+(min-width: 992px) {
     .container {
 
          width: 100%;
     }
 }
-@media screen and (min-width:1024px) {
+@media only screen and
+(min-width:1024px) {
     .back {
         /*padding-top: 0;*/
     }
 
 }
 
-/*This doesn't work.  It is supposed to be for wider desktops with lower screen height for the circle to fit*/
+
 @media only screen and (min-width:1025px)
     and (max-height:925px) {
 
@@ -2323,7 +2396,7 @@ and (orientation : landscape){
 }
 
 
-@media screen and (min-width:1025px) {
+@media only screen and (min-width:1025px) {
 
 
     .companies-desktop {
@@ -2396,13 +2469,13 @@ and (orientation : landscape){
 
 }
 
-@media(max-width:1199px) {
+@media only screen and (max-width:1199px) {
     ul.banner-social-buttons {
         margin-top: 15px;
     }
 }
 
-@media screen and (min-width:1200px) and
+@media only screen and (min-width:1200px) and
 (min-height:1200px){
     .back a h2 span {
         font-size: 6vmax;
@@ -2418,7 +2491,7 @@ and (orientation : landscape){
 }
 
 
-@media screen and (min-width:1400px) {
+@media only screen and (min-width:1400px) {
     .back a h2 span {
         font-size: 4.5vmax;
     }
@@ -2432,7 +2505,7 @@ and (orientation : landscape){
     }
 }
 
-@media screen and (min-width:1600px) {
+@media only screen and (min-width:1600px) {
     .back a h2 span {
         font-size: 4vmax;
     }
@@ -2446,7 +2519,7 @@ and (orientation : landscape){
     }
 }
 
-@media screen and (min-width:1800px) {
+@media only screen and (min-width:1800px) {
     .back a h2 span {
         font-size: 3vw;
     }
