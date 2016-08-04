@@ -194,14 +194,6 @@ ul.banner-social-buttons {
 /*UNKNOWN CLASSES END*/
 
 /*UNKNOWN ID START*/
-#globe_three {
-    display: block;
-}
-
-#globe_three_text {
-    position: relative;
-    left: -5px;
-}
 
 
 #map {
@@ -578,32 +570,61 @@ img::-moz-selection {
 /*PAGE 1 CLASSES START*/
 
 
+/*Layout around the C in Corr*/
 .ball-wrap a:nth-of-type(1) {
-    left: -90px;
-    top: 15px;
+    left: -17px;
+    top: -27px;
 }
 
 .ball-wrap a:nth-of-type(2) {
-    top: 132px;
-    left: -75px;
+    top: 17px;
+    left: -106px;
 }
 
 .ball-wrap a:nth-of-type(3) {
-    top: 192px;
-    left: 150px;
+    top: 72px;
+    left: -118px;
 }
 
 .ball-wrap a:nth-of-type(4) {
     top: 132px;
-    right: -58px;
+    right: 100px;
 }
 
 .ball-wrap a:nth-of-type(5) {
-    top: 15px;
-    right: -157px;
+    top: 193px;
+    right: 41px;
 }
+/* End Layout around the C in Corr*/
 
 
+/*original bottom center layout*/
+/*.ball-wrap a:nth-of-type(1) {*/
+    /*left: -90px;*/
+    /*top: 15px;*/
+/*}*/
+
+/*.ball-wrap a:nth-of-type(2) {*/
+    /*top: 132px;*/
+    /*left: -75px;*/
+/*}*/
+
+/*.ball-wrap a:nth-of-type(3) {*/
+    /*top: 192px;*/
+    /*left: 150px;*/
+/*}*/
+
+/*.ball-wrap a:nth-of-type(4) {*/
+    /*top: 132px;*/
+    /*right: -58px;*/
+/*}*/
+
+/*.ball-wrap a:nth-of-type(5) {*/
+    /*top: 15px;*/
+    /*right: -157px;*/
+/*}*/
+
+/* end original bottom center layout*/
 
 .bg-image {
     position: fixed;
@@ -623,17 +644,20 @@ img::-moz-selection {
 
 
 .brand-heading {
+
     margin-top: 35px;
     /*background: #656565;*/
     /*width: 95%;*/
     margin: auto;
-    color: white;
+    color: red;
     letter-spacing: 10px;
     /*padding: 18px;*/
 }
 .brand-heading span {
     background: #656565;
-    padding: 18px 18px 18px 18px;
+    padding: 18px 18px 18px 45px;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
 }
 
 .brand-heading span span {
@@ -685,23 +709,76 @@ img::-moz-selection {
     -moz-animation-timing-function: linear;
 }
 
+/*Layout around the C in Corr*/
 .circle-wrap {
-    width: 400px;
+    /*width: 400px;*/
     position: inherit;
     margin: auto;
     display: table;
 }
 .circle {
-    border-radius: 0 0 200px 200px;
+
+    background-color: rgba(204, 0, 102, 0);
+    /* border: 3px solid #000; */
+    height: 200px;
+    width: 100px;
+    /* -webkit-border-radius: 75px; */
+    -moz-border-radius: 75px;
+    /* background-color: #c06; */
+    /* height: 150px; */
+    /* width: 150px; */
+    -moz-border-radius: 150px 0 0 0;
+    /* border-radius: 178px 68px 0px 178px; */
+    border-right: none;
+    -moz-border-radius: 150px 0 0 150px;
+    border-radius: 150px 0 0 150px;
+    /* border-radius: 200px 0 200px 0px; */
     position: absolute;
     height: 200px;
-    left: calc(50vw - 200px);
-    width: 400px;
-    border: 25px solid grey;
-    border-top: none;
+    left: calc(13vw - 100px);
+    /* width: 400px; */
+    border: 25px solid red;
+    /* border-top: none; */
+    border-bottom: none;
     z-index: 0;
     margin: auto;
+    z-index: 4;
+    /* border-radius: 0 0 200px 200px; */
+    /* position: absolute; */
+    /* height: 200px; */
+    /* left: calc(50vw - 200px); */
+    /* width: 400px; */
+    /* border: 25px solid grey; */
+    border-top: none;
+    border-right: none;
+    /* z-index: 0; */
+    /* margin: auto; */
+    top: 36px;
 }
+
+/*End Layout around the C in Corr*/
+
+/*original bottom center layout*/
+
+/*.circle-wrap {*/
+    /*width: 400px;*/
+    /*position: inherit;*/
+    /*margin: auto;*/
+    /*display: table;*/
+/*}*/
+/*.circle {*/
+    /*border-radius: 0 0 200px 200px;*/
+    /*position: absolute;*/
+    /*height: 200px;*/
+    /*left: calc(50vw - 200px);*/
+    /*width: 400px;*/
+    /*border: 25px solid grey;*/
+    /*border-top: none;*/
+    /*z-index: 0;*/
+    /*margin: auto;*/
+/*}*/
+
+/*end original bottom center layout*/
 
 /*// rename so it comes before globe*/
 .grey_ball {
@@ -746,7 +823,8 @@ img::-moz-selection {
 }
 
 .globe-text {
-    color: #aaa;
+    color: lightgray;
+    /*color: #aaa;*/
     font-size: 18px;
     transition: color 1s ease;
 }
@@ -760,6 +838,10 @@ img::-moz-selection {
     top: 30%;
     font-family: 'Sansation Bold';
     text-transform: uppercase;
+}
+
+.ball-wrap {
+    display: none;
 }
 
 
@@ -780,10 +862,13 @@ img::-moz-selection {
 }
 
 
+/*Changed for half-circle navigation on C*/
 
 .half_circle_navigation {
-    display: none;
+    /*display: none;*/
 }
+
+
 
 .intro {
     display: table;
@@ -915,6 +1000,8 @@ img::-moz-selection {
 
 /*PAGE 1 ID START*/
 
+
+
 #bg-canvas {
     width: 69vw;
     position: absolute;
@@ -931,6 +1018,15 @@ img::-moz-selection {
     /*top: -349vh;*/
     /*left: -6vw;*/
     /*z-index: -1;*/
+}
+
+#globe_three {
+    /*display: block;*/
+}
+
+#globe_three_text {
+    /*position: relative;*/
+    /*left: -5px;*/
 }
 
 #jewelry {
@@ -1853,8 +1949,26 @@ hr.star-primary:after {
     }
 
     .btn-circle {
-        margin-top: 50%
+        margin-top: 50%;
     }
+
+    .circle {
+
+        height: 200px;
+        width: 100px;
+        border-right: none;
+        position: absolute;
+        height: 75px;
+        border: 10px solid red;
+        border-bottom: none;
+        /*margin: auto;*/
+        border-top: none;
+        border-right: none;
+        left: 11vw;
+        top: 85px;
+    }
+
+
 }
 
 /*iphone 5 LS*/
@@ -1872,6 +1986,22 @@ hr.star-primary:after {
 
     .btn-circle {
         margin-top: 10%
+    }
+
+    .circle {
+
+        height: 200px;
+        width: 100px;
+        border-right: none;
+        position: absolute;
+        height: 75px;
+        border: 10px solid red;
+        border-bottom: none;
+        /*margin: auto;*/
+        border-top: none;
+        border-right: none;
+        left: 19vw;
+        top: 8px;
     }
 
     .companies-mobile > tbody > tr > td {
@@ -1920,6 +2050,22 @@ hr.star-primary:after {
         margin-top: 50%
     }
 
+    .circle {
+
+        height: 200px;
+        width: 100px;
+        border-right: none;
+        position: absolute;
+        height: 75px;
+        border: 10px solid red;
+        border-bottom: none;
+        /*margin: auto;*/
+        border-top: none;
+        border-right: none;
+        left: 14vw;
+        top: 97px;
+    }
+
 }
 /*iphone 6 landscape*/
 
@@ -1930,6 +2076,22 @@ hr.star-primary:after {
 
     .brand-heading {
         /*width: 67%;*/
+    }
+
+    .circle {
+
+        height: 200px;
+        width: 100px;
+        border-right: none;
+        position: absolute;
+        height: 75px;
+        border: 10px solid red;
+        border-bottom: none;
+        /*margin: auto;*/
+        border-top: none;
+        border-right: none;
+        left: 20vw;
+        top: 13px;
     }
 
     .portfolio-modal .close-modal .box-close i {
@@ -1985,6 +2147,23 @@ hr.star-primary:after {
         margin-top: 50%
     }
 
+    .circle {
+
+        height: 200px;
+        width: 100px;
+        border-right: none;
+        position: absolute;
+        height: 75px;
+        border: 10px solid red;
+        border-bottom: none;
+        /*margin: auto;*/
+        border-top: none;
+        border-right: none;
+        left: 16vw;
+        top: 104px;
+    }
+
+
     #span_telemed {
         font-size: 2.4vmax;
     }
@@ -2001,6 +2180,13 @@ hr.star-primary:after {
 
     .btn-circle {
         margin-top: 10%
+    }
+
+
+    .circle {
+
+        left: 21vw;
+        top: 20px;
     }
 
 }
@@ -2060,6 +2246,16 @@ and (orientation : portrait){
         margin-top: 50%
     }
 
+    .circle {
+        left: 21vw;
+        top: 159px;
+        height: 100px;
+        border: 15px solid red;
+        border-top: none;
+        border-right: none;
+        border-bottom: none;
+    }
+
     .portfolio-modal .close-modal .box-close {
     margin-left: 30px;
     }
@@ -2109,6 +2305,16 @@ and (orientation : landscape){
         margin-top: 10%
     }
 
+    .circle {
+        left: 6vw;
+        top: 8px;
+        height: 140px;
+        border: 15px solid red;
+        border-top: none;
+        border-right: none;
+        border-bottom: none;
+    }
+
     .container {
         width: 100%
     }
@@ -2140,10 +2346,12 @@ and (orientation : landscape){
 
  /*DESKTOPS START*/
 @media only screen and
-(min-device-width:769px)  {
+(min-device-width:769px) and
+(min-device-width: 1200px) {
 
-
-
+    .ball-wrap {
+        display: block;
+    }
     .back a h2 span {
         font-size: 4.5vmax;
     }
@@ -2421,13 +2629,11 @@ and (orientation : landscape){
         margin: 0 0 35px;
     }
 
-    .half_circle_navigation {
-        display: block;
-    }
+    /*Changed for new half-circle on C*/
 
-    .intro_bottom {
-        display: block;
-    }
+    /*.intro_bottom {*/
+        /*display: block;*/
+    /*}*/
 
     .photo-overlay .button {
         font-size: 1.7vmin;
@@ -2469,7 +2675,24 @@ and (orientation : landscape){
 
 }
 
+@media only screen and (min-width:1025px) and
+(min-height:800px) {
+
+    /*.circle {*/
+        /*left: 6vw;*/
+        /*top: 8px;*/
+        /*height: 140px;*/
+        /*border: 15px solid red;*/
+        /*border-top: none;*/
+        /*border-right: none;*/
+        /*border-bottom: none;*/
+    /*}*/
+
+}
+
 @media only screen and (max-width:1199px) {
+
+
     ul.banner-social-buttons {
         margin-top: 15px;
     }
