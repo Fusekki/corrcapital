@@ -655,7 +655,7 @@ img::-moz-selection {
 }
 .brand-heading span {
     background: #656565;
-    padding: 18px 18px 18px 45px;
+    padding: 18px;
     /*border-top-left-radius: 45px;*/
     /*border-bottom-left-radius: 45px;*/
 }
@@ -753,7 +753,7 @@ img::-moz-selection {
     border-right: none;
     /* z-index: 0; */
     /* margin: auto; */
-    top: 41px;
+    top: 4%;
 }
 
 /*End Layout around the C in Corr*/
@@ -865,7 +865,7 @@ img::-moz-selection {
 /*Changed for half-circle navigation on C*/
 
 .half_circle_navigation {
-    /*display: none;*/
+    display: none;
 }
 
 
@@ -2307,9 +2307,9 @@ and (orientation : landscape){
 
     .circle {
         left: 6vw;
-        top: 8px;
+        /*top: 8px;*/
         height: 140px;
-        border: 15px solid red;
+        border: 15px solid white;
         border-top: none;
         border-right: none;
         border-bottom: none;
@@ -2378,6 +2378,10 @@ and (orientation : landscape){
         left: 58px;
     }
 
+    .circle {
+        top: 6px;
+    }
+
 
 
 
@@ -2394,6 +2398,10 @@ and (orientation : landscape){
 
     .fa-book {
         top: 6px;
+    }
+
+    .half_circle_navigation {
+        display: block;
     }
 
     .navbar-brand {
@@ -2722,6 +2730,7 @@ and (orientation : landscape){
     .back a h2 span:nth-of-type(2) {
         font-size: 2.6vmax;
     }
+
 
     #span_telemed {
         font-size: 1.4vmax;
