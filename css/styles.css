@@ -656,8 +656,8 @@ img::-moz-selection {
 .brand-heading span {
     background: #656565;
     padding: 18px 18px 18px 45px;
-    border-top-left-radius: 45px;
-    border-bottom-left-radius: 45px;
+    /*border-top-left-radius: 45px;*/
+    /*border-bottom-left-radius: 45px;*/
 }
 
 .brand-heading span span {
@@ -735,9 +735,9 @@ img::-moz-selection {
     /* border-radius: 200px 0 200px 0px; */
     position: absolute;
     height: 200px;
-    left: calc(13vw - 100px);
+    left: calc(11vw - 100px);
     /* width: 400px; */
-    border: 25px solid red;
+    border: 25px solid white;
     /* border-top: none; */
     border-bottom: none;
     z-index: 0;
@@ -753,7 +753,7 @@ img::-moz-selection {
     border-right: none;
     /* z-index: 0; */
     /* margin: auto; */
-    top: 36px;
+    top: 41px;
 }
 
 /*End Layout around the C in Corr*/
