@@ -2378,9 +2378,6 @@ and (orientation : landscape){
         left: 58px;
     }
 
-    .circle {
-        top: 6px;
-    }
 
 
 
@@ -2746,6 +2743,10 @@ and (orientation : landscape){
         font-size: 2.2vmax;
     }
 
+    .circle {
+        top: 8%;
+    }
+
     #span_telemed {
         font-size: 1.5vw;
     }
@@ -2758,6 +2759,10 @@ and (orientation : landscape){
 
     .back a h2 span:nth-of-type(2) {
         font-size: 2.2vmax;
+    }
+
+    .circle {
+        top: 14%;
     }
 
     #span_telemed {
