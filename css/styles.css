@@ -206,7 +206,7 @@ ul.banner-social-buttons {
 /*GENERAL CLASSES START*/
 
 a {
-    color: #42dca3;
+    color: grey;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -216,7 +216,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1d9b6c;
+    color: white;
     outline: none;
 }
 
@@ -1567,6 +1567,44 @@ img::-moz-selection {
 
 
 /*PAGE 3 ID END*/
+
+/*PAGE 4 CLASS START*/
+
+/*PAGE 4 CLASS END*/
+
+/*PAGE 4 ID START*/
+
+#contact {
+    background-color: #29303a;
+    padding: 3.5em 0 2em;
+}
+
+#contact h2 {
+    font-size: 3.5vmax;
+    font-weight: bold;
+    letter-spacing: 0.5em;
+    margin-bottom: 2em;
+}
+#contact h2:after {
+    content: "";
+    display: block;
+    width: 3.875em;
+    height: 1px;
+    /*background: rgba(255, 255, 255, 0.2);*/
+    margin: 1.500em auto 0;
+    position: relative;
+    left: -3px;
+    background-color: #FFFFFF;
+    margin-top: .4em;
+}
+
+/*#contact a {*/
+    /*color: black;*/
+/*}*/
+
+
+
+/*PAGE 4 ID END*/
 
 
 /*MODAL 1 BEGIN*/
