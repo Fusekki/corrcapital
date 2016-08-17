@@ -569,32 +569,77 @@ img::-moz-selection {
 
 /*PAGE 1 CLASSES START*/
 
-
-/*Layout around the C in Corr*/
+/*Layout for globe with buttons*/
 .ball-wrap a:nth-of-type(1) {
-    left: -17px;
-    top: -27px;
+    left: 285px;
+    top: -103px;
 }
 
+
+
+
 .ball-wrap a:nth-of-type(2) {
-    top: 17px;
-    left: -106px;
+    top: -102px;
+    left: 396px;
 }
 
 .ball-wrap a:nth-of-type(3) {
-    top: 72px;
-    left: -118px;
+    top: -34px;
+    left: 572px;
 }
 
 .ball-wrap a:nth-of-type(4) {
-    top: 132px;
-    right: 100px;
+    top: -17px;
+    left: 302px;
 }
 
 .ball-wrap a:nth-of-type(5) {
-    top: 193px;
-    right: 41px;
+    top: 110px;
+    right: -228px;
 }
+
+.img-intro {
+    position: absolute;
+    top: 25vh;
+    /* height: 75%; */
+    width: 50%;
+    left: 16vw;
+}
+/*End Layout*/
+
+/*Layout around the C in Corr*/
+/*.ball-wrap a:nth-of-type(1) {*/
+    /*left: -17px;*/
+    /*top: -27px;*/
+/*}*/
+
+/*.ball-wrap a:nth-of-type(2) {*/
+    /*top: 17px;*/
+    /*left: -106px;*/
+/*}*/
+
+/*.ball-wrap a:nth-of-type(3) {*/
+    /*top: 72px;*/
+    /*left: -118px;*/
+/*}*/
+
+/*.ball-wrap a:nth-of-type(4) {*/
+    /*top: 132px;*/
+    /*right: 100px;*/
+/*}*/
+
+/*.ball-wrap a:nth-of-type(5) {*/
+    /*top: 193px;*/
+    /*right: 41px;*/
+/*}*/
+
+/*.img-intro {*/
+    /*position: absolute;*/
+    /*top: 25vh;*/
+    /*!* height: 75%; *!*/
+    /*width: 50%;*/
+    /*left: 16vw;*/
+/*}*/
 /* End Layout around the C in Corr*/
 
 
@@ -654,7 +699,7 @@ img::-moz-selection {
     /*padding: 18px;*/
 }
 .brand-heading span {
-    background: #656565;
+    /*background: #656565;*/
     padding: 18px;
     /*border-top-left-radius: 45px;*/
     /*border-bottom-left-radius: 45px;*/
@@ -754,6 +799,7 @@ img::-moz-selection {
     /* z-index: 0; */
     /* margin: auto; */
     top: 4%;
+    top: 100%;
 }
 
 /*End Layout around the C in Corr*/
@@ -803,13 +849,13 @@ img::-moz-selection {
 
 /*rename end*/
 
-
+/*Globe for earth and buttons*/
 .globe {
     margin-top: 2px;
     margin-left: 10px;
     display: inline-flex;
-    width: 25px;
-    height: 25px;
+    width: 50px;
+    height: 50px;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     border-radius: 40px;
@@ -817,6 +863,22 @@ img::-moz-selection {
     transition: transform .75s ease-in-out, box-shadow .5s ease-in-out;
     -webkid-transition:  transform .75s ease-in-out, box-shadow .5s ease-in-out;
 }
+
+
+/*Globe for half-circle*/
+/*.globe {*/
+    /*margin-top: 2px;*/
+    /*margin-left: 10px;*/
+    /*display: inline-flex;*/
+    /*width: 25px;*/
+    /*height: 25px;*/
+    /*-webkit-border-radius: 25px;*/
+    /*-moz-border-radius: 25px;*/
+    /*border-radius: 40px;*/
+    /*position: relative;*/
+    /*transition: transform .75s ease-in-out, box-shadow .5s ease-in-out;*/
+    /*-webkid-transition:  transform .75s ease-in-out, box-shadow .5s ease-in-out;*/
+/*}*/
 
 .globe:focus {
     outline:none;
@@ -906,10 +968,17 @@ img::-moz-selection {
 }
 
 .intro .intro-body {
-    display: table-cell;
-    vertical-align: middle;
+    /*display: table-cell;*/
+    /*vertical-align: middle;*/
     transition: opacity .25s ease-in-out;
+    margin-top: 12vh;
 }
+
+/*.intro .intro-body {*/
+    /*display: table-cell;*/
+    /*vertical-align: middle;*/
+    /*transition: opacity .25s ease-in-out;*/
+/*}*/
 .intro-body.fadeAway {
     opacity: 0;
 }
@@ -956,10 +1025,11 @@ img::-moz-selection {
     color: white;
 
 
+
 }
 
 .shapewrap:hover .globe {
-    box-shadow: 0 0 5px 5px silver;  /* inner white */
+    box-shadow: 0 0 10px 10px silver;  /* inner white */
 }
 
 .shape_wrapper {
@@ -975,7 +1045,8 @@ img::-moz-selection {
 
 .wheel-link {
     position: absolute;
-    display: inline-flex;
+    /*Disabled for globe */
+    /*display: inline-flex;*/
     opacity: 0;
     transition: opacity .25s ease-in-out;
 }
@@ -2782,7 +2853,7 @@ and (orientation : landscape){
     }
 
     .circle {
-        top: 8%;
+        /*top: 8%;*/
     }
 
     #span_telemed {
@@ -2800,7 +2871,7 @@ and (orientation : landscape){
     }
 
     .circle {
-        top: 14%;
+        /*top: 14%;*/
     }
 
     #span_telemed {
