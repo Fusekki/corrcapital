@@ -357,6 +357,9 @@ h4 {
     font-size: 3vmax;
 }
 
+.inline-flex {
+    display: inline-flex;
+}
 
 p {
     color: black;
@@ -571,39 +574,53 @@ img::-moz-selection {
 
 /*Layout for globe with buttons*/
 .ball-wrap a:nth-of-type(1) {
-    left: 285px;
-    top: -103px;
+    left: 300px;
+    top: -611px;
 }
-
-
 
 
 .ball-wrap a:nth-of-type(2) {
-    top: -102px;
-    left: 396px;
+    left: 67px;
+    top: -568px;
 }
 
 .ball-wrap a:nth-of-type(3) {
-    top: -34px;
-    left: 572px;
+    top: -570px;
+    left: 152px;
 }
 
 .ball-wrap a:nth-of-type(4) {
-    top: -17px;
-    left: 302px;
+    top: -521px;
+    left: 274px;
 }
 
 .ball-wrap a:nth-of-type(5) {
-    top: 110px;
-    right: -228px;
+    top: -472px;
+    left: 24px;
+}
+
+.ball-wrap a:nth-of-type(6) {
+    top: -385px;
+    left: 36px;
+}
+
+.ball-wrap a:nth-of-type(7) {
+    top: -364px;
+    left: 171px;
+}
+
+.ball-wrap a:nth-of-type(8) {
+    top: -277px;
+    left: 38px;
 }
 
 .img-intro {
-    position: absolute;
-    top: 25vh;
-    /* height: 75%; */
-    width: 50%;
-    left: 16vw;
+    position: relative;
+    /*margin-left: calc(50vw - 450px);*/
+    top: -190px;
+    width: 450px;
+    margin: 0 auto;
+
 }
 /*End Layout*/
 
@@ -854,8 +871,8 @@ img::-moz-selection {
     margin-top: 2px;
     margin-left: 10px;
     display: inline-flex;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     border-radius: 40px;
@@ -885,7 +902,14 @@ img::-moz-selection {
 }
 
 .globe-text {
-    color: lightgray;
+
+    color: chartreuse;
+    font-size: 18px;
+    transition: color 1s ease;
+    background: lightseagreen;
+    border-radius: 20px;
+    padding: 5px;
+    /*color: lightgray;*/
     /*color: #aaa;*/
     font-size: 18px;
     transition: color 1s ease;
@@ -968,8 +992,8 @@ img::-moz-selection {
 }
 
 .intro .intro-body {
-    /*display: table-cell;*/
-    /*vertical-align: middle;*/
+    display: table-cell;
+    vertical-align: middle;
     transition: opacity .25s ease-in-out;
     margin-top: 12vh;
 }
@@ -1005,7 +1029,8 @@ img::-moz-selection {
 }
 
 .maintitle {
-    z-index: 1;
+    z-index: 0;
+    /*height: 10vh;*/
 }
 
 .shapewrap {
@@ -2460,6 +2485,10 @@ and (orientation : landscape){
 
     .ball-wrap {
         display: block;
+
+        position: relative;
+        margin: auto;
+        width: 450px;
     }
     .back a h2 span {
         font-size: 4.5vmax;
@@ -2471,7 +2500,8 @@ and (orientation : landscape){
 
 
     .brand-heading {
-        margin-top: 7%;
+        /*margin-top: 7%;*/
+        margin-bottom: 25%;
     }
 
     .btn-circle {
@@ -2507,7 +2537,10 @@ and (orientation : landscape){
     }
 
     .half_circle_navigation {
+        position: absolute;
         display: block;
+        width: 100%;
+        top: 83%;
     }
 
     .navbar-brand {
