@@ -38,12 +38,127 @@
 @keyframes type2{
     0%{width: 0;}
     50%{width: 0;}
-    100%{ width: 100; }
+    100%{ width: 100%; }
 }
 
 @keyframes blink{
     to{opacity: .0;}
 }
+
+
+@-webkit-keyframes twinkle_one {
+    0%   { opacity: 1; }
+    30%  { opacity: 1; }
+    70%  { opacity: .25; }
+    100% { opacity: 1; }
+}
+@-moz-keyframes twinkle_one {
+    0%   { opacity: 1; }
+    30%  { opacity: 1; }
+    70%  { opacity: .25; }
+    100% { opacity: 1; }
+}
+@-o-keyframes twinkle_one {
+    0%   { opacity: 1; }
+    30%  { opacity: 1; }
+    70%  { opacity: .25; }
+    100% { opacity: 1; }
+}
+@keyframes twinkle_one {
+    0%   { opacity: 1; }
+    30%  { opacity: 1; }
+    70%  { opacity: .25; }
+    100% { opacity: 1; }
+}
+
+
+@-webkit-keyframes twinkle_two {
+    0%   { opacity: 1; }
+    25%  { opacity: .25; }
+    80%  { opacity: .25; }
+    100% { opacity: 1; }
+}
+@-moz-keyframes twinkle_two {
+    0%   { opacity: 1; }
+    25%  { opacity: .25; }
+    80%  { opacity: .25; }
+    100% { opacity: 1; }
+}
+@-o-keyframes twinkle_two {
+    0%   { opacity: 1; }
+    25%  { opacity: .25; }
+    80%  { opacity: .25; }
+    100% { opacity: 1; }
+}
+@keyframes twinkle_two {
+    0%   { opacity: 1; }
+    25%  { opacity: .25; }
+    80%  { opacity: .25; }
+    100% { opacity: 1; }
+}
+
+
+@-webkit-keyframes twinkle_three {
+    0%   { opacity: 1; }
+    30%  { opacity: .25; }
+    40%  { opacity: .25; }
+    100% { opacity: 1; }
+}
+@-moz-keyframes twinkle_three {
+    0%   { opacity: 1; }
+    30%  { opacity: .25; }
+    40%  { opacity: .25; }
+    100% { opacity: 1; }
+}
+@-o-keyframes twinkle_three {
+    0%   { opacity: 1; }
+    30%  { opacity: .25; }
+    40%  { opacity: .25; }
+    100% { opacity: 1; }
+}
+@keyframes twinkle_three {
+    0%   { opacity: 1; }
+    30%  { opacity: .25; }
+    40%  { opacity: .25; }
+    100% { opacity: 1; }
+}
+
+
+.star-type1{
+    width: 1px;
+    height: 1px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 0 1px 1px white;
+    box-shadow: 0 0 1px 1px white;
+    -webkit-animation: twinkle_one 2s ease-in-out infinite;
+    -moz-animation: twinkle_one 2s ease-in-out infinite;
+    -o-animation: twinkle_one 2s ease-in-out infinite;
+    animation: twinkle_one 2s ease-in-out infinite;
+}
+.star-type2{
+    width: 2px;
+    height: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 0 2px 1px white;
+    box-shadow: 0 0 2px 1px white;
+    -webkit-animation: twinkle_two 3s ease-in-out infinite;
+    -moz-animation: twinkle_two 3s ease-in-out infinite;
+    -o-animation: twinkle_two 3s ease-in-out infinite;
+    animation: twinkle_two 3s ease-in-out infinite;
+}
+.star-type3{
+    width: 2px;
+    height: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 0 2px 0 white;
+    box-shadow: 0 0 2px 0 white;
+    -webkit-animation: twinkle_three 5s ease-in-out infinite;
+    -moz-animation: twinkle_three 5s ease-in-out infinite;
+    -o-animation: twinkle_three 5s ease-in-out infinite;
+    animation: twinkle_three 5s ease-in-out infinite;
+}
+
+
 
 
 @-webkit-keyframes pulse {
@@ -572,47 +687,93 @@ img::-moz-selection {
 
 /*PAGE 1 CLASSES START*/
 
-/*Layout for globe with buttons*/
+/*Layout as Stars*/
+
 .ball-wrap a:nth-of-type(1) {
-    left: 300px;
-    top: -611px;
+left: -72px;
+top: -591px;
 }
 
 
 .ball-wrap a:nth-of-type(2) {
-    left: 67px;
-    top: -568px;
+left: 48px;
+top: -521px;
 }
 
 .ball-wrap a:nth-of-type(3) {
-    top: -570px;
-    left: 152px;
+top: -453px;
+left: -3px;
 }
 
 .ball-wrap a:nth-of-type(4) {
-    top: -521px;
-    left: 274px;
+top: -379px;
+left: 10px;
 }
 
 .ball-wrap a:nth-of-type(5) {
-    top: -472px;
-    left: 24px;
+top: -268px;
+left: 8px;
 }
 
 .ball-wrap a:nth-of-type(6) {
-    top: -385px;
-    left: 36px;
+top: -213px;
+left: 135px;
 }
 
 .ball-wrap a:nth-of-type(7) {
-    top: -364px;
-    left: 171px;
+top: -342px;
+left: 260px;
 }
 
 .ball-wrap a:nth-of-type(8) {
-    top: -277px;
-    left: 38px;
+top: -242px;
+left: 347px;
 }
+
+/*End Layout Stars*/
+
+
+/*Layout for globe with buttons*/
+/*.ball-wrap a:nth-of-type(1) {*/
+    /*left: 300px;*/
+    /*top: -611px;*/
+/*}*/
+
+
+/*.ball-wrap a:nth-of-type(2) {*/
+    /*left: 67px;*/
+    /*top: -568px;*/
+/*}*/
+
+/*.ball-wrap a:nth-of-type(3) {*/
+    /*top: -570px;*/
+    /*left: 152px;*/
+/*}*/
+
+/*.ball-wrap a:nth-of-type(4) {*/
+    /*top: -521px;*/
+    /*left: 274px;*/
+/*}*/
+
+/*.ball-wrap a:nth-of-type(5) {*/
+    /*top: -472px;*/
+    /*left: 24px;*/
+/*}*/
+
+/*.ball-wrap a:nth-of-type(6) {*/
+    /*top: -385px;*/
+    /*left: 36px;*/
+/*}*/
+
+/*.ball-wrap a:nth-of-type(7) {*/
+    /*top: -364px;*/
+    /*left: 171px;*/
+/*}*/
+
+/*.ball-wrap a:nth-of-type(8) {*/
+    /*top: -277px;*/
+    /*left: 38px;*/
+/*}*/
 
 .img-intro {
     position: relative;
@@ -699,7 +860,7 @@ img::-moz-selection {
     width: 100%;
     height: 100%;
     object-fit: contain;
-    background: url('../img/stock-colorized.jpg');
+    background: url('../img/stock-photo-blue-sunrise-view-of-earth-from-space-154320125.jpg');
     background-size: cover;
     z-index: -1;
 }
@@ -729,6 +890,7 @@ img::-moz-selection {
 
 
 .btn-circle {
+    display: none;
     width: 70px;
     height: 70px;
     margin-top: 15px;
@@ -845,11 +1007,11 @@ img::-moz-selection {
 
 /*// rename so it comes before globe*/
 .grey_ball {
-    background: dimgrey;
+    background: hsla(0, 0%, 100%, .05);
     height: 35px;
     width: 35px;
     border-radius: 50%;
-    border: 1px solid #ccc;
+    /*border: 1px solid #ccc;*/
     position: absolute;
     z-index: 1;
 }
@@ -906,13 +1068,14 @@ img::-moz-selection {
     color: chartreuse;
     font-size: 18px;
     transition: color 1s ease;
-    background: lightseagreen;
-    border-radius: 20px;
+    /*background: lightseagreen;*/
+    /*border-radius: 20px;*/
     padding: 5px;
     /*color: lightgray;*/
     /*color: #aaa;*/
+    border: 2px transparent solid;
     font-size: 18px;
-    transition: color 1s ease;
+    transition: all 1s ease;
 }
 
 .globe-text-small {
@@ -943,8 +1106,11 @@ img::-moz-selection {
 
 .grey_ball i {
     margin: auto;
-    color: cornflowerblue;
-    font-size: 15px;
+    /*color: cornflowerblue;*/
+    color: white;
+    font-size: 5px;
+    box-shadow: 0px 0px 10px 5px #fff;
+
 }
 
 
@@ -959,7 +1125,7 @@ img::-moz-selection {
 .intro {
     display: table;
     width: 100%;
-    height: 100vh;
+    height: 88vh;
     padding: 100px 0;
     text-align: center;
     color: rgba(153,153,153,.7);
@@ -976,6 +1142,11 @@ img::-moz-selection {
     transition: background-color .25s ease-in-out;
     -moz-transition: background-color.25s ease-in-out;
     -webkit-transition: background-color .25s ease-in-out;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
@@ -996,6 +1167,8 @@ img::-moz-selection {
     vertical-align: middle;
     transition: opacity .25s ease-in-out;
     margin-top: 12vh;
+    /*background: url('../img/stock-photo-blue-sunrise-view-of-earth-from-space-154320125.jpg');*/
+    /*background-size: cover;*/
 }
 
 /*.intro .intro-body {*/
@@ -1082,12 +1255,14 @@ img::-moz-selection {
 
 .wheel-link:hover .globe-text{
     color: white;
+    border: 2px green solid;
 
 
 }
 
+
 .wheel-link:hover .globe {
-    box-shadow: 0 0 5px 5px silver;  /* inner white */
+    /*box-shadow: 0 0 5px 5px silver;  !* inner white *!*/
     /*overflow: visible;*/
 }
 
@@ -1099,12 +1274,18 @@ img::-moz-selection {
 
 
 #bg-canvas {
-    width: 69vw;
+    /*width: 69vw;*/
+    /*position: absolute;*/
+    /*top: -26vh;*/
+    /*left: -4vw;*/
+    /*z-index: -1;*/
     position: absolute;
-    top: -26vh;
-    left: -4vw;
-    z-index: -1;
+    top: 0;
+    left: 0;
+    background: #000000;
 }
+
+
 
 
 #bg-canvas {
@@ -1490,6 +1671,7 @@ img::-moz-selection {
 
 
 #company {
+    /*margin-top: 10%;*/
     background: hsla(200, 7%, 16%, .75);
     padding: 0;
 }
@@ -2540,7 +2722,7 @@ and (orientation : landscape){
         position: absolute;
         display: block;
         width: 100%;
-        top: 83%;
+        top: 105%;
     }
 
     .navbar-brand {
