@@ -76,7 +76,7 @@ function addFadeListeners() {
 
     // Initiate Fade on first wheel
     var $elem = $('#wheel-link-one');
-    // console.log('Adding show to first wheel');
+    console.log('Adding show to first wheel');
     $elem.addClass('wheel-show');
 }
 

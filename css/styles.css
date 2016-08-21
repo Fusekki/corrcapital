@@ -5,6 +5,8 @@
 
 /*FONTS START*/
 
+
+
 @font-face {
     font-family: 'Sansation Light';
     font-style: normal;
@@ -125,8 +127,9 @@
 
 
 .star-type1{
-    width: 1px;
-    height: 1px;
+    width: 2px;
+    height: 2px;
+    background: white;
     border-radius: 2px;
     -webkit-box-shadow: 0 0 1px 1px white;
     box-shadow: 0 0 1px 1px white;
@@ -136,22 +139,24 @@
     animation: twinkle_one 2s ease-in-out infinite;
 }
 .star-type2{
-    width: 2px;
-    height: 2px;
-    border-radius: 2px;
-    -webkit-box-shadow: 0 0 2px 1px white;
-    box-shadow: 0 0 2px 1px white;
+    width: 3px;
+    height: 3px;
+    background: white;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 3px 2px white;
+    box-shadow: 0 0 3px 2px white;
     -webkit-animation: twinkle_two 3s ease-in-out infinite;
     -moz-animation: twinkle_two 3s ease-in-out infinite;
     -o-animation: twinkle_two 3s ease-in-out infinite;
     animation: twinkle_two 3s ease-in-out infinite;
 }
 .star-type3{
-    width: 2px;
-    height: 2px;
-    border-radius: 2px;
-    -webkit-box-shadow: 0 0 2px 0 white;
-    box-shadow: 0 0 2px 0 white;
+    width: 4px;
+    height: 4px;
+    background: white;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 0 3px 0 white;
+    box-shadow: 0 0 3px 0 white;
     -webkit-animation: twinkle_three 5s ease-in-out infinite;
     -moz-animation: twinkle_three 5s ease-in-out infinite;
     -o-animation: twinkle_three 5s ease-in-out infinite;
@@ -314,7 +319,7 @@ ul.banner-social-buttons {
 #map {
     width: 100%;
     height: 200px;
-    margin-top: 100px;
+    /*margin-top: 100px;*/
 }
 /*UNKNOWN ID END*/
 
@@ -477,7 +482,7 @@ h4 {
 }
 
 p {
-    color: black;
+    /*color: black;*/
     margin: 0 0 25px;
     font-size: 2.5vmax;
     line-height: 1.5;
@@ -495,7 +500,7 @@ p {
 }
 
 .section_header h2 {
-    font-size: 3.5vmax;
+    font-size: 3vmax;
     font-weight: bold;
     letter-spacing: 0.5em;
 }
@@ -689,6 +694,28 @@ img::-moz-selection {
 
 /*Layout as Stars*/
 
+.carousel-content {
+    color:black;
+    /*display:flex;*/
+    align-items:center;
+    color: grey;
+}
+
+#text-carousel {
+    width: 100%;
+    height: auto;
+    padding: 50px;
+}
+
+.ball-wrap {
+    margin-top: 10%;
+    display: block;
+
+    position: relative;
+    margin: auto;
+    width: 450px;
+}
+
 .ball-wrap a:nth-of-type(1) {
 left: -72px;
 top: -591px;
@@ -712,7 +739,7 @@ left: 10px;
 
 .ball-wrap a:nth-of-type(5) {
 top: -268px;
-left: 8px;
+left: 31px;
 }
 
 .ball-wrap a:nth-of-type(6) {
@@ -726,8 +753,18 @@ left: 260px;
 }
 
 .ball-wrap a:nth-of-type(8) {
-top: -242px;
-left: 347px;
+top: -290px;
+left: 349px;
+}
+
+.ball-wrap a:nth-of-type(9) {
+    top: -270px;
+    left: 480px;
+}
+
+.ball-wrap a:nth-of-type(10) {
+    top: -358px;
+    left: 540px;
 }
 
 /*End Layout Stars*/
@@ -850,19 +887,61 @@ left: 347px;
 /* end original bottom center layout*/
 
 .bg-image {
-    position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     margin: 0;
+    perspective: 1px;
     box-sizing: border-box;
     width: 100%;
-    height: 100%;
+    /*height: 100%;*/
     object-fit: contain;
-    background: url('../img/stock-photo-blue-sunrise-view-of-earth-from-space-154320125.jpg');
+    background: url('../img/stock-photo-a-real-dark-night-sky-with-plenty-of-stars-128983094.jpg');
     background-size: cover;
     z-index: -1;
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+    /*padding-top: 20%;*/
+
+    /*background-size: cover;*/
+    /*-webkit-transform: translateZ(-0.9px) scale(1.9);*/
+    /*-moz-transform: translateZ(-0.9px) scale(1.9);*/
+    /*-ms-transform: translateZ(-0.9px) scale(1.9);*/
+    /*-o-transform: translateZ(-0.9px) scale(1.9);*/
+    /*transform: translateZ(-0.9px) scale(1.9);*/
+}
+
+.parallex {
+    /*width: 100%;*/
+    perspective: 1px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.parallax__layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+}
+
+.parallax__layer img {
+    /*width: 100%;*/
+}
+.parallax__layer--base {
+    transform: translateZ(0);
+    padding: 100vh 0;
+}
+.parallax__layer--back {
+
+
+    transform: translateZ(-1px);
 }
 
 
@@ -1007,7 +1086,7 @@ left: 347px;
 
 /*// rename so it comes before globe*/
 .grey_ball {
-    background: hsla(0, 0%, 100%, .05);
+    background: hsla(0, 0%, 100%, .01);
     height: 35px;
     width: 35px;
     border-radius: 50%;
@@ -1015,6 +1094,123 @@ left: 347px;
     position: absolute;
     z-index: 1;
 }
+
+
+.green_ball {
+    background: #00C762;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid #ccc;
+    position: absolute;
+}
+
+
+
+.ball-wrap a:nth-of-type(1):after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid grey;
+    position: absolute;
+    width: 68px;
+    right: -57px;
+    top: 133%;
+    -webkit-transform: rotate(42deg);
+    transform: rotate(42deg);
+}
+
+
+
+
+.ball-wrap a:nth-of-type(2) .globe:after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid grey;
+    position: absolute;
+    width: 50px;
+    left: 3px;
+    top: 141%;
+    -webkit-transform: rotate(76deg);
+    transform: rotate(76deg);
+}
+
+.ball-wrap a:nth-of-type(3) .globe:after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid grey;
+    position: absolute;
+    width: 70px;
+    left: 20px;
+    top: 141%;
+    -webkit-transform: rotate(42deg);
+    transform: rotate(42deg);
+}
+
+.ball-wrap a:nth-of-type(4) .globe:after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid grey;
+    position: absolute;
+    width: 80px;
+    left: -33px;
+    top: 183%;
+    -webkit-transform: rotate(106deg);
+    transform: rotate(106deg);
+}
+
+.ball-wrap a:nth-of-type(5) .globe:after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid grey;
+    position: absolute;
+    width: 65px;
+    left: 25px;
+    top: 116%;
+    -webkit-transform: rotate(36deg);
+    transform: rotate(36deg);
+}
+
+
+.ball-wrap a:nth-of-type(6) .globe:after {
+     content: "";
+     display: block;
+     border-bottom: 1px solid grey;
+     position: absolute;
+     width: 75px;
+     left: 24px;
+     top: -51%;
+     -webkit-transform: rotate(-44deg);
+     transform: rotate(-44deg);
+}
+
+
+
+.ball-wrap a:nth-of-type(8) .globe:after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid grey;
+    position: absolute;
+    width: 83px;
+    left: 30px;
+    top: -16%;
+    -webkit-transform: rotate(-31deg);
+    transform: rotate(-31deg);
+}
+
+
+.ball-wrap a:nth-of-type(9) .globe:after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid grey;
+    position: absolute;
+    width: 75px;
+    left: 10px;
+    top: -63%;
+    -webkit-transform: rotate(-54deg);
+    transform: rotate(-54deg);
+}
+
+
 
 .green_ball {
     background: #00C762;
@@ -1044,6 +1240,8 @@ left: 347px;
 }
 
 
+
+
 /*Globe for half-circle*/
 /*.globe {*/
     /*margin-top: 2px;*/
@@ -1065,7 +1263,7 @@ left: 347px;
 
 .globe-text {
 
-    color: chartreuse;
+    /*color: chartreuse;*/
     font-size: 18px;
     transition: color 1s ease;
     /*background: lightseagreen;*/
@@ -1076,6 +1274,8 @@ left: 347px;
     border: 2px transparent solid;
     font-size: 18px;
     transition: all 1s ease;
+    color: transparent;
+    text-shadow: 0 0 3px white;
 }
 
 .globe-text-small {
@@ -1090,7 +1290,7 @@ left: 347px;
 }
 
 .ball-wrap {
-    display: none;
+    /*display: none;*/
 }
 
 
@@ -1104,12 +1304,13 @@ left: 347px;
     z-index: 2;
 }
 
-.grey_ball i {
+.grey_ball div {
     margin: auto;
     /*color: cornflowerblue;*/
     color: white;
     font-size: 5px;
     box-shadow: 0px 0px 10px 5px #fff;
+    transition: all 1s ease;
 
 }
 
@@ -1117,7 +1318,7 @@ left: 347px;
 /*Changed for half-circle navigation on C*/
 
 .half_circle_navigation {
-    display: none;
+    /*display: none;*/
 }
 
 
@@ -1131,6 +1332,7 @@ left: 347px;
     color: rgba(153,153,153,.7);
     /*This is for iphone5*/
     padding-bottom: 32vh;
+    margin-top: 81px;
 
     background-color: hsla(0, 0%, 0%, 0);
     background-attachment: scroll;
@@ -1163,10 +1365,10 @@ left: 347px;
 }
 
 .intro .intro-body {
-    display: table-cell;
+    /*display: table-cell;*/
     vertical-align: middle;
     transition: opacity .25s ease-in-out;
-    margin-top: 12vh;
+    margin-top: 8%;
     /*background: url('../img/stock-photo-blue-sunrise-view-of-earth-from-space-154320125.jpg');*/
     /*background-size: cover;*/
 }
@@ -1221,10 +1423,8 @@ left: 347px;
 
 .shapewrap:hover .globe-text{
     color: white;
-
-
-
 }
+
 
 .shapewrap:hover .globe {
     box-shadow: 0 0 10px 10px silver;  /* inner white */
@@ -1255,7 +1455,7 @@ left: 347px;
 
 .wheel-link:hover .globe-text{
     color: white;
-    border: 2px green solid;
+    border: 2px red solid;
 
 
 }
@@ -1265,6 +1465,27 @@ left: 347px;
     /*box-shadow: 0 0 5px 5px silver;  !* inner white *!*/
     /*overflow: visible;*/
 }
+
+.wheel-link:hover .grey_ball div {
+    background: white;
+    -webkit-box-shadow: 0 0 3px 3px yellow;
+    box-shadow: 0 0 3px 3px yellow;
+
+}
+
+/*.wheel-link:hover .grey_ball::before{*/
+    /*content: '';*/
+    /*position: absolute;*/
+    /*top: .9em;*/
+    /*left: -4em;*/
+    /*width: 4em;*/
+    /*height: .1em;*/
+    /*background: red;*/
+    /*z-index: -1;*/
+/*}*/
+
+
+
 
 /*PAGE 1 CLASSES END*/
 
@@ -1402,7 +1623,7 @@ left: 347px;
 }
 
 .companies-mobile {
-    display: table;
+    /*display: table;*/
 }
 
 .flip-container {
@@ -1716,6 +1937,7 @@ left: 347px;
 }
 
 .fa-book {
+    font-size: 1.5vh;
     opacity: 0;
     display: inline-block;
     position: absolute;
@@ -1730,6 +1952,7 @@ left: 347px;
     margin-bottom: 2em;
 
     margin: 0 auto;
+    max-width: 600px;
 }
 
 .photo-overlay {
@@ -1874,6 +2097,12 @@ left: 347px;
     left: -3px;
     background-color: #FFFFFF;
     margin-top: .4em;
+}
+
+#map {
+    width: 100%;
+    height: 300px;
+    /*margin-top: 100px;*/
 }
 
 /*#contact a {*/
@@ -2260,8 +2489,12 @@ hr.star-primary:after {
 (min-device-width: 320px) and
 (max-device-height: 568px)  and
 (orientation: portrait) {
+
+    .ball-wrap {
+        width: 300px;
+    }
     .brand-heading {
-        margin-top: 40%;
+        /*margin-top: 40%;*/
     }
 
     .btn-circle {
@@ -2513,9 +2746,7 @@ hr.star-primary:after {
 
 @media only screen and
 (min-width:650px) {
-    .photo {
-        max-width: 85%;
-    }
+
 }
 
 @media only screen and
@@ -2530,7 +2761,7 @@ hr.star-primary:after {
 
     #map {
         height: 400px;
-        margin-top: 250px;
+        /*margin-top: 250px;*/
     }
 }
 
@@ -2591,10 +2822,7 @@ and (orientation : portrait){
         font-size: 2.5vw;
     }
 
-    .photo {
-        /*This is to keep the image within the container.  This was added for the current photo*/
-        max-width: 53%;
-    }
+
 
 
     .photo-overlay h3 {
@@ -2665,13 +2893,13 @@ and (orientation : landscape){
 (min-device-width:769px) and
 (min-device-width: 1200px) {
 
-    .ball-wrap {
-        display: block;
+    /*.ball-wrap {*/
+        /*display: block;*/
 
-        position: relative;
-        margin: auto;
-        width: 450px;
-    }
+        /*position: relative;*/
+        /*margin: auto;*/
+        /*width: 450px;*/
+    /*}*/
     .back a h2 span {
         font-size: 4.5vmax;
     }
@@ -2683,7 +2911,7 @@ and (orientation : landscape){
 
     .brand-heading {
         /*margin-top: 7%;*/
-        margin-bottom: 25%;
+        /*margin-bottom: 25%;*/
     }
 
     .btn-circle {
@@ -2721,7 +2949,7 @@ and (orientation : landscape){
     .half_circle_navigation {
         position: absolute;
         display: block;
-        width: 100%;
+        width: 80%;
         top: 105%;
     }
 
@@ -2735,10 +2963,6 @@ and (orientation : landscape){
     .navbar-custom .navbar-brand span:nth-of-type(2){
 
         font-size: 2vmin;
-    }
-
-    .photo {
-        max-width: 100%;
     }
 
 
@@ -2937,7 +3161,7 @@ and (orientation : landscape){
 
 
     .companies-desktop {
-        display: table;
+        display: none;
     }
 
     .companies-mobile {
