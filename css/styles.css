@@ -495,8 +495,8 @@ p {
 
 .section_header {
     padding: 3.5em 0 2em;
-    background-color:  #29303a;
-    margin-bottom: 4em;
+    /*background-color:  #29303a;*/
+    /*margin-bottom: 4em;*/
 }
 
 .section_header h2 {
@@ -514,11 +514,13 @@ p {
     content: "";
     display: block;
     width: 3.875em;
-    height: 1px;
+    height: 5px;
     background: rgba(255, 255, 255, 0.2);
     margin: 1.500em auto 0;
     position: relative;
     left: -3px;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
 
 }
 
@@ -528,7 +530,8 @@ p {
 .section_header h4::after,
 .section_header h5::after,
 .section_header h6::after {
-    background-color: #FFFFFF;
+    /*background-color: #FFFFFF;*/
+    /*background: red;*/
     margin-top: .4em;
 }
 
@@ -698,7 +701,7 @@ margin-right: 23px;
     color:black;
     /*display:flex;*/
     align-items:center;
-    color: grey;
+    color: gainsboro;
 }
 
 #text-carousel {
@@ -897,7 +900,7 @@ left: 349px;
     width: 100%;
     /*height: 100%;*/
     object-fit: contain;
-    background: url('../img/stock-photo-a-real-dark-night-sky-with-plenty-of-stars-128983094.jpg');
+    background: url('../img/stock-photo-blue-sunrise-view-of-earth-from-space-154320125.jpg');
     background-size: cover;
     z-index: -1;
     position: fixed;
@@ -1326,7 +1329,7 @@ left: 349px;
     font-size: 18px;
     transition: all 1s ease;
     color: transparent;
-    text-shadow: 0 0 3px white;
+    text-shadow: 0 0 2px white;
 }
 
 .globe-text-small {
@@ -1419,7 +1422,7 @@ left: 349px;
     /*display: table-cell;*/
     vertical-align: middle;
     transition: opacity .25s ease-in-out;
-    margin-top: 8%;
+    /*margin-top: 8%;*/
     /*background: url('../img/stock-photo-blue-sunrise-view-of-earth-from-space-154320125.jpg');*/
     /*background-size: cover;*/
 }
@@ -1802,13 +1805,13 @@ left: 349px;
 
     /*-webkit-border-radius: 4em;*/
     /*-moz-border-radius: 4em;*/
-    /*border-radius: 4em;*/
+    border-radius: 8em;
 
     /*border-radius: 3px;*/
-    border-top-left-radius: 2em;
-    border-top-right-radius: 2em;
-    border-bottom-left-radius: 1em;
-    border-bottom-right-radius: 1em;
+    /*border-top-left-radius: 2em;*/
+    /*border-top-right-radius: 2em;*/
+    /*border-bottom-left-radius: 1em;*/
+    /*border-bottom-right-radius: 1em;*/
     /*background: rgba(0,0,0,0.25);*/
 
     background: -webkit-linear-gradient(top,rgba(255,0,0,0),rgba(0,0,0,1));
@@ -1944,7 +1947,8 @@ left: 349px;
 
 #company {
     /*margin-top: 10%;*/
-    background: hsla(200, 7%, 16%, .75);
+    /*background: hsla(200, 7%, 16%, .75);*/
+    background: white;
     padding: 0;
 }
 
@@ -1953,6 +1957,7 @@ left: 349px;
 }
 #companies, #team {
     padding: 0;
+    bacgkround: url('../img')
 }
 
 #span_telemed {
@@ -3006,14 +3011,14 @@ and (orientation : landscape){
 
     .navbar-brand {
 
-        font-size: 2.5vmin;
+        font-size: 3.2vmin;
     }
     .navbar-nav {
         font-size: 1.5vmin;
     }
     .navbar-custom .navbar-brand span:nth-of-type(2){
 
-        font-size: 2vmin;
+        font-size: 2.5vmin;
     }
 
 
@@ -3103,6 +3108,10 @@ and (orientation : landscape){
         line-height: 1.6;
     }
 
+    .carousel-content p {
+        font-size: 3vmin;
+    }
+
 
 
     .photo-overlay h3,
@@ -3137,7 +3146,7 @@ and (orientation : landscape){
 
     .section_header {
         padding: 3.5em 0 2em;
-        margin-bottom: 4em;
+        /*margin-bottom: 4em;*/
     }
 
     #span-mobile-telemed {
