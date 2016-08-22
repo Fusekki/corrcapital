@@ -326,7 +326,7 @@ ul.banner-social-buttons {
 /*GENERAL CLASSES START*/
 
 a {
-    color: grey;
+    color: #404040;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -2127,12 +2127,45 @@ left: 349px;
 
 /*PAGE 4 CLASS START*/
 
+.address {
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 14px;
+
+}
+
+.contact-info {
+    /*padding: 3.5em 0 2em;*/
+    /*margin-top: 20px;*/
+    font-weight: 700;
+
+    line-height: 20px;
+
+    font-style: normal;
+    color: #404040;
+}
+
+.email-link {
+    margin-top: 15px;
+}
+
+.site-info {
+    display: block;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 24px;
+    font-weight: 700 !important;
+    color: #404040;
+}
+
 /*PAGE 4 CLASS END*/
 
 /*PAGE 4 ID START*/
 
 #contact {
-    background-color: #29303a;
+    background: #252525;
+    /*background-color: #29303a;*/
     /*padding: 3.5em 0 2em;*/
 }
 
@@ -3189,6 +3222,9 @@ and (orientation : landscape){
 
 @media only screen and
 (min-width: 992px) {
+    .contact-info {
+        padding: 3.5em 0 2em;
+    }
     .container {
 
          width: 100%;
