@@ -340,6 +340,7 @@ a:focus {
     outline: none;
 }
 
+
 body {
      width: 100%;
      height: 100%;
@@ -1420,6 +1421,7 @@ left: 349px;
 
 .intro .intro-body {
     /*display: table-cell;*/
+    margin-top: 30px;
     vertical-align: middle;
     transition: opacity .25s ease-in-out;
     /*margin-top: 8%;*/
@@ -2582,6 +2584,143 @@ hr.star-primary:after {
     .ball-wrap {
         width: 300px;
     }
+
+    .ball-wrap a:nth-of-type(1) {
+        left: 6px;
+        top: -26px;
+    }
+
+
+    .ball-wrap a:nth-of-type(2) {
+        left: 61px;
+        top: 20px;
+    }
+
+    .ball-wrap a:nth-of-type(3) {
+        left: 24px;
+        top: 65px;
+    }
+
+    .ball-wrap a:nth-of-type(4) {
+        top: 113px;
+        left: 5px;
+    }
+
+    .ball-wrap a:nth-of-type(5) {
+        top: 166px;
+        left: 42px;
+    }
+
+    .ball-wrap a:nth-of-type(6) {
+        top: 201px;
+        left: 103px;
+    }
+
+    .ball-wrap a:nth-of-type(7) {
+        top: 130px;
+        left: 181px;
+    }
+
+
+    .ball-wrap a:nth-of-type(8) {
+        top: 315px;
+        left: 19px;
+    }
+
+    .ball-wrap a:nth-of-type(9) {
+        top: 315px;
+        left: 100px;
+
+    }
+
+    .ball-wrap a:nth-of-type(10) {
+        top: 273px;
+        left: 132px;
+
+    }
+
+    .ball-wrap a:nth-of-type(1):after {
+
+        width: 31px;
+        right: -13px;
+        top: 107%;
+        -webkit-transform: rotate(58deg);
+        transform: rotate(58deg);
+    }
+
+
+
+
+    .ball-wrap a:nth-of-type(2) .globe:after {
+
+        width: 28px;
+        left: 11px;
+        top: 107%;
+        -webkit-transform: rotate(76deg);
+        transform: rotate(76deg);
+    }
+
+    .ball-wrap a:nth-of-type(3) .globe:after {
+
+        width: 26px;
+        left: 22px;
+        top: 105%;
+        -webkit-transform: rotate(60deg);
+        transform: rotate(60deg);
+
+    }
+
+    .ball-wrap a:nth-of-type(4) .globe:after {
+
+        width: 27px;
+        left: 3px;
+        top: 116%;
+        -webkit-transform: rotate(95deg);
+        transform: rotate(95deg);
+    }
+
+    .ball-wrap a:nth-of-type(5) .globe:after {
+
+        width: 26px;
+        left: 25px;
+        top: 92%;
+        -webkit-transform: rotate(43deg);
+        transform: rotate(43deg);
+
+    }
+
+
+    .ball-wrap a:nth-of-type(6) .globe:after {
+
+        width: 36px;
+        left: 26px;
+        top: -6%;
+        -webkit-transform: rotate(-44deg);
+        transform: rotate(-44deg);
+    }
+
+
+
+    .ball-wrap a:nth-of-type(8) .globe:after {
+
+        width: 36px;
+        left: 29px;
+        top: 20%;
+        -webkit-transform: rotate(-31deg);
+        transform: rotate(-31deg);
+    }
+
+
+    .ball-wrap a:nth-of-type(9) .globe:after {
+
+        width: 28px;
+        left: 22px;
+        top: -3%;
+        -webkit-transform: rotate(-54deg);
+        transform: rotate(-54deg);
+    }
+
+
     .brand-heading {
         /*margin-top: 40%;*/
     }
@@ -2604,6 +2743,23 @@ hr.star-primary:after {
         border-right: none;
         left: 11vw;
         top: 85px;
+    }
+
+    .globe-text {
+        padding: 0;
+        font-size: 15px;
+    }
+
+    .intro {
+        padding: 0;
+    }
+
+    .intro .intro-body {
+        margin-top: 0;
+    }
+
+    #text-carousel {
+        padding: 0;
     }
 
 

@@ -7,7 +7,6 @@
     <list default="true" id="c9897491-5837-4602-b0d4-3b9c1622a3c3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.htm" afterPath="$PROJECT_DIR$/index.htm" />
     </list>
     <ignored path="corrgroup.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +29,8 @@
       <file leaf-file-name="index.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="475" column="44" selection-start-line="475" selection-start-column="44" selection-end-line="475" selection-end-column="44" />
+            <state relative-caret-position="-153">
+              <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
               <folding>
                 <element signature="e#32102#32108#0" expanded="true" />
                 <marker date="1471881960540" expanded="true" signature="28900:29592" ph="..." />
@@ -44,11 +43,21 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="3227" column="16" selection-start-line="3227" selection-start-column="16" selection-end-line="3227" selection-end-column="16" />
+            <state relative-caret-position="694">
+              <caret line="2717" column="17" selection-start-line="2717" selection-start-column="17" selection-end-line="2717" selection-end-column="17" />
               <folding>
-                <marker date="1471882273470" expanded="true" signature="2:38" ph="..." />
+                <marker date="1471886248687" expanded="true" signature="2:38" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="224" column="9" selection-start-line="224" selection-start-column="4" selection-end-line="224" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -58,16 +67,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="918">
               <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="63" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107355">
-              <caret line="6315" column="0" selection-start-line="6315" selection-start-column="0" selection-end-line="6316" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -107,6 +106,7 @@
         <option value="$PROJECT_DIR$/js/grayscale.js" />
         <option value="$PROJECT_DIR$/js/AnimatedOpacity.js" />
         <option value="$PROJECT_DIR$/index.htm" />
+        <option value="$PROJECT_DIR$/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/css/styles.css" />
       </list>
     </option>
@@ -341,12 +341,12 @@
       <workItem from="1471794389133" duration="17833000" />
       <workItem from="1471824740537" duration="5999000" />
       <workItem from="1471875572563" duration="6055000" />
-      <workItem from="1471881734060" duration="587000" />
+      <workItem from="1471881734060" duration="4513000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="356585000" />
+    <option name="totallyTimeSpent" value="360511000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -757,14 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107355">
-          <caret line="6315" column="0" selection-start-line="6315" selection-start-column="0" selection-end-line="6316" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/AnimatedOpacity.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
@@ -775,8 +767,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="475" column="44" selection-start-line="475" selection-start-column="44" selection-end-line="475" selection-end-column="44" />
+        <state relative-caret-position="-153">
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
           <folding>
             <element signature="e#32102#32108#0" expanded="true" />
             <marker date="1471881960540" expanded="true" signature="28900:29592" ph="..." />
@@ -785,12 +777,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="224" column="9" selection-start-line="224" selection-start-column="4" selection-end-line="224" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="3227" column="16" selection-start-line="3227" selection-start-column="16" selection-end-line="3227" selection-end-column="16" />
+        <state relative-caret-position="694">
+          <caret line="2717" column="17" selection-start-line="2717" selection-start-column="17" selection-end-line="2717" selection-end-column="17" />
           <folding>
-            <marker date="1471882273470" expanded="true" signature="2:38" ph="..." />
+            <marker date="1471886248687" expanded="true" signature="2:38" ph="..." />
           </folding>
         </state>
       </provider>
