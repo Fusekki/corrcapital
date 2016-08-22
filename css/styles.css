@@ -604,10 +604,10 @@ img::-moz-selection {
 
 .navbar-custom {
     margin-bottom: 0;
-    border-bottom: 1px solid white;
+    /*border-bottom: 1px solid white;*/
     text-transform: uppercase;
     font-family: 'Sansation Bold';
-    background-color: hsla(0, 0%, 11%, 1);
+    /*background-color: hsla(0, 0%, 11%, 1);*/
     padding-bottom: 10px;
 
     color: #999;
@@ -633,58 +633,58 @@ img::-moz-selection {
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
 .navbar-custom .navbar-brand .navbar-toggle:active {
-    outline: 0;
+outline: 0;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-    color: grey;
+color: grey;
 }
 
 .navbar-custom a {
-    color: #999;
+color: #999;
 }
 
 .navbar-custom .nav li a {
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
+-webkit-transition: background .3s ease-in-out;
+-moz-transition: background .3s ease-in-out;
+transition: background .3s ease-in-out;
 }
 
 .navbar-custom .nav li a:hover {
-    outline: 0;
-    color: red;
-    background-color: transparent;
+outline: 0;
+color: red;
+background-color: transparent;
 }
 
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a:active {
-    outline: 0;
-    background-color: transparent;
+outline: 0;
+background-color: transparent;
 }
 
 .navbar-custom .nav li.active {
-    outline: 0;
+outline: 0;
 }
 
 .navbar-custom .nav li.active a {
-    background-color: rgba(255,255,255,.3);
+background-color: rgba(255,255,255,.3);
 }
 
 .navbar-custom .nav li.active a:hover {
-    color: red;
+color: red;
 }
 
 .navbar-nav {
-    font-size: 4vw;
-    font-family: 'PT Sans', sans-serif;
+font-size: 4vw;
+font-family: 'PT Sans', sans-serif;
 }
 .navbar-default .navbar-toggle {
-    border-color: #8a8787;
+border-color: #8a8787;
 }
 .navbar-toggle {
-    border: 1px solid #8a8787;
-    margin-right: 23px;
+border: 1px solid #8a8787;
+margin-right: 23px;
 }
 
 
@@ -900,7 +900,7 @@ left: 349px;
     background: url('../img/stock-photo-a-real-dark-night-sky-with-plenty-of-stars-128983094.jpg');
     background-size: cover;
     z-index: -1;
-    position: absolute;
+    position: fixed;
 
     width: 100%;
     height: 100%;
@@ -1010,6 +1010,57 @@ left: 349px;
     -moz-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
     -moz-animation-timing-function: linear;
+}
+
+.carousel-fade
+.carousel-inner
+.item {
+    /*transition-property: opacity, margin;*/
+    /*transition-duration: 2s, .45s;*/
+}
+
+.carousel-fade
+.carousel-inner
+.item,
+.active.left,
+.active.right
+/*Animation for part 2 animatiion intro*/
+{
+    /*-webkit-transform: translate3d(10%, 0, 0);*/
+    /*transform: translate3d(10%, 0, 0);*/
+    /*opacity: .5;*/
+    /*margin-top: -23px;*/
+}
+.carousel-fade
+.carousel-inner
+.active,
+.next.left,
+.prev.right
+/*Animation for step 1*/
+{
+    /*-webkit-transform: translate3d(0, 50%, 0);*/
+    /*transform: translate3d(0, 50%, 0);*/
+    /*opacity: .5;*/
+    /*margin-top: 0;*/
+ }
+.carousel-fade
+.carousel-inner
+.next,
+.prev,
+.active.left,
+.active.right
+
+/*Animation for step 3?*/
+{
+    left: 0;
+    /*transform: translate3d(0, 0, 0);*/
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+}
+
+
+.carousel-control {
+    z-index: 2;
 }
 
 /*Layout around the C in Corr*/
@@ -1623,7 +1674,7 @@ left: 349px;
 }
 
 .companies-mobile {
-    /*display: table;*/
+    display: table;
 }
 
 .flip-container {
@@ -3036,7 +3087,8 @@ and (orientation : landscape){
 
     .navbar-custom.top-nav-collapse {
         padding: 10px;
-        background: hsla(0, 0%, 11%, 1)
+        background: hsla(0, 0%, 11%, 1);
+        border-bottom: 1px solid white;
     }
     .navbar-fixed-top .navbar-brand {
 
@@ -3165,7 +3217,7 @@ and (orientation : landscape){
     }
 
     .companies-mobile {
-        display: none;
+        /*display: none;*/
     }
 
 
