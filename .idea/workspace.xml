@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9897491-5837-4602-b0d4-3b9c1622a3c3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.htm" afterPath="$PROJECT_DIR$/index.htm" />
     </list>
     <ignored path="corrgroup.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,10 +41,10 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="582">
-              <caret line="1841" column="26" selection-start-line="1841" selection-start-column="26" selection-end-line="1841" selection-end-column="26" />
+            <state relative-caret-position="242">
+              <caret line="1428" column="0" selection-start-line="1428" selection-start-column="0" selection-end-line="1428" selection-end-column="0" />
               <folding>
-                <marker date="1472052114303" expanded="true" signature="2:38" ph="..." />
+                <marker date="1472053056793" expanded="true" signature="2:38" ph="..." />
               </folding>
             </state>
           </provider>
@@ -312,12 +310,12 @@
       <workItem from="1471913348323" duration="2311000" />
       <workItem from="1471952434790" duration="6551000" />
       <workItem from="1471978912230" duration="5230000" />
-      <workItem from="1472047476871" duration="3665000" />
+      <workItem from="1472047476871" duration="4397000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="378412000" />
+    <option name="totallyTimeSpent" value="379144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -745,10 +743,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="1841" column="26" selection-start-line="1841" selection-start-column="26" selection-end-line="1841" selection-end-column="26" />
+        <state relative-caret-position="242">
+          <caret line="1428" column="0" selection-start-line="1428" selection-start-column="0" selection-end-line="1428" selection-end-column="0" />
           <folding>
-            <marker date="1472052114303" expanded="true" signature="2:38" ph="..." />
+            <marker date="1472053056793" expanded="true" signature="2:38" ph="..." />
           </folding>
         </state>
       </provider>
