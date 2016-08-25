@@ -909,7 +909,7 @@ margin-right: 23px;
     box-sizing: border-box;
     /*height: 100%;*/
     object-fit: contain;
-    background: url('../img/stock-photo-earth-at-night-with-city-lights-elements-of-this-image-furnished-by-nasa-128679269.jpg');
+    background: url('../img/original/shutterstock_128679269.jpg');
     background-size: cover;
     z-index: -1;
     position: fixed;
@@ -2035,7 +2035,7 @@ margin-right: 23px;
 }
 #companies, #team {
     padding: 0;
-    background: url('../img/stock-photo-illustration-of-deep-space-rich-in-stars-356754782.jpg');
+    background: url('../img/original/shutterstock_356754782.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -2183,7 +2183,7 @@ margin-right: 23px;
 }
 
 .photo-overlay p {
-    font-size: 3vw;
+    font-size: 2vmax;
 }
 
 .team-member h3 {
@@ -2244,6 +2244,7 @@ margin-right: 23px;
 .site-info {
     display: block;
     font-size: 30px;
+    font-family: "Sansation Bold";
     font-weight: 400;
     line-height: 1;
     letter-spacing: 24px;
@@ -2883,9 +2884,10 @@ hr.star-primary:after {
 
 /*iphone 5 portrait*/
 @media only screen and
-(min-device-width: 320px) and
-(max-device-height: 568px)  and
-(orientation: portrait) {
+(min-device-width: 320px)
+/*(max-device-height: 568px)  and*/
+/*(orientation: portrait)*/
+{
 
     .ball-wrap {
         width: 300px;
@@ -3172,12 +3174,9 @@ hr.star-primary:after {
 }
 /*iphone 6 portrait*/
 @media only screen and
-(min-device-width:375px) and
-(max-device-height:667px) and
-(orientation: portrait) {
-    .brand-heading {
-        margin-top: 40%;
-    }
+(min-device-width:375px) {
+/*(max-device-height:667px) and*/
+/*(orientation: portrait) {*/
 
     .btn-circle {
         margin-top: 50%
@@ -3435,9 +3434,9 @@ hr.star-primary:after {
 
 }
 @media only screen and
-(min-device-width:414px) and
-(max-device-height:736px) and
-(orientation: portrait){
+(min-device-width:414px) {
+/*(max-device-height:736px) and*/
+/*(orientation: portrait){*/
 
 
     .ball-wrap a:nth-of-type(1) {
@@ -3628,10 +3627,9 @@ hr.star-primary:after {
         top: 104px;
     }
 
-    .intro .intro-body {
-        margin-top: 50px;
+    .intro {
+        height: 89vh;
     }
-
 
     #span_telemed {
         font-size: 2.4vmax;
@@ -3643,9 +3641,9 @@ hr.star-primary:after {
 }
 
 @media only screen and
-(min-device-width:414px) and
-(max-device-height:736px) and
-(orientation: landscape){
+(min-device-width:414px) {
+/*(max-device-height:736px) and*/
+/*(orientation: landscape){*/
 
     .brand-heading {
         margin-top: 7%;
