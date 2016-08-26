@@ -258,12 +258,9 @@
     width: 80px;
 }
 
-.light {
-    font-weight: 400;
-}
 
 .light-gray {
-    color: #fafafa;
+    color: hsla(215, 2%, 58%,1);
 }
 
 .people-icon {
@@ -278,9 +275,17 @@
 
 
 
-.text-red {
-    color: #d71919;
+.theme-red {
+    color: hsla(357, 79%, 47%, 1);
 }
+
+
+
+.theme-grey {
+    color: hsla(215, 2%, 58%,1);
+}
+
+
 
 .text-dark {
     color: hsla(47, 28%, 21%, 1)
@@ -483,9 +488,8 @@ h4 {
 }
 
 p {
-    /*color: black;*/
     margin: 0 0 25px;
-    font-size: 2.5vmax;
+    font-size: 4.4vmin;
     line-height: 1.5;
 }
 
@@ -602,13 +606,13 @@ img::-moz-selection {
     font-size: 5.5vw;
 }
 
+
 .navbar-default {
     background-color: transparent;
 }
 
 .navbar-custom {
     margin-bottom: 0;
-    /*border-bottom: 1px solid white;*/
     text-transform: uppercase;
     font-family: 'Sansation Bold';
     background-color: hsla(0, 0%, 11%, .85);
@@ -616,12 +620,17 @@ img::-moz-selection {
 
     color: #999;
 }
+
+.navbar-brand span {
+     font-size: 5.5vmin;
+ }
+
+
 .navbar-custom .navbar-brand span:nth-of-type(2){
-    font-size: 5vw;
+    font-size: 4.5vmin;
 }
-.navbar-custom .navbar-brand {
-    font-weight: 700;
-}
+
+
 
 .navbar-custom .navbar-brand:focus {
     outline: 0;
@@ -643,10 +652,6 @@ outline: 0;
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
 color: grey;
-}
-
-.navbar-custom a {
-color: #999;
 }
 
 .navbar-custom .nav li a {
@@ -684,11 +689,16 @@ font-size: 4vw;
 font-family: 'PT Sans', sans-serif;
 }
 .navbar-default .navbar-toggle {
-border-color: #8a8787;
+    border: 1px solid hsla(215, 2%, 58%,1);
+    margin-right: 20px;
 }
-.navbar-toggle {
-border: 1px solid #8a8787;
-margin-right: 23px;
+
+.navbar-toggle i {
+    color: hsla(215, 2%, 70%,1);
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: hsla(215, 2%, 90%, 1);
 }
 
 /*.page-scroll {*/
@@ -708,10 +718,8 @@ margin-right: 23px;
 /*Layout as Stars*/
 
 .carousel-content {
-    color:black;
-    /*display:flex;*/
     align-items:center;
-    color: gainsboro;
+    color: hsla(215, 2%, 90%, 1);
 }
 
 #text-carousel {
@@ -1028,48 +1036,14 @@ margin-right: 23px;
     -moz-animation-timing-function: linear;
 }
 
-.carousel-fade
-.carousel-inner
-.item {
-    /*transition-property: opacity, margin;*/
-    /*transition-duration: 2s, .45s;*/
-}
 
-.carousel-fade
-.carousel-inner
-.item,
-.active.left,
-.active.right
-/*Animation for part 2 animatiion intro*/
-{
-    /*-webkit-transform: translate3d(10%, 0, 0);*/
-    /*transform: translate3d(10%, 0, 0);*/
-    /*opacity: .5;*/
-    /*margin-top: -23px;*/
-}
-.carousel-fade
-.carousel-inner
-.active,
-.next.left,
-.prev.right
-/*Animation for step 1*/
-{
-    /*-webkit-transform: translate3d(0, 50%, 0);*/
-    /*transform: translate3d(0, 50%, 0);*/
-    /*opacity: .5;*/
-    /*margin-top: 0;*/
- }
 .carousel-fade
 .carousel-inner
 .next,
 .prev,
 .active.left,
-.active.right
-
-/*Animation for step 3?*/
-{
+.active.right {
     left: 0;
-    /*transform: translate3d(0, 0, 0);*/
     -webkit-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -100%, 0);
 }
@@ -1079,13 +1053,6 @@ margin-right: 23px;
     z-index: 2;
 }
 
-/*Layout around the C in Corr*/
-.circle-wrap {
-    /*width: 400px;*/
-    position: inherit;
-    margin: auto;
-    display: table;
-}
 .circle {
 
     background-color: rgba(204, 0, 102, 0);
@@ -1432,35 +1399,29 @@ margin-right: 23px;
 }
 
 .intro .intro-body {
-    /*display: table-cell;*/
-    margin-top: 20%;
+    display: table-cell;
     vertical-align: middle;
     transition: opacity .25s ease-in-out;
-    /*margin-top: 8%;*/
-    /*background: url('../img/stock-photo-blue-sunrise-view-of-earth-from-space-154320125.jpg');*/
-    /*background-size: cover;*/
 }
 
-/*.intro .intro-body {*/
-    /*display: table-cell;*/
-    /*vertical-align: middle;*/
-    /*transition: opacity .25s ease-in-out;*/
-/*}*/
 .intro-body.fadeAway {
     opacity: 0;
 }
 
-.intro .intro-body .brand-heading {
-    /*font-size: 70px;*/
-    font-size: 7vw;
+.brand-heading {
     white-space: nowrap;
 }
 
 
 
-.intro .intro-body .brand-heading .text-heading-medium {
-    font-size: 6.5vw;
-    /*font-size: 65px;*/
+.brand-heading span {
+    font-size: 7.5vmin;
+    color: hsla(357, 79%, 47%, 1);
+}
+
+.brand-heading span span {
+    font-size: 6vmin;
+    color: hsla(215, 2%, 58%,1);
 }
 
 .intro .intro-body .intro-text {
@@ -1469,11 +1430,6 @@ margin-right: 23px;
 
 .intro_bottom {
     display: none;
-}
-
-.maintitle {
-    z-index: 0;
-    /*height: 10vh;*/
 }
 
 .shapewrap {
@@ -2555,26 +2511,65 @@ hr.star-primary:after {
 
 #portfolioModal3 {
     background-image: url('../img/stock-photo-wind-turbines-in-oiz-eolic-park-at-sunset-269002526.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
 #portfolioModal2 {
     background-image: url('../img/stock-photo-prescription-rx-medicine-bottles-on-white-background-243602188 .jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
 #portfolioModal1 {
     background-image: url('../img/stock-photo-portrait-of-beautiful-blonde-woman-in-black-dress-fashion-photo-127612799.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
 #portfolioModal5 {
     background-image: url('../img/stock-photo-vienna-austria-august-the-leopold-museum-housed-in-the-museumsquartier-in-vienna-is-318414821.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
 #portfolioModal4 {
     background-image: url('../img/stock-photo-closeup-of-an-employee-benefit-package-86250418.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#portfolioModal14 {
+    background-image: url('../img/stock-photo-chained-aquasphere-10716865.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#portfolioModal12 {
+    background-image: url('../img/stock-photo-technician-plug-in-cpu-microprocessor-to-motherboard-socket-workshop-background-350350565.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#portfolioModal11 {
+    background-image: url('../img/stock-photo-three-little-houses-made-of-plastic-are-laying-on-one-dollar-banknote-business-concept-230159629.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -2874,12 +2869,6 @@ hr.star-primary:after {
         padding: 0;
     }
 
-    #text-carousel {
-        padding: 0;
-    }
-
-
-
 }
 
 /*iphone 5 portrait*/
@@ -3088,11 +3077,6 @@ hr.star-primary:after {
 
     .intro {
         padding: 0;
-    }
-
-    .intro .intro-body {
-        display: block;
-        margin-top: 32%;
     }
 
     .navbar-brand {
