@@ -45,7 +45,8 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll light-gray" href="#page-top">
-                    <span class="theme-red">Corr</span><span class="theme-grey"> Group</span>
+                    <!--<img src="img/corr-label.png" />-->
+                    <span class="theme-red">Corr</span><span class="pipe">|</span><span class="theme-grey">Group</span>
                 </a>
             </div>
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
@@ -75,7 +76,8 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-8 col-md-offset-2 maintitle">
-                                <h1 class="brand-heading animated bounceIn theme-red"><span>Corr<span class="theme-grey"> Group</span> </span> </h1>
+                                <img class="brand-image" src="img/corr-label.png" />
+                                <h1 class="brand-heading animated bounceIn theme-red"><span>Corr<span class="pipe">|</span><span class="theme-grey">Group</span> </span> </h1>
                             </div>
                             <div id="text-carousel" class="carousel slide carousel-fade" data-ride="carousel">
                                 <!-- Wrapper for slides -->
@@ -102,9 +104,9 @@
                                 </div>
 
                             </div>
-                            <div class="half_circle_navigation">
-                                <div class="circle-wrap">
-                                </div>
+                            <div class="navigation-stars">
+                                <!--<div class="circle-wrap">-->
+                                <!--</div>-->
                                 <div class="ball-wrap">
                                     <a href="#portfolioModal5" data-toggle="modal" class="wheel-link inline-flex" id="wheel-link-one">
                                         <div class="globe-text" id="globe-text-first">Art</div>
@@ -167,18 +169,19 @@
                                         <div class="globe-text globe-text-right">Technology</div>
                                     </a>
                                 </div>
-                                <a href="#company" class="btn btn-circle page-scroll animated pulse infinite">
-                                    <i class="fa fa-angle-double-down"></i>
-                                </a>
+
                             </div>
+                            <a href="#company" class="btn btn-circle page-scroll animated pulse infinite">
+                            <i class="fa fa-angle-double-down"></i>
+                            </a>
                         </div>
                         </div>
                     </div>
                 </div>
             </header>
             <div class="container full_width" id="company">
-                <div class="section_header">
-                    <h2 class="text-black text-center">Companies</h2>
+                <div class="section-header">
+                    <h2 class="text-center">Companies</h2>
                 </div>
             <section id="companies" class="container content-section text-center">
                     <row>
@@ -283,8 +286,8 @@
             <section id="team" class="container text-center content-section text-black">
                     <div class="row">
                         <div class="col-lg-12" id="team_column">
-                            <div class="section_header">
-                                <h2 class="section-heading text-black">People</h2>
+                            <div class="section-header">
+                                <h2>People</h2>
                             </div>
                         </div>
                     </div>
@@ -328,8 +331,11 @@
                                     <span>
                                         <img src="img/ajbw.jpg" class="img-responsive" alt=""></span>
                                 <div class="photo-overlay">
+
                                     <h3>Roseann Ragano</h3>
                                     <p>Managing Director</p>
+
+
                                     <a class="button" href="#portfolioModal9" data-toggle="modal">Bio<i class="fa fa-book" aria-hidden="true"></i></a>
                                 </div>
                             </div>
@@ -337,19 +343,17 @@
             </section>
             <!-- Contact Section -->
             <section id="contact" class="container content-section text-center text-white">
-                <div class="row">
-                    <div class="section_header col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <div class="site-info">
-                            <strong>CORR CAPITAL</strong>
-                        </div>
-                        <p class="email-link"><a href="mailto:info@corrcapital.com">info@corrcapital.com</a>
+                <div class="row" id="contact-section">
+                    <div class="section-header col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="site-info">CORR<span class="pipe">|</span><span>GROU</span><span>P</span></div>
+                        <p class="email-link"><a class="contact-email" href="mailto:info@corrcapital.com">info@corrcapital.com</a>
                         </p>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-6">
                         <div class="contact-info">
                             <h6>CALL US</h6>
                             <h8>212-679-2490</h8>
-                            <p class="address">Corr Capital<br>
+                            <p class="address"> <span class="address-company">CORR GROUP<br></span>
                             570 Lexington Ave 17th Floor<br>
                             New York, NY 10022</h5>
                         </div>
@@ -362,7 +366,7 @@
             <!-- Footer -->
             <footer>
                 <div class="container text-center">
-                    <p class="text-grey">&copy; Phillip Stafford 2016</p>
+                    <p class="theme-grey copyright">&copy; Phillip Stafford 2016</p>
                 </div>
             </footer>
 

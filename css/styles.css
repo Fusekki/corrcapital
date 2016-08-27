@@ -473,7 +473,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-weight: 700;
+    /*font-weight: 700;*/
     letter-spacing: 1px;
 }
 
@@ -498,24 +498,25 @@ p {
     margin-right: 0;
 }
 
-.section_header {
-    padding: 3.5em 0 2em;
+.section-header {
+    padding: 2em 0;
+    color: hsla(0, 0%, 0%, 1);
     /*background-color: white;*/
     /*margin-bottom: 4em;*/
 }
 
-.section_header h2 {
+.section-header h2 {
     font-size: 3vmax;
     font-weight: bold;
     letter-spacing: 0.5em;
 }
 
-.section_header h1:after,
-.section_header h2:after,
-.section_header h3:after,
-.section_header h4:after,
-.section_header h5:after,
-.section_header h6:after {
+.section-header h1:after,
+.section-header h2:after,
+.section-header h3:after,
+.section-header h4:after,
+.section-header h5:after,
+.section-header h6:after {
     content: "";
     display: block;
     width: 3.875em;
@@ -524,19 +525,17 @@ p {
     margin: 1.500em auto 0;
     position: relative;
     left: -3px;
-    border-top: 1px solid grey;
-    border-bottom: 1px solid grey;
+    border-top: 1px solid hsla(215, 2%, 58%,1);
+    border-bottom: 1px solid hsla(215, 2%, 58%,1);
 
 }
 
-.section_header h1::after,
-.section_header h2::after,
-.section_header h3::after,
-.section_header h4::after,
-.section_header h5::after,
-.section_header h6::after {
-    /*background-color: #FFFFFF;*/
-    /*background: red;*/
+.section-header h1::after,
+.section-header h2::after,
+.section-header h3::after,
+.section-header h4::after,
+.section-header h5::after,
+.section-header h6::after {
     margin-top: .4em;
 }
 
@@ -603,7 +602,17 @@ img::-moz-selection {
 }
 
 .navbar-brand {
-    font-size: 5.5vw;
+    font-size: 3vmax;
+    line-height: 1.5;
+}
+
+.navbar-brand span:nth-of-type(1) {
+    letter-spacing: 3px;
+}
+
+
+.navbar-brand span:nth-of-type(3) {
+    letter-spacing: 1.5px;
 }
 
 
@@ -614,22 +623,12 @@ img::-moz-selection {
 .navbar-custom {
     margin-bottom: 0;
     text-transform: uppercase;
-    font-family: 'Sansation Bold';
+    font-family: 'Sansation';
     background-color: hsla(0, 0%, 11%, .85);
     padding-bottom: 10px;
 
     color: #999;
 }
-
-.navbar-brand span {
-     font-size: 5.5vmin;
- }
-
-
-.navbar-custom .navbar-brand span:nth-of-type(2){
-    font-size: 4.5vmin;
-}
-
 
 
 .navbar-custom .navbar-brand:focus {
@@ -701,6 +700,15 @@ font-family: 'PT Sans', sans-serif;
     color: hsla(215, 2%, 90%, 1);
 }
 
+.pipe {
+    color: hsla(215, 2%, 58%,1);
+    font-family: initial;
+    font-size: 30px;
+    line-height: 0;
+    position: relative;
+    top: 1px;
+    letter-spacing: 3px;
+}
 /*.page-scroll {*/
     /*background:  hsla(0, 0%, 11%, 1);*/
 
@@ -970,38 +978,47 @@ font-family: 'PT Sans', sans-serif;
 
 
 .brand-heading {
+    font-size: 5vmax;
+    font-family: 'Sansation', 'Sansation Light', 'Sansation Bold';
 
     margin-top: 35px;
-    /*background: #656565;*/
-    /*width: 95%;*/
     margin: auto;
     color: red;
-    letter-spacing: 10px;
-    /*padding: 18px;*/
-}
+
+    white-space: nowrap;
+   }
+
+
 .brand-heading span {
-    /*background: #656565;*/
-    padding: 18px;
-    /*border-top-left-radius: 45px;*/
-    /*border-bottom-left-radius: 45px;*/
+    color: hsla(357, 79%, 47%, 1);
+    letter-spacing: 15px;
+
+}
+
+.brand-heading .pipe {
+    font-size: 45px;
 }
 
 .brand-heading span span {
-    padding: 0;
+    color: hsla(215, 2%, 58%,1);
+    letter-spacing: 7px;
+}
+
+.brand-image {
+    margin: 0 0 10px -7px;
 }
 
 
 
 .btn-circle {
-    display: none;
     width: 70px;
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid white;
+    border: 2px solid hsla(215, 2%, 58%,1);
     border-radius: 100%!important;
     font-size: 40px;
-    color: indianred;
+    color: hsla(357, 79%, 47%, 1);
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -1351,7 +1368,7 @@ font-family: 'PT Sans', sans-serif;
 
 /*Changed for half-circle navigation on C*/
 
-.half_circle_navigation {
+.navigation-stars {
     /*display: none;*/
 }
 
@@ -1408,21 +1425,6 @@ font-family: 'PT Sans', sans-serif;
     opacity: 0;
 }
 
-.brand-heading {
-    white-space: nowrap;
-}
-
-
-
-.brand-heading span {
-    font-size: 7.5vmin;
-    color: hsla(357, 79%, 47%, 1);
-}
-
-.brand-heading span span {
-    font-size: 6vmin;
-    color: hsla(215, 2%, 58%,1);
-}
 
 .intro .intro-body .intro-text {
     font-size: 18px;
@@ -1633,11 +1635,6 @@ font-family: 'PT Sans', sans-serif;
     margin-bottom: 0;
 }
 
-
-
-.brand-heading, .flip-container {
-    font-family: "Sansation Bold";
-}
 
 .companies-desktop {
     display: none;
@@ -2062,7 +2059,7 @@ font-family: 'PT Sans', sans-serif;
     padding-right: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -2082,7 +2079,7 @@ font-family: 'PT Sans', sans-serif;
 
 .photo-overlay h3,
 .photo-overlay p {
-    color: white;
+    color: hsla(215, 2%, 90%, 1);
 }
 
 
@@ -2124,7 +2121,7 @@ font-family: 'PT Sans', sans-serif;
 
     display: flex; /* For centering text inside .photo-overlay */
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     background: rgba(0,0,0, .5);
 }
@@ -2133,8 +2130,8 @@ font-family: 'PT Sans', sans-serif;
 
 
 .photo-overlay h3 {
-
-    font-size: 3.3vh;
+    /*margin-top: 150px;*/
+    font-size: 2.5vmax;
     white-space: nowrap;
 }
 
@@ -2152,17 +2149,17 @@ font-family: 'PT Sans', sans-serif;
 
 /*PAGE 3 ID START*/
 
-#company .section_header {
-    background: white;
+#company .section-header {
+    background: hsla(215, 2%, 90%, 1);
 }
 
 #team {
     width: 100%;
-    background: white;
+    background: hsla(215, 2%, 90%, 1);
 }
 
-#team .section_header {
-    background: white;
+#team .section-header {
+    background: hsla(215, 2%, 90%, 1);
 }
 
 #team_column {
@@ -2179,9 +2176,19 @@ font-family: 'PT Sans', sans-serif;
     margin-top: 15px;
     font-weight: 700;
     font-size: 14px;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif
 
 }
 
+.address-company {
+    font-family: 'Sansation', 'Sansation Light', 'Sansation Bold';
+    letter-spacing: 7px;
+}
+
+
+.copyright {
+    font-size: 7.5px;
+}
 .contact-info {
     /*padding: 3.5em 0 2em;*/
     /*margin-top: 20px;*/
@@ -2197,16 +2204,39 @@ font-family: 'PT Sans', sans-serif;
     margin-top: 15px;
 }
 
+
+.contact-email {
+    color: hsla(215, 2%, 58%,1);
+}
+.contact-info {
+    color: hsla(215, 2%, 58%,1);
+}
 .site-info {
+    color: hsla(215, 2%, 58%,1);
     display: block;
-    font-size: 30px;
-    font-family: "Sansation Bold";
+    /*font-size: 30px;*/
+    font-size: 4.5vmax;
+    font-family: "Sansation";
     font-weight: 400;
     line-height: 1;
-    letter-spacing: 24px;
     font-weight: 700 !important;
-    color: #404040;
+
+    letter-spacing: 15px
 }
+
+.site-info span:nth-of-type(2) {
+    letter-spacing: 7px;
+}
+
+.site-info span:nth-of-type(3) {
+    letter-spacing: 0;
+}
+
+.site-info .pipe {
+    letter-spacing: 15px;
+    font-size: 55px;
+}
+
 
 /*PAGE 4 CLASS END*/
 
@@ -2836,10 +2866,6 @@ hr.star-primary:after {
         /*margin-top: 40%;*/
     }
 
-    .btn-circle {
-        margin-top: 50%;
-    }
-
     .circle {
 
         height: 200px;
@@ -2861,7 +2887,7 @@ hr.star-primary:after {
         font-size: 15px;
     }
 
-    .half_circle_navigation {
+    .navigation-stars {
         display: none;
     }
 
@@ -3044,10 +3070,6 @@ hr.star-primary:after {
 
     .brand-heading {
         /*margin-top: 40%;*/
-    }
-
-    .btn-circle {
-        margin-top: 50%;
     }
 
     .circle {
@@ -4012,7 +4034,7 @@ and (orientation : landscape){
         top: 6px;
     }
 
-    .half_circle_navigation {
+    .navigation-stars {
         position: absolute;
         display: block;
         width: 80%;
@@ -4158,7 +4180,7 @@ and (orientation : landscape){
         font-size: 1.5em;
     }
 
-    .section_header {
+    .section-header {
         padding: 3.5em 0 2em;
         /*margin-bottom: 4em;*/
     }
