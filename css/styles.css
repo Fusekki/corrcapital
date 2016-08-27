@@ -282,9 +282,17 @@
 
 
 .theme-grey {
-    color: hsla(215, 2%, 58%,1);
+    color: hsla(215, 2%, 58%, 1);
 }
 
+
+.theme-dark-grey {
+    color: hsla(215, 2%, 21%, 1);
+}
+
+.theme-night-grey {
+    color: hsla(215, 2%, 13%, 1);
+}
 
 
 .text-dark {
@@ -357,8 +365,8 @@ body {
 .btn {
     border-radius: 0;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
+    /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    font-weight: bold;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
@@ -1005,7 +1013,7 @@ font-family: 'PT Sans', sans-serif;
 }
 
 .brand-image {
-    margin: 0 0 10px -7px;
+    margin: 0 0 20px -7px;
 }
 
 
@@ -2284,6 +2292,30 @@ font-family: 'PT Sans', sans-serif;
 
 /*MODAL 1 BEGIN*/
 
+#header-benefits {
+    margin-left: -8px;
+}
+
+#header-entertainment {
+    font-size: 4.5vmax;
+    margin-left: -12px;
+}
+
+#header-pr {
+    font-size: 4.3vmax;
+    margin-left: -22px;
+}
+
+#header-re {
+    font-size: 5.5vmax;
+    margin-left: -15px;
+}
+
+#header-tech {
+    font-size: 5vmax;
+    margin-left: -6px;
+}
+
 hr.bio {
     margin: 25px auto 30px;
     padding: 0;
@@ -2294,49 +2326,35 @@ hr.bio {
     color: grey;
 }
 
-hr.star-light,
-hr.star-primary {
+hr.globe-primary {
     margin: 25px auto 30px;
     padding: 0;
     max-width: 180px;
-    border: 0;
+    /*border: 0;*/
+    border-color: hsla(215, 2%, 21%, 1);
     border-top: solid 3px;
     text-align: center;
 }
 
-hr.star-light:after,
-hr.star-primary:after {
-    content: "\f1b2";
+hr.globe-primary:after {
+    content: "\f0ac";
     display: inline-block;
     position: relative;
-    top: -.8em;
+    top: -.7em;
     padding: 0 .25em;
     font-family: FontAwesome;
-    font-size: 1em;
+    font-size: 2em;
 }
 
 hr.star-light:hover:after,
-hr.star-primary:hover:after
+hr.globe-primary:hover:after
 {
     transform: rotate(-20deg);
     transition: transform .5s cubic-bezier(.7,-0.39,.31,1.38);
 }
 
-hr.star-light {
-    border-color: #fff;
-}
-
-hr.star-light:after {
-    color: #fff;
-    background-color: hsla(229, 60%, 21%, 1);
-}
-
-hr.star-primary {
-    border-color: #2c3e50;
-}
-
-hr.star-primary:after {
-    color: #2c3e50;
+hr.globe-primary:after {
+    color: hsla(215, 2%, 21%, 1);
 }
 
 .h2-medium {
@@ -2357,6 +2375,17 @@ hr.star-primary:after {
 
 }
 
+.modal-body > p {
+    color: hsla(215, 2%, 13%, 1);
+    /*margin-bottom: 3em;*/
+    font-size: 3vmax;
+    text-align: justify;
+}
+
+
+.justify-align {
+    text-align: justify;
+}
 
 .left-align {
     text-align: left;
@@ -2438,9 +2467,16 @@ hr.star-primary:after {
     z-index: 2;
 }
 
+.portfolio-modal {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .portfolio-modal .modal-content {
     color: black;
-    padding: 100px 0;
+    padding: 75px 0 50px 0;
     min-height: 100%;
     border: 0;
     border-radius: 0;
@@ -2453,13 +2489,8 @@ hr.star-primary:after {
 .portfolio-modal .modal-content h2 {
     margin: 0;
     font-size: 6vmax;
-    color: black;
     font-family: "Sansation Bold";
-}
-
-.portfolio-modal .modal-content h2 span:nth-of-type(2) {
-    font-size: 5vmax;
-
+    white-space: nowrap;
 }
 
 .portfolio-modal .modal-content img {
@@ -2472,10 +2503,10 @@ hr.star-primary:after {
 
 .portfolio-modal .close-modal {
     position: absolute;
-    top: 25px;
-    right: 25px;
-    width: 75px;
-    height: 75px;
+    top: 15px;
+    right: 10px;
+    width: 25px;
+    height: 25px;
     background-color: transparent;
     cursor: pointer;
 }
@@ -2500,16 +2531,9 @@ hr.star-primary:after {
     background-color: white;
 }
 
-.portfolio-modal .close-modal .box-close {
-    color: #8a8787;
-    z-index: 1051;
-    width: 1px;
-    height: 75px;
-    margin-left: 60px;
-}
 
-.portfolio-modal .close-modal .box-close i {
-    font-size: 2em;
+.portfolio-modal .close-modal i {
+    font-size: 2.5em;
 }
 
 
@@ -2565,10 +2589,10 @@ hr.star-primary:after {
 
 #portfolioModal5 {
     background-image: url('../img/stock-photo-vienna-austria-august-the-leopold-museum-housed-in-the-museumsquartier-in-vienna-is-318414821.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    /*background-attachment: fixed;*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
 }
 
 #portfolioModal4 {
@@ -2639,6 +2663,10 @@ hr.star-primary:after {
     font-size: 3.5vmax;
 }
 
+.hr-span {
+    width: 100%;
+}
+
 
 .strategy-table {
     position: relative;
@@ -2650,6 +2678,14 @@ hr.star-primary:after {
 .span-in-line {
     display: inline;
 
+}
+
+#subheader-entertainment {
+    font-size: 3vmax;
+}
+
+#subheader-pr{
+    font-size: 3vmax;
 }
 
 .table-sm > tbody >tr >td {
@@ -2665,7 +2701,7 @@ hr.star-primary:after {
 }
 
 .text-margin-bottom {
-    margin-bottom: 3vh;
+    margin: 1vmax 0 3vmax;
 }
 
 .text-underline {
