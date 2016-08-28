@@ -2181,6 +2181,8 @@ font-family: 'PT Sans', sans-serif;
     justify-content: flex-end;
     align-items: center;
     background: rgba(0,0,0, .5);
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 
@@ -2376,9 +2378,10 @@ hr.bio {
 }
 
 hr.globe-primary {
-    margin: 25px auto 30px;
+    /*margin: 25px auto 30px;*/
+    margin: 4.3vmax auto 5.2vmax;
     padding: 0;
-    max-width: 180px;
+    max-width: 32vmax;
     /*border: 0;*/
     border-color: hsla(215, 2%, 21%, 1);
     border-top: solid 3px;
@@ -2392,7 +2395,7 @@ hr.globe-primary:after {
     top: -.7em;
     padding: 0 .25em;
     font-family: FontAwesome;
-    font-size: 2em;
+    font-size: 3.4vmax;
 }
 
 hr.star-light:hover:after,
@@ -2600,7 +2603,7 @@ hr.globe-primary:after {
 
 .company-modal .close-modal i,
 .bio-modal .close-modal i {
-    font-size: 2.5em;
+    font-size: 4.5vmax;
 }
 
 
@@ -3038,21 +3041,80 @@ hr.globe-primary:after {
 
 }
 
+
+/*iphone 6 portrait*/
+@media only screen and
+(min-device-width:375px) {
+/*(max-device-height:667px) and*/
+/*(orientation: portrait) {*/
+
+
+    .content-section {
+        padding-top: 0;
+    }
+
+    .span-subheader {
+        font-size: 4vmax;
+    }
+
+    .text-margin-bottom {
+        /*margin: 3vmax auto;*/
+    }
+}
+
+
+/*iphone 6 plus portrait*/
+@media only screen and
+(min-device-width:414px) {
+    /*(max-device-height:736px) and*/
+    /*(orientation: portrait){*/
+    .copyright {
+        font-size: 10px;
+    }
+
+    p {
+        font-size: 3.2vmax;
+    }
+
+    .bio-modal .modal-body > p {
+        font-size: 2.5vmax;
+    }
+    .content-section {
+        padding-top: 0;
+    }
+
+    .intro {
+        height: 89vh;
+    }
+
+    #span_telemed {
+        font-size: 2.4vmax;
+    }
+
+    #text-carousel {
+        margin-top: 10%;
+    }
+}
+
 /*iphone 5 LS*/
 @media only screen and
-(min-device-width: 320px) and
-(max-device-height: 568px) and
-(orientation: landscape) {
+(min-device-width: 568px) {
+
     .bg-image {
         height: 120vh;
     }
 
     .brand-heading {
-        margin-top: 7%;
+        margin-top: 2%;
+    }
+
+    .brand-image {
+        max-width: 50px;
+        margin: 25px 0 10px -7px;
     }
 
     .btn-circle {
-        margin-top: 10%
+        margin: 1% 0 5%;
     }
 
     .circle {
@@ -3088,12 +3150,27 @@ hr.globe-primary:after {
         font-size: 4.3vh;
     }
 
+    p {
+        font-size: 3vmax;
+    }
     .photo-container img {
         max-width: 80%;
     }
 
+    #text-carousel {
+        margin-top: 7%;
+        padding: 0 5%;
+    }
+
     .tile-mobile .text-overlay h2 span {
         font-size: 5.5vw;
+    }
+
+    .tile-mobile:nth-of-type(1), .tile-mobile:nth-of-type(2), .tile-mobile:nth-of-type(3) {
+        margin-bottom: 10%;
+    }
+    .tile-mobile:nth-of-type(1) {
+        margin-top: 10%;
     }
 
     .tile-mobile .text-overlay h2 span:nth-of-type(2) {
@@ -3104,31 +3181,14 @@ hr.globe-primary:after {
         font-size: 2.5vw;
     }
 }
-/*iphone 6 portrait*/
-@media only screen and
-(min-device-width:375px) {
-/*(max-device-height:667px) and*/
-/*(orientation: portrait) {*/
 
 
-    .content-section {
-        padding-top: 0;
-    }
-
-    .span-subheader {
-        font-size: 4vmax;
-    }
-
-    .text-margin-bottom {
-        /*margin: 3vmax auto;*/
-    }
-}
 /*iphone 6 landscape*/
 
 @media only screen and
-(min-device-width: 375px) and
-(max-device-height: 667px) and
-(orientation: landscape) {
+(min-device-width: 667px) {
+    /*(max-device-height: 667px) and*/
+    /*(orientation: landscape) {*/
 
     .brand-heading {
         /*width: 67%;*/
@@ -3175,7 +3235,7 @@ hr.globe-primary:after {
     }
 
     .photo-overlay h3 {
-        font-size: 5.3vmax;
+        font-size: 3vmax;
     }
 
     .photo-overlay p {
@@ -3190,49 +3250,11 @@ hr.globe-primary:after {
     }
 
 }
+/*iphone 6 plus landscape*/
 @media only screen and
-(min-device-width:414px) {
-/*(max-device-height:736px) and*/
-/*(orientation: portrait){*/
-    .copyright {
-        font-size: 10px;
-    }
-
-    p {
-        font-size: 3.2vmax;
-    }
-
-    .bio-modal .modal-body > p {
-        font-size: 2.5vmax;
-    }
-    .content-section {
-        padding-top: 0;
-    }
-    .brand-heading {
-        margin-top: 40%;
-    }
-
-    .btn-circle {
-        margin-top: 50%
-    }
-
-    .intro {
-        height: 89vh;
-    }
-
-    #span_telemed {
-        font-size: 2.4vmax;
-    }
-
-    #text-carousel {
-        margin-top: 10%;
-    }
-}
-
-@media only screen and
-(min-device-width:414px) {
-/*(max-device-height:736px) and*/
-/*(orientation: landscape){*/
+(min-device-width:736px) {
+    /*(max-device-height:736px) and*/
+    /*(orientation: landscape){*/
 
     .brand-heading {
         margin-top: 7%;
@@ -3267,27 +3289,15 @@ hr.globe-primary:after {
     }
 }
 
-/*@media only screen and*/
-/*(max-width:767px) {*/
-    /*ul.banner-social-buttons li {*/
-        /*display: block;*/
-        /*margin-bottom: 20px;*/
-        /*padding: 0;*/
-    /*}*/
-
-    /*ul.banner-social-buttons li:last-child {*/
-        /*margin-bottom: 0;*/
-    /*}*/
-/*}*/
-
-/*ipad*/
+/*ipad Portrait*/
 
 @media only screen and
 (min-device-width:768px) {
 /*and (max-device-width : 1024px)*/
 /*and (orientation : portrait){*/
-    .company-modal .close-modal, .bio-modal .close-modal {
-        right: 5vmax;
+
+    .company-modal .close-modal i, .bio-modal .close-modal i {
+        font-size: 3.5vmax;
     }
 
     .container {
@@ -3325,16 +3335,14 @@ hr.globe-primary:after {
 /*ipad landscape*/
 
 @media only screen and
-(min-device-width:768px)
-and (max-device-width : 1024px)
-and (orientation : landscape){
+(min-device-width:1024px) {
 
     .brand-heading {
         margin-top: 7%;
     }
 
     .btn-circle {
-        margin-top: 10%
+        display: none;
     }
 
     .circle {
@@ -3349,6 +3357,9 @@ and (orientation : landscape){
 
     .container {
         width: 100%
+    }
+    .intro .intro-body {
+        vertical-align: top;
     }
 
     .navbar-brand {
@@ -3695,10 +3706,12 @@ and (orientation : landscape){
         transition: all .3s;
     }
 
-    p {
-        margin: 0 0 35px;
-        font-size: 20px;
-        line-height: 1.6;
+    .contact-email {
+        font-size: 2vmax;
+    }
+
+    #contact-address {
+        padding: 1.75em 0 2em;
     }
 
     .carousel-content p {
@@ -3729,9 +3742,6 @@ and (orientation : landscape){
         padding: 10px 30px 10px 30px;
     }
 
-    .company-modal .close-modal .box-close {
-        margin-left: 30px;
-    }
 
     .company-modal .close-modal .box-close i {
         font-size: 1.5em;
@@ -3742,6 +3752,13 @@ and (orientation : landscape){
         /*margin-bottom: 4em;*/
     }
 
+    .section-header h2 {
+        font-size: 3vmax;
+    }
+
+    .site-info {
+        font-size: 3vmax;
+    }
     #span-mobile-telemed {
         font-size: 1.7vmax;
     }
@@ -3773,27 +3790,27 @@ and (orientation : landscape){
 }
 
 
-@media only screen and
-(min-width:815px) {
-    .back {
-        /*padding-top: 0;*/
-    }
-}
+/*@media only screen and*/
+/*(min-width:815px) {*/
+    /*.back {*/
+        /*!*padding-top: 0;*!*/
+    /*}*/
+/*}*/
 
-@media only screen and
-(min-width: 992px) {
-    .contact-info {
-        padding: 3.5em 0 2em;
-    }
-    .container {
+/*@media only screen and*/
+/*(min-width: 992px) {*/
+    /*.contact-info {*/
+        /*padding: 3.5em 0 2em;*/
+    /*}*/
+    /*.container {*/
 
-         width: 100%;
-    }
-}
+         /*width: 100%;*/
+    /*}*/
+/*}*/
 @media only screen and
 (min-width:1024px) {
-    .back {
-        /*padding-top: 0;*/
+    .intro {
+        height: 88vh;
     }
 
 }
