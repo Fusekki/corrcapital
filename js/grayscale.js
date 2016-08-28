@@ -28,6 +28,22 @@ $(function() {
         event.preventDefault();
     });
 
+    console.log('here.');
+
+    $('a.page-scroll').bind('hover', function(event) {
+        if ($(".brand-image-logo").hasClass('animated')) {
+            $(".brand-image-logo").removeClass("animated");
+            $(".brand-image-logo").removeClass("zoomIn");
+        } else {
+            $(".brand-image-logo").addClass("animated");
+            $(".brand-image-logo").addClass("zoomIn");
+
+
+        }
+        event.preventDefault();
+
+    });
+
 });
 
 // Closes the Responsive Menu on Menu Item Click

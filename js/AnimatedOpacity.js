@@ -2,7 +2,7 @@ var x = 1;
 var tiles = $('.tile').get();
 var tile;
 var wheel;
-var wheels = $('.wheel-link').get();
+var wheels = $('.constellation').get();
 var fade = false;
 var r;
 var c = 0;
@@ -75,7 +75,7 @@ function addFadeListeners() {
     }
 
     // Initiate Fade on first wheel
-    var $elem = $('#wheel-link-one');
+    var $elem = $('#constellation-one');
     console.log('Adding show to first wheel');
     $elem.addClass('wheel-show');
 }
@@ -119,7 +119,7 @@ function tileFadein(e) {
 function wheelFadein(e) {
 
     if (!wheel) {
-        wheel = $('#wheel-link-one');
+        wheel = $('#constellation-one');
 
     }
 
