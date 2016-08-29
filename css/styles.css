@@ -2443,6 +2443,7 @@ hr.globe-primary:after {
     }
 
 
+
 }
 
 
@@ -2552,6 +2553,10 @@ hr.globe-primary:after {
     }
     .photo-container img {
         max-width: 80%;
+    }
+
+    .photo-overlay {
+        max-width: 80%
     }
 
     #text-carousel {
