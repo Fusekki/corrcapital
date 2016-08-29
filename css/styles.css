@@ -2541,7 +2541,8 @@ hr.globe-primary:after {
     }
 
     .navbar-custom .navbar-brand span:nth-of-type(2) {
-        font-size: 4.5vh;
+        /*font-size: 4.5vh;*/
+        font-size: 9vh;
     }
 
     .navbar-nav {
@@ -2697,10 +2698,11 @@ hr.globe-primary:after {
     }
 
     .navbar-custom .navbar-brand span:nth-of-type(2) {
-        font-size: 3vw;
+        font-size: 4vh;
     }
     .navbar-nav {
         font-size: 2.5vw;
+        margin-top: 3%;
     }
 
     .text-overlay h3 {
@@ -2758,6 +2760,7 @@ hr.globe-primary:after {
     }
     .navbar-nav {
         font-size: 1.75vw;
+        margin-top: 0;
     }
 
 
@@ -3226,10 +3229,15 @@ and (min-width:1280px) {
 
 @media only screen
 and (min-width:1920px)
-and (min-height:1000px) {
+and (min-height:999px) {
     #text-carousel {
         margin-top: 13%;
     }
+
+    .navbar-custom .navbar-brand span:nth-of-type(2) {
+        font-size: 4.5vmin;
+    }
+
     .navigation-stars {
         top: 85%;
     }
