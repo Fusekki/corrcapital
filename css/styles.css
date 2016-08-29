@@ -1988,7 +1988,6 @@ hr.globe-primary:after {
     z-index: 2;
 }
 
-.company-modal,
 .bio-modal {
     background: no-repeat fixed center;
     background-size: cover;
@@ -2139,11 +2138,8 @@ hr.globe-primary:after {
 }
 
 
-#companyModal3 > .modal-content,
-#companyModal2 > .modal-content,
-#companyModal1 > .modal-content,
-#companyModal5 > .modal-content,
-#companyModal4 > .modal-content
+.company-modal > .modal-content
+
 {
     background-color: transparent;
 }
@@ -2155,11 +2151,8 @@ hr.globe-primary:after {
     background-color: black;
 }
 
-#companyModal3 > .modal-content > .container,
-#companyModal1 > .modal-content > .container,
-#companyModal2 > .modal-content > .container,
-#companyModal5 > .modal-content > .container,
-#companyModal4 > .modal-content > .container {
+.company-modal > .modal-content > .container
+ {
     background-color: hsla(0, 0%, 100%, .65);
 }
 
