@@ -4,17 +4,16 @@
     <bookmark url="file://$PROJECT_DIR$/css/grayscale.css" description="&#10;p {&#10;    color: black;&#10;    margin: 0 0 25px;&#10;    /..." line="138" />
     <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="876" mnemonic="1" />
     <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="1284" mnemonic="2" />
-    <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="1766" mnemonic="3" />
-    <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="1937" mnemonic="4" />
-    <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="2018" mnemonic="M" />
-    <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="2431" mnemonic="Q" />
-    <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="2973" mnemonic="D" />
+    <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="1768" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="1939" mnemonic="4" />
+    <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="2020" mnemonic="M" />
+    <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="2433" mnemonic="Q" />
+    <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="2975" mnemonic="D" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9897491-5837-4602-b0d4-3b9c1622a3c3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.htm" afterPath="$PROJECT_DIR$/index.htm" />
     </list>
     <ignored path="corrgroup.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,21 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="hover.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/hover.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="306" column="16" selection-start-line="306" selection-start-column="16" selection-end-line="306" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4209">
-              <caret line="1020" column="30" selection-start-line="1020" selection-start-column="24" selection-end-line="1020" selection-end-column="30" />
+            <state relative-caret-position="737">
+              <caret line="1578" column="23" selection-start-line="1578" selection-start-column="23" selection-end-line="1578" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -67,7 +56,7 @@
       <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="3808">
               <caret line="224" column="9" selection-start-line="224" selection-start-column="4" selection-end-line="224" selection-end-column="9" />
               <folding />
             </state>
@@ -87,7 +76,7 @@
       <file leaf-file-name="index.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
+            <state relative-caret-position="1938">
               <caret line="114" column="131" selection-start-line="114" selection-start-column="131" selection-end-line="114" selection-end-column="131" />
               <folding>
                 <element signature="e#22404#22410#0" expanded="true" />
@@ -123,8 +112,8 @@
         <option value="$PROJECT_DIR$/js/AnimatedOpacity.js" />
         <option value="$PROJECT_DIR$/css/hover-min.css" />
         <option value="$PROJECT_DIR$/js/grayscale.js" />
-        <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/index.htm" />
+        <option value="$PROJECT_DIR$/css/styles.css" />
       </list>
     </option>
   </component>
@@ -165,7 +154,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -200,6 +188,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -359,11 +348,12 @@
       <workItem from="1472472542992" duration="11332000" />
       <workItem from="1472505938973" duration="5507000" />
       <workItem from="1472516851958" duration="6535000" />
+      <workItem from="1472523740173" duration="1018000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="466048000" />
+    <option name="totallyTimeSpent" value="467066000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -724,7 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="345" column="24" selection-start-line="345" selection-start-column="24" selection-end-line="345" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -737,7 +726,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="3808">
           <caret line="224" column="9" selection-start-line="224" selection-start-column="4" selection-end-line="224" selection-end-column="9" />
           <folding />
         </state>
@@ -755,7 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -767,17 +755,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4209">
-          <caret line="1020" column="30" selection-start-line="1020" selection-start-column="24" selection-end-line="1020" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
+        <state relative-caret-position="1938">
           <caret line="114" column="131" selection-start-line="114" selection-start-column="131" selection-end-line="114" selection-end-column="131" />
           <folding>
             <element signature="e#22404#22410#0" expanded="true" />
@@ -787,8 +767,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/hover.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
+        <state relative-caret-position="-26285">
           <caret line="306" column="16" selection-start-line="306" selection-start-column="16" selection-end-line="306" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="737">
+          <caret line="1578" column="23" selection-start-line="1578" selection-start-column="23" selection-end-line="1578" selection-end-column="23" />
           <folding />
         </state>
       </provider>

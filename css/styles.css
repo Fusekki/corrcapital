@@ -1508,73 +1508,75 @@ font-family: 'PT Sans', sans-serif;
 
 .tile-mobile:nth-of-type(1) .image-underlay .planet {
     position: initial;
-    margin-top: -129px;
+    margin-top: -282px;
     z-index: -1;
-    width: 101%;
+    width: 111%;
+    margin-left: -39px;
 }
 
 .tile-mobile:nth-of-type(2) .planet {
     position: initial;
-    margin-top: -122px;
+    margin-top: -271px;
     z-index: -1;
-    width: 100%;
-    width: 103%;
+    width: 101%;
 }
 
 .tile-mobile:nth-of-type(3) .planet {
     position: initial;
-    margin-top: -123px;
+    margin-top: -268px;
     z-index: -1;
-    width: 100%;
+    width: 103%;
 }
 
 .tile-mobile:nth-of-type(4) .planet {
     position: initial;
-    margin-top: -123px;
+    margin-top: -265px;
     z-index: -1;
-    width: 100%;
+    width: 105%;
 }
 
 .tile-mobile:nth-of-type(5) .planet {
     position: initial;
-    margin-top: -123px;
+    margin-top: -262px;
     z-index: -1;
     width: 100%;
 }
 
 .tile-mobile:nth-of-type(6) .planet {
     position: initial;
-    margin-top: -123px;
+    margin-top: -269px;
     z-index: -1;
-    width: 100%;
+    width: 102%;
 }
 
 .tile-mobile:nth-of-type(7) .planet {
     position: initial;
-    margin-top: -123px;
+    margin-top: -273px;
     z-index: -1;
-    width: 100%;
+    width: 103%;
+    margin-left: -6px
 }
 
 .tile-mobile:nth-of-type(8) .planet {
     position: initial;
-    margin-top: -123px;
+    margin-top: -268px;
     z-index: -1;
-    width: 100%;
+    width: 101%;
 }
 
 .tile-mobile:nth-of-type(9) .planet {
     position: initial;
-    margin-top: -123px;
+    margin-top: -260px;
     z-index: -1;
-    width: 100%;
+    width: 101%;
 }
 
 .tile-mobile:nth-of-type(10) .planet {
     position: initial;
-    margin-top: -123px;
+    margin-top: -270px;
     z-index: -1;
-    width: 100%;
+    width: 104%;
+    margin-left: -11px;
 }
 
 
