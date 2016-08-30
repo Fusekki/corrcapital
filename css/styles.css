@@ -1666,29 +1666,42 @@ font-family: 'PT Sans', sans-serif;
 }
 
 .cd-background-wrapper {
-    overflow: hidden;
-    perspective: 2000px;
+    height: 1000px;
+    position: relative;
+    transform-style: preserve-3d;
+    font-size: 20px;
+
 }
 
 .company-background {
-    transform: translateZ(1px) scale(1.05);
-    /* height: 500px; */
+    transform: translateZ(-1px) scale(2);
+    height: 1800px;
     width: 100%;
     position: absolute;
-    /* top: calc(250px - 84vh); */
-    /* background: #FF8A8A; */
-    padding-top: 100px;
-    background: url('../img/deepspace.jpg') fixed;
-    background-size: cover;
-    height: 2200vh;
-    top: -1000vh;
+    top: calc(218px - 50vh);
+    /*top: calc(88vh + 115px);*/
+    /*top: calc(250px - 50vh);*/
+    /*background: #FF8A8A;*/
+    /*padding-top: 150px;*/
+    background: url('../img/deepspace.jpg');
+    /*transform: translateZ(1px) scale(2);*/
+     /*height: 4000px;*/
+    /*width: 100%;*/
+    /*position: absolute;*/
+    /*!* top: calc(250px - 84vh); *!*/
+    /*!* background: #FF8A8A; *!*/
+    /*padding-top: 100px;*/
+    /*background: url('../img/deepspace.jpg') fixed;*/
+    /*background-size: cover;*/
+    /*height: 2200vh;*/
+    /*top: -1000vh;*/
 }
 
 .cd-floating-background {
     /*height: 2000px;*/
     position: relative;
     transform-style: preserve-3d;
-    font-size: 20px;
+    /*font-size: 20px;*/
 
 }
 
@@ -1771,9 +1784,17 @@ font-family: 'PT Sans', sans-serif;
     /*font-size: 20px;*/
 
     padding: 0;
-    background: url('../img/deepspace.jpg') fixed center no-repeat;
-    background-size: cover;
+    /*background: url('../img/deepspace.jpg') fixed center no-repeat;*/
+    /*background-size: cover;*/
 
+
+}
+
+#parallax-stars {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    /* perspective: 2000px; */
+    perspective: 1px;
 
 }
 
