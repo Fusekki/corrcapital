@@ -3,17 +3,18 @@
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/css/grayscale.css" description="&#10;p {&#10;    color: black;&#10;    margin: 0 0 25px;&#10;    /..." line="138" />
     <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="876" mnemonic="1" />
-    <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="1284" mnemonic="2" />
-    <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="1751" mnemonic="3" />
-    <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="1922" mnemonic="4" />
-    <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="2003" mnemonic="M" />
-    <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="2416" mnemonic="Q" />
-    <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="3020" mnemonic="D" />
+    <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="1294" mnemonic="2" />
+    <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="1787" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="1958" mnemonic="4" />
+    <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="2039" mnemonic="M" />
+    <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="2452" mnemonic="Q" />
+    <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="3084" mnemonic="D" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9897491-5837-4602-b0d4-3b9c1622a3c3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.htm" afterPath="$PROJECT_DIR$/index.htm" />
     </list>
     <ignored path="corrgroup.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,28 +37,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1608">
-              <caret line="1561" column="0" selection-start-line="1561" selection-start-column="0" selection-end-line="1561" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="grayscale.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/grayscale.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3808">
-              <caret line="224" column="9" selection-start-line="224" selection-start-column="4" selection-end-line="224" selection-end-column="9" />
+            <state relative-caret-position="527">
+              <caret line="2924" column="20" selection-start-line="2924" selection-start-column="20" selection-end-line="2924" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -76,10 +57,10 @@
       <file leaf-file-name="index.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1938">
-              <caret line="114" column="131" selection-start-line="114" selection-start-column="131" selection-end-line="114" selection-end-column="131" />
+            <state relative-caret-position="391">
+              <caret line="190" column="0" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
               <folding>
-                <element signature="e#22404#22410#0" expanded="true" />
+                <element signature="e#22411#22417#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -349,12 +330,12 @@
       <workItem from="1472505938973" duration="5507000" />
       <workItem from="1472516851958" duration="6535000" />
       <workItem from="1472523740173" duration="1018000" />
-      <workItem from="1472570060129" duration="1865000" />
+      <workItem from="1472570060129" duration="8072000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="468931000" />
+    <option name="totallyTimeSpent" value="475138000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -424,7 +405,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#22404#22410#0" expanded="true" />
+            <element signature="e#22411#22417#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -458,7 +439,7 @@
         <state relative-caret-position="5984">
           <caret line="352" column="78" selection-start-line="352" selection-start-column="78" selection-end-line="352" selection-end-column="78" />
           <folding>
-            <element signature="e#22404#22410#0" expanded="true" />
+            <element signature="e#22411#22417#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -492,7 +473,7 @@
         <state relative-caret-position="1683">
           <caret line="99" column="50" selection-start-line="99" selection-start-column="50" selection-end-line="99" selection-end-column="50" />
           <folding>
-            <element signature="e#22404#22410#0" expanded="true" />
+            <element signature="e#22411#22417#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -533,7 +514,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#22404#22410#0" expanded="true" />
+            <element signature="e#22411#22417#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -725,14 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3808">
-          <caret line="224" column="9" selection-start-line="224" selection-start-column="4" selection-end-line="224" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ignore/to do.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -748,35 +721,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/hover.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26285">
+          <caret line="306" column="16" selection-start-line="306" selection-start-column="16" selection-end-line="306" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/grayscale.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
+        <state relative-caret-position="17">
           <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="224" column="9" selection-start-line="224" selection-start-column="4" selection-end-line="224" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1938">
-          <caret line="114" column="131" selection-start-line="114" selection-start-column="131" selection-end-line="114" selection-end-column="131" />
+        <state relative-caret-position="391">
+          <caret line="190" column="0" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
           <folding>
-            <element signature="e#22404#22410#0" expanded="true" />
+            <element signature="e#22411#22417#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/hover.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26285">
-          <caret line="306" column="16" selection-start-line="306" selection-start-column="16" selection-end-line="306" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1608">
-          <caret line="1561" column="0" selection-start-line="1561" selection-start-column="0" selection-end-line="1561" selection-end-column="0" />
+        <state relative-caret-position="527">
+          <caret line="2924" column="20" selection-start-line="2924" selection-start-column="20" selection-end-line="2924" selection-end-column="20" />
           <folding />
         </state>
       </provider>

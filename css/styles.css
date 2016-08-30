@@ -908,6 +908,7 @@ font-family: 'PT Sans', sans-serif;
 
 
 .bg-image {
+
     top: 0;
     left: 0;
     right: 0;
@@ -923,6 +924,15 @@ font-family: 'PT Sans', sans-serif;
     height: 100%;
     background: url('../img/spacesunrise.jpg') no-repeat fixed center;
     background-size: cover;
+
+    /*position: fixed;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*bottom: 0;*/
+    /*perspective: 1px;*/
+    /*overflow-x: hidden;*/
+    /*overflow-y: scroll;*/
 }
 
 .parallex {
@@ -1415,7 +1425,7 @@ font-family: 'PT Sans', sans-serif;
 .tile-mobile {
     height: 75vmin;
     width: 75vmin;
-    border-radius: 11em;
+    border-radius: 15em;
     overflow: hidden;
     /*margin: 25% auto auto;*/
 
@@ -1511,55 +1521,56 @@ font-family: 'PT Sans', sans-serif;
 }
 
 .tile-mobile:nth-of-type(1) .planet {
-    margin-top: -19em;
-    width: 171%;
-    margin-left: -33%;
+    /*margin-top: -7em;*/
+    margin-top: -51%;
+    width: 100%;
 }
 
 .tile-mobile:nth-of-type(2) .planet {
-    margin-top: -11em;
-    width: 102%;
+    margin-top: -51%;
+    width: 100%;
 }
 
 .tile-mobile:nth-of-type(3) .planet {
-    margin-top: -11em;
-    width: 102%;
+    margin-top: -51%;
+    width: 103%;
 }
 
 .tile-mobile:nth-of-type(4) .planet {
-    margin-top: -11em;
-    width: 105%;
+    margin-top: -51%;
+    width: 104%;
 }
 
 .tile-mobile:nth-of-type(5) .planet {
-    margin-top: -12em;
+    margin-top: -51%;
     width: 107%;
 }
 
 .tile-mobile:nth-of-type(6) .planet {
-    margin-top: -11em;
-    width: 102%;
+    margin-top: -55%;
+    width: 110%;
 
 }
 
 .tile-mobile:nth-of-type(7) .planet {
-    margin-top: -11em;
-    width: 105%;
-}
-
-.tile-mobile:nth-of-type(8) .planet {
-    margin-top: -16em;
-    width: 104%;
-}
-
-.tile-mobile:nth-of-type(9) .planet {
-    margin-top: -11em;
+    margin-top: -51%;
     width: 102%;
 }
 
+.tile-mobile:nth-of-type(8) .planet {
+    margin-top: -72%;
+    width: 103%;
+}
+
+.tile-mobile:nth-of-type(9) .planet {
+    margin-top: -51%;
+    width: 100%;
+}
+
 .tile-mobile:nth-of-type(10) .planet {
-    margin-top: -12em;
-    width: 107%;
+    margin-top: -52%;
+    width: 103%;
+    margin-left: -1%;
 }
 
 
@@ -1656,12 +1667,32 @@ font-family: 'PT Sans', sans-serif;
 
 .cd-background-wrapper {
     overflow: hidden;
-    perspective: 4000px;
+    perspective: 2000px;
+}
+
+.company-background {
+    transform: translateZ(1px) scale(1.05);
+    /* height: 500px; */
+    width: 100%;
+    position: absolute;
+    /* top: calc(250px - 84vh); */
+    /* background: #FF8A8A; */
+    padding-top: 100px;
+    background: url('../img/deepspace.jpg') fixed;
+    background-size: cover;
+    height: 2200vh;
+    top: -1000vh;
 }
 
 .cd-floating-background {
+    /*height: 2000px;*/
+    position: relative;
     transform-style: preserve-3d;
+    font-size: 20px;
+
 }
+
+
 
 /*.cd-floating-background .tile-mobile:first-child {*/
     /*transform: translateZ(50px);*/
@@ -1734,6 +1765,11 @@ font-family: 'PT Sans', sans-serif;
 
 
 #companies, #team {
+    /*height: 2440px;*/
+    /*position: relative;*/
+    /*transform-style: preserve-3d;*/
+    /*font-size: 20px;*/
+
     padding: 0;
     background: url('../img/deepspace.jpg') fixed center no-repeat;
     background-size: cover;
@@ -2648,6 +2684,52 @@ hr.globe-primary:after {
         font-size: 4vmax;
     }
 
+    /*.tile-mobile:nth-of-type(1) .planet {*/
+        /*margin-top: -8em;*/
+    /*}*/
+
+    /*.tile-mobile:nth-of-type(2) .planet {*/
+        /*margin-top: -7em;*/
+    /*}*/
+
+    /*.tile-mobile:nth-of-type(3) .planet {*/
+        /*margin-top: -7em;*/
+        /*width: 101%;*/
+    /*}*/
+
+    /*.tile-mobile:nth-of-type(4) .planet {*/
+        /*margin-top: -7em;*/
+    /*}*/
+
+    /*.tile-mobile:nth-of-type(5) .planet {*/
+        /*margin-top: -8em;*/
+    /*}*/
+
+    /*.tile-mobile:nth-of-type(6) .planet {*/
+        /*margin-top: -8em;*/
+
+    /*}*/
+
+    /*.tile-mobile:nth-of-type(7) .planet {*/
+        /*margin-top: -8em;*/
+        /*width: 108%;*/
+        /*margin-left: -2%;*/
+    /*}*/
+
+    /*.tile-mobile:nth-of-type(8) .planet {*/
+        /*margin-top: -10em;*/
+    /*}*/
+
+    /*.tile-mobile:nth-of-type(9) .planet {*/
+        /*margin-top: -7em;*/
+    /*}*/
+
+    /*.tile-mobile:nth-of-type(10) .planet {*/
+        /*margin-top: -7.5em;*/
+        /*width: 104%;*/
+        /*margin-left: -1%;*/
+    /*}*/
+
 }
 
 
@@ -2839,6 +2921,10 @@ hr.globe-primary:after {
         margin-top: 10%
     }
 
+    .container {
+        width: 100%;
+    }
+
 
     .circle {
 
@@ -2910,63 +2996,41 @@ hr.globe-primary:after {
     }
 
     .tile-mobile:nth-of-type(2) .planet {
-        margin-top: -10em;
-
+        margin-top: -46%;
     }
 
     .tile-mobile:nth-of-type(3) .planet {
-        margin-top: -10em;
-        width: 104%;
+        margin-top: -47%;
 
     }
 
     .tile-mobile:nth-of-type(4) .planet {
-        margin-top: -10em;
+        margin-top: -47%;
         width: 105%;
-
-    }
-
-    .tile-mobile:nth-of-type(5) .planet {
-        margin-top: -11em;
-
-    }
-
-    .tile-mobile:nth-of-type(6) .planet {
-        width: 106%;
-
     }
 
     .tile-mobile:nth-of-type(7) .planet {
-        margin-top: -10em;
-
-        width: 103%;
+        margin-top: -49%;
+        width: 105%;
         margin-left: -1%;
 
     }
 
     .tile-mobile:nth-of-type(8) .planet {
-
-        margin-top: -10em;
-
-        width: 105%;
-
+        margin-top: -46%;
     }
 
     .tile-mobile:nth-of-type(9) .planet {
-
-        margin-top: -11em;
-        width: 107%;
-        margin-left: -2%;
+        margin-top: -46%;
+        width: 103%;
+        margin-left: -1%;
 
     }
 
     .tile-mobile:nth-of-type(10) .planet {
-
-
-        margin-top: -11em;
-
-        width: 108%;
-        margin-left: -3%;
+        margin-top: -48%;
+        width: 105%;
+        margin-left: -2%;
     }
 
 
