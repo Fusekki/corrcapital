@@ -1505,78 +1505,61 @@ font-family: 'PT Sans', sans-serif;
     z-index: -1
 }
 
-
-.tile-mobile:nth-of-type(1) .image-underlay .planet {
-    position: initial;
-    margin-top: -282px;
+.tile-mobile .planet {
+    position: relative;
     z-index: -1;
-    width: 111%;
-    margin-left: -39px;
+}
+
+.tile-mobile:nth-of-type(1) .planet {
+    margin-top: -19em;
+    width: 171%;
+    margin-left: -33%;
 }
 
 .tile-mobile:nth-of-type(2) .planet {
-    position: initial;
-    margin-top: -271px;
-    z-index: -1;
-    width: 101%;
+    margin-top: -11em;
+    width: 102%;
 }
 
 .tile-mobile:nth-of-type(3) .planet {
-    position: initial;
-    margin-top: -268px;
-    z-index: -1;
-    width: 103%;
+    margin-top: -11em;
+    width: 102%;
 }
 
 .tile-mobile:nth-of-type(4) .planet {
-    position: initial;
-    margin-top: -265px;
-    z-index: -1;
+    margin-top: -11em;
     width: 105%;
 }
 
 .tile-mobile:nth-of-type(5) .planet {
-    position: initial;
-    margin-top: -262px;
-    z-index: -1;
-    width: 100%;
+    margin-top: -12em;
+    width: 107%;
 }
 
 .tile-mobile:nth-of-type(6) .planet {
-    position: initial;
-    margin-top: -269px;
-    z-index: -1;
+    margin-top: -11em;
     width: 102%;
+
 }
 
 .tile-mobile:nth-of-type(7) .planet {
-    position: initial;
-    margin-top: -273px;
-    z-index: -1;
-    width: 103%;
-    margin-left: -6px
+    margin-top: -11em;
+    width: 105%;
 }
 
 .tile-mobile:nth-of-type(8) .planet {
-    position: initial;
-    margin-top: -268px;
-    z-index: -1;
-    width: 101%;
+    margin-top: -16em;
+    width: 104%;
 }
 
 .tile-mobile:nth-of-type(9) .planet {
-    position: initial;
-    margin-top: -260px;
-    z-index: -1;
-    width: 101%;
+    margin-top: -11em;
+    width: 102%;
 }
 
 .tile-mobile:nth-of-type(10) .planet {
-    position: initial;
-    margin-top: -270px;
-    z-index: -1;
-    width: 104%;
-    margin-left: -11px;
+    margin-top: -12em;
+    width: 107%;
 }
 
 
@@ -2925,6 +2908,68 @@ hr.globe-primary:after {
     .text-margin-bottom {
         margin: 3vmax auto;
     }
+
+    .tile-mobile:nth-of-type(2) .planet {
+        margin-top: -10em;
+
+    }
+
+    .tile-mobile:nth-of-type(3) .planet {
+        margin-top: -10em;
+        width: 104%;
+
+    }
+
+    .tile-mobile:nth-of-type(4) .planet {
+        margin-top: -10em;
+        width: 105%;
+
+    }
+
+    .tile-mobile:nth-of-type(5) .planet {
+        margin-top: -11em;
+
+    }
+
+    .tile-mobile:nth-of-type(6) .planet {
+        width: 106%;
+
+    }
+
+    .tile-mobile:nth-of-type(7) .planet {
+        margin-top: -10em;
+
+        width: 103%;
+        margin-left: -1%;
+
+    }
+
+    .tile-mobile:nth-of-type(8) .planet {
+
+        margin-top: -10em;
+
+        width: 105%;
+
+    }
+
+    .tile-mobile:nth-of-type(9) .planet {
+
+        margin-top: -11em;
+        width: 107%;
+        margin-left: -2%;
+
+    }
+
+    .tile-mobile:nth-of-type(10) .planet {
+
+
+        margin-top: -11em;
+
+        width: 108%;
+        margin-left: -3%;
+    }
+
+
 }
 
 /*ipad landscape*/
