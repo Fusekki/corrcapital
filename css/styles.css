@@ -2536,6 +2536,16 @@ hr.globe-primary:after {
     background-size: cover;
 }
 
+#companyModal13 {
+    background: url('../img/stock-photo-movie-clapper-and-film-reel-on-a-wooden-background-169841813.jpg') no-repeat fixed center;
+    background-size: cover;
+}
+
+#companyModal10 {
+    background: url('../img/stock-photo-fashion-runway-out-of-focus-blur-background-308480654.jpg') no-repeat fixed center;
+    background-size: cover;
+}
+
 
 .company-modal > .modal-content
 

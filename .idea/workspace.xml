@@ -7,8 +7,8 @@
     <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="1957" mnemonic="3" />
     <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="2128" mnemonic="4" />
     <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="2209" mnemonic="M" />
-    <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="2622" mnemonic="Q" />
-    <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="3278" mnemonic="D" />
+    <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="2632" mnemonic="Q" />
+    <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="3288" mnemonic="D" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9897491-5837-4602-b0d4-3b9c1622a3c3" name="Default" comment="">
@@ -35,8 +35,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="1415" column="0" selection-start-line="1415" selection-start-column="0" selection-end-line="1415" selection-end-column="19" />
+            <state relative-caret-position="361">
+              <caret line="2543" column="13" selection-start-line="2543" selection-start-column="13" selection-end-line="2543" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -55,8 +55,8 @@
       <file leaf-file-name="index.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="425" column="71" selection-start-line="425" selection-start-column="71" selection-end-line="425" selection-end-column="71" />
+            <state relative-caret-position="255">
+              <caret line="608" column="70" selection-start-line="608" selection-start-column="70" selection-end-line="608" selection-end-column="70" />
               <folding>
                 <element signature="e#27939#27945#0" expanded="true" />
               </folding>
@@ -330,12 +330,12 @@
       <workItem from="1472523740173" duration="1018000" />
       <workItem from="1472570060129" duration="8211000" />
       <workItem from="1472587102013" duration="6924000" />
-      <workItem from="1472646043015" duration="9960000" />
+      <workItem from="1472646043015" duration="10493000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="492161000" />
+    <option name="totallyTimeSpent" value="492694000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -745,8 +745,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="425" column="71" selection-start-line="425" selection-start-column="71" selection-end-line="425" selection-end-column="71" />
+        <state relative-caret-position="255">
+          <caret line="608" column="70" selection-start-line="608" selection-start-column="70" selection-end-line="608" selection-end-column="70" />
           <folding>
             <element signature="e#27939#27945#0" expanded="true" />
           </folding>
@@ -755,8 +755,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="1415" column="0" selection-start-line="1415" selection-start-column="0" selection-end-line="1415" selection-end-column="19" />
+        <state relative-caret-position="361">
+          <caret line="2543" column="13" selection-start-line="2543" selection-start-column="13" selection-end-line="2543" selection-end-column="13" />
           <folding />
         </state>
       </provider>
