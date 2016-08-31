@@ -1404,8 +1404,10 @@ font-family: 'PT Sans', sans-serif;
     perspective: 1px;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    background: url('../img/deepspace.jpg') fixed center no-repeat;
+    background: url('../img/deepspace.jpg') fixed;
+    background-size: cover;
     height: 80vh;
+    overflow-x: hidden;
 
 }
 
@@ -1528,6 +1530,7 @@ font-family: 'PT Sans', sans-serif;
     top: 201%;
     left: 31%;
     left: 50%;
+
 }
 
 .parallax-container .parallax-layer-10 {
@@ -2924,6 +2927,15 @@ hr.globe-primary:after {
         height: 89vh;
     }
 
+   .parallax-container .text-overlay,
+   .parallax-container .planet {
+        width: 150%;
+    }
+
+    .parallax-container .parallax-layer-2 {
+       left: 58%;
+   }
+
     #span_telemed {
         font-size: 2.4vmax;
     }
@@ -2995,6 +3007,10 @@ hr.globe-primary:after {
         max-width: 80%
     }
 
+    #photo-aj {
+        max-width: 100%;
+    }
+
     #text-carousel {
         margin-top: 7%;
         padding: 0 5%;
@@ -3058,6 +3074,11 @@ hr.globe-primary:after {
         font-size: 3.8vmax;
     }
 
+    .parallax-container .parallax-layer-10 {
+        left: 5%;
+    }
+
+
     .text-overlay h3 {
         font-size: 3vmax;
     }
@@ -3065,6 +3086,8 @@ hr.globe-primary:after {
     .text-overlay p {
         font-size: 3.2vmax;
     }
+
+
     #span_telemed {
         font-size: 3vmax;
     }
@@ -3142,6 +3165,10 @@ hr.globe-primary:after {
     .navbar-nav {
         font-size: 2.5vw;
         margin-top: 3%;
+    }
+
+    .parallax-container .text-overlay, .parallax-container .planet {
+        width: 200%;
     }
 
     .text-overlay h3 {

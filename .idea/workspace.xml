@@ -4,24 +4,17 @@
     <bookmark url="file://$PROJECT_DIR$/css/grayscale.css" description="&#10;p {&#10;    color: black;&#10;    margin: 0 0 25px;&#10;    /..." line="138" />
     <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="876" mnemonic="1" />
     <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="1294" mnemonic="2" />
-    <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="1954" mnemonic="3" />
-    <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="2125" mnemonic="4" />
-    <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="2206" mnemonic="M" />
-    <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="2619" mnemonic="Q" />
-    <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="3251" mnemonic="D" />
+    <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="1957" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="2128" mnemonic="4" />
+    <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="2209" mnemonic="M" />
+    <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="2622" mnemonic="Q" />
+    <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="3278" mnemonic="D" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9897491-5837-4602-b0d4-3b9c1622a3c3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/planets/callisto.png" afterPath="$PROJECT_DIR$/img/planets/callisto.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/planets/europa.png" afterPath="$PROJECT_DIR$/img/planets/europa.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/planets/jupiter.png" afterPath="$PROJECT_DIR$/img/planets/jupiter.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/planets/mars.png" afterPath="$PROJECT_DIR$/img/planets/mars.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/planets/mercury.png" afterPath="$PROJECT_DIR$/img/planets/mercury.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/planets/neptune.png" afterPath="$PROJECT_DIR$/img/planets/neptune.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/planets/pluto.png" afterPath="$PROJECT_DIR$/img/planets/pluto.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/planets/tethys.png" afterPath="$PROJECT_DIR$/img/planets/tethys.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/planets/uranus.png" afterPath="$PROJECT_DIR$/img/planets/uranus.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/planets/venus.png" afterPath="$PROJECT_DIR$/img/planets/venus.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/planets/mercury.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/planets/mercury2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/planets/neptrune.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.htm" afterPath="$PROJECT_DIR$/index.htm" />
     </list>
@@ -46,8 +39,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="3214" column="0" selection-start-line="3214" selection-start-column="0" selection-end-line="3217" selection-end-column="0" />
+            <state relative-caret-position="770">
+              <caret line="3010" column="24" selection-start-line="3010" selection-start-column="24" selection-end-line="3010" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -66,10 +59,10 @@
       <file leaf-file-name="index.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="220" column="24" selection-start-line="220" selection-start-column="24" selection-end-line="220" selection-end-column="24" />
+            <state relative-caret-position="493">
+              <caret line="425" column="71" selection-start-line="425" selection-start-column="71" selection-end-line="425" selection-end-column="71" />
               <folding>
-                <element signature="e#27775#27781#0" expanded="true" />
+                <element signature="e#27939#27945#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -341,12 +334,12 @@
       <workItem from="1472523740173" duration="1018000" />
       <workItem from="1472570060129" duration="8211000" />
       <workItem from="1472587102013" duration="6924000" />
-      <workItem from="1472646043015" duration="7520000" />
+      <workItem from="1472646043015" duration="9841000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="489721000" />
+    <option name="totallyTimeSpent" value="492042000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -416,7 +409,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#27775#27781#0" expanded="true" />
+            <element signature="e#27939#27945#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -450,7 +443,7 @@
         <state relative-caret-position="5984">
           <caret line="352" column="78" selection-start-line="352" selection-start-column="78" selection-end-line="352" selection-end-column="78" />
           <folding>
-            <element signature="e#27775#27781#0" expanded="true" />
+            <element signature="e#27939#27945#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -484,7 +477,7 @@
         <state relative-caret-position="1683">
           <caret line="99" column="50" selection-start-line="99" selection-start-column="50" selection-end-line="99" selection-end-column="50" />
           <folding>
-            <element signature="e#27775#27781#0" expanded="true" />
+            <element signature="e#27939#27945#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -525,7 +518,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#27775#27781#0" expanded="true" />
+            <element signature="e#27939#27945#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -756,18 +749,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="220" column="24" selection-start-line="220" selection-start-column="24" selection-end-line="220" selection-end-column="24" />
+        <state relative-caret-position="493">
+          <caret line="425" column="71" selection-start-line="425" selection-start-column="71" selection-end-line="425" selection-end-column="71" />
           <folding>
-            <element signature="e#27775#27781#0" expanded="true" />
+            <element signature="e#27939#27945#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="3214" column="0" selection-start-line="3214" selection-start-column="0" selection-end-line="3217" selection-end-column="0" />
+        <state relative-caret-position="770">
+          <caret line="3010" column="24" selection-start-line="3010" selection-start-column="24" selection-end-line="3010" selection-end-column="24" />
           <folding />
         </state>
       </provider>
