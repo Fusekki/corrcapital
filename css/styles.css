@@ -2466,6 +2466,10 @@ hr.globe-primary:after {
     font-size: 4.5vmax;
 }
 
+#fa-grey {
+    color: grey;
+}
+
 
 .company-modal .close-modal .lr,
 .bio-modal .close-modal .lr {
@@ -2517,7 +2521,7 @@ hr.globe-primary:after {
 }
 
 #companyModal4 {
-    background: url('../img/stock-photo-closeup-of-an-employee-benefit-package-86250418.jpg') no-repeat fixed center;
+    background: url('../img/benefits.png') no-repeat fixed center;
     background-size: cover;
 }
 
