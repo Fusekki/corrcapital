@@ -1397,6 +1397,152 @@ font-family: 'PT Sans', sans-serif;
     height: 100%;
 }
 
+.parallax-root {
+
+    overflow: auto;
+    -webkit-perspective: 1px;
+    perspective: 1px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    background: url('../img/deepspace.jpg') fixed center no-repeat;
+    height: 80vh;
+
+}
+
+.parallax-container {
+
+    padding: 10%;
+    max-width: 40em;
+    margin: auto;
+}
+
+.parallax-container .parallax-layer-1 {
+    position: absolute;
+    -webkit-transform: translateZ(-0.4px) scale(1.4);
+    transform: translateZ(-0.4px) scale(1.4);
+    z-index: -400;
+    top: 578px;
+    left: 235px;
+    top: 127%;
+    left: 76%;
+
+}
+.parallax-container .parallax-layer-2 {
+    position: absolute;
+
+
+    z-index: 200;
+    -webkit-transform: translateZ(0.2px) scale(0.8);
+    transform: translateZ(0.2px) scale(0.8);
+    top: 179px;
+    left: 27px;
+    top: 39%;
+    left: 8%;
+    left: 69%;
+    left: 61%;
+
+}
+.parallax-container .parallax-layer-3 {
+    position: absolute;
+
+    -webkit-transform: translateZ(0.3px) scale(0.7);
+    transform: translateZ(0.3px) scale(0.7);
+    z-index: 300;
+    top: 330px;
+    left: 155px;
+    top: 72%;
+    left: 31%;
+
+}
+.parallax-container .parallax-layer-4 {
+    position: absolute;
+
+    -webkit-transform: translateZ(0.1px) scale(0.9);
+    transform: translateZ(0.1px) scale(0.9);
+    z-index: 100;
+    top: 1000px;
+    left: 8px;
+    left: 14%;
+    top: 247%;
+}
+.parallax-container .parallax-layer-5 {
+    position: absolute;
+
+    -webkit-transform: translateZ(-2px) scale(3);
+    transform: translateZ(-2px) scale(3);
+    z-index: -2000;
+    top: 1263px;
+    left: 253px;
+    top: 304%;
+    left: 67%;
+}
+.parallax-container .parallax-layer-6 {
+    position: absolute;
+
+    -webkit-transform: translateZ(0.4px) scale(0.6);
+    transform: translateZ(0.4px) scale(0.6);
+    z-index: 400;
+    top: 626px;
+    left: 107px;
+    top: 138%;
+    left: 33%;
+    left: 35%;
+
+
+}
+.parallax-container .parallax-layer-7 {
+    position: absolute;
+
+    -webkit-transform: translateZ(-1px) scale(2);
+    transform: translateZ(-1px) scale(2);
+    z-index: -1000;
+    top: 400px;
+    left: -61px;
+    top: 86%;
+    left: -19%;
+    left: -28%
+}
+.parallax-container .parallax-layer-8 {
+    position: absolute;
+
+    webkit-transform: translateZ(-0.4px) scale(1.4);
+    transform: translateZ(-0.4px) scale(1.4);
+    z-index: -400;
+    top: -56px;
+    left: 140px;
+    top: -10%;
+    left: 43%
+}
+.parallax-container .parallax-layer-9 {
+    position: absolute;
+
+    -webkit-transform: translateZ(0.4px) scale(0.6);
+    transform: translateZ(0.4px) scale(0.6);
+    z-index: 400;
+    top: 1185px;
+    left: 101px;
+    top: 261%;
+    left: 31%;
+    left: 62%;
+
+    top: 201%;
+    left: 31%;
+    left: 50%;
+}
+
+.parallax-container .parallax-layer-10 {
+    position: absolute;
+
+    -webkit-transform: translateZ(-1px) scale(2);
+    transform: translateZ(-1px) scale(2);
+    z-index: -1000;
+    top: 800px;
+    left: 100px;
+    top: 176%;
+    left: 31%;
+    left: -1%;
+
+}
 
 
 .table-companies {
@@ -1751,8 +1897,8 @@ font-family: 'PT Sans', sans-serif;
 
 
 
-.tile-text-medium {
-    font-size: 6.2vmax;
+.planet-label {
+    font-size: 20px;
 
 }
 
@@ -3294,9 +3440,9 @@ hr.globe-primary:after {
     }
 
 
-    #company {
-        display: none;
-    }
+    /*#company {*/
+        /*display: none;*/
+    /*}*/
 
 
 
