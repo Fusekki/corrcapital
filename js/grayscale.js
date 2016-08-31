@@ -207,25 +207,25 @@ function init() {
 }
 
 
-$(function() {
-    var mq = window.matchMedia( "(max-width: 1024px)" );
-    var photos = $('.photo-container').get();
-    var idx_start = 6;
-    // console.log(mq);
-    // console.log(photos);
-    // console.log('test now');
-    // console.log(photos.length);
-
-
-    // media query event handler
-    if (mq.matches) {
-        for (var idx = 0; idx < photos.length; idx++) {
-            photos[idx].setAttribute("data-target", "#portfolioModal" + (idx_start + idx));
-            photos[idx].setAttribute("data-toggle", "modal")
-            console.log(photos[idx]);
-        }
-    }
-});
+// $(function() {
+//     var mq = window.matchMedia( "(max-width: 1024px)" );
+//     var photos = $('.photo-container').get();
+//     var idx_start = 6;
+//     // console.log(mq);
+//     // console.log(photos);
+//     // console.log('test now');
+//     // console.log(photos.length);
+//
+//
+//     // media query event handler
+//     if (mq.matches) {
+//         for (var idx = 0; idx < photos.length; idx++) {
+//             photos[idx].setAttribute("data-target", "#portfolioModal" + (idx_start + idx));
+//             photos[idx].setAttribute("data-toggle", "modal")
+//             console.log(photos[idx]);
+//         }
+//     }
+// });
 
 if (window.innerWidth > 769) {
     var newHeight = window.innerWidth * .22;
