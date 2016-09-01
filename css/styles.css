@@ -3553,7 +3553,7 @@ hr.globe-primary:after {
 
     .fa-book {
         left: 38px;
-        top: 6px;
+        top: 14px;
         font-size: 10px;
     }
 
@@ -3617,6 +3617,18 @@ hr.globe-primary:after {
     .photo:hover .photo-overlay p,
     .photo:hover .text-overlay h3,
     .photo:hover .text-overlay p
+    {
+        color: white;
+    }
+
+    .photo-container:hover .button {
+        opacity: 1;
+    }
+
+    .photo-container:hover .photo-overlay h3,
+    .photo-container:hover .photo-overlay p,
+    .photo-container:hover .text-overlay h3,
+    .photo-container:hover .text-overlay p
     {
         color: white;
     }
@@ -3729,7 +3741,7 @@ hr.globe-primary:after {
     }
 
     .text-overlay .button {
-        margin-bottom: 4%;
+        margin: 4% 0;
     }
 
     .tile-odd a {
@@ -3762,6 +3774,13 @@ and (min-width:1024px) {
 and (min-width:1200px) {
     .navbar-brand {
         font-size: 25px;
+    }
+
+    .photo-container .text-overlay h3 {
+        font-size: 32px;
+    }
+    .photo-container .text-overlay p {
+        font-size: 27px;
     }
 
 }
@@ -3799,6 +3818,21 @@ and (min-width:1280px) {
 @media only screen
 and (min-width:1920px)
 and (min-height:999px) {
+    .button:hover .fa-book {
+
+        left: 74px;
+    }
+    .fa-book {
+
+        top: 17px;
+        font-size: 15px;
+    }
+
+    .photo-container {
+        width: 70%;
+    }
+
+
     #text-carousel {
         margin-top: 13%;
     }
@@ -3809,5 +3843,9 @@ and (min-height:999px) {
 
     .navigation-stars {
         top: 85%;
+    }
+
+    .text-overlay h3{
+        margin-top: 70px;
     }
 }
