@@ -1426,11 +1426,19 @@ font-family: 'PT Sans', sans-serif;
     position: absolute;
 }
 
+.parallax-layer .planet {
+    border-radius: 25em;
+}
+
 .parallax-layer:hover .planet {
     -webkit-box-shadow: 0px 0px 74px 7px white;
     -moz-box-shadow: 0px 0px 74px 7px white;
     box-shadow: 0px 0px 74px 7px white;
-    border-radius: 25em;
+}
+
+.parallax-layer:focus,
+.planet:focus {
+    outline: 0;
 }
 
 .parallax-container .parallax-layer-1 {
