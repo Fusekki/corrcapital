@@ -858,6 +858,10 @@ font-family: 'PT Sans', sans-serif;
     color: hsla(215, 2%, 90%, 1);
 }
 
+.navbar-default .navbar-nav>li>a:focus {
+    color: hsla(215, 2%, 58%, 1);
+}
+
 .pipe {
     color: hsla(215, 2%, 58%,1);
     font-family: initial;
@@ -1418,8 +1422,18 @@ font-family: 'PT Sans', sans-serif;
     margin: auto;
 }
 
-.parallax-container .parallax-layer-1 {
+.parallax-layer {
     position: absolute;
+}
+
+.parallax-layer:hover .planet {
+    -webkit-box-shadow: 0px 0px 74px 7px white;
+    -moz-box-shadow: 0px 0px 74px 7px white;
+    box-shadow: 0px 0px 74px 7px white;
+    border-radius: 25em;
+}
+
+.parallax-container .parallax-layer-1 {
     -webkit-transform: translateZ(-0.4px) scale(1.4);
     transform: translateZ(-0.4px) scale(1.4);
     z-index: -400;
@@ -1430,9 +1444,6 @@ font-family: 'PT Sans', sans-serif;
 
 }
 .parallax-container .parallax-layer-2 {
-    position: absolute;
-
-
     z-index: 200;
     -webkit-transform: translateZ(0.2px) scale(0.8);
     transform: translateZ(0.2px) scale(0.8);
@@ -1445,8 +1456,6 @@ font-family: 'PT Sans', sans-serif;
 
 }
 .parallax-container .parallax-layer-3 {
-    position: absolute;
-
     -webkit-transform: translateZ(0.3px) scale(0.7);
     transform: translateZ(0.3px) scale(0.7);
     z-index: 300;
@@ -1457,8 +1466,6 @@ font-family: 'PT Sans', sans-serif;
 
 }
 .parallax-container .parallax-layer-4 {
-    position: absolute;
-
     -webkit-transform: translateZ(0.1px) scale(0.9);
     transform: translateZ(0.1px) scale(0.9);
     z-index: 100;
@@ -1468,8 +1475,6 @@ font-family: 'PT Sans', sans-serif;
     top: 247%;
 }
 .parallax-container .parallax-layer-5 {
-    position: absolute;
-
     -webkit-transform: translateZ(-2px) scale(3);
     transform: translateZ(-2px) scale(3);
     z-index: -2000;
@@ -1479,8 +1484,6 @@ font-family: 'PT Sans', sans-serif;
     left: 67%;
 }
 .parallax-container .parallax-layer-6 {
-    position: absolute;
-
     -webkit-transform: translateZ(0.4px) scale(0.6);
     transform: translateZ(0.4px) scale(0.6);
     z-index: 400;
@@ -1493,8 +1496,6 @@ font-family: 'PT Sans', sans-serif;
 
 }
 .parallax-container .parallax-layer-7 {
-    position: absolute;
-
     -webkit-transform: translateZ(-1px) scale(2);
     transform: translateZ(-1px) scale(2);
     z-index: -1000;
@@ -1505,8 +1506,6 @@ font-family: 'PT Sans', sans-serif;
     left: -28%
 }
 .parallax-container .parallax-layer-8 {
-    position: absolute;
-
     webkit-transform: translateZ(-0.4px) scale(1.4);
     transform: translateZ(-0.4px) scale(1.4);
     z-index: -400;
@@ -1516,8 +1515,6 @@ font-family: 'PT Sans', sans-serif;
     left: 43%
 }
 .parallax-container .parallax-layer-9 {
-    position: absolute;
-
     -webkit-transform: translateZ(0.4px) scale(0.6);
     transform: translateZ(0.4px) scale(0.6);
     z-index: 400;
@@ -1534,8 +1531,6 @@ font-family: 'PT Sans', sans-serif;
 }
 
 .parallax-container .parallax-layer-10 {
-    position: absolute;
-
     -webkit-transform: translateZ(-1px) scale(2);
     transform: translateZ(-1px) scale(2);
     z-index: -1000;
@@ -1545,6 +1540,10 @@ font-family: 'PT Sans', sans-serif;
     left: 31%;
     left: -1%;
 
+}
+
+.parallax-layer .planet {
+    transition: box-shadow 0.3s ease-in-out;
 }
 
 
@@ -2232,6 +2231,7 @@ font-family: 'PT Sans', sans-serif;
 
 /*MODAL 1 BEGIN*/
 
+
 #header-benefits {
     margin-left: -8px;
 }
@@ -2536,7 +2536,7 @@ hr.globe-primary:after {
 }
 
 #companyModal5 {
-    background: url('../img/stock-photo-paris-august-visitors-take-photo-of-leonardo-davinci-s-mona-lisa-at-the-louvre-museum-201781961.jpg') no-repeat fixed center;
+    background: url('../img/stock-photo-gogh-vincent-van-starry-night-post-impressionism-oil-on-canvas-231664849.jpg') no-repeat fixed center;
     background-size: cover;
 }
 
@@ -2566,7 +2566,7 @@ hr.globe-primary:after {
 }
 
 #companyModal10 {
-    background: url('../img/stock-photo-fashion-runway-out-of-focus-blur-background-308480654.jpg') no-repeat fixed center;
+    background: url('../img/stock-photo-high-fashion-portrait-of-young-elegant-woman-studio-shot-270601715.jpg') no-repeat fixed center;
     background-size: cover;
 }
 
@@ -3115,9 +3115,9 @@ hr.globe-primary:after {
         top: 13px;
     }
 
-    .company-modal .close-modal .box-close i {
-        font-size: 2.5em;
-    }
+    /*.company-modal .close-modal .box-close i {*/
+        /*font-size: 2.5em;*/
+    /*}*/
 
     h1, .h1, h2, .h2, h3, .h3 {
         /*margin-top: 0;*/
