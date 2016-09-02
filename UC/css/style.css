@@ -1,19 +1,98 @@
+/*FONTS START*/
+
+
+
+@font-face {
+    font-family: 'Sansation Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Sansation Light'), url('../fonts/sansation/Sansation_Light.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Sansation';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Sansation'), url('../fonts/sansation/Sansation_Regular.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Sansation Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Sansation Bold'), url('../fonts/sansation/Sansation_Bold.woff') format('woff');
+}
+
+/*FONTS END*/
+
+
 body {
-    background: url('../img/nasa-140304_1920.jpg') no-repeat fixed center;
-    background-size: cover;
+    /*background: url('../img/nasa-140304_1920.jpg') no-repeat fixed center;*/
+/*    background-size: cover;
+    background: black;*/
+    background-color: #212832;
+    /* IE9, iOS 3.2+ */
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjEwMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPjxzdG9wIHN0b3AtY29sb3I9IiM0ODU1NmMiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjAxMiIvPjxzdG9wIHN0b3AtY29sb3I9IiMxYjIxMmIiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjEyNiIvPjxzdG9wIHN0b3AtY29sb3I9IiMxYjIxMmIiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjQyNiIvPjxzdG9wIHN0b3AtY29sb3I9IiMxNDE5MjIiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjcxMSIvPjxzdG9wIHN0b3AtY29sb3I9IiMzNTNiNDUiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjkwMiIvPjwvbGluZWFyR3JhZGllbnQ+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCN2c2dnKSIgLz48L3N2Zz4=);
+    background-image: -webkit-gradient(linear, 0% 100%, 100% 0%,color-stop(0.012, rgb(72, 85, 108)),color-stop(0.126, rgb(27, 33, 43)),color-stop(0.426, rgb(27, 33, 43)),color-stop(0.711, rgb(20, 25, 34)),color-stop(0.902, rgb(53, 59, 69)));
+    /* Android 2.3 */
+    background-image: -webkit-linear-gradient(bottom left,rgb(72, 85, 108) 1.2%,rgb(27, 33, 43) 12.6%,rgb(27, 33, 43) 42.6%,rgb(20, 25, 34) 71.1%,rgb(53, 59, 69) 90.2%);
+    /* IE10+ */
+    background-image: linear-gradient(to top right,rgb(72, 85, 108) 1.2%,rgb(27, 33, 43) 12.6%,rgb(27, 33, 43) 42.6%,rgb(20, 25, 34) 71.1%,rgb(53, 59, 69) 90.2%);
+    background-image: -ms-linear-gradient(bottom left,rgb(72, 85, 108) 1.2%,rgb(27, 33, 43) 12.6%,rgb(27, 33, 43) 42.6%,rgb(20, 25, 34) 71.1%,rgb(53, 59, 69) 90.2%);
+    height: 100vh;
+
+}
+
+
+.gradient {
+    background-color: #212832;
+    /* IE9, iOS 3.2+ */
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjEwMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPjxzdG9wIHN0b3AtY29sb3I9IiM0ODU1NmMiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjAxMiIvPjxzdG9wIHN0b3AtY29sb3I9IiMxYjIxMmIiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjEyNiIvPjxzdG9wIHN0b3AtY29sb3I9IiMxYjIxMmIiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjQyNiIvPjxzdG9wIHN0b3AtY29sb3I9IiMxNDE5MjIiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjcxMSIvPjxzdG9wIHN0b3AtY29sb3I9IiMzNTNiNDUiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjkwMiIvPjwvbGluZWFyR3JhZGllbnQ+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCN2c2dnKSIgLz48L3N2Zz4=);
+    background-image: -webkit-gradient(linear, 0% 100%, 100% 0%,color-stop(0.012, rgb(72, 85, 108)),color-stop(0.126, rgb(27, 33, 43)),color-stop(0.426, rgb(27, 33, 43)),color-stop(0.711, rgb(20, 25, 34)),color-stop(0.902, rgb(53, 59, 69)));
+    /* Android 2.3 */
+    background-image: -webkit-linear-gradient(bottom left,rgb(72, 85, 108) 1.2%,rgb(27, 33, 43) 12.6%,rgb(27, 33, 43) 42.6%,rgb(20, 25, 34) 71.1%,rgb(53, 59, 69) 90.2%);
+    /* IE10+ */
+    background-image: linear-gradient(to top right,rgb(72, 85, 108) 1.2%,rgb(27, 33, 43) 12.6%,rgb(27, 33, 43) 42.6%,rgb(20, 25, 34) 71.1%,rgb(53, 59, 69) 90.2%);
+    background-image: -ms-linear-gradient(bottom left,rgb(72, 85, 108) 1.2%,rgb(27, 33, 43) 12.6%,rgb(27, 33, 43) 42.6%,rgb(20, 25, 34) 71.1%,rgb(53, 59, 69) 90.2%);
+}
+
+/* IE8- CSS hack */
+@media \0screen\,screen\9 {
+    .gradient {
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff353b45",endColorstr="#ff48556c",GradientType=0);
+    }
 }
 
 .brand-image-logo {
-    /*width: 100%;*/
+    margin: 0 0 20px -7px;
 }
 
 .container {
     display: table;
 }
 
+h2 {
+    color: hsla(215, 2%, 30%, 1);
+}
+
 .logo-text-wrapper {
+    letter-spacing: 15px;
+    font-family: 'Sansation', 'Sansation Light', 'Sansation Bold';
     text-transform: uppercase;
-    font-size: 6vmax;
+    font-size: 5vmax;
+}
+
+.pipe {
+    color: hsla(215, 2%, 58%,1);
+    font-family: initial;
+    font-size: 45px;
+    line-height: 0;
+    position: relative;
+    top: 1px;
+    letter-spacing: 7px;
+    letter-spacing: 7px;
 }
 
 .row {
@@ -30,5 +109,6 @@ body {
 
 
 .theme-grey {
+    letter-spacing: 7px;
     color: hsla(215, 2%, 58%, 1);
 }
