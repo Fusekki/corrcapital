@@ -1550,6 +1550,40 @@ font-family: 'PT Sans', sans-serif;
 
 }
 
+.parallax-container .parallax-layer-11 {
+    -webkit-transform: translateZ(-1px) scale(2);
+    transform: translateZ(-1px) scale(0.5);
+    z-index: 500;
+    top: 800px;
+    left: 100px;
+    top: 224%;
+    left: 31%;
+    left: 125%;
+}
+
+.parallax-container .parallax-layer-12 {
+    -webkit-transform: translateZ(-1px) scale(2);
+    transform: translateZ(-1px) scale(.75);
+    z-index: 500;
+    top: 800px;
+    left: 100px;
+    top: 283%;
+    left: 31%;
+    left: -41%;
+
+}
+
+.parallax-container .parallax-layer-13 {
+    -webkit-transform: translateZ(-1px) scale(2);
+    transform: translateZ(-9px) scale(10);
+    z-index: -2001;
+    top: 800px;
+    left: 100px;
+    top: 23%;
+    left: 31%;
+    left: 23%;
+}
+
 .parallax-layer .planet {
     transition: box-shadow 0.3s ease-in-out;
 }
@@ -2911,53 +2945,6 @@ hr.globe-primary:after {
         margin: 0 0 3.5vmax;
     }
 
-    /*.tile-mobile:nth-of-type(1) .planet {*/
-        /*margin-top: -8em;*/
-    /*}*/
-
-    /*.tile-mobile:nth-of-type(2) .planet {*/
-        /*margin-top: -7em;*/
-    /*}*/
-
-    /*.tile-mobile:nth-of-type(3) .planet {*/
-        /*margin-top: -7em;*/
-        /*width: 101%;*/
-    /*}*/
-
-    /*.tile-mobile:nth-of-type(4) .planet {*/
-        /*margin-top: -7em;*/
-    /*}*/
-
-    /*.tile-mobile:nth-of-type(5) .planet {*/
-        /*margin-top: -8em;*/
-    /*}*/
-
-    /*.tile-mobile:nth-of-type(6) .planet {*/
-        /*margin-top: -8em;*/
-
-    /*}*/
-
-    /*.tile-mobile:nth-of-type(7) .planet {*/
-        /*margin-top: -8em;*/
-        /*width: 108%;*/
-        /*margin-left: -2%;*/
-    /*}*/
-
-    /*.tile-mobile:nth-of-type(8) .planet {*/
-        /*margin-top: -10em;*/
-    /*}*/
-
-    /*.tile-mobile:nth-of-type(9) .planet {*/
-        /*margin-top: -7em;*/
-    /*}*/
-
-    /*.tile-mobile:nth-of-type(10) .planet {*/
-        /*margin-top: -7.5em;*/
-        /*width: 104%;*/
-        /*margin-left: -1%;*/
-    /*}*/
-
-}
 
 
 /*iphone 6 plus portrait*/

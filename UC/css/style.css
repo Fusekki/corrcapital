@@ -1,0 +1,34 @@
+body {
+    background: url('../img/nasa-140304_1920.jpg') no-repeat fixed center;
+    background-size: cover;
+}
+
+.brand-image-logo {
+    /*width: 100%;*/
+}
+
+.container {
+    display: table;
+}
+
+.logo-text-wrapper {
+    text-transform: uppercase;
+    font-size: 6vmax;
+}
+
+.row {
+    display: table-cell;
+    vertical-align: middle;
+    height: 82vh;
+    text-align: center;
+}
+
+.theme-red {
+    color: hsla(357, 79%, 47%, 1);
+}
+
+
+
+.theme-grey {
+    color: hsla(215, 2%, 58%, 1);
+}
