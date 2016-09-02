@@ -66,7 +66,7 @@ body {
 }
 
 .brand-image-logo {
-    margin: 0 0 20px -7px;
+    margin: 0 0 20px -2.5%;
 }
 
 .container {
@@ -75,6 +75,7 @@ body {
 
 h2 {
     color: hsla(215, 2%, 30%, 1);
+    margin-left: -6%;
 }
 
 .logo-text-wrapper {
@@ -87,12 +88,12 @@ h2 {
 .pipe {
     color: hsla(215, 2%, 58%,1);
     font-family: initial;
-    font-size: 45px;
+    font-size: 6.5vmax;
     line-height: 0;
     position: relative;
     top: 1px;
     letter-spacing: 7px;
-    letter-spacing: 7px;
+
 }
 
 .row {
@@ -111,4 +112,16 @@ h2 {
 .theme-grey {
     letter-spacing: 7px;
     color: hsla(215, 2%, 58%, 1);
+}
+
+/*DESKTOPS START*/
+@media only screen and
+(min-width:769px) {
+    .brand-image-logo {
+        margin-left: -2%;
+    }
+    h2 {
+
+        margin-left: -5%;
+    }
 }
