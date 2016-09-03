@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c9897491-5837-4602-b0d4-3b9c1622a3c3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.htm" afterPath="$PROJECT_DIR$/index.htm" />
     </list>
     <ignored path="corrgroup.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +29,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="771">
-              <caret line="3025" column="21" selection-start-line="3025" selection-start-column="21" selection-end-line="3025" selection-end-column="21" />
+            <state relative-caret-position="345">
+              <caret line="761" column="44" selection-start-line="761" selection-start-column="44" selection-end-line="761" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -38,8 +39,8 @@
       <file leaf-file-name="index.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1831">
-              <caret line="789" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="828" selection-end-column="0" />
+            <state relative-caret-position="327">
+              <caret line="308" column="73" selection-start-line="308" selection-start-column="70" selection-end-line="308" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -263,7 +264,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../boilerplate/index.html" />
+    <property name="last_opened_file_path" value="E:/Web Workspace/Parallax-cats demo" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="E:\Program Files\nodejs\node.exe" />
@@ -437,12 +438,12 @@
       <workItem from="1472749182059" duration="597000" />
       <workItem from="1472829678537" duration="7089000" />
       <workItem from="1472851824146" duration="6762000" />
-      <workItem from="1472907170192" duration="5511000" />
+      <workItem from="1472907170192" duration="8193000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="529234000" />
+    <option name="totallyTimeSpent" value="531916000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -847,14 +848,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2159">
-          <caret line="223" column="0" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UC/css/animate.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -863,18 +856,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2159">
+          <caret line="223" column="0" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1831">
-          <caret line="789" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="828" selection-end-column="0" />
+        <state relative-caret-position="327">
+          <caret line="308" column="73" selection-start-line="308" selection-start-column="70" selection-end-line="308" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="771">
-          <caret line="3025" column="21" selection-start-line="3025" selection-start-column="21" selection-end-line="3025" selection-end-column="21" />
+        <state relative-caret-position="345">
+          <caret line="761" column="44" selection-start-line="761" selection-start-column="44" selection-end-line="761" selection-end-column="44" />
           <folding />
         </state>
       </provider>

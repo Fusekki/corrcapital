@@ -741,7 +741,7 @@ img::-moz-selection {
 }
 .navbar-custom .nav li a:hover {
     outline: 0;
-    color: red;
+    color: hsla(215, 2%, 90%, 1);
     background-color: transparent;
 }
 .navbar-custom .nav li a:focus,
@@ -753,10 +753,13 @@ img::-moz-selection {
     outline: 0;
 }
 .navbar-custom .nav li.active a {
-    background-color: rgba(255, 255, 255, .3);
+    color: hsla(215, 2%, 13%, 1);
+    background-color: hsla(215, 2%, 51%, 1);
+    font-weight: bold;
 }
 .navbar-custom .nav li.active a:hover {
     color: red;
+    background-color: hsla(215, 2%, 51%, 1);
 }
 .navbar-nav {
     font-size: 4vw;
@@ -770,11 +773,16 @@ img::-moz-selection {
     color: hsla(215, 2%, 70%, 1);
 }
 .navbar-default .navbar-nav>li>a {
-    color: hsla(215, 2%, 90%, 1);
+    color: hsla(215, 2%, 80%, 1);
 }
-.navbar-default .navbar-nav>li>a:focus {
-    color: hsla(215, 2%, 58%, 1);
+
+.navbar-custom .nav li a:focus, .navbar-custom .nav li a:active,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: hsla(215, 2%, 80%, 1);
+    background-color: hsla(215, 2%, 51%, 1);
+    font-weight: bold;
 }
+
 .pipe {
     color: hsla(215, 2%, 58%, 1);
     font-family: initial;
@@ -830,40 +838,8 @@ img::-moz-selection {
     height: 100%;
     background: url('../img/spacesunrise.jpg') no-repeat fixed center;
     background-size: cover;
-    /*position: fixed;*/
-    /*top: 0;*/
-    /*left: 0;*/
-    /*right: 0;*/
-    /*bottom: 0;*/
-    /*perspective: 1px;*/
-    /*overflow-x: hidden;*/
-    /*overflow-y: scroll;*/
 }
-.parallex {
-    /*width: 100%;*/
 
-    perspective: 1px;
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-}
-.parallax__layer {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
-.parallax__layer img {
-    /*width: 100%;*/
-}
-.parallax__layer--base {
-    transform: translateZ(0);
-    padding: 100vh 0;
-}
-.parallax__layer--back {
-    transform: translateZ(-1px);
-}
 .brand-heading {
     font-size: 5vmax;
     font-family: 'Sansation', 'Sansation Light', 'Sansation Bold';
@@ -1025,32 +1001,7 @@ img::-moz-selection {
 .intro_bottom {
     display: none;
 }
-.shapewrap {
-    display: inline-flex;
-    align-items: center;
-    width: 200px;
-    height: 50px;
-    position: absolute;
-}
-.shapewrap:focus {
-    outline: none;
-    overflow: visible;
-}
-.shapewrap:hover .globe-text {
-    color: white;
-}
-.shapewrap:hover .globe {
-    box-shadow: 0 0 10px 10px silver;
-    /* inner white */
-}
-.shape_wrapper {
-    position: absolute;
-    cursor: pointer;
-}
-.shapewrapper .img {
-    height: 100px;
-    width: 100px;
-}
+
 .constellation {
     position: absolute;
     opacity: 0;
@@ -1060,9 +1011,6 @@ img::-moz-selection {
 .constellation.wheel-show {
     opacity: 1;
 }
-.constellation:hover {
-    /*border: 2px hsla(215, 2%, 51%, 1) solid;*/
-}
 .constellation:hover .globe-text {
     text-shadow: 0 0 1px white;
 }
@@ -1070,6 +1018,14 @@ img::-moz-selection {
     background: white;
     -webkit-box-shadow: 0 0 3px 3px yellow;
     box-shadow: 0 0 3px 3px yellow;
+}
+
+.constellation:focus .globe-text {
+    text-shadow: 0 0 1px grey;
+}
+.constellation:focus .grey_ball div {
+    -webkit-box-shadow: 0 0 3px 3px lightgoldenrodyellow;
+    box-shadow: 0 0 3px 3px lightgoldenrodyellow;
 }
 /*PAGE 1 CLASSES END*/
 /*PAGE 1 ID START*/
@@ -1200,6 +1156,8 @@ img::-moz-selection {
 .front img {
     height: 100%;
 }
+
+
 .parallax-root {
     overflow: auto;
     -webkit-perspective: 1px;
@@ -2553,6 +2511,7 @@ hr.globe-primary:after {
     /*ipad Portrait*/
 
     @media only screen and (min-width: 768px) {
+
         .company-modal .close-modal i, .bio-modal .close-modal i {
             font-size: 3.5vmax;
         }
@@ -2626,9 +2585,7 @@ hr.globe-primary:after {
         .brand-heading {
             margin-top: 7%;
         }
-        .btn-circle {
-            display: none;
-        }
+
         .circle {
             left: 6vw;
             height: 140px;
@@ -2661,6 +2618,9 @@ hr.globe-primary:after {
     /*DESKTOPS START*/
 
     @media only screen and (min-width: 769px) {
+        .btn-circle {
+            display: none;
+        }
         .stars-anchor a:nth-of-type(1) {
         left: -72px;
         top: -591px;
