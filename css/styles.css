@@ -1080,7 +1080,7 @@ font-family: 'PT Sans', sans-serif;
     padding: 5px;
     border: 2px transparent solid;
     transition: all 0.3s ease-out;
-    color: transparent;
+    -webkit-transition: all 0.3s ease-out;
     text-shadow: 0 0 2px white;
 }
 
@@ -1445,21 +1445,15 @@ font-family: 'PT Sans', sans-serif;
     -webkit-transform: translateZ(-0.4px) scale(1.4);
     transform: translateZ(-0.4px) scale(1.4);
     z-index: -400;
-    top: 578px;
-    left: 235px;
     top: 127%;
     left: 76%;
 
 }
 .parallax-container .parallax-layer-2 {
-    z-index: 200;
     -webkit-transform: translateZ(0.2px) scale(0.8);
     transform: translateZ(0.2px) scale(0.8);
-    top: 179px;
-    left: 27px;
+    z-index: 200;
     top: 39%;
-    left: 8%;
-    left: 69%;
     left: 61%;
 
 }
@@ -1467,8 +1461,6 @@ font-family: 'PT Sans', sans-serif;
     -webkit-transform: translateZ(0.3px) scale(0.7);
     transform: translateZ(0.3px) scale(0.7);
     z-index: 300;
-    top: 330px;
-    left: 155px;
     top: 72%;
     left: 31%;
 
@@ -1477,8 +1469,6 @@ font-family: 'PT Sans', sans-serif;
     -webkit-transform: translateZ(0.1px) scale(0.9);
     transform: translateZ(0.1px) scale(0.9);
     z-index: 100;
-    top: 1000px;
-    left: 8px;
     left: 14%;
     top: 247%;
 }
@@ -1486,8 +1476,6 @@ font-family: 'PT Sans', sans-serif;
     -webkit-transform: translateZ(-2px) scale(3);
     transform: translateZ(-2px) scale(3);
     z-index: -2000;
-    top: 1263px;
-    left: 253px;
     top: 304%;
     left: 67%;
 }
@@ -1495,10 +1483,7 @@ font-family: 'PT Sans', sans-serif;
     -webkit-transform: translateZ(0.4px) scale(0.6);
     transform: translateZ(0.4px) scale(0.6);
     z-index: 400;
-    top: 626px;
-    left: 107px;
     top: 138%;
-    left: 33%;
     left: 35%;
 
 
@@ -1507,18 +1492,13 @@ font-family: 'PT Sans', sans-serif;
     -webkit-transform: translateZ(-1px) scale(2);
     transform: translateZ(-1px) scale(2);
     z-index: -1000;
-    top: 400px;
-    left: -61px;
     top: 86%;
-    left: -19%;
     left: -28%
 }
 .parallax-container .parallax-layer-8 {
     webkit-transform: translateZ(-0.4px) scale(1.4);
     transform: translateZ(-0.4px) scale(1.4);
     z-index: -400;
-    top: -56px;
-    left: 140px;
     top: -10%;
     left: 43%
 }
@@ -1526,26 +1506,15 @@ font-family: 'PT Sans', sans-serif;
     -webkit-transform: translateZ(0.4px) scale(0.6);
     transform: translateZ(0.4px) scale(0.6);
     z-index: 400;
-    top: 1185px;
-    left: 101px;
-    top: 261%;
-    left: 31%;
-    left: 62%;
-
     top: 201%;
-    left: 31%;
     left: 50%;
-
 }
 
 .parallax-container .parallax-layer-10 {
     -webkit-transform: translateZ(-1px) scale(2);
     transform: translateZ(-1px) scale(2);
     z-index: -1000;
-    top: 800px;
-    left: 100px;
     top: 176%;
-    left: 31%;
     left: -1%;
 
 }
@@ -1554,10 +1523,7 @@ font-family: 'PT Sans', sans-serif;
     -webkit-transform: translateZ(-1px) scale(2);
     transform: translateZ(-1px) scale(0.5);
     z-index: 500;
-    top: 800px;
-    left: 100px;
     top: 224%;
-    left: 31%;
     left: 125%;
 }
 
@@ -1565,44 +1531,39 @@ font-family: 'PT Sans', sans-serif;
     -webkit-transform: translateZ(-1px) scale(2);
     transform: translateZ(-1px) scale(.75);
     z-index: 500;
-    top: 800px;
-    left: 100px;
     top: 283%;
-    left: 31%;
     left: -41%;
 
 }
 
 .parallax-container .parallax-layer-13 {
-    -webkit-transform: translateZ(-1px) scale(2);
+    -webkit-transform: translateZ(-9px) scale(10);
     transform: translateZ(-9px) scale(10);
     z-index: -2001;
-    top: 800px;
-    left: 100px;
     top: 23%;
-    left: 31%;
     left: 23%;
 }
 
 .parallax-layer .planet {
     transition: box-shadow 0.3s ease-in-out;
+    -webkit-transition: box-shadow 0.3s ease-in-out;
 }
 
 
 .table-companies {
-    margin: auto;
+ margin: auto;
 }
 
 .companies-mobile > tbody > tr > td {
-    position: relative;
-    height: 30vw;
-    width: 30vw;
+ position: relative;
+ height: 30vw;
+ width: 30vw;
 }
 .companies-desktop > tbody > tr > td {
-    height: 25vh;
-    width: 30vw;
-    max-width: 225px;
-    max-height: 225px;
+ height: 25vh;
+ width: 30vw;
+ max-width: 225px;
+ max-height: 225px;
 
 
 }
@@ -1610,14 +1571,14 @@ font-family: 'PT Sans', sans-serif;
 .tile {
     opacity: 0;
     transition: opacity .15s ease-in-out;
+    -webkit-transition: opacity .15s ease-in-out;
 }
 
 .tile-mobile {
-    height: 75vmin;
-    width: 75vmin;
-    border-radius: 15em;
-    overflow: hidden;
-    /*margin: 25% auto auto;*/
+ height: 75vmin;
+ width: 75vmin;
+ border-radius: 15em;
+ overflow: hidden;
 
     margin: 0 auto;
 }
@@ -2226,8 +2187,16 @@ font-family: 'PT Sans', sans-serif;
 .contact-email {
     color: hsla(215, 2%, 58%,1);
 }
+
+
 .contact-info {
     color: hsla(215, 2%, 58%,1);
+}
+
+.contact-info #call {
+    font-size: 13px;
+    line-height: 3;
+
 }
 .site-info {
     color: hsla(215, 2%, 58%,1);
@@ -3032,7 +3001,7 @@ hr.globe-primary:after {
     }
 
     .navbar-custom .navbar-brand span:nth-of-type(2) {
-        /*font-size: 4.5vh;*/
+
         font-size: 9vh;
     }
 
@@ -3061,9 +3030,6 @@ hr.globe-primary:after {
         max-width: 80%
     }
 
-    /*#photo-aj {*/
-        /*max-width: 100%;*/
-    /*}*/
 
     #text-carousel {
         margin-top: 7%;
@@ -3110,13 +3076,6 @@ hr.globe-primary:after {
         top: 13px;
     }
 
-    /*.company-modal .close-modal .box-close i {*/
-        /*font-size: 2.5em;*/
-    /*}*/
-
-    h1, .h1, h2, .h2, h3, .h3 {
-        /*margin-top: 0;*/
-    }
     .back {
         transform: rotateY(180deg);
     }
