@@ -2824,8 +2824,8 @@ hr.globe-primary:after {
         }
         .fa-book {
             left: 38px;
-            top: 14px;
-            font-size: 10px;
+            top: 15px;
+            font-size: 12px;
         }
         .globe-text {
             padding: 10px;
@@ -2850,7 +2850,7 @@ hr.globe-primary:after {
             font-size: 16px;
         }
         .navbar-custom .navbar-brand span:nth-of-type(2) {
-            font-size: 5.5vmin;
+            font-size: 40px;
         }
         .photo-container img {
             max-width: 100%;
@@ -2929,7 +2929,7 @@ hr.globe-primary:after {
             padding: 2.75em 0 2em;
         }
         .carousel-content p {
-            font-size: 3vmin;
+            font-size:30px;
         }
         .text-overlay h3,
         .photo-text-overlay h3 {
@@ -2944,7 +2944,7 @@ hr.globe-primary:after {
         }
         .text-overlay .button {
             display: inline-block;
-            font-size: 1.5vmin;
+            font-size: 14px;
             padding: 10px 30px 10px 30px;
         }
         .company-modal .close-modal .box-close i {
@@ -3018,9 +3018,9 @@ hr.globe-primary:after {
         #text-carousel {
             margin-top: 13%;
         }
-        .navbar-custom .navbar-brand span:nth-of-type(2) {
-            font-size: 4.5vmin;
-        }
+        /*.navbar-custom .navbar-brand span:nth-of-type(2) {*/
+            /*font-size: 4.5vmin;*/
+        /*}*/
         .navigation-stars {
             top: 85%;
         }
