@@ -53,6 +53,11 @@ $(function() {
 
     });
 
+    $("img").mousedown(function(e){
+        e.preventDefault()
+    });
+
+
 });
 
 // Closes the Responsive Menu on Menu Item Click

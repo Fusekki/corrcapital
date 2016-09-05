@@ -2667,6 +2667,15 @@ hr.globe-primary:after {
         .btn-circle {
             display: none;
         }
+
+        .parallax-root {
+            width: 152vw;
+        }
+
+        .parallax-layer-anchor {
+            display: none;
+        }
+
         .stars-anchor a:nth-of-type(1) {
         left: -72px;
         top: -591px;
