@@ -6,7 +6,7 @@ var fade = false;
 var r;
 var c = 0;
 $(function() {
-
+    new WOW().init();
     collapseNavbar();
     addFadeListeners();
 

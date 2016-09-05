@@ -240,7 +240,7 @@
 /*UNKNOWN CLASSES START*/
 
 .content-section {
-    padding-top: 100px;
+    padding-top: 5vh;
 }
 .globe-text-right {
     position: relative;
@@ -717,7 +717,7 @@ img::-moz-selection {
 /*GENERAL ID END*/
 /*NAVIGATION START*/
 
-.brand-image-logo {
+.brand-image-logo-nav {
     position: relative;
     top: -35px;
     left: 67px;
@@ -816,6 +816,7 @@ img::-moz-selection {
     color: hsla(215, 2%, 70%, 1);
 }
 .navbar-default .navbar-nav>li>a {
+    margin-left: 5px;
     color: hsla(215, 2%, 80%, 1);
 }
 
@@ -826,7 +827,7 @@ img::-moz-selection {
     font-weight: bold;
 }
 
-.pipe {
+.pipe-nav {
     color: hsla(215, 2%, 58%, 1);
     font-family: initial;
     font-size: 30px;
@@ -840,7 +841,64 @@ img::-moz-selection {
 }
 /*NAVIGATION END*/
 /*PAGE 1 CLASSES START*/
-/*Layout as Stars*/
+
+
+/*JUST PASTED*/
+.brand-image-logo {
+    /*transform: scale(2);*/
+    /*margin-bottom: 7vh;*/
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+    -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+.logo-text-wrapper {
+    letter-spacing: 15px;
+    font-family: 'Sansation', 'Sansation Light', 'Sansation Bold';
+    text-transform: uppercase;
+    font-size: 5vmax;
+
+
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 4s; /* Firefox < 16 */
+    -ms-animation: fadein 4s; /* Internet Explorer */
+    -o-animation: fadein 4s; /* Opera < 12.1 */
+    animation: fadein 4s;
+}
+
+
+
+
+.pipe {
+    color: hsla(215, 2%, 58%,1);
+    font-family: initial;
+    font-size: 7.5vmax;
+    line-height: 0;
+    position: relative;
+    top: 1px;
+    letter-spacing: 1px;
+    left: -5px;
+
+}
+
+#heading-row {
+    /*display: table-cell;*/
+    vertical-align: middle;
+    /*height: 82vh;*/
+    text-align: center;
+}
+
+/*iphone 5 Portrait*/
+.brand-image-logo {
+    /*margin-top: 25%;*/
+}
+
+
+/*iphone 5 portrait end*/
+
+/*JUST PASTED END*/
 
 .carousel-content {
     align-items: center;
@@ -863,23 +921,25 @@ img::-moz-selection {
     width: 450px;
     margin: 0 auto;
 }
-/*End Layout*/
+
 
 .bg-image {
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    margin: 0;
-    perspective: 1px;
-    box-sizing: border-box;
-    object-fit: contain;
-    background-size: cover;
+    /*margin: 0;*/
+    /*perspective: 1px;*/
+    /*box-sizing: border-box;*/
+    /*object-fit: contain;*/
+    /*background-size: cover;*/
     z-index: -1;
     position: fixed;
-    width: 100%;
-    height: 100%;
-    background: url('../img/spacesunrise.jpg') no-repeat fixed center;
+    /*width: 100%;*/
+    /*height: 100%;*/
+    background: url('../img/spacesunrise.jpg') fixed;
+    /*background-repeat: no-repeat;*/
+    background-position: center;
     background-size: cover;
 }
 
@@ -2067,7 +2127,7 @@ opacity: 0;
     letter-spacing: 0;
 }
 .site-info .pipe {
-    letter-spacing: 15px;
+    /*letter-spacing: 15px;*/
     font-size: 55px;
 }
 /*PAGE 4 CLASS END*/
@@ -2579,6 +2639,17 @@ hr.globe-primary:after {
 /*iphone 5 portrait*/
 
 @media only screen and (min-width: 320px) {
+
+    .heading-wrapper {
+        text-align: center;
+        padding: 4vw 0vh 0 2.7vw;
+    }
+
+    #logo-second-word {
+        letter-spacing: 7px;
+    }
+
+
     .intro {
         padding: 0;
     }
@@ -2586,7 +2657,7 @@ hr.globe-primary:after {
         margin-left: 5px;
     }
     #text-carousel {
-        padding: 15% 5%;
+        padding: 10% 5%;
     }
 
     .view {
@@ -2633,6 +2704,10 @@ hr.globe-primary:after {
         .content-section {
             padding-top: 0;
         }
+
+        .heading-wrapper {
+            padding: 4vw 0vh 0 3.6vw;
+        }
         .intro {
             height: 89vh;
         }
@@ -2644,14 +2719,23 @@ hr.globe-primary:after {
             /*left: 58%;*/
         }
         #text-carousel {
-            margin-top: 10%;
+            /*margin-top: 10%;*/
         }
     }
     /*iphone 5 LS*/
 
     @media only screen and (min-width: 568px) {
-        .bg-image {
-            height: 120vh;
+
+        body {
+            font-size: 2vw;
+        }
+
+        .heading-container {
+            margin-top: 2vw;
+        }
+
+        .heading-wrapper {
+            padding: 2vw 0vh 0 1.5vw;
         }
         .brand-heading {
             margin-top: 2%;
@@ -2661,7 +2745,7 @@ hr.globe-primary:after {
             margin: 25px 0 10px -7px;
         }
         .btn-circle {
-            margin: 1% 0 5%;
+            margin: 0;
         }
         .circle {
             width: 100px;
@@ -2676,8 +2760,12 @@ hr.globe-primary:after {
             height: 25vw;
             width: 25vw;
         }
+
+        .intro .intro-body {
+            display: block;
+        }
         .navbar-brand {
-            font-size: 5.5vh;
+            font-size: 6.5vh;
         }
         .navbar-custom .navbar-brand span:nth-of-type(2) {
             font-size: 9vh;
@@ -2686,7 +2774,7 @@ hr.globe-primary:after {
             font-size: 4.3vh;
         }
         p {
-            font-size: 3vh;
+            font-size: 2.5vw;
         }
         .picture-box {
             margin: auto;
@@ -2702,9 +2790,16 @@ hr.globe-primary:after {
         .photo-overlay {
             max-width: 80%
         }
+
+        .site-info {
+            font-size: 4.5vw;
+        }
+
         #text-carousel {
-            margin-top: 7%;
-            padding: 0 5%;
+             margin-top: 2%;
+        }
+        #text-carousel {
+            padding: 0;
         }
         .tile-mobile .text-overlay h2 span {
             font-size: 5.5vw;
@@ -2762,10 +2857,17 @@ hr.globe-primary:after {
             margin-top: 7%;
         }
         .btn-circle {
-            margin-top: 10%
+            /*margin-top: 10%*/
         }
         .container {
             width: 100%;
+        }
+
+        .heading-container {
+            margin-top: 6vw;
+        }
+        .heading-wrapper {
+            padding-left: 2.1vw;
         }
         .circle {
             left: 21vw;
@@ -2790,7 +2892,15 @@ hr.globe-primary:after {
         .company-modal .close-modal i, .bio-modal .close-modal i {
             font-size: 3.5vh;
         }
+        .heading-container {
+            margin-top: 30%;
+        }
+
+        .heading-wrapper {
+            padding-left: 3.3vw;
+        }
         .intro .intro-body {
+            /*margin-top: 25%;*/
             height: 100vh;
         }
         .navbar-brand {
@@ -2897,7 +3007,8 @@ hr.globe-primary:after {
     /*DESKTOPS START*/
 
     @media only screen and (min-width: 769px) {
-        .btn-circle {
+        .btn-circle,
+        .heading-container {
             display: none;
         }
 
@@ -3104,6 +3215,10 @@ hr.globe-primary:after {
         .photo-container img {
             max-width: 100%;
         }
+
+        #text-carousel {
+            margin-top: 7%;
+        }
         .text-overlay h3,
         .text-overlay p {
             color: grey;
@@ -3247,6 +3362,16 @@ hr.globe-primary:after {
         }
         .photo-container .text-overlay p {
             font-size: 17px;
+        }
+
+        .view,
+        .view .mask {
+            width: 400px;
+            height: 250px;
+        }
+
+        .view h2 {
+            margin: 40px 50px 0px 50px;
         }
     }
     @media only screen and (min-height: 800px) and (min-width: 1280px) {
