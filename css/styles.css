@@ -1016,6 +1016,26 @@ img::-moz-selection {
 }
 /*Globe for earth and buttons*/
 
+
+#carousel-planets {
+    /*height: 222px;*/
+    height: 35vh;
+}
+
+.carousel-planets {
+    /*height: 200px;*/
+    overflow: initial;
+}
+
+.carousel-planets > .item > img,
+.carousel-planets > .item > a > img {
+    width: 50%;
+    margin: auto;
+    transition: box-shadow 0.3s ease-in-out;
+    -webkit-transition: box-shadow 0.3s ease-in-out;
+    /*height: 220px;*/
+}
+
 .globe {
     margin-top: 2px;
     margin-left: 10px;
@@ -1264,6 +1284,18 @@ img::-moz-selection {
 .front img {
     height: 100%;
 }
+
+.mobile-company-container {
+    padding: 1vh 0;
+    background: url('../img/deepspace.jpg') fixed;
+    height: 100%;
+
+}
+
+.mobile-company-frame {
+    margin: 15vh 0 20vh 0;
+}
+
 .parallax-frame {
     background: url('../img/deepspace.jpg') fixed;
 }
@@ -1284,16 +1316,20 @@ img::-moz-selection {
 .parallax-layer {
     position: absolute;
 }
-.parallax-layer .planet {
+.parallax-layer .planet,
+.planet-item img{
     border-radius: 25em;
+    max-height: 180px;
 }
-.parallax-layer:hover .planet {
+.parallax-layer:hover .planet,
+.planet-item:hover img{
     -webkit-box-shadow: 0px 0px 74px 7px white;
     -moz-box-shadow: 0px 0px 74px 7px white;
     box-shadow: 0px 0px 74px 7px white;
 }
 .parallax-layer:focus,
-.planet:focus {
+.planet:focus,
+.planet-item:focus {
     outline: 0;
 }
 
@@ -1434,6 +1470,27 @@ img::-moz-selection {
 .parallax-layer .planet {
     transition: box-shadow 0.3s ease-in-out;
     -webkit-transition: box-shadow 0.3s ease-in-out;
+}
+
+.planet-caption {
+    /*bottom: -50px;*/
+    bottom: -20%;
+}
+
+.planet-caption h3 {
+    font-size: 20px;
+}
+
+.planet-carousel-control {
+    /*bottom: 50px;*/
+    bottom: 12%;
+}
+.planet-indicators {
+    /*bottom: -40px;*/
+    bottom: -30%;
+}
+.planet-item {
+    height: 200px;
 }
 .table-companies {
     margin: auto;
@@ -2652,6 +2709,10 @@ hr.globe-primary:after {
 
 @media only screen and (min-width: 320px) {
 
+    #companies {
+        overflow-y: hidden;
+    }
+
     .heading-wrapper {
         text-align: center;
         padding: 4vw 0vh 0 2.7vw;
@@ -2665,9 +2726,24 @@ hr.globe-primary:after {
     .intro {
         padding: 0;
     }
+
+    .mobile-company-container {
+        display: block;
+
+    }
+
+    .mobile-company-frame {
+        margin-bottom: 19vh;
+    }
+
     .navbar-brand {
         margin-left: 5px;
     }
+
+    .parallax-frame {
+        display: none;
+    }
+
     #text-carousel {
         padding: 10% 5%;
     }
@@ -2685,8 +2761,20 @@ hr.globe-primary:after {
 @media only screen and (min-width: 375px) {
     /*(max-device-height:667px) and*/
     /*(orientation: portrait) {*/
+
+    .mobile-company-frame {
+        margin-top: 13vh;
+        margin-bottom: 15vh;
+    }
     .content-section {
         padding-top: 0;
+    }
+    .planet-caption {
+        bottom: -27%;
+    }
+
+    .planet-indicators {
+        bottom: -20%;
     }
 
     .span-subheader {
@@ -2723,6 +2811,10 @@ hr.globe-primary:after {
         .intro {
             height: 89vh;
         }
+
+        .mobile-company-frame {
+            margin-top: 13vh;
+        }
         .parallax-container .text-overlay,
         .parallax-container .planet {
             width: 150%;
@@ -2730,6 +2822,17 @@ hr.globe-primary:after {
         .parallax-container .parallax-layer-2 {
             /*left: 58%;*/
         }
+
+        .planet-caption {
+            bottom: -80px;
+        }
+
+
+
+        .planet-item img {
+            max-height: 205px;
+        }
+
         #text-carousel {
             /*margin-top: 10%;*/
         }
@@ -2740,6 +2843,10 @@ hr.globe-primary:after {
 
         body {
             font-size: 2vw;
+        }
+
+        .carousel-planets > .item > img, .carousel-planets > .item > a > img {
+            width: 30%;
         }
 
         .heading-container {
@@ -2759,6 +2866,14 @@ hr.globe-primary:after {
         .btn-circle {
             margin: 0;
         }
+
+        /*.carousel-control .glyphicon-chevron-right {*/
+            /*left: -100%;*/
+        /*}*/
+
+        /*.carousel-control .glyphicon-chevron-left {*/
+            /*left: 100%;*/
+        /*}*/
         .circle {
             width: 100px;
             position: absolute;
@@ -2775,6 +2890,11 @@ hr.globe-primary:after {
 
         .intro .intro-body {
             display: block;
+        }
+
+        .mobile-company-frame {
+            margin-top: 9vh;
+            margin-bottom: 53vh;
         }
         .navbar-brand {
             font-size: 6.5vh;
@@ -2802,6 +2922,31 @@ hr.globe-primary:after {
         .photo-overlay {
             max-width: 80%
         }
+
+        .planet-caption {
+            bottom: -30%;
+        }
+
+        .planet-carousel-control {
+            /* bottom: 50px; */
+            bottom: -69%;
+        }
+
+        .planet-carousel-control.left {
+            left: 10%;
+        }
+
+        .planet-carousel-control.right {
+            right: 10%;
+        }
+
+        .planet-indicators {
+            bottom: -140%;
+        }
+
+        /*.planet-item img {*/
+            /*max-height: 290px;*/
+        /*}*/
 
         .site-info {
             font-size: 4.5vw;
@@ -2852,6 +2997,14 @@ hr.globe-primary:after {
         .parallax-container .parallax-layer-10 {
             /*left: 5%;*/
         }
+
+        .planet-caption {
+            bottom: -40%;
+        }
+
+        .planet-indicators {
+            bottom: -124%;
+        }
         .text-overlay h3 {
             font-size: 3vh;
         }
@@ -2885,6 +3038,14 @@ hr.globe-primary:after {
             left: 21vw;
             top: 20px;
         }
+        .mobile-company-frame {
+
+            margin-bottom: 40vh;
+        }
+
+        .planet-indicators {
+            bottom: -105%;
+        }
     }
     @media only screen and (min-width: 767px) {
         .content-section {
@@ -2903,10 +3064,47 @@ hr.globe-primary:after {
     /*ipad Portrait*/
 
     @media only screen and (min-width: 768px) {
+        .carousel-control .glyphicon-chevron-right {
+            left: 0;
+        }
+
 
         .company-modal .close-modal i, .bio-modal .close-modal i {
             font-size: 3.5vh;
         }
+
+        .mobile-company-frame {
+            margin-top: 11vh;
+            margin-bottom: 13vh;
+        }
+
+        .planet-caption {
+            bottom: -75%;
+        }
+        .planet-caption h3 {
+            font-size: 25px;
+        }
+
+        .planet-indicators {
+            bottom: -10%;
+        }
+
+        .planet-indicators .active {
+            margin: 10px;
+            width: 20px;
+            height: 20px;
+        }
+
+        .planet-carousel-control {
+            bottom: 37%;
+        }
+
+        .planet-indicators li {
+            width: 20px;
+            height: 20px;
+            margin: 10px;
+        }
+
         .heading-container {
             margin-top: 30%;
         }
@@ -2930,7 +3128,7 @@ hr.globe-primary:after {
         }
         .parallax-container .text-overlay,
         .parallax-container .planet {
-            width: 200%;
+            /*width: 200%;*/
         }
         .photo-container .text-overlay h3 {
             font-size: 2.5vh;
@@ -2947,6 +3145,12 @@ hr.globe-primary:after {
         .photo-container .text-overlay p {
             font-size: 2.1vh;
         }
+
+
+        .planet-item img {
+            max-height: 400px;
+        }
+
         /*.text-margin-bottom {*/
             /*margin: 3vmax auto;*/
         /*}*/
@@ -3025,6 +3229,17 @@ hr.globe-primary:after {
         .btn-circle,
         .heading-container {
             display: none;
+        }
+
+        #companies {
+            overflow-y: auto;
+        }
+
+        .mobile-company-container {
+            display: none;
+        }
+        .parallax-frame {
+            display: block;
         }
 
         .parallax-root {
