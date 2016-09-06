@@ -1,12 +1,356 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/css/grayscale.css" description="&#10;p {&#10;    color: black;&#10;    margin: 0 0 25px;&#10;    /..." line="138" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="c9897491-5837-4602-b0d4-3b9c1622a3c3" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/corrgroup.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/css/demo-page.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/css/hover-min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/css/hover.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/hover.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/_hacks.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/_mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/_options.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/2d-transitions/_bob.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/2d-transitions/_bounce-in.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/2d-transitions/_bounce-out.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/2d-transitions/_buzz-out.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/2d-transitions/_buzz.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/2d-transitions/_float.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/2d-transitions/_grow-rotate.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/2d-transitions/_grow.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/2d-transitions/_hang.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/2d-transitions/_pop.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/2d-transitions/_pulse-grow.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/2d-transitions/_pulse-shrink.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/2d-transitions/_pulse.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/2d-transitions/_push.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/2d-transitions/_rotate.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/2d-transitions/_shrink.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/2d-transitions/_sink.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/2d-transitions/_skew-backward.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/2d-transitions/_skew-forward.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/2d-transitions/_skew.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/2d-transitions/_wobble-bottom.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/2d-transitions/_wobble-horizontal.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/2d-transitions/_wobble-skew.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/2d-transitions/_wobble-to-bottom-right.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/2d-transitions/_wobble-to-top-right.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/2d-transitions/_wobble-top.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/2d-transitions/_wobble-vertical.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/background-transitions/_back-pulse.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/background-transitions/_bounce-to-bottom.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/background-transitions/_bounce-to-left.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/background-transitions/_bounce-to-right.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/background-transitions/_bounce-to-top.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/background-transitions/_fade.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/background-transitions/_radial-in.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/background-transitions/_radial-out.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/background-transitions/_rectangle-in.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/background-transitions/_rectangle-out.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/background-transitions/_shutter-in-horizontal.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/background-transitions/_shutter-in-vertical.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/background-transitions/_shutter-out-horizontal.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/background-transitions/_shutter-out-vertical.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/background-transitions/_sweep-to-bottom.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/background-transitions/_sweep-to-left.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/background-transitions/_sweep-to-right.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/background-transitions/_sweep-to-top.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/border-transitions/_border-fade.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/border-transitions/_hollow.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/border-transitions/_outline-in.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/border-transitions/_outline-out.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/border-transitions/_overline-from-center.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/border-transitions/_overline-from-left.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/border-transitions/_overline-from-right.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/border-transitions/_overline-reveal.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/border-transitions/_reveal.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/border-transitions/_ripple-in.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/border-transitions/_ripple-out.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/border-transitions/_round-corners.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/border-transitions/_trim.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/border-transitions/_underline-from-center.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/border-transitions/_underline-from-left.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/border-transitions/_underline-from-right.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/border-transitions/_underline-reveal.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/curls/_curl-bottom-left.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/curls/_curl-bottom-right.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/curls/_curl-top-left.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/curls/_curl-top-right.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/icons/_icon-back.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/icons/_icon-bob.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/icons/_icon-bounce-out.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/icons/_icon-bounce.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/icons/_icon-buzz-out.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/icons/_icon-buzz.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/icons/_icon-down.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/icons/_icon-drop.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/icons/_icon-fade.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/icons/_icon-float-away.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/icons/_icon-float.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/icons/_icon-forward.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/icons/_icon-grow-rotate.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/icons/_icon-grow.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/icons/_icon-hang.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/icons/_icon-pop.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/icons/_icon-pulse-grow.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/icons/_icon-pulse-shrink.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/icons/_icon-pulse.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/icons/_icon-push.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/icons/_icon-rotate.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/icons/_icon-shrink.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/icons/_icon-sink-away.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/icons/_icon-sink.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/icons/_icon-spin.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/icons/_icon-up.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/icons/_icon-wobble-horizontal.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/icons/_icon-wobble-vertical.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/shadow-and-glow-transitions/_box-shadow-inset.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/shadow-and-glow-transitions/_box-shadow-outset.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/shadow-and-glow-transitions/_float-shadow.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/shadow-and-glow-transitions/_glow.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/shadow-and-glow-transitions/_grow-shadow.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/shadow-and-glow-transitions/_shadow-radial.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/shadow-and-glow-transitions/_shadow.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/speech-bubbles/_bubble-bottom.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/speech-bubbles/_bubble-float-bottom.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/speech-bubbles/_bubble-float-left.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/speech-bubbles/_bubble-float-right.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/speech-bubbles/_bubble-float-top.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/speech-bubbles/_bubble-left.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/speech-bubbles/_bubble-right.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/effects/speech-bubbles/_bubble-top.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/less/hover.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/logo-transparent.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/modern-slide-in.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/photo-stack.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/_hacks.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/_options.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/2d-transitions/_bob.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/2d-transitions/_bounce-in.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/2d-transitions/_bounce-out.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/2d-transitions/_buzz-out.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/2d-transitions/_buzz.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/2d-transitions/_float.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/2d-transitions/_grow-rotate.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/2d-transitions/_grow.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/2d-transitions/_hang.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/2d-transitions/_pop.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/2d-transitions/_pulse-grow.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/2d-transitions/_pulse-shrink.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/2d-transitions/_pulse.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/2d-transitions/_push.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/2d-transitions/_rotate.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/2d-transitions/_shrink.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/2d-transitions/_sink.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/2d-transitions/_skew-backward.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/2d-transitions/_skew-forward.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/2d-transitions/_skew.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/2d-transitions/_wobble-bottom.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/2d-transitions/_wobble-horizontal.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/2d-transitions/_wobble-skew.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/2d-transitions/_wobble-to-bottom-right.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/2d-transitions/_wobble-to-top-right.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/2d-transitions/_wobble-top.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/2d-transitions/_wobble-vertical.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/background-transitions/_back-pulse.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/background-transitions/_bounce-to-bottom.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/background-transitions/_bounce-to-left.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/background-transitions/_bounce-to-right.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/background-transitions/_bounce-to-top.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/background-transitions/_fade.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/background-transitions/_radial-in.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/background-transitions/_radial-out.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/background-transitions/_rectangle-in.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/background-transitions/_rectangle-out.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/background-transitions/_shutter-in-horizontal.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/background-transitions/_shutter-in-vertical.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/background-transitions/_shutter-out-horizontal.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/background-transitions/_shutter-out-vertical.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/background-transitions/_sweep-to-bottom.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/background-transitions/_sweep-to-left.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/background-transitions/_sweep-to-right.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/background-transitions/_sweep-to-top.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/border-transitions/_border-fade.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/border-transitions/_hollow.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/border-transitions/_outline-in.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/border-transitions/_outline-out.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/border-transitions/_overline-from-center.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/border-transitions/_overline-from-left.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/border-transitions/_overline-from-right.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/border-transitions/_overline-reveal.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/border-transitions/_reveal.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/border-transitions/_ripple-in.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/border-transitions/_ripple-out.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/border-transitions/_round-corners.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/border-transitions/_trim.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/border-transitions/_underline-from-center.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/border-transitions/_underline-from-left.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/border-transitions/_underline-from-right.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/border-transitions/_underline-reveal.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/curls/_curl-bottom-left.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/curls/_curl-bottom-right.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/curls/_curl-top-left.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/curls/_curl-top-right.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/icons/_icon-back.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/icons/_icon-bob.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/icons/_icon-bounce-out.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/icons/_icon-bounce.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/icons/_icon-buzz-out.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/icons/_icon-buzz.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/icons/_icon-down.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/icons/_icon-drop.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/icons/_icon-fade.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/icons/_icon-float-away.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/icons/_icon-float.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/icons/_icon-forward.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/icons/_icon-grow-rotate.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/icons/_icon-grow.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/icons/_icon-hang.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/icons/_icon-pop.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/icons/_icon-pulse-grow.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/icons/_icon-pulse-shrink.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/icons/_icon-pulse.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/icons/_icon-push.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/icons/_icon-rotate.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/icons/_icon-shrink.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/icons/_icon-sink-away.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/icons/_icon-sink.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/icons/_icon-spin.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/icons/_icon-up.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/icons/_icon-wobble-horizontal.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/icons/_icon-wobble-vertical.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/shadow-and-glow-transitions/_box-shadow-inset.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/shadow-and-glow-transitions/_box-shadow-outset.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/shadow-and-glow-transitions/_float-shadow.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/shadow-and-glow-transitions/_glow.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/shadow-and-glow-transitions/_grow-shadow.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/shadow-and-glow-transitions/_shadow-radial.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/shadow-and-glow-transitions/_shadow.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/speech-bubbles/_bubble-bottom.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/speech-bubbles/_bubble-float-bottom.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/speech-bubbles/_bubble-float-left.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/speech-bubbles/_bubble-float-right.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/speech-bubbles/_bubble-float-top.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/speech-bubbles/_bubble-left.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/speech-bubbles/_bubble-right.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/effects/speech-bubbles/_bubble-top.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/scss/hover.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/sequence-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hover-master/two-up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/animate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/clouds.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/cube.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/grayscale.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/hover-min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/hover.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/interactions.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/sansation/example.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/sansation/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/sansation1.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/511056548.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/RxCut Logo-sm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/William-Shatner-headshot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ajbw.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/art-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/art.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/auto.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/benefits.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/brick.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/centaurus-a-11190_1280.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/clouds.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/denial-mathematical-sign.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/energy-image.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/energy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/entertainment.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/envelope.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/fundraising.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/globe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/hs-2006-17-c-full_tif.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/jewelry.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/label.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/luxury.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/mail.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/multiple-users-silhouette.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/open-envelope.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/planet-581239_1280.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/planet1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/planet1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/planet2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/pluto-and-charon-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/realty.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/shutterstock_83985271-1920x1200.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/skyline-night-668457_1280.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/smoke-particle.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/south.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/space-1572212_1280.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/stars-in-the-night-sky.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/stock-colorized.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/stock-photo-76360995-double-exposure-with-business-graph.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/stock-photo-a-lot-of-rings-in-jewelry-window-display-250372291.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/stock-photo-a-real-dark-night-sky-with-plenty-of-stars-128983094.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/stock-photo-beautiful-woman-with-jewelry-close-up-282735707.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/stock-photo-blue-sunrise-view-of-earth-from-space-154320125.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/stock-photo-businessman-offer-positive-thing-like-benefits-personal-development-social-networking-363324212.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/stock-photo-closeup-of-an-employee-benefit-package-86250418.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/stock-photo-earth-at-night-with-city-lights-elements-of-this-image-furnished-by-nasa-128679269.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/stock-photo-earth-blue-shining-elements-of-this-image-furnished-by-nasa-horizon-and-stars-160777586.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/stock-photo-electric-lighting-effect-abstract-techno-backgrounds-for-your-design-131090639.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/stock-photo-empty-gallery-in-art-museum-with-wooden-floor-and-two-typical-wooden-benches-362091899.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/stock-photo-fashion-runway-out-of-focus-blur-background-308480654.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/stock-photo-illustration-of-deep-space-rich-in-stars-356754782.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/stock-photo-leonardo-da-vinci-the-mona-lisa-or-la-gioconda-ca-renaissance-art-229540009.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/stock-photo-near-space-photography-km-above-ground-real-photo-152362094.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/stock-photo-pharmacy-background-on-a-black-table-tablets-on-a-black-background-pills-medicine-and-healthy-376019320.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/stock-photo-planet-earth-in-outer-space-imaginary-view-of-planet-earth-in-a-star-field-elements-of-this-image-253851106.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/stock-photo-portrait-of-beautiful-blonde-woman-in-black-dress-fashion-photo-127612799.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/stock-photo-portrait-with-digital-effects-350581832.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/stock-photo-prescription-rx-medicine-bottles-on-white-background-243602188 .jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/stock-photo-promotion-mix-business-written-on-blackboard-background-97443989.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/stock-photo-public-relations-sign-with-people-icons-linked-as-network-on-businessman-hand-290153414.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/stock-photo-vienna-austria-august-the-leopold-museum-housed-in-the-museumsquartier-in-vienna-is-318414821.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/stock-photo-wind-turbines-in-oiz-eolic-park-at-sunset-269002526.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/stock-photo-women-hold-wooden-letters-pr-walking-people-on-the-background-299427335.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/taxi-cab-381233_1280.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/taxi-cab.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/tech.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/tele.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/AnimatedIntro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/AnimatedOpacity.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/ThreeExtras.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/ThreeWebGL.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/clouds.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/cubes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/demo-2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/grayscale.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/particles.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/smoke-2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/smoke.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/stars.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/water.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/less/grayscale.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/grayscale.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/water.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.htm" afterPath="$PROJECT_DIR$/index.htm" />
     </list>
     <ignored path="corrgroup.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,10 +370,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.htm" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.htm" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
+            <state relative-caret-position="-10160">
               <caret line="321" column="55" selection-start-line="321" selection-start-column="55" selection-end-line="321" selection-end-column="55" />
               <folding>
                 <element signature="e#28401#28407#0" expanded="true" />
@@ -38,11 +382,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="3130" column="0" selection-start-line="3130" selection-start-column="0" selection-end-line="3130" selection-end-column="25" />
+            <state relative-caret-position="503">
+              <caret line="2869" column="0" selection-start-line="2869" selection-start-column="0" selection-end-line="2869" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -438,12 +782,12 @@
       <workItem from="1473086775089" duration="10310000" />
       <workItem from="1473102959270" duration="7743000" />
       <workItem from="1473122247839" duration="2321000" />
-      <workItem from="1473168320228" duration="10898000" />
+      <workItem from="1473168320228" duration="11661000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="587862000" />
+    <option name="totallyTimeSpent" value="588625000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -524,9 +868,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1469990970430" expanded="true" signature="3700:3799" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -558,9 +900,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1581">
           <caret line="93" column="32" selection-start-line="93" selection-start-column="32" selection-end-line="93" selection-end-column="32" />
-          <folding>
-            <marker date="1469990970430" expanded="true" signature="3700:3799" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -599,9 +939,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10489">
           <caret line="617" column="0" selection-start-line="617" selection-start-column="0" selection-end-line="617" selection-end-column="0" />
-          <folding>
-            <marker date="1469990970430" expanded="true" signature="3700:3799" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -686,9 +1024,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
           <caret line="1131" column="9" selection-start-line="1131" selection-start-column="1" selection-end-line="1131" selection-end-column="9" />
-          <folding>
-            <marker date="1469990970430" expanded="true" signature="3700:3799" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -862,21 +1198,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="2869" column="0" selection-start-line="2869" selection-start-column="0" selection-end-line="2869" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
+        <state relative-caret-position="-10160">
           <caret line="321" column="55" selection-start-line="321" selection-start-column="55" selection-end-line="321" selection-end-column="55" />
           <folding>
             <element signature="e#28401#28407#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="3130" column="0" selection-start-line="3130" selection-start-column="0" selection-end-line="3130" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>

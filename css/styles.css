@@ -2867,13 +2867,7 @@ hr.globe-primary:after {
             margin: 0;
         }
 
-        /*.carousel-control .glyphicon-chevron-right {*/
-            /*left: -100%;*/
-        /*}*/
 
-        /*.carousel-control .glyphicon-chevron-left {*/
-            /*left: 100%;*/
-        /*}*/
         .circle {
             width: 100px;
             position: absolute;
