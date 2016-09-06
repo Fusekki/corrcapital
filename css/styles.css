@@ -317,11 +317,7 @@ ul.banner-social-buttons {
 /*UNKNOWN CLASSES END*/
 /*UNKNOWN ID START*/
 
-#map {
-    width: 100%;
-    height: 200px;
-    /*margin-top: 100px;*/
-}
+
 /*UNKNOWN ID END*/
 /*GENERAL CLASSES START*/
 
@@ -937,11 +933,11 @@ img::-moz-selection {
     position: fixed;
     /*width: 100%;*/
     /*height: 100%;*/
-    background: url('../img/spacesunrise.jpg') fixed;
+    background: url('../img/spacesunrise.jpg') no-repeat fixed center;
     /*background-repeat: no-repeat;*/
-    background-position: center;
     background-size: cover;
 }
+
 
 .brand-heading {
     font-size: 5vh;
@@ -1258,7 +1254,9 @@ img::-moz-selection {
 .front img {
     height: 100%;
 }
-
+.parallax-frame {
+    background: url('../img/deepspace.jpg') fixed;
+}
 
 .parallax-root {
     overflow: auto;
@@ -1266,7 +1264,6 @@ img::-moz-selection {
     perspective: 1px;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    background: url('../img/deepspace.jpg') fixed;
     height: 60vh;
     width: 200vw;
 
@@ -2137,6 +2134,11 @@ opacity: 0;
     background: #252525;
 }
 
+.map-container {
+    background: white;
+    width: 100%;
+    height: 300px;
+}
 
 #map {
     width: 100%;
@@ -2881,7 +2883,10 @@ hr.globe-primary:after {
         .download-section {
             padding: 100px 0;
         }
-        #map {
+
+
+        #map,
+        .map-container {
             height: 400px;
         }
     }

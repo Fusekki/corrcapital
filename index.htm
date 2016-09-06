@@ -74,8 +74,7 @@
 </nav>
 <!-- Intro Header -->
 <header class="intro">
-    <div class="bg-image">
-    </div>
+    <div class="bg-image"></div>
     <div class="intro-body">
         <div class="container">
             <div class="row" id="heading-row">
@@ -85,7 +84,7 @@
                 <!--</div>-->
                 <div class="col-med-8">
                     <div class="heading-container">
-                        <div class="brand-image-logo-wrapper wow fadeInDown">
+                        <div class="brand-image-logo-wrapper wow fadeInDown" data-wow-delay="0.3s">
                             <img class="brand-image-logo" src="img/corr-label.png" />
                         </div>
                     <div class="heading-wrapper wow fadeIn">
@@ -95,7 +94,7 @@
                     </div>
                     </div>
                 </div>
-                <div id="text-carousel" class="carousel slide vertical wow rollIn" data-ride="carousel">
+                <div id="text-carousel" class="carousel slide vertical wow rollIn" data-wow-delay="0.5s" data-ride="carousel">
                     <!-- Wrapper for slides -->
                     <div class="row">
                         <div class="col-xs-12">
@@ -189,7 +188,7 @@
                     </div>
 
                 </div>
-                <div class="btn-circle-wrapper wow fadeIn">
+                <div class="btn-circle-wrapper wow fadeIn" data-wow-delay="2s">
                     <a href="#company" class="btn btn-circle page-scroll animated pulse infinite ">
                         <i class="fa fa-angle-double-down"></i>
                     </a>
@@ -204,74 +203,75 @@
         <h2 class="text-center">Companies</h2>
     </div>
     <section id="companies" class="container content-section text-center">
+        <div class="parallax-frame " >
+        <div class="parallax-root wow zoomIn">
 
-        <div class="parallax-root">
-            <div class="parallax-container">
+            <div class="parallax-container ">
 
-                <div class="parallax-layer parallax-layer-1 wow zoomIn" data-target="#companyModal1" data-toggle="modal">
+                <div class="parallax-layer parallax-layer-1" data-target="#companyModal1" data-toggle="modal">
                     <div class="text-overlay">
                         <span class="planet-label theme-white">KVH</span>
                     </div>
                     <img class="planet" src="img/planets/mercury.png" alt="planet" />
                 </div>
 
-                <div class="parallax-layer parallax-layer-2 wow zoomIn" data-target="#companyModal4" data-toggle="modal">
+                <div class="parallax-layer parallax-layer-2" data-target="#companyModal4" data-toggle="modal">
                     <div class="text-overlay">
                         <span class="planet-label theme-white">Benefits</span>
                     </div>
                     <img class="planet" src="img/planets/venus.png" alt="planet" />
                 </div>
 
-                <div class="parallax-layer parallax-layer-3 wow zoomIn" data-target="#companyModal3" data-toggle="modal">
+                <div class="parallax-layer parallax-layer-3" data-target="#companyModal3" data-toggle="modal">
                     <div class="text-overlay">
                         <span class="planet-label theme-white">Energy</span>
                     </div>
                     <img class="planet" src="img/planets/mars.png" alt="planet" />
                 </div>
 
-                <div class="parallax-layer parallax-layer-4 wow zoomIn" data-target="#companyModal11" data-toggle="modal">
+                <div class="parallax-layer parallax-layer-4" data-target="#companyModal11" data-toggle="modal">
                     <div class="text-overlay">
                         <span class="planet-label theme-white">Real Estate</span>
                     </div>
                     <img class="planet" src="img/planets/jupiter.png" alt="planet" />
                 </div>
 
-                <div class="parallax-layer parallax-layer-5 wow zoomIn" data-target="#companyModal12" data-toggle="modal">
+                <div class="parallax-layer parallax-layer-5" data-target="#companyModal12" data-toggle="modal">
                     <div class="text-overlay">
                         <span class="planet-label theme-white">Technology</span>
                     </div>
                     <img class="planet" src="img/planets/uranus.png" alt="planet" />
                 </div>
 
-                <div class="parallax-layer parallax-layer-6 wow zoomIn" data-target="#companyModal10" data-toggle="modal">
+                <div class="parallax-layer parallax-layer-6" data-target="#companyModal10" data-toggle="modal">
                     <div class="text-overlay">
                         <span class="planet-label theme-white">Fashion</span>
                     </div>
                     <img class="planet" src="img/planets/neptune.png" alt="planet" />
                 </div>
 
-                <div class="parallax-layer parallax-layer-7 wow zoomIn" data-target="#companyModal13" data-toggle="modal">
+                <div class="parallax-layer parallax-layer-7" data-target="#companyModal13" data-toggle="modal">
                     <div class="text-overlay">
                         <span class="planet-label theme-white">Entertainment</span>
                     </div>
                     <img class="planet" src="img/planets/pluto.png" alt="planet">
                 </div>
 
-                <div class="parallax-layer parallax-layer-8 wow zoomIn" data-target="#companyModal5" data-toggle="modal">
+                <div class="parallax-layer parallax-layer-8" data-target="#companyModal5" data-toggle="modal">
                     <div class="text-overlay">
                         <span class="planet-label theme-white">Art</span>
                     </div>
                     <img class="planet" src="img/planets/tethys.png" alt="planet" />
                 </div>
 
-                <div class="parallax-layer parallax-layer-9 wow zoomIn" data-target="#companyModal14" data-toggle="modal">
+                <div class="parallax-layer parallax-layer-9" data-target="#companyModal14" data-toggle="modal">
                     <div class="text-overlay">
                         <span class="planet-label theme-white">Public Relations</span>
                     </div>
                     <img class="planet" src="img/planets/callisto.png" alt="planet">
                 </div>
 
-                <div class="parallax-layer parallax-layer-10 wow zoomIn" data-target="#companyModal2" data-toggle="modal">
+                <div class="parallax-layer parallax-layer-10" data-target="#companyModal2" data-toggle="modal">
                     <div class="text-overlay">
                         <span class="planet-label theme-white">Pharma</span>
                     </div>
@@ -293,6 +293,7 @@
                 <div class="parallax-layer-anchor">
 
                 </div>
+            </div>
             </div>
 
         </div>
@@ -431,7 +432,9 @@
     </div>
 </section>
 <!-- Map Section -->
-<div id="map"></div>
+<div class="map-container">
+<div id="map" class="wow fadeIn"></div>
+</div>
 <!-- Footer -->
 <!-- Footer -->
 <footer>
