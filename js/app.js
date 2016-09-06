@@ -5,6 +5,21 @@ var wheels = $('.constellation').get();
 var fade = false;
 var r;
 var c = 0;
+
+// Helper Objects (for error handling).
+var Helpers = {
+    handleError: function(msg) {
+        if (msg === 'map') {
+            return alert("There was an error loading the Google Maps API.  Please check your connection.");
+        } else {
+            return alert(msg);
+        }
+    },
+    logError: function(msg) {
+        return console.log(msg);
+    }
+};
+
 $(function() {
     new WOW().init();
     collapseNavbar();
@@ -76,7 +91,7 @@ google.maps.event.addDomListener(window, 'resize', function() {
     map.setCenter(new google.maps.LatLng(40.757118, -73.971890));
 });
 
-function init() {
+function initMap() {
     // Basic options for a simple Google Map
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
     var mapOptions = {
