@@ -918,8 +918,14 @@ img::-moz-selection {
     margin: 0 auto;
 }
 
-
 .bg-image {
+    background: transparent;
+}
+
+/*Hack for fixed backgrounds not working on IOS*/
+/* https://www.sitepoint.com/community/t/fixed-background-on-ipad/203905/5 */
+.bg-image:after {
+    content: "";
     top: 0;
     left: 0;
     right: 0;
@@ -933,9 +939,11 @@ img::-moz-selection {
     position: fixed;
     /*width: 100%;*/
     /*height: 100%;*/
-    background: url('../img/spacesunrise.jpg') no-repeat fixed center;
+    background: url('../img/spacesunrise.jpg') no-repeat 50% 50%;
     /*background-repeat: no-repeat;*/
     background-size: cover;
+    /*display: block;*/
+    /*height: 100vh;*/
 }
 
 
@@ -1075,6 +1083,7 @@ img::-moz-selection {
     -webkit-transition: background-color .25s ease-in-out;
     background: hsla(0, 0%, 0%, 0) no-repeat fixed center;
     background-size: cover;
+    height: 100vh;
 }
 .intro_bottom {
     position: absolute;
@@ -1090,6 +1099,7 @@ img::-moz-selection {
     display: table-cell;
     vertical-align: middle;
     transition: opacity .25s ease-in-out;
+    /*height: 100vh;*/
 }
 .intro-body.fadeAway {
     opacity: 0;
@@ -2381,43 +2391,43 @@ hr.globe-primary:after {
     opacity: 0;
 }
 #companyModal3 {
-    background: url('../img/windturbines.jpg') no-repeat fixed center;
+    background: url('../img/windturbines.jpg') no-repeat 50% 50%;
     background-size: cover;
 }
 #companyModal2 {
-    background: url('../img/pills.jpg') no-repeat fixed center;
+    background: url('../img/pills.jpg') no-repeat 50% 50%;
     background-size: cover;
 }
 #companyModal1 {
-    background: url('../img/model.jpg') no-repeat fixed center;
+    background: url('../img/model.jpg') no-repeat 50% 50%;
     background-size: cover;
 }
 #companyModal5 {
-    background: url('../img/stock-photo-gogh-vincent-van-starry-night-post-impressionism-oil-on-canvas-231664849.jpg') no-repeat fixed center;
+    background: url('../img/stock-photo-gogh-vincent-van-starry-night-post-impressionism-oil-on-canvas-231664849.jpg') no-repeat 50% 50%;
     background-size: cover;
 }
 #companyModal4 {
-    background: url('../img/benefits.jpg') no-repeat fixed center;
+    background: url('../img/benefits.jpg') no-repeat 50% 50%;
     background-size: cover;
 }
 #companyModal14 {
-    background: url('../img/stock-photo-chained-aquasphere-10716865.jpg') no-repeat fixed center;
+    background: url('../img/stock-photo-chained-aquasphere-10716865.jpg') no-repeat 50% 50%;
     background-size: cover;
 }
 #companyModal12 {
-    background: url('../img/stock-photo-technician-plug-in-cpu-microprocessor-to-motherboard-socket-workshop-background-350350565.jpg') no-repeat fixed center;
+    background: url('../img/stock-photo-technician-plug-in-cpu-microprocessor-to-motherboard-socket-workshop-background-350350565.jpg') no-repeat 50% 50%;
     background-size: cover;
 }
 #companyModal11 {
-    background: url('../img/stock-photo-three-little-houses-made-of-plastic-are-laying-on-one-dollar-banknote-business-concept-230159629.jpg') no-repeat fixed center;
+    background: url('../img/stock-photo-three-little-houses-made-of-plastic-are-laying-on-one-dollar-banknote-business-concept-230159629.jpg') no-repeat 50% 50%;
     background-size: cover;
 }
 #companyModal13 {
-    background: url('../img/stock-photo-movie-clapper-and-film-reel-on-a-wooden-background-169841813.jpg') no-repeat fixed center;
+    background: url('../img/stock-photo-movie-clapper-and-film-reel-on-a-wooden-background-169841813.jpg') no-repeat 50% 50%;
     background-size: cover;
 }
 #companyModal10 {
-    background: url('../img/stock-photo-high-fashion-portrait-of-young-elegant-woman-studio-shot-270601715.jpg') no-repeat fixed center;
+    background: url('../img/stock-photo-high-fashion-portrait-of-young-elegant-woman-studio-shot-270601715.jpg') no-repeat 50% 50%;
     background-size: cover;
 }
 .company-modal > .modal-content {
