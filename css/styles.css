@@ -2898,9 +2898,10 @@ hr.globe-primary:after {
         }
 
         .planet-indicators .active {
+
+            width: 15px;
+            height: 15px;
             margin: 10px;
-            width: 20px;
-            height: 20px;
         }
 
         .planet-carousel-control {
@@ -2908,8 +2909,8 @@ hr.globe-primary:after {
         }
 
         .planet-indicators li {
-            width: 20px;
-            height: 20px;
+            width: 15px;
+            height: 15px;
             margin: 10px;
         }
 
