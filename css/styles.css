@@ -1020,7 +1020,7 @@ img::-moz-selection {
 
 .carousel-planets {
     /*height: 200px;*/
-    /*overflow: initial;*/
+    overflow: initial;
 }
 
 .carousel-planets > .item > img,
@@ -1221,6 +1221,7 @@ img::-moz-selection {
     font-size: 2.5vh;
     margin-bottom: 0;
 }
+
 .companies-desktop {
     display: none;
     width: 90vw;
@@ -1282,6 +1283,7 @@ img::-moz-selection {
 }
 
 .mobile-company-container {
+    display: table;
     /*padding-top: 15%;*/
     background: url('../img/deepspace.jpg') fixed;
     width: 100%;
@@ -1292,6 +1294,8 @@ img::-moz-selection {
 
 .mobile-company-frame {
     /*margin: 10vh 0 25vh 0;*/
+    display: table-cell;
+    vertical-align: middle;
     height: 430px;
 }
 
@@ -1489,10 +1493,10 @@ img::-moz-selection {
 
 .planet-carousel-control {
     /*bottom: 50px;*/
-    /*bottom: 12%;*/
+    bottom: 12%;
 }
 .planet-indicators {
-    /*bottom: -40px;*/
+    bottom: 0;
     /*bottom: -30%;*/
 }
 .planet-item {
@@ -1513,9 +1517,6 @@ img::-moz-selection {
     float: none;
 }
 
-.row-planet {
-    padding-top: 15%;
-}
 .table-companies {
     margin: auto;
 }
@@ -2533,10 +2534,6 @@ hr.globe-primary:after {
         padding: 0;
     }
 
-    .mobile-company-container {
-        display: block;
-
-    }
 
     /*.mobile-company-frame {*/
         /*margin-bottom: 19vh;*/
@@ -2575,12 +2572,16 @@ hr.globe-primary:after {
     .content-section {
         padding-top: 0;
     }
+
+    .mobile-company-frame {
+        height: 445px;
+    }
     .planet-caption {
-        bottom: -27%;
+        bottom: 0;
     }
 
     .planet-indicators {
-        bottom: -20%;
+        bottom: -15px;
     }
 
     .span-subheader {
@@ -2619,7 +2620,7 @@ hr.globe-primary:after {
         }
 
         .mobile-company-frame {
-            margin-top: 13vh;
+            /*margin-top: 13vh;*/
         }
         .parallax-container .text-overlay,
         .parallax-container .planet {
@@ -2630,13 +2631,13 @@ hr.globe-primary:after {
         }
 
         .planet-caption {
-            bottom: -80px;
+            bottom: 20px;
         }
 
 
 
         .planet-item img {
-            max-height: 205px;
+
         }
 
         #text-carousel {
@@ -2693,8 +2694,7 @@ hr.globe-primary:after {
         }
 
         .mobile-company-frame {
-            margin-top: 9vh;
-            margin-bottom: 53vh;
+            height: 385px;
         }
         .navbar-brand {
             font-size: 6.5vh;
@@ -2724,25 +2724,27 @@ hr.globe-primary:after {
         }
 
         .planet-caption {
-            bottom: -30%;
+            padding-top: 0;
+            bottom: 0;
         }
 
         .planet-carousel-control {
             /* bottom: 50px; */
-            bottom: -69%;
+            bottom: 0;
         }
 
         .planet-carousel-control.left {
-            left: 10%;
+            /*left: 10%;*/
         }
 
         .planet-carousel-control.right {
-            right: 10%;
+            /*right: 10%;*/
         }
 
         .planet-indicators {
-            bottom: -140%;
+            bottom: -10px;
         }
+
 
         /*.planet-item img {*/
             /*max-height: 290px;*/
@@ -2794,6 +2796,10 @@ hr.globe-primary:after {
         .back a h2 span:nth-of-type(2) {
             font-size: 3.8vh;
         }
+        .mobile-company-frame {
+
+            height: 375px;
+        }
         .parallax-container .parallax-layer-10 {
             /*left: 5%;*/
         }
@@ -2803,7 +2809,7 @@ hr.globe-primary:after {
         }
 
         .planet-indicators {
-            bottom: -124%;
+            /*bottom: -124%;*/
         }
         .text-overlay h3 {
             font-size: 3vh;
@@ -2838,14 +2844,7 @@ hr.globe-primary:after {
             left: 21vw;
             top: 20px;
         }
-        .mobile-company-frame {
 
-            margin-bottom: 40vh;
-        }
-
-        .planet-indicators {
-            bottom: -105%;
-        }
     }
     @media only screen and (min-width: 767px) {
         .content-section {
@@ -2864,8 +2863,12 @@ hr.globe-primary:after {
     /*ipad Portrait*/
 
     @media only screen and (min-width: 768px) {
-        .carousel-control .glyphicon-chevron-right {
-            left: 0;
+
+
+
+        .col-sm-8 {
+            margin: auto;
+            float: none;
         }
 
 
@@ -2873,16 +2876,21 @@ hr.globe-primary:after {
             font-size: 3.5vh;
         }
 
+        .mobile-company-container {
+            display: table;
+        }
+
         .mobile-company-frame {
-            margin-top: 11vh;
-            margin-bottom: 13vh;
+            display: table-cell;
+            vertical-align: middle;
+            height: 600px;
         }
 
         .planet-caption {
             bottom: -75%;
         }
         .planet-caption h3 {
-            font-size: 25px;
+            font-size: 20px;
         }
 
         .planet-indicators {
@@ -2946,9 +2954,25 @@ hr.globe-primary:after {
             font-size: 2.1vh;
         }
 
+        .planet-carousel-control {
+            bottom: 0;
+        }
+
+        .planet-carousel-control.right {
+            /*right: 10%;*/
+        }
+
+        .planet-carousel-control.left {
+            left: 5%;
+        }
+
+        .planet-carousel-control.right {
+            right: 5%;
+        }
+
 
         .planet-item img {
-            max-height: 400px;
+            height: 150px;
         }
 
         /*.text-margin-bottom {*/
