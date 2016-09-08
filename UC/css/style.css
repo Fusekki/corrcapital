@@ -84,6 +84,11 @@ body {
 
 }
 
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 
 .gradient {
     background-color: #212832;
@@ -104,28 +109,19 @@ body {
     }
 }
 
-.brand-image-logo {
-    transform: scale(2);
-    margin-bottom: 7vh;
-    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 2s; /* Firefox < 16 */
-    -ms-animation: fadein 2s; /* Internet Explorer */
-    -o-animation: fadein 2s; /* Opera < 12.1 */
-    animation: fadein 2s;
-}
 
 .container {
     display: table;
 }
 
 h2 {
-    font-size: 4vmax;
+    font-family: 'Oswald', Arial, sans-serif;
+    font-size: 3vh;
     color: hsla(215, 2%, 30%, 1);
 }
 
 .heading-wrapper {
     text-align: center;
-    padding: 0 0vh 0 3.7vw;
 }
 
 
@@ -133,7 +129,8 @@ h2 {
     letter-spacing: 15px;
     font-family: 'Sansation', 'Sansation Light', 'Sansation Bold';
     text-transform: uppercase;
-    font-size: 5vmax;
+    font-size: 3vh;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 
     -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
@@ -188,6 +185,11 @@ h2 {
 }
 
 
+@media only screen and
+(orientation: landscape) {
+
+}
+
 /*iphone 5 LS*/
 @media only screen and
 (min-width: 568px) {
@@ -199,11 +201,25 @@ h2 {
         text-align: center;
         padding: 4vw 0vh 0 2.1vw;
     }
+
+    .logo-text-wrapper {
+       font-size: 4vw;
+         }
+
+    h2 {
+        font-size: 3vw;
+    }
 }
+
 
 @media only screen and
 (min-width:768px) {
+    .logo-text-wrapper {
+        font-size: 6vh;
+    }
+
     h2 {
-        font-size: 2.5vw;
+        font-size: 2.5vh;
     }
 }
+

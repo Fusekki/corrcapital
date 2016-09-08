@@ -1294,9 +1294,10 @@ img::-moz-selection {
 
 .mobile-company-frame {
     /*margin: 10vh 0 25vh 0;*/
-    display: table-cell;
-    vertical-align: middle;
-    height: 430px;
+    /*display: table-cell;*/
+    /*vertical-align: middle;*/
+    /*height: 430px;*/
+    background: url('../img/deepspace.jpg') fixed;
 }
 
 .parallax-frame {
@@ -1313,11 +1314,18 @@ img::-moz-selection {
     width: 200vw;
 
 }
+
+
 .parallax-container {
     margin: auto;
 }
 .parallax-layer {
     position: absolute;
+}
+
+.parallax-mobile {
+    width: 300vw;
+    /*height: auto;*/
 }
 .parallax-layer .planet,
 .planet-item img{
@@ -1474,6 +1482,10 @@ img::-moz-selection {
     transition: box-shadow 0.3s ease-in-out;
     -webkit-transition: box-shadow 0.3s ease-in-out;
 }
+/*This way we can specify planets top position by percentages*/
+.parallax-mobile .parallax-container {
+    height: 100%;
+}
 
 .planet-caption {
     /*bottom: -50px;*/
@@ -1492,18 +1504,35 @@ img::-moz-selection {
 }
 
 .planet-carousel-control {
+    width: 5%;
     /*bottom: 50px;*/
     bottom: 12%;
 }
+
+.planet-carousel-control.left {
+    /*width: 5%;*/
+    /*bottom: 50px;*/
+    /*bottom: 12%;*/
+}
+
+.planet-carousel-control.right {
+    left: 85vw;
+}
 .planet-indicators {
-    bottom: 0;
+    top: 55vh;
+    left: -46vw;
     /*bottom: -30%;*/
+    padding-left: 40px;
+    margin-left: 0;
 }
 .planet-item {
     /*height: 200px;*/
-     width: 50%;
-    display: inline;
-    float: left;
+     /*width: 50%;*/
+    /*display: inline;*/
+    position: relative;
+    /*float: left;*/
+    height: 150px;
+    width: 150px;
 
 }
 
@@ -1515,6 +1544,100 @@ img::-moz-selection {
 
 .planet-item-vertical {
     float: none;
+}
+
+#planet-art {
+    top: 2vh;
+    left: 20%;
+    -webkit-transform: translateZ(-0.1px) scale(0.9);
+    transform: translateZ(-0.1px) scale(0.9);
+    z-index: 1;
+
+
+}
+
+#planet-benefits {
+    top: -3vh;
+    left: 12%;
+    -webkit-transform: translateZ(-0.3px) scale(1.0);
+    transform: translateZ(-0.3px) scale(1.0);
+    z-index: 1;
+
+}
+
+#planet-energy {
+    top: -13vh;
+    left: 1%;
+    -webkit-transform: translateZ(-0.1px) scale(1.0);
+    transform: translateZ(-0.3px) scale(1.0);
+    z-index: 1;
+
+}
+
+
+#planet-entertainment {
+    top: -24vh;
+    left: 19%;
+    -webkit-transform: translateZ(-0.1px) scale(1.0);
+    transform: translateZ(-0.3px) scale(1.0);
+    z-index: 1;
+
+}
+
+#planet-fashion {
+    top: 2vh;
+    left: 7%;
+    -webkit-transform: translateZ(-0.1px) scale(0.9);
+    transform: translateZ(-0.1px) scale(0.9);
+    z-index: 1;
+
+}
+
+#planet-kvh {
+    top: -11vh;
+    left: 18%;
+    -webkit-transform: translateZ(-0.3px) scale(1.0);
+    transform: translateZ(-0.3px) scale(1.0);
+    z-index: 1;
+
+}
+
+#planet-pharma {
+    top: -9vh;
+    left: 20%;
+    -webkit-transform: translateZ(-0.1px) scale(1.0);
+    transform: translateZ(-0.3px) scale(1.0);
+    z-index: 1;
+
+}
+
+
+#planet-pr {
+    top: -25vh;
+    left: 3%;
+    -webkit-transform: translateZ(-0.1px) scale(1.0);
+    transform: translateZ(-0.3px) scale(1.0);
+    z-index: 1;
+
+}
+
+#planet-re {
+    top: 6vh;
+    left: 5%;
+    -webkit-transform: translateZ(-0.1px) scale(1.0);
+    transform: translateZ(-0.3px) scale(1.0);
+    z-index: 1;
+
+}
+
+
+#planet-tech {
+    top: 13vh;
+    left: 17%;
+    -webkit-transform: translateZ(-0.1px) scale(1.0);
+    transform: translateZ(-0.3px) scale(1.0);
+    z-index: 1;
+
 }
 
 .table-companies {
@@ -2574,7 +2697,7 @@ hr.globe-primary:after {
     }
 
     .mobile-company-frame {
-        height: 445px;
+        /*height: 445px;*/
     }
     .planet-caption {
         bottom: 0;
@@ -2656,13 +2779,14 @@ hr.globe-primary:after {
             width: 30%;
         }
 
+        .heading-wrapper {
+            padding: 8vw 0vh 0 3.6vw;
+        }
+
         .heading-container {
             margin-top: 2vw;
         }
 
-        .heading-wrapper {
-            padding: 2vw 0vh 0 1.5vw;
-        }
         .brand-heading {
             margin-top: 2%;
         }
@@ -2738,7 +2862,7 @@ hr.globe-primary:after {
         }
 
         .planet-carousel-control.right {
-            /*right: 10%;*/
+            left: 85vw;
         }
 
         .planet-indicators {
@@ -3028,6 +3152,12 @@ hr.globe-primary:after {
         #footer-left-text {
             margin-top: 3%;
         }
+
+        .heading-wrapper {
+            display: none;
+        }
+
+
         .intro .intro-body {
             vertical-align: top;
         }
@@ -3041,6 +3171,10 @@ hr.globe-primary:after {
             font-size: 1.75vw;
             margin-top: 0;
         }
+
+        #text-carousel {
+            margin-top: 6%;
+        }
         .text-overlay h3 {
             font-size: 3.3vh;
         }
@@ -3051,6 +3185,9 @@ hr.globe-primary:after {
     /*DESKTOPS START*/
 
     @media only screen and (min-width: 769px) {
+
+
+
         .btn-circle,
         .heading-container {
             display: none;
@@ -3272,7 +3409,7 @@ hr.globe-primary:after {
         }
 
         #text-carousel {
-            margin-top: 7%;
+            /*margin-top: 2%;*/
         }
         .text-overlay h3,
         .text-overlay p {
