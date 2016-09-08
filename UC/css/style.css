@@ -115,9 +115,17 @@ body {
 }
 
 h2 {
-    font-family: 'Oswald', Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 3vh;
     color: hsla(215, 2%, 30%, 1);
+    margin-left: -3%;
+    letter-spacing: 1px;
+    -webkit-animation: fadein 10s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 10s; /* Firefox < 16 */
+    -ms-animation: fadein 10s; /* Internet Explorer */
+    -o-animation: fadein 10s; /* Opera < 12.1 */
+    animation: fadein 10s;
+
 }
 
 .heading-wrapper {
@@ -126,18 +134,19 @@ h2 {
 
 
 .logo-text-wrapper {
+    margin-left: 2vh;
     letter-spacing: 15px;
     font-family: 'Sansation', 'Sansation Light', 'Sansation Bold';
     text-transform: uppercase;
-    font-size: 3vh;
+    font-size: 4vh;
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 
-    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 4s; /* Firefox < 16 */
-    -ms-animation: fadein 4s; /* Internet Explorer */
-    -o-animation: fadein 4s; /* Opera < 12.1 */
-    animation: fadein 4s;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+    -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+    animation: fadein 2s;
 }
 
 
@@ -199,7 +208,7 @@ h2 {
 
     .heading-wrapper {
         text-align: center;
-        padding: 4vw 0vh 0 2.1vw;
+        padding: 4vw 0vh 0 1.1vw;
     }
 
     .logo-text-wrapper {
@@ -221,5 +230,20 @@ h2 {
     h2 {
         font-size: 2.5vh;
     }
+
+    .pipe {
+        top: -7px;
+        font-size: 6.5vmax;
+
+    }
 }
 
+@media only screen and
+(min-width:1024px) {
+
+
+    .pipe {
+        top: -3px;
+        font-size: 5.5vmax;
+    }
+}
