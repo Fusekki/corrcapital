@@ -929,7 +929,7 @@ img::-moz-selection {
     /*box-sizing: border-box;*/
     /*object-fit: contain;*/
     /*background-size: cover;*/
-    z-index: -1;
+    z-index: -5;
     position: fixed;
     /*width: 100%;*/
     /*height: 100%;*/
@@ -989,7 +989,7 @@ img::-moz-selection {
     transform: translate3d(0, -100%, 0);
 }
 .carousel-control {
-    z-index: 2;
+    z-index: 0;
 }
 /*// rename so it comes before globe*/
 
@@ -1014,7 +1014,7 @@ img::-moz-selection {
 
 
 #carousel-planets {
-    /*height: 222px;*/
+    height: 375px;
     /*height: 35vh;*/
 }
 
@@ -1323,9 +1323,10 @@ img::-moz-selection {
     position: absolute;
 }
 
-.parallax-mobile {
-    width: 300vw;
-    /*height: auto;*/
+.mobile-container {
+    /*width: 300vw;*/
+    width: auto;
+    height: auto;
 }
 .parallax-layer .planet,
 .planet-item img{
@@ -1483,7 +1484,7 @@ img::-moz-selection {
     -webkit-transition: box-shadow 0.3s ease-in-out;
 }
 /*This way we can specify planets top position by percentages*/
-.parallax-mobile .parallax-container {
+.mobile-container .parallax-container {
     height: 100%;
 }
 
@@ -1504,9 +1505,9 @@ img::-moz-selection {
 }
 
 .planet-carousel-control {
-    width: 5%;
+    /*width: 5%;*/
     /*bottom: 50px;*/
-    bottom: 12%;
+    bottom: -226%;
 }
 
 .planet-carousel-control.left {
@@ -1519,11 +1520,11 @@ img::-moz-selection {
     left: 85vw;
 }
 .planet-indicators {
-    top: 55vh;
-    left: -46vw;
+    /*top: 60vh;*/
+    /*left: 13vw;*/
     /*bottom: -30%;*/
-    padding-left: 40px;
-    margin-left: 0;
+    /*padding-left: 40px;*/
+    /*margin-left: 0;*/
 }
 .planet-item {
     /*height: 200px;*/
@@ -2639,6 +2640,11 @@ hr.globe-primary:after {
 
 @media only screen and (min-width: 320px) {
 
+
+    .carousel-control.right,
+    .carousel-control.left {
+        background: none;
+    }
     #companies {
         overflow-y: hidden;
     }
@@ -2668,6 +2674,89 @@ hr.globe-primary:after {
 
     .parallax-frame {
         display: none;
+    }
+
+    .planet-carousel-control {
+        background-image:nonel;
+    }
+
+    #planet-art {
+        top: 2vh;
+        left: 49%;
+        -webkit-transform: translateZ(-0.1px) scale(0.9);
+        transform: translateZ(-0.1px) scale(0.85);
+        z-index: 1;
+    }
+
+    #planet-benefits {
+        top: -11vh;
+        left: 26%;
+        -webkit-transform: translateZ(-0.3px) scale(1.0);
+        transform: translateZ(-0.3px) scale(.75);
+        z-index: 1;
+    }
+
+    #planet-energy {
+        top: -20vh;
+        left: 0%;
+        -webkit-transform: translateZ(-0.1px) scale(1.0);
+        transform: translateZ(-0.3px) scale(.8);
+        z-index: 1;
+    }
+
+    #planet-entertainment {
+        top: -42vh;
+        left: 46%;
+        -webkit-transform: scale(1.0);
+        transform: scale(.75);
+        z-index: 1;
+    }
+
+    #planet-fashion {
+        top: 5vh;
+        left: 6%;
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+        z-index: 1;
+    }
+
+    #planet-kvh {
+        top: -18vh;
+        left: 43%;
+        -webkit-transform: scale(.85);
+        transform: scale(.85);
+        z-index: 1;
+    }
+
+    #planet-pharma {
+        top: -20vh;
+        left: 53%;
+        -webkit-transform: scale(1.0);
+        transform: scale(0.8);
+        z-index: 1;
+    }
+    #planet-pr {
+        top: -43vh;
+        left: 0%;
+        -webkit-transform: scale(1.0);
+        transform: scale(0.9);
+        z-index: 1;
+    }
+
+    #planet-re {
+        top: 6vh;
+        left: 9%;
+        -webkit-transform: scale(1.0);
+        transform: scale(0.9);
+        z-index: 1;
+    }
+
+    #planet-tech {
+        top: 4vh;
+        left: 47%;
+        -webkit-transform: scale(1.0);
+        transform: scale(0.8);
+        z-index: 1;
     }
 
     #text-carousel {
@@ -2700,12 +2789,95 @@ hr.globe-primary:after {
         /*height: 445px;*/
     }
     .planet-caption {
-        bottom: 0;
+        /*bottom: 0;*/
     }
 
     .planet-indicators {
-        bottom: -15px;
+        /*bottom: -15px;*/
     }
+
+    #planet-art {
+        top: 2vh;
+        left: 60%;
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+        z-index: 1;
+    }
+
+    #planet-benefits {
+        top: -6vh;
+        left: 33%;
+        -webkit-transform: scale(1.0);
+        transform: scale(0.8);
+        z-index: 1;
+    }
+
+    #planet-energy {
+        top: -20vh;
+        left: 5%;
+        -webkit-transform: scale(0.85);
+        transform:  scale(0.85);
+        z-index: 1;
+    }
+
+    #planet-entertainment {
+        top: -37vh;
+        left: 51%;
+        -webkit-transform: scale(1.0);
+        transform: scale(0.85);
+        z-index: 1;
+    }
+    #planet-fashion {
+        top: 6vh;
+        left: 15%;
+        -webkit-transform: translateZ(-0.1px) scale(0.9);
+        transform: translateZ(-0.1px) scale(0.9);
+        z-index: 1;
+    }
+
+    #planet-kvh {
+        top: -13vh;
+        left: 45%;
+        -webkit-transform: translateZ(-0.3px) scale(1.0);
+        transform: translateZ(-0.3px) scale(0.85);
+        z-index: 1;
+    }
+
+    #planet-pharma {
+        top: -16vh;
+        left: 53%;
+        -webkit-transform: translateZ(-0.1px) scale(1.0);
+        transform: translateZ(-0.3px) scale(0.85);
+        z-index: 1;
+    }
+
+    #planet-pr {
+        top: -36vh;
+        left: 5%;
+        -webkit-transform: translateZ(-0.1px) scale(1.0);
+        transform: translateZ(-0.3px) scale(0.8);
+        z-index: 1;
+    }
+
+    #planet-re {
+        top: 6vh;
+        left: 13%;
+        -webkit-transform: scale(0.9);
+        transform: scale(0.8);
+        z-index: 1;
+    }
+
+    #planet-tech {
+        top: 5vh;
+        left: 46%;
+        -webkit-transform: scale(1.0);
+        transform: scale(0.9);
+        z-index: 1;
+    }
+
+
+
+
 
     .span-subheader {
         font-size: 4vh;
@@ -2730,6 +2902,10 @@ hr.globe-primary:after {
         }
         .bio-modal .modal-body > p {
             font-size: 2.5vh;
+        }
+
+        #carousel-planets {
+            height: 425px;
         }
         .content-section {
             padding-top: 0;
@@ -2757,9 +2933,102 @@ hr.globe-primary:after {
             bottom: 20px;
         }
 
+        .planet-carousel-control {
+            bottom: -194%
+        }
+
 
 
         .planet-item img {
+
+        }
+
+        #planet-art {
+            top: 3vh;
+            left: 60%;
+            -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+            z-index: 1;
+
+
+        }
+
+        #planet-benefits {
+            top: -2vh;
+            left: 33%;
+            -webkit-transform: scale(1.0);
+            transform: scale(0.9);
+            z-index: 1;
+
+        }
+
+        #planet-energy {
+            top: -11vh;
+            -webkit-transform:  scale(1.0);
+            transform: scale(0.9);
+            z-index: 1;
+
+        }
+
+
+        #planet-entertainment {
+            top: -28vh;
+            left: 56%;
+            -webkit-transform: scale(1.0);
+            transform: scale(0.9);
+            z-index: 1;
+
+        }
+
+        #planet-fashion {
+            top: 4vh;
+            -webkit-transform: translateZ(-0.1px) scale(0.9);
+            transform: translateZ(-0.1px) scale(0.9);
+            z-index: 1;
+
+        }
+
+        #planet-kvh {
+            top: -12vh;
+            -webkit-transform: translateZ(-0.3px) scale(1.0);
+            transform: translateZ(-0.3px) scale(1.0);
+            z-index: 1;
+
+        }
+
+        #planet-pharma {
+            top: -13vh;
+
+            -webkit-transform: translateZ(-0.1px) scale(1.0);
+            transform: translateZ(-0.3px) scale(0.9);
+            z-index: 1;
+
+        }
+
+
+        #planet-pr {
+            top: -29vh;
+            left: 8%;
+
+            -webkit-transform: translateZ(-0.1px) scale(1.0);
+            transform: translateZ(-0.3px) scale(0.85);
+            z-index: 1;
+
+        }
+
+        #planet-re {
+            -webkit-transform: scale(1.0);
+            transform: scale(1.0);
+            z-index: 1;
+
+        }
+
+
+        #planet-tech {
+            left: 50%;
+            -webkit-transform: scale(1.0);
+            transform: scale(1.0);
+            z-index: 1;
 
         }
 
@@ -2777,6 +3046,10 @@ hr.globe-primary:after {
 
         .carousel-planets > .item > img, .carousel-planets > .item > a > img {
             width: 30%;
+        }
+
+        .carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
+            top: 19%;
         }
 
         .heading-wrapper {
@@ -2818,7 +3091,7 @@ hr.globe-primary:after {
         }
 
         .mobile-company-frame {
-            height: 385px;
+            height: 250px;
         }
         .navbar-brand {
             font-size: 6.5vh;
@@ -2854,6 +3127,7 @@ hr.globe-primary:after {
 
         .planet-carousel-control {
             /* bottom: 50px; */
+            /*top: 19%;*/
             bottom: 0;
         }
 
@@ -2866,7 +3140,86 @@ hr.globe-primary:after {
         }
 
         .planet-indicators {
-            bottom: -10px;
+            top: 70vh;
+        }
+
+        #planet-art {
+            top: 28vh;
+            left: 23%;
+            -webkit-transform: translateZ(-0.1px) scale(0.9);
+            transform: translateZ(-0.1px) scale(0.8);
+            z-index: 1;
+        }
+
+        #planet-benefits {
+            top: -25vh;
+            left: 13%;
+            -webkit-transform: translateZ(-0.3px) scale(1.0);
+            transform: translateZ(-0.3px) scale(0.8);
+            z-index: 1;
+        }
+
+        #planet-energy {
+            top: -94vh;
+            left: 4%;
+            -webkit-transform: translateZ(-0.1px) scale(1.0);
+            transform: translateZ(-0.3px) scale(0.8);
+            z-index: 1;
+        }
+
+        #planet-entertainment {
+            top: -106vh;
+            left: 1%;
+            -webkit-transform: translateZ(-0.1px) scale(1.0);
+            transform: translateZ(-0.3px) scale(.75);
+            z-index: 1;
+        }
+
+        #planet-fashion {
+            top: 11vh;
+            left: 22%;
+            -webkit-transform: translateZ(-0.1px) scale(0.9);
+            transform: translateZ(-0.1px) scale(0.9);
+            z-index: 1;
+        }
+
+        #planet-kvh {
+            top: -16vh;
+            left: 16%;
+            -webkit-transform: translateZ(-0.3px) scale(1.0);
+            transform: translateZ(-0.3px) scale(0.8);
+            z-index: 1;
+        }
+        #planet-pharma {
+            top: -89vh;
+            left: 2%;
+            -webkit-transform: translateZ(-0.1px) scale(1.0);
+            transform: translateZ(-0.3px) scale(0.9);
+            z-index: 1;
+        }
+
+        #planet-pr {
+            top: -104vh;
+            left: 7%;
+            -webkit-transform: translateZ(-0.1px) scale(1.0);
+            transform: translateZ(-0.3px) scale(0.8);
+            z-index: 1;
+        }
+
+        #planet-re {
+            top: 12vh;
+            left: 5%;
+            -webkit-transform: translateZ(-0.1px) scale(1.0);
+            transform: translateZ(-0.3px) scale(1.0);
+            z-index: 1;
+        }
+
+        #planet-tech {
+            top: -20vh;
+            left: 21%;
+            -webkit-transform: translateZ(-0.1px) scale(1.0);
+            transform: translateZ(-0.3px) scale(1.0);
+            z-index: 1;
         }
 
 
@@ -2929,7 +3282,7 @@ hr.globe-primary:after {
         }
 
         .planet-caption {
-            bottom: -40%;
+            /*bottom: -40%;*/
         }
 
         .planet-indicators {
@@ -2988,7 +3341,9 @@ hr.globe-primary:after {
 
     @media only screen and (min-width: 768px) {
 
-
+        .carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
+            top: 0;
+        }
 
         .col-sm-8 {
             margin: auto;
@@ -3005,20 +3360,25 @@ hr.globe-primary:after {
         }
 
         .mobile-company-frame {
-            display: table-cell;
-            vertical-align: middle;
+            /*display: table-cell;*/
+            /*vertical-align: middle;*/
             height: 600px;
         }
 
         .planet-caption {
-            bottom: -75%;
+            /*bottom: -75%;*/
         }
         .planet-caption h3 {
             font-size: 20px;
         }
 
+        .planet-carousel-control {
+
+            top: 152%;
+        }
+
         .planet-indicators {
-            bottom: -10%;
+            top: 124%;
         }
 
         .planet-indicators .active {
@@ -3037,6 +3397,84 @@ hr.globe-primary:after {
             height: 15px;
             margin: 10px;
         }
+
+        #planet-art {
+            top: 6vh;
+            left: 71%;
+            -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+            z-index: 1;
+        }
+
+        #planet-benefits {
+            top: 4vh;
+            left: 40%;
+            -webkit-transform: scale(1.0);
+            transform: scale(0.8);
+            z-index: 1;
+        }
+
+        #planet-energy {
+            top: 3vh;
+            left: 7%;
+            -webkit-transform: scale(1.0);
+            transform: scale(0.85);
+            z-index: 1;
+        }
+
+        #planet-entertainment {
+            top: -11vh;
+            left: 67%;
+            -webkit-transform: scale(1.0);
+            transform: scale(0.85);
+            z-index: 1;
+        }
+        #planet-fashion {
+            top: 4vh;
+            left: 28%;
+            -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+            z-index: 1;
+        }
+
+        #planet-kvh {
+            top: -5vh;
+            left: 62%;
+            -webkit-transform: scale(1.0);
+            transform: scale(0.9);
+            z-index: 1;
+        }
+
+        #planet-pharma {
+            top: 0;
+            left: 72%;
+            -webkit-transform: scale(1.0);
+            transform: scale(0.9);
+            z-index: 1;
+        }
+
+        #planet-pr {
+            top: -12vh;
+            left: 13%;
+            -webkit-transform: scale(1.0);
+            transform: scale(1.0);
+            z-index: 1;
+        }
+
+        #planet-re {
+            top: 8vh;
+            left: 18%;
+
+        }
+
+        #planet-tech {
+            top: 14vh;
+            left: 67%;
+            -webkit-transform: scale(1.0);
+            transform: scale(1.1);
+            z-index: 1;
+        }
+
 
         .heading-container {
             margin-top: 30%;
@@ -3080,7 +3518,7 @@ hr.globe-primary:after {
         }
 
         .planet-carousel-control {
-            bottom: 0;
+            bottom: -87%;
         }
 
         .planet-carousel-control.right {
@@ -3088,7 +3526,7 @@ hr.globe-primary:after {
         }
 
         .planet-carousel-control.left {
-            left: 5%;
+            /*left: 5%;*/
         }
 
         .planet-carousel-control.right {
@@ -3099,6 +3537,8 @@ hr.globe-primary:after {
         .planet-item img {
             height: 150px;
         }
+
+
 
         /*.text-margin-bottom {*/
             /*margin: 3vmax auto;*/
@@ -3188,6 +3628,7 @@ hr.globe-primary:after {
 
 
 
+
         .btn-circle,
         .heading-container {
             display: none;
@@ -3197,7 +3638,7 @@ hr.globe-primary:after {
             overflow-y: auto;
         }
 
-        .mobile-company-container {
+        .mobile-company-frame {
             display: none;
         }
         .parallax-frame {
