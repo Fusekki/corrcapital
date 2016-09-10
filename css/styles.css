@@ -1,6 +1,6 @@
-/** {*/
-/*border: solid 1px red;*/
-/*}*/
+* {
+border: solid 1px red;
+}
 *::selection {
     background: none; /* WebKit/Blink Browsers */
 }
@@ -322,7 +322,7 @@ ul.banner-social-buttons {
 /*GENERAL CLASSES START*/
 
 a {
-    color: #404040;
+    color: hsla(215, 2%, 58%, 1);
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -1054,7 +1054,8 @@ img::-moz-selection {
     border: 2px transparent solid;
     transition: all 0.3s ease-out;
     -webkit-transition: all 0.3s ease-out;
-    text-shadow: 0 0 2px white;
+    /*background: hsla(215, 2%, 21%, 0);*/
+    /*text-shadow: 0 0 2px white;*/
 }
 .globe-text-small {
     font-size: 7px;
@@ -1079,6 +1080,7 @@ img::-moz-selection {
     color: white;
     font-size: 5px;
     box-shadow: 0 0 10px 5px #fff;
+    /*box-shadow: 0 0 3px 3px #fff;*/
     transition: all 1s ease;
 }
 .intro {
@@ -1137,12 +1139,13 @@ img::-moz-selection {
     opacity: 1;
 }
 .constellation:hover .globe-text {
+    background: hsla(215, 2%, 21%, 0.75);
     text-shadow: 0 0 1px white;
 }
 .constellation:hover .grey_ball div {
     background: white;
-    -webkit-box-shadow: 0 0 3px 3px yellow;
-    box-shadow: 0 0 3px 3px yellow;
+    -webkit-box-shadow: 0 0 10px 5px yellow;
+    box-shadow: 0 0 10px 5px yellow;
 }
 
 .constellation:focus .globe-text {
@@ -4154,6 +4157,29 @@ hr.globe-primary:after {
             top: 103%;
         }
     }
+
+    @media only screen and
+    (min-width: 1366px) and
+    (max-height: 768px) {
+    .bg-image {
+        background: url(../img/spacesunrise.jpg) no-repeat 50% 58%;
+        background-size: 100%;
+    }
+        .navigation-stars {
+            top: 108%;
+            width: 61%;
+        }
+
+        #text-carousel {
+            margin-top: 10%;
+        }
+
+        #text-carousel .row {
+            width: 50%;
+            margin-left: 43%;
+        }
+    }
+
     @media only screen and (min-width: 1920px) and (min-height: 999px) {
         .button:hover .fa-book {
             left: 74px;
