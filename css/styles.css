@@ -1,6 +1,6 @@
-* {
-border: solid 1px red;
-}
+/** {*/
+/*border: solid 1px red;*/
+/*}*/
 *::selection {
     background: none; /* WebKit/Blink Browsers */
 }
@@ -1779,6 +1779,8 @@ img::-moz-selection {
     cursor: default;
     background: #fff url('../img/bgimg.jpg') no-repeat center center;
 }
+
+
 .view img {
     /*height: 100%;*/
     -webkit-transform: scaleY(1);
@@ -1818,6 +1820,7 @@ img::-moz-selection {
     left: 0;
 }
 
+
 .view h2 {
 
 
@@ -1853,33 +1856,36 @@ img::-moz-selection {
 
 }
 
-.view p {
+.view p
+ {
 
-    color: #333;
-    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-    opacity: 0;
-    -webkit-transform: scale(0);
-    -moz-transform: scale(0);
-    -o-transform: scale(0);
-    -ms-transform: scale(0);
-    transform: scale(0);
-    -webkit-transition: all 0.5s linear;
-    -moz-transition: all 0.5s linear;
-    -o-transition: all 0.5s linear;
-    -ms-transition: all 0.5s linear;
-    transition: all 0.5s linear;
+     color: #333;
+     -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+     filter: alpha(opacity=0);
+     opacity: 0;
+     -webkit-transform: scale(0);
+     -moz-transform: scale(0);
+     -o-transform: scale(0);
+     -ms-transform: scale(0);
+     transform: scale(0);
+     -webkit-transition: all 0.5s linear;
+     -moz-transition: all 0.5s linear;
+     -o-transition: all 0.5s linear;
+     -ms-transition: all 0.5s linear;
+     transition: all 0.5s linear;
 
-    margin: 0;
-    font-family: Georgia, serif;
-    font-style: italic;
-    font-size: 12px;
-    position: relative;
-    /*color: #fff;*/
-    padding: 10px 20px 20px;
-    text-align: center;
+     margin: 0;
+     font-family: Georgia, serif;
+     font-style: italic;
+     font-size: 12px;
+     position: relative;
+     /*color: #fff;*/
+     padding: 10px 20px 20px;
+     text-align: center;
 
-}
+ }
+
+
 .view a.info {
     display: inline-block;
     text-decoration: none;
@@ -1935,6 +1941,141 @@ transform: scale(10);
 filter: alpha(opacity=0);
 opacity: 0;
 }
+
+
+.view .mask-text {
+    /*height: 100%;*/
+    -webkit-transform: scaleY(1);
+    -moz-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    -ms-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+
+}
+
+
+.mask-text h2 {
+
+    font-family: 'Oswald', Arial, sans-serif;
+
+    text-transform: uppercase;
+    /*color: #fff;*/
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 0 0 0;
+
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    background: transparent;
+    margin: 20px 40px 0px 40px;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    color: #333;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=1);
+    opacity: 1;
+}
+.mask-text p {
+    color: #333;
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=1);
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+
+    margin: 0;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 12px;
+    position: relative;
+    /*color: #fff;*/
+    padding: 10px 20px 20px;
+    text-align: center;
+}
+
+view:hover .mask-text {
+    -webkit-transform: scale(10);
+    -moz-transform: scale(10);
+    -o-transform: scale(10);
+    -ms-transform: scale(10);
+    transform: scale(10);
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
+.view:hover .mask-text h2, .view:hover .mask-text p {
+    -webkit-transform: scale(10);
+    -moz-transform: scale(10);
+    -o-transform: scale(10);
+    -ms-transform: scale(10);
+    transform: scale(10);
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
+.view a.info-big {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-box-shadow: 0 0 1px #000;
+    -moz-box-shadow: 0 0 1px #000;
+    box-shadow: 0 0 1px #000;
+
+    font-family: 'Oswald', Arial, sans-serif;
+    font-size: 13px;
+
+    /*-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";*/
+    /*filter: alpha(opacity=0);*/
+    /*opacity: 0;*/
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+.view .info-big-wrapper {
+    /*width: 640px; !*can be in percentage also.*!*/
+    height: auto;
+    margin: 18% auto;
+    padding: 10px;
+    position: relative;
+}
+
 
 
 
