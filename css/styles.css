@@ -1324,7 +1324,7 @@ img::-moz-selection {
 }
 
 .mobile-container {
-    /*width: 300vw;*/
+    position: relative;
     width: auto;
     height: auto;
 }
@@ -1507,7 +1507,7 @@ img::-moz-selection {
 .planet-carousel-control {
     /*width: 5%;*/
     /*bottom: 50px;*/
-    bottom: -226%;
+    /*bottom: -226%;*/
 }
 
 .planet-carousel-control.left {
@@ -2677,30 +2677,30 @@ hr.globe-primary:after {
     }
 
     .planet-carousel-control {
-        background-image:nonel;
+        /*background-image: none;*/
     }
 
     #planet-art {
         top: 2vh;
         left: 49%;
-        -webkit-transform: translateZ(-0.1px) scale(0.9);
-        transform: translateZ(-0.1px) scale(0.85);
+        -webkit-transform: scale(0.9);
+        transform: scale(0.85);
         z-index: 1;
     }
 
     #planet-benefits {
         top: -11vh;
         left: 26%;
-        -webkit-transform: translateZ(-0.3px) scale(1.0);
-        transform: translateZ(-0.3px) scale(.75);
+        -webkit-transform: scale(1.0);
+        transform: scale(.75);
         z-index: 1;
     }
 
     #planet-energy {
         top: -20vh;
-        left: 0%;
-        -webkit-transform: translateZ(-0.1px) scale(1.0);
-        transform: translateZ(-0.3px) scale(.8);
+        left: 2%;
+        -webkit-transform:  scale(1.0);
+        transform:  scale(.8);
         z-index: 1;
     }
 
@@ -2714,7 +2714,7 @@ hr.globe-primary:after {
 
     #planet-fashion {
         top: 5vh;
-        left: 6%;
+        left: 8%;
         -webkit-transform: scale(0.9);
         transform: scale(0.9);
         z-index: 1;
@@ -2737,7 +2737,7 @@ hr.globe-primary:after {
     }
     #planet-pr {
         top: -43vh;
-        left: 0%;
+        left: 4%;
         -webkit-transform: scale(1.0);
         transform: scale(0.9);
         z-index: 1;
@@ -2792,6 +2792,10 @@ hr.globe-primary:after {
         /*bottom: 0;*/
     }
 
+    .planet-carousel-control {
+        top: 0;
+    }
+
     .planet-indicators {
         /*bottom: -15px;*/
     }
@@ -2805,7 +2809,7 @@ hr.globe-primary:after {
     }
 
     #planet-benefits {
-        top: -6vh;
+        top: -7vh;
         left: 33%;
         -webkit-transform: scale(1.0);
         transform: scale(0.8);
@@ -2933,9 +2937,7 @@ hr.globe-primary:after {
             bottom: 20px;
         }
 
-        .planet-carousel-control {
-            bottom: -194%
-        }
+
 
 
 
@@ -2964,6 +2966,7 @@ hr.globe-primary:after {
 
         #planet-energy {
             top: -11vh;
+            left: 6%;
             -webkit-transform:  scale(1.0);
             transform: scale(0.9);
             z-index: 1;
@@ -3126,9 +3129,7 @@ hr.globe-primary:after {
         }
 
         .planet-carousel-control {
-            /* bottom: 50px; */
-            /*top: 19%;*/
-            bottom: 0;
+            top: 10%;
         }
 
         .planet-carousel-control.left {
@@ -3144,81 +3145,83 @@ hr.globe-primary:after {
         }
 
         #planet-art {
-            top: 28vh;
-            left: 23%;
-            -webkit-transform: translateZ(-0.1px) scale(0.9);
-            transform: translateZ(-0.1px) scale(0.8);
-            z-index: 1;
+            top: 25vh;
+            left: 69%;
+            -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+            z-index: 1
         }
 
         #planet-benefits {
-            top: -25vh;
-            left: 13%;
-            -webkit-transform: translateZ(-0.3px) scale(1.0);
-            transform: translateZ(-0.3px) scale(0.8);
+            top: -26vh;
+            left: 43%;
+            -webkit-transform: scale(1.0);
+            transform: scale(0.85);
             z-index: 1;
+
         }
 
         #planet-energy {
-            top: -94vh;
-            left: 4%;
-            -webkit-transform: translateZ(-0.1px) scale(1.0);
-            transform: translateZ(-0.3px) scale(0.8);
+            top: -93vh;
+            left: 18%;
+            -webkit-transform: scale(1.0);
+            transform: scale(0.8);
             z-index: 1;
         }
 
         #planet-entertainment {
-            top: -106vh;
-            left: 1%;
-            -webkit-transform: translateZ(-0.1px) scale(1.0);
-            transform: translateZ(-0.3px) scale(.75);
+            top: -108vh;
+            left: 6%;
+            -webkit-transform: scale(1.0);
+            transform: scale(.75);
             z-index: 1;
         }
 
         #planet-fashion {
-            top: 11vh;
-            left: 22%;
-            -webkit-transform: translateZ(-0.1px) scale(0.9);
-            transform: translateZ(-0.1px) scale(0.9);
+            top: 9vh;
+            left: 66%;
+            -webkit-transform: scale(0.9);
+            transform: scale(0.9);
             z-index: 1;
         }
 
         #planet-kvh {
-            top: -16vh;
-            left: 16%;
-            -webkit-transform: translateZ(-0.3px) scale(1.0);
-            transform: translateZ(-0.3px) scale(0.8);
+            top: -24vh;
+            left: 45%;
+            -webkit-transform: scale(1.0);
+            transform: scale(0.8);
             z-index: 1;
         }
+
         #planet-pharma {
-            top: -89vh;
-            left: 2%;
-            -webkit-transform: translateZ(-0.1px) scale(1.0);
-            transform: translateZ(-0.3px) scale(0.9);
+            top: -66vh;
+            left: 21%;
+            -webkit-transform: scale(1.0);
+            transform: scale(0.8);
             z-index: 1;
         }
 
         #planet-pr {
-            top: -104vh;
-            left: 7%;
-            -webkit-transform: translateZ(-0.1px) scale(1.0);
-            transform: translateZ(-0.3px) scale(0.8);
+            top: -137vh;
+            left: 6%;
+            -webkit-transform: scale(1.0);
+            transform: scale(0.8);
             z-index: 1;
         }
 
         #planet-re {
             top: 12vh;
-            left: 5%;
-            -webkit-transform: translateZ(-0.1px) scale(1.0);
-            transform: translateZ(-0.3px) scale(1.0);
+            left: 11%;
+            -webkit-transform: scale(1.0);
+            transform: scale(1.0);
             z-index: 1;
         }
 
         #planet-tech {
-            top: -20vh;
-            left: 21%;
-            -webkit-transform: translateZ(-0.1px) scale(1.0);
-            transform: translateZ(-0.3px) scale(1.0);
+            top: -23vh;
+            left: 64%;
+            -webkit-transform: scale(1.0);
+            transform: scale(1.0);
             z-index: 1;
         }
 
@@ -3275,7 +3278,7 @@ hr.globe-primary:after {
         }
         .mobile-company-frame {
 
-            height: 375px;
+            height: 300px;
         }
         .parallax-container .parallax-layer-10 {
             /*left: 5%;*/
@@ -3283,6 +3286,73 @@ hr.globe-primary:after {
 
         .planet-caption {
             /*bottom: -40%;*/
+        }
+
+        .planet-carousel-control {
+            top: 16%;
+        }
+
+        #planet-energy {
+            top: -74vh;
+            left: 18%;
+            -webkit-transform: scale(1.0);
+            transform: scale(0.8);
+            z-index: 1;
+        }
+        #planet-entertainment {
+            top: -85vh;
+            left: 6%;
+            -webkit-transform: scale(1.0);
+            transform: scale(.75);
+            z-index: 1;
+        }
+
+        #planet-fashion {
+            top: 11vh;
+            left: 66%;
+            -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+            z-index: 1;
+        }
+
+        #planet-kvh {
+            top: -12vh;
+            left: 47%;
+            -webkit-transform: scale(1.0);
+            transform: scale(0.8);
+            z-index: 1;
+        }
+
+        #planet-pharma {
+            top: -46vh;
+            left: 21%;
+            -webkit-transform: scale(1.0);
+            transform: scale(0.8);
+            z-index: 1;
+        }
+
+        #planet-pr {
+            top: -115vh;
+            left: 9%;
+            -webkit-transform: scale(1.0);
+            transform: scale(0.8);
+            z-index: 1;
+        }
+
+        #planet-re {
+            top: 12vh;
+            left: 14%;
+            -webkit-transform: scale(1.0);
+            transform: scale(1.0);
+            z-index: 1;
+        }
+
+        #planet-tech {
+            top: -14vh;
+            left: 61%;
+            -webkit-transform: scale(1.0);
+            transform: scale(1.0);
+            z-index: 1;
         }
 
         .planet-indicators {
@@ -3321,6 +3391,76 @@ hr.globe-primary:after {
             left: 21vw;
             top: 20px;
         }
+
+        #planet-art {
+            top: 25vh;
+            left: 69%;
+            -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+            z-index: 1;
+        }
+
+        #planet-benefits {
+            top: -20vh;
+            left: 43%;
+            -webkit-transform: scale(1.0);
+            transform: scale(0.85);
+            z-index: 1;
+        }
+
+        #planet-energy {
+            top: -68vh;
+            left: 18%;
+            -webkit-transform: scale(1.0);
+            transform: scale(0.8);
+            z-index: 1;
+        }
+
+        #planet-entertainment {
+            top: -75vh;
+            left: 7%;
+            -webkit-transform: scale(1.0);
+            transform: scale(.75);
+            z-index: 1;
+        }
+
+        #planet-fashion {
+            top: 13vh;
+            left: 66%;
+            -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+            z-index: 1;
+        }
+
+        #planet-kvh {
+            top: -13vh;
+            left: 47%;
+            -webkit-transform: scale(1.0);
+            transform: scale(0.8);
+            z-index: 1;
+        }
+
+        #planet-pharma {
+            top: -38vh;
+            left: 28%;
+            -webkit-transform: scale(1.0);
+            transform: scale(0.8);
+            z-index: 1;
+        }
+
+        #planet-pr {
+            top: -103vh;
+            left: 10%;
+            -webkit-transform: scale(1.0);
+            transform: scale(0.8);
+            z-index: 1;
+        }
+
+
+
+
+
+
 
     }
     @media only screen and (min-width: 767px) {
@@ -3362,7 +3502,7 @@ hr.globe-primary:after {
         .mobile-company-frame {
             /*display: table-cell;*/
             /*vertical-align: middle;*/
-            height: 600px;
+            height: 800px;
         }
 
         .planet-caption {
@@ -3373,12 +3513,11 @@ hr.globe-primary:after {
         }
 
         .planet-carousel-control {
-
-            top: 152%;
+            top: 87%;
         }
 
         .planet-indicators {
-            top: 124%;
+            /*top: 124%;*/
         }
 
         .planet-indicators .active {
@@ -3399,62 +3538,62 @@ hr.globe-primary:after {
         }
 
         #planet-art {
-            top: 6vh;
-            left: 71%;
+            top: 8vh;
+            left: 69%;
             -webkit-transform: scale(0.9);
             transform: scale(0.9);
             z-index: 1;
         }
 
         #planet-benefits {
-            top: 4vh;
-            left: 40%;
+            top: 6vh;
+            left: 43%;
             -webkit-transform: scale(1.0);
             transform: scale(0.8);
             z-index: 1;
         }
 
         #planet-energy {
-            top: 3vh;
-            left: 7%;
+            top: 10vh;
+            left: 10%;
             -webkit-transform: scale(1.0);
             transform: scale(0.85);
             z-index: 1;
         }
 
         #planet-entertainment {
-            top: -11vh;
-            left: 67%;
+            top: 7vh;
+            left: 66%;
             -webkit-transform: scale(1.0);
             transform: scale(0.85);
             z-index: 1;
         }
         #planet-fashion {
-            top: 4vh;
-            left: 28%;
+            op: 5vh;
+            left: 25%;
             -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+            transform: scale(1);
             z-index: 1;
         }
 
         #planet-kvh {
             top: -5vh;
-            left: 62%;
+            left: 60%;
             -webkit-transform: scale(1.0);
-            transform: scale(0.9);
+            transform: scale(1);
             z-index: 1;
         }
 
         #planet-pharma {
-            top: 0;
-            left: 72%;
+            top: 8vh;
+            left: 70%;
             -webkit-transform: scale(1.0);
-            transform: scale(0.9);
+            transform: scale(1);
             z-index: 1;
         }
 
         #planet-pr {
-            top: -12vh;
+            top: 5vh;
             left: 13%;
             -webkit-transform: scale(1.0);
             transform: scale(1.0);
@@ -3468,8 +3607,8 @@ hr.globe-primary:after {
         }
 
         #planet-tech {
-            top: 14vh;
-            left: 67%;
+            top: 24vh;
+            left: 64%;
             -webkit-transform: scale(1.0);
             transform: scale(1.1);
             z-index: 1;
