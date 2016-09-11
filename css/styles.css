@@ -573,20 +573,8 @@ hr {
     margin: 2.4vh 0;
 }
 .hvr-rectangle-out {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    position: relative;
     background: none;
     -webkit-transition-property: color;
-    transition-property: color;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
 }
 .hvr-rectangle-out:before {
     content: "";
@@ -606,22 +594,23 @@ hr {
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
 }
+.hvr-shutter-out-horizontal {
+    background: none;
+}
+
+
+.hvr-shutter-out-horizontal:before {
+    background: hsla(215, 2%, 58%, 1);
+}
+
 .hvr-back-pulse:hover,
 .hvr-back-pulse:focus,
 .hvr-back-pulse:active {
-    /*-webkit-animation-name: hvr-back-pulse;*/
-    /*animation-name: hvr-back-pulse;*/
-    /*-webkit-animation-duration: 1s;*/
-    /*animation-duration: 1s;*/
-    /*-webkit-animation-delay: 0.5s;*/
-    /*animation-delay: 0.5s;*/
-    /*-webkit-animation-timing-function: linear;*/
-    /*animation-timing-function: linear;*/
-    /*-webkit-animation-iteration-count: infinite;*/
-    /*animation-iteration-count: infinite;*/
-
     background: hsla(215, 2%, 51%, 0.75);
-    /*color: white;*/
+}
+
+.hvr-reveal:before {
+    border-color: hsla(43, 15%, 86%,0.7);
 }
 .inline-flex {
     display: inline-flex;
@@ -1139,7 +1128,6 @@ img::-moz-selection {
     opacity: 1;
 }
 .constellation:hover .globe-text {
-    background: hsla(215, 2%, 21%, 0.75);
     text-shadow: 0 0 1px white;
 }
 .constellation:hover .grey_ball div {
@@ -1956,7 +1944,12 @@ opacity: 0;
     -moz-box-shadow: 1px 1px 2px #e6e6e6;
     box-shadow: 1px 1px 2px #e6e6e6;
     cursor: default;
-    background: #fff url('../img/seamless_paper_texture1.png') no-repeat center center;
+    /*background: #fff url('../img/notebook.png') no-repeat center center;*/
+    /*background: #fff url('../img/bgimg.jpg') no-repeat center center*/
+    background: #fff url('../img/cloth_alike.png') no-repeat center;
+    background-size: 220px 162px;
+
+
 }
 .view-frame .mask, .view-frame .content {
     width: 300px;
@@ -1981,20 +1974,12 @@ opacity: 0;
     /*transform: scaleY(1);*/
     /*background-color: rgba(255, 231, 179, 0.3);*/
     background-color: hsla(43, 15%, 86%,0.7);
+    /*background-color: rgba(255, 231, 179, 0.3);*/
     -webkit-transition: all 0.7s ease-in-out;
     -moz-transition: all 0.7s ease-in-out;
     -o-transition: all 0.7s ease-in-out;
     -ms-transition: all 0.7s ease-in-out;
     transition: all 0.7s ease-in-out;
-
-}
-
- .view-frame .info-big:hover {
-    background: hsla(215, 2%, 51%, 1);
-    transform: scale(1.5);
-    /*color: #000;*/
-
-
 
 }
 
@@ -2591,7 +2576,7 @@ hr.globe-primary:after {
     background-size: cover;
 }
 #companyModal11 {
-    background: url('../img/stock-photo-three-little-houses-made-of-plastic-are-laying-on-one-dollar-banknote-business-concept-230159629.jpg') no-repeat 50% 50%;
+    background: url('../img/real_estate.jpg') no-repeat 50% 50%;
     background-size: cover;
 }
 #companyModal13 {
