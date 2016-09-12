@@ -2,11 +2,10 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/css/styles.css" line="933" mnemonic="9" />
-    <bookmark url="file://$PROJECT_DIR$/css/styles.css" description="&#10;    font-family: 'Oswald', Arial, sans-serif;&#10;&#10;  ..." line="1820" />
+    <bookmark url="file://$PROJECT_DIR$/css/styles.css" description="&#10;    font-family: 'Oswald', Arial, sans-serif;&#10;&#10;  ..." line="1821" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9897491-5837-4602-b0d4-3b9c1622a3c3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
     </list>
     <ignored path="corrgroup.iws" />
@@ -42,10 +41,10 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="1414" column="53" selection-start-line="1414" selection-start-column="53" selection-end-line="1414" selection-end-column="53" />
+            <state relative-caret-position="391">
+              <caret line="1418" column="13" selection-start-line="1418" selection-start-column="13" selection-end-line="1418" selection-end-column="13" />
               <folding>
-                <marker date="1473713650877" expanded="true" signature="2:38" ph="..." />
+                <marker date="1473713996930" expanded="true" signature="2:38" ph="..." />
               </folding>
             </state>
           </provider>
@@ -402,12 +401,12 @@
       <workItem from="1473596638647" duration="3218000" />
       <workItem from="1473617135125" duration="5573000" />
       <workItem from="1473688583528" duration="593000" />
-      <workItem from="1473711900650" duration="1438000" />
+      <workItem from="1473711900650" duration="1738000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="657277000" />
+    <option name="totallyTimeSpent" value="657577000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -654,10 +653,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="1414" column="53" selection-start-line="1414" selection-start-column="53" selection-end-line="1414" selection-end-column="53" />
+        <state relative-caret-position="391">
+          <caret line="1418" column="13" selection-start-line="1418" selection-start-column="13" selection-end-line="1418" selection-end-column="13" />
           <folding>
-            <marker date="1473713650877" expanded="true" signature="2:38" ph="..." />
+            <marker date="1473713996930" expanded="true" signature="2:38" ph="..." />
           </folding>
         </state>
       </provider>
