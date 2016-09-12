@@ -4399,7 +4399,11 @@ hr.globe-primary:after {
         }
     }
 
-    @media only screen and (min-width: 1920px) and (min-height: 999px) {
+    @media only screen and (min-width: 1920px) and (min-height: 950px) {
+        .bg-image {
+            background-position: 50% 64%;
+        }
+
         .button:hover .fa-book {
             left: 74px;
         }
