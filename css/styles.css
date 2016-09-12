@@ -1301,7 +1301,8 @@ img::-moz-selection {
     perspective: 1px;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    height: 60vh;
+    /*height: 60vh;*/
+    height: 100vh;
     width: 200vw;
 
 }
@@ -1341,7 +1342,8 @@ img::-moz-selection {
     -webkit-transform: translateZ(-0.3px) scale(0.9);
     transform: translateZ(-0.3px) scale(0.9);
     z-index: 4;
-    top: 71%;
+    /*top: 71%;*/
+    top: 64%;
     left: 49.7%;
 }
 
@@ -1371,7 +1373,8 @@ img::-moz-selection {
     -webkit-transform: translateZ(-1.4px) scale(2);
     transform: translateZ(-1.4px) scale(2);
     z-index: 3;
-    top: 104%;
+    /*top: 104%;*/
+    top: 63%;
     left: 34%;
 }
 
@@ -1381,7 +1384,8 @@ img::-moz-selection {
     -webkit-transform: translateZ(-1.6px) scale(1.8);
     transform: translateZ(-1.6px) scale(1.8);
     z-index: -8;
-    top: 42%;
+    /*top: 42%;*/
+    top: 28%;
     left: 63%;
 }
 
@@ -1390,7 +1394,8 @@ img::-moz-selection {
     -webkit-transform: translateZ(-0.8px) scale(1.3);
     transform: translateZ(-0.8px) scale(1.3);
     z-index: 3;
-    top: 129%;
+    /*top: 129%;*/
+    top: 104%;
     left: 8.7%;
 }
 
@@ -1401,7 +1406,8 @@ img::-moz-selection {
     transform: translateZ(-0.4px) scale(1);
     z-index: 4;
     left: 5%;
-    top: 80%;
+    /*top: 80%;*/
+    top: 70%;
 }
 
 /*Art*/
@@ -1418,18 +1424,19 @@ img::-moz-selection {
     -webkit-transform: translateZ(-1.2px) scale(1.5);
     transform: translateZ(-1.2px) scale(1.5);
     z-index: 3;
-
-    top: 166%;
+    top: 111%;
+    /*top: 166%;*/
     left: 26%;
 }
 
 /* Pharma */
 
 .parallax-container .parallax-layer-10 {
-    webkit-transform: translateZ(-.7px) scale(1.3);
+    -webkit-transform: translateZ(-.7px) scale(1.3);
     transform: translateZ(-.7px) scale(1.3);
     z-index: 2;
-    top: 28%;
+    top: 17%;
+    /*top: 28%;*/
     left: 30.7%;
 }
 
