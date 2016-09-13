@@ -9,6 +9,7 @@ var c = 0;
 // Helper Objects (for error handling).
 var Helpers = {
     handleError: function(msg) {
+        console.log('here');
         if (msg === 'map') {
             return alert("There was an error loading the Google Maps API.  Please check your connection.");
         } else {
@@ -92,6 +93,7 @@ google.maps.event.addDomListener(window, 'resize', function() {
 });
 
 function initMap() {
+    console.log('here in initmap.');
     // Basic options for a simple Google Map
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
     var mapOptions = {
@@ -221,17 +223,17 @@ function initMap() {
     // Get the HTML DOM element that will contain your map
     // We are using a div with id="map" seen below in the <body>
     var mapElement = document.getElementById('map');
-
+    console.log(mapElement);
     // Create the Google Map using out element and options defined above
     map = new google.maps.Map(mapElement, mapOptions);
 
     // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
-    var image = 'img/map-marker.png';
+    // var image = 'img/map-marker.png';
     var myLatLng = new google.maps.LatLng(40.757118, -73.971890);
     var beachMarker = new google.maps.Marker({
         position: myLatLng,
-        map: map,
-        icon: image
+        map: map
+        // icon: image
     });
 }
 
