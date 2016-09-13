@@ -600,7 +600,7 @@ hr {
 
 
 .hvr-shutter-out-horizontal:before {
-    background: hsla(215, 2%, 58%, 1);
+    background: hsla(215, 2%, 58%, .35);
 }
 
 .hvr-back-pulse:hover,
