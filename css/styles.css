@@ -3139,6 +3139,7 @@ hr.globe-primary:after {
         .parallax-container .text-overlay,
         .parallax-container .planet {
             width: 150%;
+            max-height: 200px;
         }
         .parallax-container .parallax-layer-2 {
             /*left: 58%;*/
