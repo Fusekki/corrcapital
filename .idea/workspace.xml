@@ -26,25 +26,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.htm" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.htm" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="839" column="43" selection-start-line="839" selection-start-column="43" selection-end-line="839" selection-end-column="43" />
+            <state relative-caret-position="437">
+              <caret line="556" column="14" selection-start-line="556" selection-start-column="14" selection-end-line="556" selection-end-column="14" />
               <folding>
-                <element signature="e#28832#28838#0" expanded="true" />
+                <element signature="e#29901#29907#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="2575" column="14" selection-start-line="2575" selection-start-column="14" selection-end-line="2575" selection-end-column="14" />
+            <state relative-caret-position="289">
+              <caret line="2633" column="42" selection-start-line="2633" selection-start-column="42" selection-end-line="2633" selection-end-column="42" />
               <folding>
-                <marker date="1473770336106" expanded="true" signature="2:38" ph="..." />
+                <marker date="1473771510325" expanded="true" signature="2:38" ph="..." />
               </folding>
             </state>
           </provider>
@@ -81,8 +81,8 @@
         <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/UC/index.html" />
         <option value="$PROJECT_DIR$/UC/css/style.css" />
-        <option value="$PROJECT_DIR$/index.htm" />
         <option value="$PROJECT_DIR$/css/styles.css" />
+        <option value="$PROJECT_DIR$/index.htm" />
       </list>
     </option>
   </component>
@@ -404,12 +404,12 @@
       <workItem from="1473711900650" duration="3844000" />
       <workItem from="1473716493428" duration="531000" />
       <workItem from="1473728142047" duration="4129000" />
-      <workItem from="1473769231532" duration="1099000" />
+      <workItem from="1473769231532" duration="2601000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="665442000" />
+    <option name="totallyTimeSpent" value="666944000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -477,7 +477,7 @@
         <state relative-caret-position="1683">
           <caret line="99" column="50" selection-start-line="99" selection-start-column="50" selection-end-line="99" selection-end-column="50" />
           <folding>
-            <element signature="e#28832#28838#0" expanded="true" />
+            <element signature="e#29901#29907#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -491,7 +491,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#28832#28838#0" expanded="true" />
+            <element signature="e#29901#29907#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -644,22 +644,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.htm">
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="839" column="43" selection-start-line="839" selection-start-column="43" selection-end-line="839" selection-end-column="43" />
+        <state relative-caret-position="289">
+          <caret line="2633" column="42" selection-start-line="2633" selection-start-column="42" selection-end-line="2633" selection-end-column="42" />
           <folding>
-            <element signature="e#28832#28838#0" expanded="true" />
+            <marker date="1473771510325" expanded="true" signature="2:38" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/index.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="2575" column="14" selection-start-line="2575" selection-start-column="14" selection-end-line="2575" selection-end-column="14" />
+        <state relative-caret-position="437">
+          <caret line="556" column="14" selection-start-line="556" selection-start-column="14" selection-end-line="556" selection-end-column="14" />
           <folding>
-            <marker date="1473770336106" expanded="true" signature="2:38" ph="..." />
+            <element signature="e#29901#29907#0" expanded="true" />
           </folding>
         </state>
       </provider>
