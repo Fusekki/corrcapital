@@ -6,8 +6,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9897491-5837-4602-b0d4-3b9c1622a3c3" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/business-lady-1584654_1920.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/business-man-1031755_1920.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/business-suit-690048_1920.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/computer-1185567_1280.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/laptop-1209008_1280.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/nebula-10-1530144_1280.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/notebook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/roundtable-828546_1280.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/satellite-67718_1280.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/specialist-454872_1920.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/stock-photo-gogh-vincent-van-starry-night-post-impressionism-oil-on-canvas-231664849.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/stock-photo-high-fashion-portrait-of-young-elegant-woman-studio-shot-270601715.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/stock-photo-movie-clapper-and-film-reel-on-a-wooden-background-169841813.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/stock-photo-paris-august-visitors-take-photo-of-leonardo-davinci-s-mona-lisa-at-the-louvre-museum-201781961.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/team-spirit-959268_1280.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/uranus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/weightless-60632_1920.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.htm" afterPath="$PROJECT_DIR$/index.htm" />
     </list>
     <ignored path="corrgroup.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,25 +45,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.htm" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.htm" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5032">
-              <caret line="296" column="12" selection-start-line="296" selection-start-column="12" selection-end-line="296" selection-end-column="12" />
+            <state relative-caret-position="318">
+              <caret line="586" column="31" selection-start-line="586" selection-start-column="31" selection-end-line="586" selection-end-column="31" />
               <folding>
-                <element signature="e#28135#28141#0" expanded="true" />
+                <element signature="e#28832#28838#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="4403" column="12" selection-start-line="4403" selection-start-column="12" selection-end-line="4403" selection-end-column="12" />
+            <state relative-caret-position="461">
+              <caret line="2609" column="33" selection-start-line="2609" selection-start-column="33" selection-end-line="2609" selection-end-column="33" />
               <folding>
-                <marker date="1473716839169" expanded="true" signature="2:38" ph="..." />
+                <marker date="1473731843274" expanded="true" signature="2:38" ph="..." />
               </folding>
             </state>
           </provider>
@@ -82,8 +100,8 @@
         <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/UC/index.html" />
         <option value="$PROJECT_DIR$/UC/css/style.css" />
-        <option value="$PROJECT_DIR$/index.htm" />
         <option value="$PROJECT_DIR$/css/styles.css" />
+        <option value="$PROJECT_DIR$/index.htm" />
       </list>
     </option>
   </component>
@@ -403,16 +421,17 @@
       <workItem from="1473617135125" duration="5573000" />
       <workItem from="1473688583528" duration="593000" />
       <workItem from="1473711900650" duration="3844000" />
-      <workItem from="1473716493428" duration="347000" />
+      <workItem from="1473716493428" duration="531000" />
+      <workItem from="1473728142047" duration="4129000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="660030000" />
+    <option name="totallyTimeSpent" value="664343000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -422,7 +441,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39962476" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -476,7 +495,7 @@
         <state relative-caret-position="1683">
           <caret line="99" column="50" selection-start-line="99" selection-start-column="50" selection-end-line="99" selection-end-column="50" />
           <folding>
-            <element signature="e#28135#28141#0" expanded="true" />
+            <element signature="e#28832#28838#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -490,7 +509,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#28135#28141#0" expanded="true" />
+            <element signature="e#28832#28838#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -633,6 +652,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
           <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -643,22 +663,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.htm">
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5032">
-          <caret line="296" column="12" selection-start-line="296" selection-start-column="12" selection-end-line="296" selection-end-column="12" />
+        <state relative-caret-position="461">
+          <caret line="2609" column="33" selection-start-line="2609" selection-start-column="33" selection-end-line="2609" selection-end-column="33" />
           <folding>
-            <element signature="e#28135#28141#0" expanded="true" />
+            <marker date="1473731843274" expanded="true" signature="2:38" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/index.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="4403" column="12" selection-start-line="4403" selection-start-column="12" selection-end-line="4403" selection-end-column="12" />
+        <state relative-caret-position="318">
+          <caret line="586" column="31" selection-start-line="586" selection-start-column="31" selection-end-line="586" selection-end-column="31" />
           <folding>
-            <marker date="1473716839169" expanded="true" signature="2:38" ph="..." />
+            <element signature="e#28832#28838#0" expanded="true" />
           </folding>
         </state>
       </provider>
