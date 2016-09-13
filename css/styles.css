@@ -262,13 +262,13 @@
 .modal-body {
     padding: 4%;
 }
-.people-icon {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    background: url('../img/multiple-users-silhouette.svg');
-    margin-left: 10px;
-}
+/*.people-icon {*/
+    /*display: inline-block;*/
+    /*width: 50px;*/
+    /*height: 50px;*/
+    /*background: url('../img/multiple-users-silhouette.svg');*/
+    /*margin-left: 10px;*/
+/*}*/
 .theme-red {
     color: hsla(357, 79%, 47%, 1);
 }
@@ -922,7 +922,7 @@ img::-moz-selection {
     position: fixed;
     /*width: 100%;*/
     /*height: 100%;*/
-    background: url('../img/spacesunrise.jpg') no-repeat 50% 50%;
+    background: url('../img/bg-intro-xl.jpg') no-repeat 50% 50%;
     height: 100%;
     width: 100%;
     /*background-repeat: no-repeat;*/
@@ -1277,7 +1277,7 @@ img::-moz-selection {
 .mobile-company-container {
     display: table;
     /*padding-top: 15%;*/
-    background: url('../img/deepspace.jpg') fixed;
+    background: url('../img/bg-space-lrg.jpg') fixed;
     width: 100%;
     height: 100%;
 
@@ -1289,11 +1289,11 @@ img::-moz-selection {
     /*display: table-cell;*/
     /*vertical-align: middle;*/
     /*height: 430px;*/
-    background: url('../img/deepspace.jpg') fixed;
+    background: url('../img/bg-space-lrg.jpg') fixed;
 }
 
 .parallax-frame {
-    background: url('../img/deepspace.jpg') fixed;
+    background: url('../img/bg-space-xl.jpg') fixed;
 }
 
 .parallax-root {
@@ -1672,7 +1672,7 @@ img::-moz-selection {
     width: 100%;
     position: absolute;
     top: calc(218px - 50vh);
-    background: url('../img/deepspace.jpg');
+    background: url('../img/bg-space-xl.jpg');
 }
 
 .tile.tile-show {
@@ -1739,16 +1739,16 @@ img::-moz-selection {
 /*PAGE 2 ID END*/
 /*PAGE 3 CLASSES START*/
 
-.btn-icon {
-    opacity: 0;
-    display: inline-block;
-    width: 18px;
-    height: 18px;
-    background: url('../img/envelope.svg');
-    position: absolute;
-    left: 45%;
-    top: 68%;
-}
+/*.btn-icon {*/
+    /*opacity: 0;*/
+    /*display: inline-block;*/
+    /*width: 18px;*/
+    /*height: 18px;*/
+    /*background: url('../img/envelope.svg');*/
+    /*position: absolute;*/
+    /*left: 45%;*/
+    /*top: 68%;*/
+/*}*/
 .company_wrapper {
     position: relative;
     max-width: 375px;
@@ -1778,7 +1778,7 @@ img::-moz-selection {
     -moz-box-shadow: 1px 1px 2px #e6e6e6;
     box-shadow: 1px 1px 2px #e6e6e6;
     cursor: default;
-    background: #fff url('../img/bgimg.jpg') no-repeat center center;
+    background: #fff url('../img/bg-intro-xl.jpg') no-repeat center center;
 }
 
 
@@ -2574,43 +2574,44 @@ hr.globe-primary:after {
     background: none;
 }
 #modal-energy {
-    background: url('../img/windturbines.jpg') no-repeat 50% 50%;
+    background: url('../img/bg-energy-xl.jpg') no-repeat 50% 50%;
     background-size: cover;
 }
 #modal-pharma {
-    background: url('../img/pills.jpg') no-repeat 50% 50%;
+    background: url('../img/bg-pharma-xl.jpg') no-repeat 50% 50%;
     background-size: cover;
 }
 #modal-fashion {
-    background: url('../img/stock-photo-high-fashion-portrait-of-young-elegant-woman-studio-shot-270601715-1920x1200.jpg') no-repeat 50% 50%;
+    background: url('../img/bg-fashion-xl.jpg') no-repeat 50% 50%;
     background-size: cover;
 }
 #modal-art {
-    background: url('../img/stock-photo-gogh-vincent-van-starry-night-post-impressionism-oil-on-canvas-231664849-1920x1200.jpg') no-repeat 50% 50%;
+    background: url('../img/bg-art-xl.jpg') no-repeat 50% 50%;
     background-size: cover;
 }
 #modal-benefits {
-    background: url('../img/benefits.jpg') no-repeat 50% 50%;
+    background: url('../img/bg-benefits-xl.jpg') no-repeat 50% 50%;
     background-size: cover;
 }
 #modal-pr {
-    background: url('../img/stock-photo-chained-aquasphere-10716865.jpg') no-repeat 50% 50%;
+    background: url('../img/bg-pr-xl.jpg') no-repeat 50% 50%;
     background-size: cover;
 }
 #modal-tech {
-    background: url('../img/stock-photo-technician-plug-in-cpu-microprocessor-to-motherboard-socket-workshop-background-350350565.jpg') no-repeat 50% 50%;
+    background: url('../img/bg-tech-xl.jpg') no-repeat 50% 50%;
     background-size: cover;
 }
 #modal-re {
-    background: url('../img/real_estate.jpg') no-repeat 50% 50%;
+    background: url('../img/bg-re-xl.jpg') no-repeat 50% 50%;
     background-size: cover;
 }
 #modal-entertainment {
-    background: url('../img/stock-photo-movie-clapper-and-film-reel-on-a-wooden-background-169841813-1920x1200.jpg') no-repeat 50% 50%;
+    background: url('../img/bg-entertainment-xl.jpg') no-repeat 50% 50%;
     background-size: cover;
 }
-#modal-jewelry {
-    background: url('../img/stock-photo-high-fashion-portrait-of-young-elegant-woman-studio-shot-270601715-1920x1200.jpg') no-repeat 50% 50%;
+
+#modal-kvh {
+    background: url('../img/bg-kvh-xl.jpg') no-repeat 50% 50%;
     background-size: cover;
 }
 .company-modal > .modal-content {
@@ -2618,10 +2619,6 @@ hr.globe-primary:after {
     /*background: hsla(215, 2%, 58%, .65);*/
 }
 
-#modal-kvh {
-    background: url('../img/model.jpg') no-repeat 50% 50%;
-    background-size: cover;
-}
 
 
 #companyModal9 > .modal-content,
@@ -2843,6 +2840,13 @@ hr.globe-primary:after {
 
 @media only screen and (min-width: 320px) {
 
+    .bg-image {
+        background: url('../img/bg-intro-sm.jpg') no-repeat 50% 50%;
+        background-size: cover;
+    }
+
+
+
 
     .carousel-control.right,
     .carousel-control.left {
@@ -2865,6 +2869,54 @@ hr.globe-primary:after {
     .intro {
         padding: 0;
     }
+
+    .mobile-company-frame {
+        background: url('../img/bg-space-sm.jpg') fixed;
+    }
+
+    #modal-energy {
+        background: url('../img/bg-energy-sm.jpg') no-repeat 50% 50%;
+        background-size: cover;
+    }
+    #modal-pharma {
+        background: url('../img/bg-pharma-sm.jpg') no-repeat 50% 50%;
+        background-size: cover;
+    }
+    #modal-fashion {
+        background: url('../img/bg-fashion-sm.jpg') no-repeat 50% 50%;
+        background-size: cover;
+    }
+    #modal-art {
+        background: url('../img/bg-art-sm.jpg') no-repeat 50% 50%;
+        background-size: cover;
+    }
+    #modal-benefits {
+        background: url('../img/bg-benefits-sm.jpg') no-repeat 50% 50%;
+        background-size: cover;
+    }
+    #modal-pr {
+        background: url('../img/bg-pr-sm.jpg') no-repeat 50% 50%;
+        background-size: cover;
+    }
+    #modal-tech {
+        background: url('../img/bg-tech-sm.jpg') no-repeat 50% 50%;
+        background-size: cover;
+    }
+    #modal-re {
+        background: url('../img/bg-re-sm.jpg') no-repeat 50% 50%;
+        background-size: cover;
+    }
+    #modal-entertainment {
+        background: url('../img/bg-entertainment-sm.jpg') no-repeat 50% 50%;
+        background-size: cover;
+    }
+
+    #modal-kvh {
+        background: url('../img/bg-kvh-sm.jpg') no-repeat 50% 50%;
+        background-size: cover;
+    }
+
+
 
 
     /*.mobile-company-frame {*/
@@ -3693,6 +3745,11 @@ hr.globe-primary:after {
 
     @media only screen and (min-width: 768px) {
 
+        .bg-image {
+            background: url('../img/bg-intro-med.jpg') no-repeat 50% 50%;
+            background-size: cover;
+        }
+
         .carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
             top: 0;
         }
@@ -3705,6 +3762,52 @@ hr.globe-primary:after {
 
         .company-modal .close-modal i, .bio-modal .close-modal i {
             font-size: 3.5vh;
+        }
+
+        .mobile-company-frame {
+            background: url('../img/bg-space-med.jpg') fixed;
+        }
+
+        #modal-energy {
+            background: url('../img/bg-energy-med.jpg') no-repeat 50% 50%;
+            background-size: cover;
+        }
+        #modal-pharma {
+            background: url('../img/bg-pharma-med.jpg') no-repeat 50% 50%;
+            background-size: cover;
+        }
+        #modal-fashion {
+            background: url('../img/bg-fashion-med.jpg') no-repeat 50% 50%;
+            background-size: cover;
+        }
+        #modal-art {
+            background: url('../img/bg-art-med.jpg') no-repeat 50% 50%;
+            background-size: cover;
+        }
+        #modal-benefits {
+            background: url('../img/bg-benefits-med.jpg') no-repeat 50% 50%;
+            background-size: cover;
+        }
+        #modal-pr {
+            background: url('../img/bg-pr-med.jpg') no-repeat 50% 50%;
+            background-size: cover;
+        }
+        #modal-tech {
+            background: url('../img/bg-tech-med.jpg') no-repeat 50% 50%;
+            background-size: cover;
+        }
+        #modal-re {
+            background: url('../img/bg-re-med.jpg') no-repeat 50% 50%;
+            background-size: cover;
+        }
+        #modal-entertainment {
+            background: url('../img/bg-entertainment-med.jpg') no-repeat 50% 50%;
+            background-size: cover;
+        }
+
+        #modal-kvh {
+            background: url('../img/bg-kvh-med.jpg') no-repeat 50% 50%;
+            background-size: cover;
         }
 
         .mobile-company-container {
@@ -3961,6 +4064,10 @@ hr.globe-primary:after {
         .navbar-nav {
             font-size: 1.75vw;
             margin-top: 0;
+        }
+
+        .parallax-frame {
+            background: url('../img/bg-space-med.jpg') fixed;
         }
 
         #text-carousel {
@@ -4335,8 +4442,63 @@ hr.globe-primary:after {
         }
     }
     @media only screen and (min-width: 1200px) {
+
+        .bg-image {
+            background: url('../img/bg-intro-lrg.jpg') no-repeat 50% 50%;
+            background-size: cover;
+        }
         .navbar-brand {
             font-size: 25px;
+        }
+
+        .mobile-company-frame {
+            background: url('../img/bg-space-lrg.jpg') fixed;
+        }
+
+        #modal-energy {
+            background: url('../img/bg-energy-lrg.jpg') no-repeat 50% 50%;
+            background-size: cover;
+        }
+        #modal-pharma {
+            background: url('../img/bg-pharma-lrg.jpg') no-repeat 50% 50%;
+            background-size: cover;
+        }
+        #modal-fashion {
+            background: url('../img/bg-fashion-lrg.jpg') no-repeat 50% 50%;
+            background-size: cover;
+        }
+        #modal-art {
+            background: url('../img/bg-art-lrg.jpg') no-repeat 50% 50%;
+            background-size: cover;
+        }
+        #modal-benefits {
+            background: url('../img/bg-benefits-lrg.jpg') no-repeat 50% 50%;
+            background-size: cover;
+        }
+        #modal-pr {
+            background: url('../img/bg-pr-lrg.jpg') no-repeat 50% 50%;
+            background-size: cover;
+        }
+        #modal-tech {
+            background: url('../img/bg-tech-lrg.jpg') no-repeat 50% 50%;
+            background-size: cover;
+        }
+        #modal-re {
+            background: url('../img/bg-re-lrg.jpg') no-repeat 50% 50%;
+            background-size: cover;
+        }
+        #modal-entertainment {
+            background: url('../img/bg-entertainment-lrg.jpg') no-repeat 50% 50%;
+            background-size: cover;
+        }
+
+        #modal-kvh {
+            background: url('../img/bg-kvh-lrg.jpg') no-repeat 50% 50%;
+            background-size: cover;
+        }
+
+        .parallax-frame {
+            background: url('../img/bg-space-lrg.jpg') fixed;
         }
         .photo-container .text-overlay h3 {
             font-size: 22px;
@@ -4378,7 +4540,7 @@ hr.globe-primary:after {
     (min-width: 1366px) and
     (max-height: 768px) {
     .bg-image {
-        background: url(../img/spacesunrise.jpg) no-repeat 50% 58%;
+        background: url('../img/bg-intro-xl.jpg') no-repeat 50% 58%;
         background-size: 100%;
     }
         .navigation-stars {
@@ -4397,9 +4559,14 @@ hr.globe-primary:after {
     }
 
     @media only screen and (min-width: 1920px) and (min-height: 950px) {
+
         .bg-image {
-            background-position: 50% 64%;
+            background: url('../img/bg-intro-xl.jpg') no-repeat 50% 64%;
+            background-size: cover;
         }
+        /*.bg-image {*/
+            /*background-position: 50% 64%;*/
+        /*}*/
 
         .button:hover .fa-book {
             left: 74px;
@@ -4408,6 +4575,56 @@ hr.globe-primary:after {
             top: 17px;
             font-size: 15px;
         }
+
+        .mobile-company-frame {
+            background: url('../img/bg-space-xl.jpg') fixed;
+        }
+
+        #modal-energy {
+            background: url('../img/bg-energy-xl.jpg') no-repeat 50% 50%;
+            background-size: cover;
+        }
+        #modal-pharma {
+            background: url('../img/bg-pharma-xl.jpg') no-repeat 50% 50%;
+            background-size: cover;
+        }
+        #modal-fashion {
+            background: url('../img/bg-fashion-xl.jpg') no-repeat 50% 50%;
+            background-size: cover;
+        }
+        #modal-art {
+            background: url('../img/bg-art-xl.jpg') no-repeat 50% 50%;
+            background-size: cover;
+        }
+        #modal-benefits {
+            background: url('../img/bg-benefits-xl.jpg') no-repeat 50% 50%;
+            background-size: cover;
+        }
+        #modal-pr {
+            background: url('../img/bg-pr-xl.jpg') no-repeat 50% 50%;
+            background-size: cover;
+        }
+        #modal-tech {
+            background: url('../img/bg-tech-xl.jpg') no-repeat 50% 50%;
+            background-size: cover;
+        }
+        #modal-re {
+            background: url('../img/bg-re-xl.jpg') no-repeat 50% 50%;
+            background-size: cover;
+        }
+        #modal-entertainment {
+            background: url('../img/bg-entertainment-xl.jpg') no-repeat 50% 50%;
+            background-size: cover;
+        }
+
+        #modal-kvh {
+            background: url('../img/bg-kvh-xl.jpg') no-repeat 50% 50%;
+            background-size: cover;
+        }
+        .parallax-frame {
+            background: url('../img/bg-space-xl.jpg') fixed;
+        }
+
         .photo-container {
             width: 70%;
         }
