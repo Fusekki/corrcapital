@@ -6,16 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9897491-5837-4602-b0d4-3b9c1622a3c3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/bg-entertainment-lrg.jpg" afterPath="$PROJECT_DIR$/img/bg-entertainment-lrg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/bg-entertainment-med.jpg" afterPath="$PROJECT_DIR$/img/bg-entertainment-med.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/bg-entertainment-sm.jpg" afterPath="$PROJECT_DIR$/img/bg-entertainment-sm.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/bg-entertainment-xl.jpg" afterPath="$PROJECT_DIR$/img/bg-entertainment-xl.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/bg-fashion-lrg.jpg" afterPath="$PROJECT_DIR$/img/bg-fashion-lrg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/bg-fashion-med.jpg" afterPath="$PROJECT_DIR$/img/bg-fashion-med.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/bg-fashion-sm.jpg" afterPath="$PROJECT_DIR$/img/bg-fashion-sm.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/bg-fashion-xl.jpg" afterPath="$PROJECT_DIR$/img/bg-fashion-xl.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.htm" afterPath="$PROJECT_DIR$/index.htm" />
     </list>
     <ignored path="corrgroup.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.htm" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="754" column="54" selection-start-line="754" selection-start-column="54" selection-end-line="754" selection-end-column="54" />
+            <state relative-caret-position="20">
+              <caret line="746" column="22" selection-start-line="746" selection-start-column="22" selection-end-line="746" selection-end-column="22" />
               <folding>
                 <element signature="e#29897#29903#0" expanded="true" />
               </folding>
@@ -57,13 +48,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="290" column="11" selection-start-line="290" selection-start-column="11" selection-end-line="290" selection-end-column="33" />
+            <state relative-caret-position="561">
+              <caret line="2340" column="0" selection-start-line="2340" selection-start-column="0" selection-end-line="2340" selection-end-column="23" />
               <folding>
-                <marker date="1473957259923" expanded="true" signature="2:38" ph="..." />
+                <marker date="1473959938207" expanded="true" signature="2:38" ph="..." />
               </folding>
             </state>
           </provider>
@@ -101,8 +92,8 @@
         <option value="$PROJECT_DIR$/UC/css/style.css" />
         <option value="$PROJECT_DIR$/js/app.js" />
         <option value="E:/grunt/Gruntfile.js" />
-        <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/index.htm" />
+        <option value="$PROJECT_DIR$/css/styles.css" />
       </list>
     </option>
   </component>
@@ -425,12 +416,12 @@
       <workItem from="1473716493428" duration="531000" />
       <workItem from="1473728142047" duration="4129000" />
       <workItem from="1473769231532" duration="10521000" />
-      <workItem from="1473943375063" duration="6816000" />
+      <workItem from="1473943375063" duration="7446000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="681680000" />
+    <option name="totallyTimeSpent" value="682310000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -673,22 +664,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/index.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="290" column="11" selection-start-line="290" selection-start-column="11" selection-end-line="290" selection-end-column="33" />
+        <state relative-caret-position="20">
+          <caret line="746" column="22" selection-start-line="746" selection-start-column="22" selection-end-line="746" selection-end-column="22" />
           <folding>
-            <marker date="1473957259923" expanded="true" signature="2:38" ph="..." />
+            <element signature="e#29897#29903#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.htm">
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="754" column="54" selection-start-line="754" selection-start-column="54" selection-end-line="754" selection-end-column="54" />
+        <state relative-caret-position="561">
+          <caret line="2340" column="0" selection-start-line="2340" selection-start-column="0" selection-end-line="2340" selection-end-column="23" />
           <folding>
-            <element signature="e#29897#29903#0" expanded="true" />
+            <marker date="1473959938207" expanded="true" signature="2:38" ph="..." />
           </folding>
         </state>
       </provider>
