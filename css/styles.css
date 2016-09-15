@@ -1299,6 +1299,7 @@ img::-moz-selection {
 
 .parallax-frame {
     background: url('../img/bg-space-xl.jpg') fixed;
+    background-size: contain;
 }
 
 .parallax-root {
@@ -2516,10 +2517,10 @@ hr.globe-primary:after {
 .bio-modal .close-modal {
     color: hsla(357, 79%, 47%, 1);
 }
-.company-modal .close-modal:hover,
-.bio-modal .close-modal:hover {
-    opacity: .3;
-}
+/*.company-modal .close-modal:hover,*/
+/*.bio-modal .close-modal:hover {*/
+    /*opacity: .3;*/
+/*}*/
 #companyModal6 .close-modal:hover,
 #companyModal7 .close-modal:hover,
 #companyModal8 .close-modal:hover {
@@ -2633,7 +2634,7 @@ hr.globe-primary:after {
     background-color: black;
 }
 .company-modal > .modal-content > .container {
-    background-color: hsla(0, 0%, 100%, .85);
+    background-color: hsla(0, 0%, 100%, .75);
 }
 .references {
     font-size: 2.3vh;
@@ -4073,6 +4074,7 @@ hr.globe-primary:after {
 
         .parallax-frame {
             background: url('../img/bg-space-med.jpg') fixed;
+            background-size: contain;
         }
 
         #text-carousel {
@@ -4504,6 +4506,7 @@ hr.globe-primary:after {
 
         .parallax-frame {
             background: url('../img/bg-space-lrg.jpg') fixed;
+            background-size: contain;
         }
         .photo-container .text-overlay h3 {
             font-size: 22px;
@@ -4628,6 +4631,7 @@ hr.globe-primary:after {
         }
         .parallax-frame {
             background: url('../img/bg-space-xl.jpg') fixed;
+            background-size: contain;
         }
 
         .photo-container {
