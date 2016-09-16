@@ -1323,6 +1323,10 @@ table a:not(.btn),
     color: hsla(357, 79%, 47%, 1);
 }
 
+.bio-modal .modal-body p {
+    text-align: left;
+}
+
 #roseann-container,
 #roseann-container .col-lg-8 {
     padding-left: 0;
@@ -1380,6 +1384,7 @@ table a:not(.btn),
 
 .company-modal .modal-body > p {
     color: hsla(215, 2%, 13%, 1);
+    text-align: left;
 }
 
 
