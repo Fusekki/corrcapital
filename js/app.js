@@ -6,6 +6,7 @@ var fade = false;
 var r;
 var c = 0;
 
+console.log('here');
 // Helper Objects (for error handling).
 var Helpers = {
     handleError: function(msg) {
@@ -85,12 +86,12 @@ $('.navbar-collapse ul li a').click(function() {
 
 
 // Google Maps Scripts
-var map = null;
-// When the window has finished loading create our google map below
-google.maps.event.addDomListener(window, 'load', init);
-google.maps.event.addDomListener(window, 'resize', function() {
-    map.setCenter(new google.maps.LatLng(40.757118, -73.971890));
-});
+// var map = null;
+// // When the window has finished loading create our google map below
+// google.maps.event.addDomListener(window, 'load', init);
+// google.maps.event.addDomListener(window, 'resize', function() {
+//     map.setCenter(new google.maps.LatLng(40.757118, -73.971890));
+// });
 
 function initMap() {
     console.log('here in initmap.');
