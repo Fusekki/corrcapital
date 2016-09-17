@@ -20,6 +20,10 @@ $(function() {
     addFadeListeners();
     addTouchEvents();
 
+    $('.text-carousel').carousel({
+        pause: "false"
+    });
+
 });
 
 
@@ -244,9 +248,6 @@ function addFadeListeners() {
         wheels[idx].addEventListener("mozTransitionEnd", wheelFadein, false);
         wheels[idx].addEventListener("msTransitionEnd", wheelFadein, false);
         wheels[idx].addEventListener("oTransitionEnd", wheelFadein, false);
-        // console.log('added listener to...');
-        // console.log(wheels[idx]);
-
     }
 
     // Initiate Fade on first wheel
@@ -262,7 +263,6 @@ function wheelFadein(e) {
         wheel = $('#constellation-one');
 
     }
-
     this.removeEventListener("transitionend", wheelFadein, false);
     this.removeEventListener("webkitTransitionEnd", wheelFadein, false);
     this.removeEventListener("mozTransitionEnd", wheelFadein, false);
@@ -280,8 +280,6 @@ function wheelFadein(e) {
 
 function addTouchEvents() {
     console.log('adding touch event');
-
-
 
     var $elem = document.getElementById('contact-email');
 

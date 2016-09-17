@@ -142,7 +142,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: white;
+    color: hsla(215, 2%, 90%, 1);
     outline: none;
 }
 body {
@@ -175,7 +175,7 @@ body {
 .btn-circle:focus {
     outline: 0;
     color: hsla(357, 79%, 47%, 1);
-    background: white;
+    background: hsla(215, 2%, 90%, 1);
 }
 .btn-default:focus,
 .btn-default:active:focus,
@@ -185,7 +185,7 @@ body {
 .btn-default.active.focus {
     border: 1px solid hsla(357, 79%, 34%, 1);
     outline: 0;
-    color: white;
+    color: hsla(215, 2%, 90%, 1);
     background: hsla(357, 79%, 34%, 1);
 }
 .btn-default {
@@ -401,7 +401,7 @@ hr {
 }
 
 .hvr-reveal:before {
-    border-color: hsla(43, 15%, 86%,0.7);
+    border-color: hsla(215, 2%, 90%, 1);
 }
 
 img::-moz-selection {
@@ -423,6 +423,7 @@ img::-moz-selection {
 
 p {
     margin: 0 0 4.5vh;
+    /*margin: 0;*/
     font-size: 2.5vh;
     line-height: 1.5;
 }
@@ -529,6 +530,7 @@ table a:not(.btn),
 }
 .navbar-brand {
     font-size: 3vh;
+    font-weight: 700;
     line-height: 1.5;
 }
 
@@ -567,7 +569,7 @@ table a:not(.btn),
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-    color: grey;
+    color: hsla(215, 2%, 58%, 1);
 }
 .navbar-custom .nav li a {
     -webkit-transition: background .3s ease-in-out;
@@ -593,7 +595,7 @@ table a:not(.btn),
     font-weight: bold;
 }
 .navbar-custom .nav li.active a:hover {
-    color: red;
+    color: hsla(215, 2%, 90%, 1);
     background-color: hsla(215, 2%, 51%, 1);
 }
 .navbar-nav {
@@ -622,11 +624,12 @@ table a:not(.btn),
 .pipe-nav {
     color: hsla(215, 2%, 58%, 1);
     font-family: initial;
-    font-size: 30px;
+    font-size: 23px;
     line-height: 0;
     position: relative;
-    top: 1px;
-    letter-spacing: 3px;
+    letter-spacing: 0;
+    left: -3px;
+    font-weight: 100;
 }
 
 /*NAVIGATION END*/
@@ -713,20 +716,20 @@ table a:not(.btn),
     opacity: 1;
 }
 .constellation:hover .globe-text {
-    text-shadow: 0 0 1px white;
+    text-shadow: 0 0 1px hsla(215, 2%, 90%, 1);
 }
-.constellation:hover .grey_ball div {
-    background: white;
-    -webkit-box-shadow: 0 0 10px 5px yellow;
-    box-shadow: 0 0 10px 5px yellow;
+.constellation:hover .constellation-planet div {
+    background: hsla(215, 2%, 90%, 1);
+    -webkit-box-shadow: 0 0 10px 5px hsla(67, 68%, 57%, 1);
+    box-shadow: 0 0 10px 5px hsla(67, 68%, 57%, 1)
 }
 
 .constellation:focus .globe-text {
-    text-shadow: 0 0 1px grey;
+    text-shadow: 0 0 1px hsla(215, 2%, 58%, 1);;
 }
-.constellation:focus .grey_ball div {
-    -webkit-box-shadow: 0 0 3px 3px lightgoldenrodyellow;
-    box-shadow: 0 0 3px 3px lightgoldenrodyellow;
+.constellation:focus .constellation-planet div {
+    -webkit-box-shadow: 0 0 3px 3px hsla(67, 68%, 79%, 1);
+    box-shadow: 0 0 3px 3px hsla(67, 68%, 79%, 1);
 }
 
 .constellation-planet {
@@ -741,7 +744,7 @@ table a:not(.btn),
 
 .constellation-planet div {
     margin: auto;
-    color: white;
+    color: hsla(215, 2%, 90%, 1);
     font-size: 5px;
     box-shadow: 0 0 10px 5px #fff;
     transition: all 1s ease;
@@ -805,10 +808,12 @@ table a:not(.btn),
 }
 
 .logo-text-wrapper {
-    letter-spacing: 15px;
+    display: block;
+    letter-spacing: 1px;
     font-family: 'Sansation', 'Sansation Light', 'Sansation Bold';
     text-transform: uppercase;
-    font-size: 5vh;
+    font-size: 3.5vh;
+    font-weight: 700;
     -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 4s; /* Firefox < 16 */
     -ms-animation: fadein 4s; /* Internet Explorer */
@@ -816,27 +821,38 @@ table a:not(.btn),
     animation: fadein 4s;
 }
 
+.logo-text-wrapper span:nth-of-type(1) {
+    letter-spacing: 15px;
+
+}
+
+.logo-text-wrapper span:nth-of-type(3) {
+    letter-spacing: 10px;
+
+}
+
 
 
 .pipe {
     color: hsla(215, 2%, 58%,1);
     font-family: initial;
-    font-size: 7.5vmax;
+    /*font-size: 7.5vmax;*/
     line-height: 0;
     position: relative;
-    top: 1px;
+    /*top: 1px;*/
     letter-spacing: 1px;
     left: -5px;
+    font-weight: 100;
 
 }
 
 .star-type1 {
     width: 2px;
     height: 2px;
-    background: white;
+    background: hsla(215, 2%, 90%, 1);
     border-radius: 2px;
-    -webkit-box-shadow: 0 0 1px 1px white;
-    box-shadow: 0 0 1px 1px white;
+    -webkit-box-shadow: 0 0 1px 1px hsla(215, 2%, 90%, 1);
+    box-shadow: 0 0 1px 1px hsla(215, 2%, 90%, 1);;
     -webkit-animation: twinkle_one 2s ease-in-out infinite;
     -moz-animation: twinkle_one 2s ease-in-out infinite;
     -o-animation: twinkle_one 2s ease-in-out infinite;
@@ -845,10 +861,10 @@ table a:not(.btn),
 .star-type2 {
     width: 3px;
     height: 3px;
-    background: white;
+    background: hsla(215, 2%, 90%, 1);
     border-radius: 3px;
-    -webkit-box-shadow: 0 0 3px 2px white;
-    box-shadow: 0 0 3px 2px white;
+    -webkit-box-shadow: 0 0 3px 2px hsla(215, 2%, 90%, 1);
+    box-shadow: 0 0 3px 2px hsla(215, 2%, 90%, 1);;
     -webkit-animation: twinkle_two 3s ease-in-out infinite;
     -moz-animation: twinkle_two 3s ease-in-out infinite;
     -o-animation: twinkle_two 3s ease-in-out infinite;
@@ -857,10 +873,10 @@ table a:not(.btn),
 .star-type3 {
     width: 4px;
     height: 4px;
-    background: white;
+    background: hsla(215, 2%, 90%, 1);
     border-radius: 4px;
-    -webkit-box-shadow: 0 0 3px 0 white;
-    box-shadow: 0 0 3px 0 white;
+    -webkit-box-shadow: 0 0 3px 0 hsla(215, 2%, 90%, 1);
+    box-shadow: 0 0 3px 0 hsla(215, 2%, 90%, 1);
     -webkit-animation: twinkle_three 5s ease-in-out infinite;
     -moz-animation: twinkle_three 5s ease-in-out infinite;
     -o-animation: twinkle_three 5s ease-in-out infinite;
@@ -923,9 +939,9 @@ table a:not(.btn),
 }
 .parallax-layer:hover .planet,
 .planet-item:hover img{
-    -webkit-box-shadow: 0px 0px 74px 7px white;
-    -moz-box-shadow: 0px 0px 74px 7px white;
-    box-shadow: 0px 0px 74px 7px white;
+    -webkit-box-shadow: 0px 0px 74px 7px hsla(215, 2%, 90%, 1);
+    -moz-box-shadow: 0px 0px 74px 7px hsla(215, 2%, 90%, 1);
+    box-shadow: 0px 0px 74px 7px hsla(215, 2%, 90%, 1);
 }
 .parallax-layer:focus,
 .planet:focus,
@@ -1271,28 +1287,27 @@ table a:not(.btn),
 }
 
 .map-container {
-    background: white;
+    background: hsla(215, 2%, 90%, 1);
     width: 100%;
     height: 300px;
 }
 
 .site-info {
-    color: hsla(215, 2%, 58%, 1);
     display: block;
-    font-size: 4.5vh;
+    font-size: 4vh;
     font-family: 'Sansation', 'Sansation Light', 'Sansation Bold';
     line-height: 1;
     font-weight: 700 !important;
     letter-spacing: 15px
 }
 .site-info span:nth-of-type(2) {
-    letter-spacing: 7px;
+    letter-spacing: 10px;
 }
 .site-info span:nth-of-type(3) {
     letter-spacing: 0;
 }
 .site-info .pipe {
-    font-size: 55px;
+    font-size: 35px;
 }
 /*PAGE 4 CLASS END*/
 
@@ -1303,6 +1318,10 @@ table a:not(.btn),
 }
 #contact {
     background: #252525;
+}
+
+#footer-left-text {
+    padding-bottom: 0;
 }
 
 #map {
@@ -1517,65 +1536,6 @@ hr.globe-primary:hover:after {
 /*MEDIA QUERIES BEGIN*/
 
 
-/*@media only screen and (min-width: 320px) {*/
-
-    /*.globe-text {*/
-        /*padding: 0;*/
-        /*font-size: 15px;*/
-    /*}*/
-    /*.intro {*/
-         /*padding: 0;*/
-    /*}*/
-    /*.navigation-stars {*/
-        /*display: none;*/
-    /*}*/
-
-    /*.stars-anchor {*/
-        /*width: 300px;*/
-    /*}*/
-    /*.stars-anchor a:nth-of-type(1) {*/
-        /*left: 6px;*/
-        /*top: -26px;*/
-    /*}*/
-    /*.stars-anchor a:nth-of-type(2) {*/
-        /*left: 61px;*/
-        /*top: 20px;*/
-    /*}*/
-    /*.stars-anchor a:nth-of-type(3) {*/
-        /*left: 24px;*/
-        /*top: 65px;*/
-    /*}*/
-    /*.stars-anchor a:nth-of-type(4) {*/
-        /*top: 113px;*/
-        /*left: 5px;*/
-    /*}*/
-    /*.stars-anchor a:nth-of-type(5) {*/
-        /*top: 166px;*/
-        /*left: 42px;*/
-    /*}*/
-    /*.stars-anchor a:nth-of-type(6) {*/
-        /*top: 201px;*/
-        /*left: 103px;*/
-    /*}*/
-    /*.stars-anchor a:nth-of-type(7) {*/
-        /*top: 130px;*/
-        /*left: 181px;*/
-    /*}*/
-    /*.stars-anchor a:nth-of-type(8) {*/
-        /*top: 315px;*/
-        /*left: 19px;*/
-    /*}*/
-    /*.stars-anchor a:nth-of-type(9) {*/
-        /*top: 315px;*/
-        /*left: 100px;*/
-    /*}*/
-    /*.stars-anchor a:nth-of-type(10) {*/
-        /*top: 273px;*/
-        /*left: 132px;*/
-    /*}*/
-
-
-/*}*/
 /*iphone 5 portrait*/
 
 @media only screen and (min-width: 320px) {
@@ -1605,13 +1565,8 @@ hr.globe-primary:hover:after {
 
     .heading-wrapper {
         text-align: center;
-        padding: 4vw 0vh 0 2.7vw;
+        padding: 4vw 0vh 0 3.7vw;
     }
-
-    #logo-second-word {
-        letter-spacing: 7px;
-    }
-
 
     .intro {
         padding: 0;
@@ -1776,20 +1731,24 @@ hr.globe-primary:hover:after {
         padding-top: 0;
     }
 
+    .logo-text-wrapper {
+        font-size: 4vh;
+    }
+
     .planet-carousel-control {
         top: 0;
     }
 
     #planet-art {
         top: 2vh;
-        left: 60%;
+        left: 57%;
         -webkit-transform: scale(0.9);
         transform: scale(0.9);
     }
 
     #planet-benefits {
         top: -7vh;
-        left: 33%;
+        left: 32%;
         -webkit-transform: scale(0.8);
         transform: scale(0.8);
     }
@@ -1802,13 +1761,13 @@ hr.globe-primary:hover:after {
     }
 
     #planet-entertainment {
-        top: -37vh;
-        left: 51%;
+        top: -39vh;
+        left: 52%;
         -webkit-transform: scale(0.85);
         transform: scale(0.85);
     }
     #planet-fashion {
-        top: 6vh;
+        top: 4vh;
         left: 15%;
         -webkit-transform: translateZ(-0.1px) scale(0.9);
         transform: translateZ(-0.1px) scale(0.9);
@@ -1822,14 +1781,14 @@ hr.globe-primary:hover:after {
     }
 
     #planet-pharma {
-        top: -16vh;
+        top: -18vh;
         left: 53%;
         -webkit-transform: translateZ(-0.3px) scale(0.85);
         transform: translateZ(-0.3px) scale(0.85);
     }
 
     #planet-pr {
-        top: -36vh;
+        top: -39vh;
         left: 5%;
         -webkit-transform: translateZ(-0.3px) scale(0.8);
         transform: translateZ(-0.3px) scale(0.8);
@@ -1979,7 +1938,7 @@ hr.globe-primary:hover:after {
             width: 100px;
             position: absolute;
             height: 75px;
-            border: 10px none red;
+            border: 10px none hsla(357, 79%, 47%, 1);
             border-left-style: solid;
             left: 19vw;
             top: 8px;
@@ -1998,6 +1957,10 @@ hr.globe-primary:hover:after {
 
         .intro .intro-body {
             display: block;
+        }
+
+        .logo-text-wrapper {
+            font-size: 4.5vw;
         }
 
         .mobile-company-frame {
@@ -2036,7 +1999,7 @@ hr.globe-primary:hover:after {
 
         #planet-art {
             top: 25vh;
-            left: 69%;
+            left: 68%;
             -webkit-transform: scale(0.9);
             transform: scale(0.9);
             z-index: 1
@@ -2061,7 +2024,7 @@ hr.globe-primary:hover:after {
 
         #planet-entertainment {
             top: -108vh;
-            left: 6%;
+            left: 7%;
             -webkit-transform: scale(1.0);
             transform: scale(.75);
             z-index: 1;
@@ -2101,7 +2064,7 @@ hr.globe-primary:hover:after {
 
         #planet-re {
             top: 12vh;
-            left: 11%;
+            left: 15%;
             -webkit-transform: scale(1.0);
             transform: scale(1.0);
             z-index: 1;
@@ -2109,7 +2072,7 @@ hr.globe-primary:hover:after {
 
         #planet-tech {
             top: -23vh;
-            left: 64%;
+            left: 60%;
             -webkit-transform: scale(1.0);
             transform: scale(1.0);
             z-index: 1;
@@ -2207,6 +2170,11 @@ hr.globe-primary:hover:after {
         .brand-heading {
             margin-top: 7%;
         }
+
+        .business-card {
+            width: 50%;
+            float: left;
+        }
         .circle {
             left: 21vw;
             top: 20px;
@@ -2220,6 +2188,18 @@ hr.globe-primary:hover:after {
         }
         .heading-wrapper {
             padding-left: 2.1vw;
+        }
+
+        .logo-text-wrapper {
+            font-size: 5.5vw;
+        }
+
+        .mobile-company-frame {
+            height: 330px;
+        }
+
+        .pipe {
+            font-size: 40px;
         }
 
 
@@ -2239,14 +2219,14 @@ hr.globe-primary:hover:after {
 
         #planet-energy {
             top: -68vh;
-            left: 18%;
+            left: 20%;
             -webkit-transform: scale(0.8);
             transform: scale(0.8);
         }
 
         #planet-entertainment {
             top: -75vh;
-            left: 7%;
+            left: 9%;
             -webkit-transform: scale(.75);
             transform: scale(.75);
         }
@@ -2498,6 +2478,10 @@ hr.globe-primary:hover:after {
             width: 100%
         }
 
+        #footer-left-text {
+            margin-top: 3%;
+        }
+
 
         .heading-wrapper {
             display: none;
@@ -2520,7 +2504,7 @@ hr.globe-primary:hover:after {
 
         .parallax-frame {
             background: url('../img/bg-space-med.jpg') fixed;
-            background-size: contain;
+            background-size: cover;
         }
 
         #text-carousel {
@@ -2580,7 +2564,7 @@ hr.globe-primary:hover:after {
         .constellation-line {
             content: "";
             display: block;
-            border-bottom: 1px solid grey;
+            border-bottom: 1px solid hsla(215, 2%, 58%, 1);;
             position: absolute;
         }
         .container {
@@ -2631,7 +2615,7 @@ hr.globe-primary:hover:after {
         .navbar-custom.top-nav-collapse {
             padding-bottom: 0;
             background: hsla(0, 0%, 11%, 1);
-            border-bottom: 1px solid white;
+            border-bottom: 1px solid hsla(215, 2%, 90%, 1);
         }
         .navbar-fixed-top .navbar-brand {
             -webkit-transition: all .3s;
@@ -2964,7 +2948,7 @@ hr.globe-primary:hover:after {
         }
         .parallax-frame {
             background: url('../img/bg-space-xl.jpg');
-            background-size: contain;
+            background-size: cover;
         }
 
         #text-carousel {
