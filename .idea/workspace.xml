@@ -28,10 +28,10 @@
       <file leaf-file-name="index.htm" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+            <state relative-caret-position="238">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
               <folding>
-                <element signature="e#25456#25462#0" expanded="true" />
+                <element signature="e#25460#25466#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -460,12 +460,12 @@
       <workItem from="1473769231532" duration="10521000" />
       <workItem from="1473943375063" duration="8259000" />
       <workItem from="1474028755004" duration="18329000" />
-      <workItem from="1474129760980" duration="9562000" />
+      <workItem from="1474129760980" duration="9787000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="711014000" />
+    <option name="totallyTimeSpent" value="711239000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -530,7 +530,7 @@
         <state relative-caret-position="1683">
           <caret line="99" column="50" selection-start-line="99" selection-start-column="50" selection-end-line="99" selection-end-column="50" />
           <folding>
-            <element signature="e#25456#25462#0" expanded="true" />
+            <element signature="e#25460#25466#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -544,7 +544,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#25456#25462#0" expanded="true" />
+            <element signature="e#25460#25466#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -733,10 +733,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        <state relative-caret-position="238">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
           <folding>
-            <element signature="e#25456#25462#0" expanded="true" />
+            <element signature="e#25460#25466#0" expanded="true" />
           </folding>
         </state>
       </provider>
