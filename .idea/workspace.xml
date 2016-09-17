@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9897491-5837-4602-b0d4-3b9c1622a3c3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.htm" afterPath="$PROJECT_DIR$/index.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
     </list>
     <ignored path="corrgroup.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,26 +30,26 @@
       <file leaf-file-name="index.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="469" column="54" selection-start-line="469" selection-start-column="54" selection-end-line="469" selection-end-column="54" />
+            <state relative-caret-position="534">
+              <caret line="455" column="119" selection-start-line="455" selection-start-column="119" selection-end-line="455" selection-end-column="119" />
               <folding>
-                <element signature="e#25017#25023#0" expanded="true" />
+                <element signature="e#25334#25340#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="88" column="0" selection-start-line="88" selection-start-column="3" selection-end-line="93" selection-end-column="6" />
+            <state relative-caret-position="431">
+              <caret line="267" column="69" selection-start-line="267" selection-start-column="69" selection-end-line="267" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="294">
@@ -63,8 +64,8 @@
       <file leaf-file-name="hover.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hover-master/css/hover.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="97" selection-end-column="1" />
+            <state relative-caret-position="136">
+              <caret line="85" column="30" selection-start-line="78" selection-start-column="0" selection-end-line="97" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -102,9 +103,9 @@
         <option value="$PROJECT_DIR$/UC/css/style.css" />
         <option value="E:/grunt/Gruntfile.js" />
         <option value="$PROJECT_DIR$/js/wow.min.js" />
-        <option value="$PROJECT_DIR$/js/app.js" />
-        <option value="$PROJECT_DIR$/index.htm" />
         <option value="$PROJECT_DIR$/css/styles.css" />
+        <option value="$PROJECT_DIR$/index.htm" />
+        <option value="$PROJECT_DIR$/js/app.js" />
       </list>
     </option>
   </component>
@@ -262,7 +263,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Start Bootstrap/startbootstrap-grayscale-1.0.6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Neighborhood Map Project" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="E:\Program Files\nodejs\node.exe" />
@@ -460,12 +461,13 @@
       <workItem from="1473728142047" duration="4129000" />
       <workItem from="1473769231532" duration="10521000" />
       <workItem from="1473943375063" duration="8259000" />
-      <workItem from="1474028755004" duration="18222000" />
+      <workItem from="1474028755004" duration="18329000" />
+      <workItem from="1474129760980" duration="2421000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="701345000" />
+    <option name="totallyTimeSpent" value="703873000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -530,7 +532,7 @@
         <state relative-caret-position="1683">
           <caret line="99" column="50" selection-start-line="99" selection-start-column="50" selection-end-line="99" selection-end-column="50" />
           <folding>
-            <element signature="e#25017#25023#0" expanded="true" />
+            <element signature="e#25334#25340#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -544,7 +546,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#25017#25023#0" expanded="true" />
+            <element signature="e#25334#25340#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -702,33 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="8323" selection-start-line="0" selection-start-column="8323" selection-end-line="0" selection-end-column="8323" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="88" column="0" selection-start-line="88" selection-start-column="3" selection-end-line="93" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hover-master/css/hover.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="97" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="469" column="54" selection-start-line="469" selection-start-column="54" selection-end-line="469" selection-end-column="54" />
-          <folding>
-            <element signature="e#25017#25023#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -739,6 +714,32 @@
           <folding>
             <marker date="1474046992547" expanded="true" signature="2:38" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hover-master/css/hover.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="85" column="30" selection-start-line="78" selection-start-column="0" selection-end-line="97" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="455" column="119" selection-start-line="455" selection-start-column="119" selection-end-line="455" selection-end-column="119" />
+          <folding>
+            <element signature="e#25334#25340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="267" column="69" selection-start-line="267" selection-start-column="69" selection-end-line="267" selection-end-column="69" />
+          <folding />
         </state>
       </provider>
     </entry>

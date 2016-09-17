@@ -6,26 +6,19 @@ var fade = false;
 var r;
 var c = 0;
 
-console.log('here');
-// Helper Objects (for error handling).
-var Helpers = {
-    handleError: function(msg) {
-        console.log('here');
-        if (msg === 'map') {
-            return alert("There was an error loading the Google Maps API.  Please check your connection.");
-        } else {
-            return alert(msg);
-        }
-    },
-    logError: function(msg) {
-        return console.log(msg);
-    }
-};
+
+// Prevent over-scrolling on iOS devices.
+
+document.body.addEventListener('touchmove', function(event) {
+    event.preventDefault();
+}, false);
+
 
 $(function() {
     new WOW().init();
     collapseNavbar();
     addFadeListeners();
+    addTouchEvents();
 
 });
 
@@ -111,114 +104,114 @@ function initMap() {
 
         // How you would like to style the map.
         // This is where you would paste any style found on Snazzy Maps.
-        styles: [{
-            "featureType": "water",
-            "elementType": "geometry",
-            "stylers": [{
-                "color": "#000000"
-            }, {
-                "lightness": 17
-            }]
-        }, {
-            "featureType": "landscape",
-            "elementType": "geometry",
-            "stylers": [{
-                "color": "#000000"
-            }, {
-                "lightness": 20
-            }]
-        }, {
-            "featureType": "road.highway",
-            "elementType": "geometry.fill",
-            "stylers": [{
-                "color": "#000000"
-            }, {
-                "lightness": 17
-            }]
-        }, {
-            "featureType": "road.highway",
-            "elementType": "geometry.stroke",
-            "stylers": [{
-                "color": "#000000"
-            }, {
-                "lightness": 29
-            }, {
-                "weight": 0.2
-            }]
-        }, {
-            "featureType": "road.arterial",
-            "elementType": "geometry",
-            "stylers": [{
-                "color": "#000000"
-            }, {
-                "lightness": 18
-            }]
-        }, {
-            "featureType": "road.local",
-            "elementType": "geometry",
-            "stylers": [{
-                "color": "#000000"
-            }, {
-                "lightness": 16
-            }]
-        }, {
-            "featureType": "poi",
-            "elementType": "geometry",
-            "stylers": [{
-                "color": "#000000"
-            }, {
-                "lightness": 21
-            }]
-        }, {
-            "elementType": "labels.text.stroke",
-            "stylers": [{
-                "visibility": "on"
-            }, {
-                "color": "#000000"
-            }, {
-                "lightness": 16
-            }]
-        }, {
-            "elementType": "labels.text.fill",
-            "stylers": [{
-                "saturation": 36
-            }, {
-                "color": "#000000"
-            }, {
-                "lightness": 40
-            }]
-        }, {
-            "elementType": "labels.icon",
-            "stylers": [{
-                "visibility": "off"
-            }]
-        }, {
-            "featureType": "transit",
-            "elementType": "geometry",
-            "stylers": [{
-                "color": "#000000"
-            }, {
-                "lightness": 19
-            }]
-        }, {
-            "featureType": "administrative",
-            "elementType": "geometry.fill",
-            "stylers": [{
-                "color": "#000000"
-            }, {
-                "lightness": 20
-            }]
-        }, {
-            "featureType": "administrative",
-            "elementType": "geometry.stroke",
-            "stylers": [{
-                "color": "#000000"
-            }, {
-                "lightness": 17
-            }, {
-                "weight": 1.2
-            }]
-        }]
+        // styles: [{
+        //     "featureType": "water",
+        //     "elementType": "geometry",
+        //     "stylers": [{
+        //         "color": "#000000"
+        //     }, {
+        //         "lightness": 17
+        //     }]
+        // }, {
+        //     "featureType": "landscape",
+        //     "elementType": "geometry",
+        //     "stylers": [{
+        //         "color": "#000000"
+        //     }, {
+        //         "lightness": 20
+        //     }]
+        // }, {
+        //     "featureType": "road.highway",
+        //     "elementType": "geometry.fill",
+        //     "stylers": [{
+        //         "color": "#000000"
+        //     }, {
+        //         "lightness": 17
+        //     }]
+        // }, {
+        //     "featureType": "road.highway",
+        //     "elementType": "geometry.stroke",
+        //     "stylers": [{
+        //         "color": "#000000"
+        //     }, {
+        //         "lightness": 29
+        //     }, {
+        //         "weight": 0.2
+        //     }]
+        // }, {
+        //     "featureType": "road.arterial",
+        //     "elementType": "geometry",
+        //     "stylers": [{
+        //         "color": "#000000"
+        //     }, {
+        //         "lightness": 18
+        //     }]
+        // }, {
+        //     "featureType": "road.local",
+        //     "elementType": "geometry",
+        //     "stylers": [{
+        //         "color": "#000000"
+        //     }, {
+        //         "lightness": 16
+        //     }]
+        // }, {
+        //     "featureType": "poi",
+        //     "elementType": "geometry",
+        //     "stylers": [{
+        //         "color": "#000000"
+        //     }, {
+        //         "lightness": 21
+        //     }]
+        // }, {
+        //     "elementType": "labels.text.stroke",
+        //     "stylers": [{
+        //         "visibility": "on"
+        //     }, {
+        //         "color": "#000000"
+        //     }, {
+        //         "lightness": 16
+        //     }]
+        // }, {
+        //     "elementType": "labels.text.fill",
+        //     "stylers": [{
+        //         "saturation": 36
+        //     }, {
+        //         "color": "#000000"
+        //     }, {
+        //         "lightness": 40
+        //     }]
+        // }, {
+        //     "elementType": "labels.icon",
+        //     "stylers": [{
+        //         "visibility": "off"
+        //     }]
+        // }, {
+        //     "featureType": "transit",
+        //     "elementType": "geometry",
+        //     "stylers": [{
+        //         "color": "#000000"
+        //     }, {
+        //         "lightness": 19
+        //     }]
+        // }, {
+        //     "featureType": "administrative",
+        //     "elementType": "geometry.fill",
+        //     "stylers": [{
+        //         "color": "#000000"
+        //     }, {
+        //         "lightness": 20
+        //     }]
+        // }, {
+        //     "featureType": "administrative",
+        //     "elementType": "geometry.stroke",
+        //     "stylers": [{
+        //         "color": "#000000"
+        //     }, {
+        //         "lightness": 17
+        //     }, {
+        //         "weight": 1.2
+        //     }]
+        // }]
     };
 
     // Get the HTML DOM element that will contain your map
@@ -282,5 +275,22 @@ function wheelFadein(e) {
 
 
     $(wheel).addClass('wheel-show');
+
+}
+
+function addTouchEvents() {
+    console.log('adding touch event');
+
+
+
+    var $elem = document.getElementById('contact-email');
+
+    $elem.addEventListener('touchstart', function(e) {
+        e.preventDefault();
+        // alert(e.changedTouches[0].pageX) // alert pageX coordinate of touch point
+        console.log('touch detected');
+        window.open('mailto:test@example.com?subject=subject&body=body');
+    }, false);
+
 
 }
