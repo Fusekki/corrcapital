@@ -149,8 +149,10 @@ body {
     width: 100%;
     height: 100%;
     font-family: 'PT Sans', sans-serif;
-    color: black;
+    /*color: black;*/
     font-size: 2vh;
+    /*overflow: auto;*/
+    background: hsla(215, 2%, 90%, 1);
 }
 
 .btn-circle {
@@ -363,6 +365,8 @@ footer p {
     padding-top: 75px;
 }
 
+
+
 h1,
 h2,
 h3,
@@ -385,6 +389,11 @@ hr {
 .hvr-rectangle-out:before {
     background: hsla(215, 2%, 51%, 0.45);
 }
+
+.hvr-shutter-in-horizontal {
+    background: none;
+}
+
 .hvr-shutter-out-horizontal {
     background: none;
 }
@@ -782,6 +791,9 @@ table a:not(.btn),
 }
 
 .intro {
+    /*background: hsla(38, 100%, 50%, .25);*/
+    /*background: url('../img/bg-intro-xl.jpg') fixed no-repeat 50% 50%;*/
+    /*background-size: cover;*/
     display: table;
     width: 100%;
     /*height: 88vh;*/
@@ -789,14 +801,14 @@ table a:not(.btn),
     /*color: hsla(0, 0%, 60%, 0.7);*/
     padding: 100px 0 32vh;
     margin-top: 81px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    transition: background-color .25s ease-in-out;
-    -moz-transition: background-color.25s ease-in-out;
-    -webkit-transition: background-color .25s ease-in-out;
-    background: hsla(0, 0%, 0%, 0) no-repeat fixed center;
-    background-size: cover;
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*transition: background-color .25s ease-in-out;*/
+    /*-moz-transition: background-color.25s ease-in-out;*/
+    /*-webkit-transition: background-color .25s ease-in-out;*/
+    /*background: hsla(0, 0%, 0%, 0) no-repeat fixed center;*/
+    /*background-size: cover;*/
     /*height: 100vh;*/
 }
 .intro.fadeOut {
@@ -843,7 +855,7 @@ table a:not(.btn),
 
 .pipe {
     color: hsla(215, 2%, 58%,1);
-    font-family: initial;
+    font-family: serif;
     /*font-size: 7.5vmax;*/
     line-height: 0;
     position: relative;
@@ -936,7 +948,7 @@ table a:not(.btn),
     perspective: 1px;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    height: 85vh;
+    height: 80vh;
     /*width: 200vw;*/
 }
 
@@ -961,8 +973,8 @@ table a:not(.btn),
     -webkit-transform: translateZ(-0.3px) scale(0.9);
     transform: translateZ(-0.3px) scale(0.9);
     z-index: 4;
-    top: 64%;
-    left: 49.7%;
+    top: 87%;
+    left: 21.7%;
 }
 
 /* Benefits */
@@ -971,8 +983,8 @@ table a:not(.btn),
     -webkit-transform: translateZ(-0.3px) scale(1);
     transform: translateZ(-0.3px) scale(1);
     z-index: -2;
-    top: 18%;
-    left: -13%;
+    top: 9%;
+    left: 0%;
 }
 
 /* Energy */
@@ -981,8 +993,8 @@ table a:not(.btn),
     -webkit-transform: translateZ(-0.8px) scale(1.5);
     transform: translateZ(-0.8px) scale(1.5);
     z-index: 3;
-    top: 48%;
-    left: -20%;
+    top: 31%;
+    left: -12%;
 }
 
 /* Real Estate */
@@ -991,8 +1003,8 @@ table a:not(.btn),
     -webkit-transform: translateZ(-1.4px) scale(2);
     transform: translateZ(-1.4px) scale(2);
     z-index: 3;
-    top: 63%;
-    left: 34%;
+    top: 74%;
+    left: 58%;
 }
 
 /* Technology */
@@ -1001,8 +1013,8 @@ table a:not(.btn),
     -webkit-transform: translateZ(-1.6px) scale(1.8);
     transform: translateZ(-1.6px) scale(1.8);
     z-index: -8;
-    top: 28%;
-    left: 63%;
+    top: 7%;
+    left: 71%;
 }
 
 /* Fashion */
@@ -1010,8 +1022,8 @@ table a:not(.btn),
     -webkit-transform: translateZ(-0.8px) scale(1.3);
     transform: translateZ(-0.8px) scale(1.3);
     z-index: 3;
-    top: 104%;
-    left: 8.7%;
+    top: 86%;
+    left: -4.3%;
 }
 
 /* Entertainment */
@@ -1020,8 +1032,8 @@ table a:not(.btn),
     -webkit-transform: translateZ(-0.4px) scale(1);
     transform: translateZ(-0.4px) scale(1);
     z-index: 4;
-    left: 5%;
-    top: 70%;
+    left: 12%;
+    top: 50%;
 }
 
 /*Art*/
@@ -1030,7 +1042,7 @@ table a:not(.btn),
     transform: translateZ(0.35px) scale(0.5);
     z-index: 5;
     top: 14%;
-    left: 22%;
+    left: 19%;
 }
 /* Public Relations */
 
@@ -1038,8 +1050,8 @@ table a:not(.btn),
     -webkit-transform: translateZ(-1.2px) scale(1.5);
     transform: translateZ(-1.2px) scale(1.5);
     z-index: 3;
-    top: 111%;
-    left: 26%;
+    top: 98%;
+    left: 37%;
 }
 
 /* Pharma */
@@ -1048,28 +1060,28 @@ table a:not(.btn),
     -webkit-transform: translateZ(-.7px) scale(1.3);
     transform: translateZ(-.7px) scale(1.3);
     z-index: 2;
-    top: 17%;
-    left: 30.7%;
+    top: 67%;
+    left: 25.7%;
 }
 
 /* Astronaut */
 
 .parallax-container .parallax-layer-11 {
-    -webkit-transform: translateZ(.4px) scale(.25);
-    transform: translateZ(.4px) scale(.25);
-    z-index: 520;
-    top: 22%;
-    left: 83%;
+    -webkit-transform: translateZ(.5px) scale(.1);
+    transform: translateZ(.5px) scale(.1);
+    z-index: 5;
+    top: 23%;
+    left: 44%;
 }
 
 /* Satellite */
 
 .parallax-container .parallax-layer-12 {
-    -webkit-transform: translateZ(.4px) scale(.5);
-    transform: translateZ(.4px) scale(.5);
+    -webkit-transform: translateZ(.4px) scale(.3);
+    transform: translateZ(.4px) scale(.3);
     z-index: 5;
-    top: 101%;
-    left: 20%;
+    top: 27%;
+    left: 34%;
 }
 
 /* Shuttle */
@@ -1078,7 +1090,7 @@ table a:not(.btn),
     -webkit-transform: translateZ(.5px) scale(.3);
     transform: translateZ(.5px) scale(.3);
     z-index: 6;
-    top: 26%;
+    top: 35%;
     left: 42%;
 }
 
@@ -1549,7 +1561,6 @@ hr.globe-primary:hover:after {
 @media only screen and (min-width: 320px) {
     .bg-image {
         background: url('../img/bg-intro-sm.jpg') no-repeat 50% 50%;
-        background-size: cover;
     }
 
     .globe-text {
@@ -1853,8 +1864,8 @@ hr.globe-primary:hover:after {
 
         .parallax-container .text-overlay,
         .parallax-container .planet {
-            width: 150%;
-            max-height: 200px;
+            /*width: 150%;*/
+            /*max-height: 200px;*/
         }
 
         .planet-caption {
@@ -2108,7 +2119,9 @@ hr.globe-primary:hover:after {
     /*iphone 6 landscape*/
 
     @media only screen and (min-width: 667px) {
-
+        .bg-image {
+            background-size: cover;
+        }
         .intro {
             height: 79vh;
         }
@@ -2195,10 +2208,7 @@ hr.globe-primary:hover:after {
             width: 50%;
             float: left;
         }
-        /*.circle {*/
-            /*left: 21vw;*/
-            /*top: 20px;*/
-        /*}*/
+
         .container {
             width: 100%;
         }
@@ -2223,7 +2233,8 @@ hr.globe-primary:hover:after {
         }
 
         .pipe {
-            font-size: 40px;
+            font-size: 45px;
+            top: -2px;
         }
 
 
@@ -2497,51 +2508,14 @@ hr.globe-primary:hover:after {
     }
     /*ipad landscape*/
 
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 1024px)
+    {
 
-        .container {
-            width: 100%
-        }
-
-        #footer-left-text {
-            margin-top: 3%;
-        }
-
-
-        .heading-wrapper {
-            display: none;
-        }
-
-
-        .intro .intro-body {
-            vertical-align: top;
-        }
-        .navbar-brand {
-            font-size: 3.5vw;
-        }
-        .navbar-custom .navbar-brand span:nth-of-type(2) {
-            font-size: 3vw;
-        }
-        .navbar-nav {
-            font-size: 1.75vw;
-            margin-top: 0;
-        }
-
-        .parallax-frame {
-            background: url('../img/bg-space-med.jpg') fixed;
+        .bg-image {
+            background: url('../img/bg-intro-med.jpg') no-repeat 50% 71%;
             background-size: cover;
+
         }
-
-        #text-carousel {
-            margin-top: 12%;
-        }
-
-    }
-
-
-    /*DESKTOPS START*/
-
-    @media only screen and (min-width: 769px) {
 
         .btn-circle,
         .heading-container {
@@ -2601,11 +2575,10 @@ hr.globe-primary:hover:after {
             font-size: 25px;
         }
 
-        .fa-book {
-            left: 38px;
-            top: 15px;
-            font-size: 12px;
+        #footer-left-text {
+            margin-top: 3%;
         }
+
         .globe-text {
             padding: 10px;
         }
@@ -2650,14 +2623,14 @@ hr.globe-primary:hover:after {
         .navigation-stars {
             position: absolute;
             display: block;
-            top: 98%;
+            top: 750px;
             width: 61%;
 
         }
         .navbar>.container .navbar-brand,
         .navbar>.container-fluid .navbar-brand {
-           margin-top: -8px;
-         }
+            margin-top: -8px;
+        }
 
         .navbar-brand {
             font-size: 3vh;
@@ -2687,6 +2660,14 @@ hr.globe-primary:hover:after {
 
         .parallax-layer-anchor {
             display: none;
+        }
+
+
+        .section-header h2 {
+            font-size: 32px;
+        }
+        .site-info {
+            font-size: 35px;
         }
 
         .stars-anchor a:nth-of-type(1) {
@@ -2795,17 +2776,172 @@ hr.globe-primary:hover:after {
             margin-top: 20%;
         }
 
+    }
+
+/*DESKTOPS START*/
+    @media only screen and (min-width: 1025px) {
+
+
+        .btn-circle,
+        .heading-container {
+            display: none;
+        }
+
+        .company-modal .close-modal i,
+        .bio-modal .close-modal i {
+            font-size: 35px;
+        }
+        .company-modal .modal-body > p,
+        .bio-modal .modal-body > p {
+            font-size: 22px;
+        }
+        .btn-circle {
+            margin-top: 10%
+        }
+        .btn-default {
+            font-size: 20px;
+        }
+        .button .btn-icon {
+            opacity: 1;
+            left: 61%;
+        }
+        .button:hover .fa-book {
+            opacity: 1;
+            left: 62px;
+        }
+
+        .carousel-content p {
+            font-size: 25px;
+        }
+
+        #contact-address {
+            padding: 2.75em 0 2em;
+        }
+
+
+        #companies,
+        #team {
+            margin-top: -2px;
+        }
+
+        .constellation-line {
+            content: "";
+            display: block;
+            border-bottom: 1px solid hsla(215, 2%, 58%, 1);;
+            position: absolute;
+        }
+        .container {
+            padding-left: 15px;
+            padding-right: 15px;
+            width: 100%;
+        }
+        .contact-email {
+            font-size: 25px;
+        }
+
+        .fa-book {
+            left: 38px;
+            top: 15px;
+            font-size: 12px;
+        }
+        .globe-text {
+            padding: 10px;
+        }
+
+        .heading-wrapper {
+            display: none;
+        }
+
+        .h2-medium {
+            font-size: 40px;
+        }
+        h4 {
+            font-size: 20px;
+        }
+        .img-medium {
+            width: 90px;
+        }
+        .intro {
+            padding: 0;
+            height: 90vh;
+        }
+        .intro .intro-body .intro-text {
+            font-size: 26px;
+        }
+
+        .navbar-custom {
+            padding: 15px 0;
+            letter-spacing: 1px;
+            -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+            -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+            transition: background .5s ease-in-out, padding .5s ease-in-out;
+        }
+        .navbar-custom.top-nav-collapse {
+            padding-bottom: 0;
+            background: hsla(0, 0%, 11%, 1);
+            border-bottom: 1px solid hsla(215, 2%, 90%, 1);
+        }
+        .navbar-fixed-top .navbar-brand {
+            -webkit-transition: all .3s;
+            -moz-transition: all .3s;
+            transition: all .3s;
+        }
+        .navigation-stars {
+            position: absolute;
+            display: block;
+            top: 98%;
+            width: 61%;
+
+        }
+        .navbar>.container .navbar-brand,
+        .navbar>.container-fluid .navbar-brand {
+            margin-top: -8px;
+        }
+
+        .navbar-brand {
+            font-size: 3vh;
+        }
+        .navbar-nav {
+            font-size: 16px;
+        }
+        .navbar-custom .navbar-brand span:nth-of-type(2) {
+            font-size: 40px;
+        }
+
+        .photo-container img {
+            max-width: 100%;
+        }
+
+        .mobile-company-frame {
+            display: none;
+        }
+
+        .parallax-frame {
+            display: block;
+        }
+
+        .parallax-root {
+            width: 152vw;
+        }
+
+        .parallax-layer-anchor {
+            display: none;
+        }
+
+        #text-carousel .row {
+            width: 59%;
+            margin-left: 38%;
+        }
+
+        #text-carousel {
+            margin-top: 20%;
+        }
+
         .section-header h2 {
             font-size: 32px;
         }
         .site-info {
             font-size: 35px;
-        }
-
-    }
-    @media only screen and (min-width: 1024px) {
-        .intro {
-            height: 90vh;
         }
     }
 
