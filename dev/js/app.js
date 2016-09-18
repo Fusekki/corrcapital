@@ -9,9 +9,11 @@ var c = 0;
 
 // Prevent over-scrolling on iOS devices.
 
-document.body.addEventListener('touchmove', function(event) {
-    event.preventDefault();
-}, false);
+// disabled due to touch scrolling no longer working.
+
+// document.body.addEventListener('touchmove', function(event) {
+//     event.preventDefault();
+// }, false);
 
 
 $(function() {
