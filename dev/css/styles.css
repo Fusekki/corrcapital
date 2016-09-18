@@ -1136,7 +1136,7 @@ table a:not(.btn),
     padding: 0;
 }
 
-#companies {
+#companies, #team {
     overflow-x: hidden;
 }
 
