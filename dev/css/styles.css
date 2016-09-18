@@ -667,10 +667,10 @@ table a:not(.btn),
     left: 0;
     z-index: -5;
     position: fixed;
-    background: url('../img/bg-intro-xl.jpg') no-repeat 50% 50%;
+    /*background: url('../img/bg-intro-xl.jpg') no-repeat 50% 50%;*/
     height: 100%;
     width: 100%;
-    background-size: cover;
+    /*background-size: cover;*/
 }
 
 .btn-circle i.animated {
@@ -792,10 +792,10 @@ table a:not(.btn),
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    /*transition: background-color .25s ease-in-out;*/
-    /*-moz-transition: background-color.25s ease-in-out;*/
-    /*-webkit-transition: background-color .25s ease-in-out;*/
-    /*background: hsla(0, 0%, 0%, 0) no-repeat fixed center;*/
+    transition: background-color .25s ease-in-out;
+    -moz-transition: background-color.25s ease-in-out;
+    -webkit-transition: background-color .25s ease-in-out;
+    background: hsla(0, 0%, 0%, 0) no-repeat fixed center;
     background-size: cover;
     /*height: 100vh;*/
 }
@@ -909,8 +909,8 @@ table a:not(.btn),
 /*PAGE 2 CLASSES START*/
 
 .mobile-company-frame {
-    background: url('../img/bg-space-lrg.jpg');
-    background-size: cover;
+    /*background: url('../img/bg-space-lrg.jpg');*/
+    /*background-size: cover;*/
 }
 .mobile-container {
     position: relative;
@@ -936,7 +936,7 @@ table a:not(.btn),
     perspective: 1px;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    /*height: 100vh;*/
+    height: 85vh;
     /*width: 200vw;*/
 }
 
@@ -1578,6 +1578,7 @@ hr.globe-primary:hover:after {
 
     .intro {
         padding: 0;
+        height: 86vh;
     }
 
     .mobile-company-frame {
@@ -1739,6 +1740,10 @@ hr.globe-primary:hover:after {
         padding-top: 0;
     }
 
+    .intro {
+        height: 88vh;
+    }
+
     .logo-text-wrapper {
         font-size: 4vh;
     }
@@ -1840,7 +1845,7 @@ hr.globe-primary:hover:after {
           padding: 4vw 0vh 0 3.6vw;
         }
         .intro {
-            /*height: 89vh;*/
+            height: 89vh;
         }
         p {
             font-size: 2.2vh;
@@ -1961,6 +1966,10 @@ hr.globe-primary:hover:after {
 
         .heading-container {
             margin-top: 2vw;
+        }
+
+        .intro {
+            height: 75vh;
         }
 
         .intro .intro-body {
@@ -2100,6 +2109,9 @@ hr.globe-primary:hover:after {
 
     @media only screen and (min-width: 667px) {
 
+        .intro {
+            height: 79vh;
+        }
         .mobile-company-frame {
             height: 300px;
         }
@@ -2183,10 +2195,10 @@ hr.globe-primary:hover:after {
             width: 50%;
             float: left;
         }
-        .circle {
-            left: 21vw;
-            top: 20px;
-        }
+        /*.circle {*/
+            /*left: 21vw;*/
+            /*top: 20px;*/
+        /*}*/
         .container {
             width: 100%;
         }
@@ -2196,6 +2208,10 @@ hr.globe-primary:hover:after {
         }
         .heading-wrapper {
             padding-left: 2.1vw;
+        }
+
+        .intro {
+            height: 81vh;
         }
 
         .logo-text-wrapper {
@@ -2308,7 +2324,7 @@ hr.globe-primary:hover:after {
             padding-left: 3.3vw;
         }
         .intro  {
-            height: 100vh;
+            height: 93vh;
         }
 
         .mobile-company-frame {
@@ -2789,7 +2805,7 @@ hr.globe-primary:hover:after {
     }
     @media only screen and (min-width: 1024px) {
         .intro {
-            height: 88vh;
+            height: 90vh;
         }
     }
 
@@ -2872,7 +2888,7 @@ hr.globe-primary:hover:after {
         }
     }
     @media only screen and (min-height: 800px) and (min-width: 1280px) {
-        .intro {
+        .intro .intro-body {
             height: 90vh;
         }
         .navigation-stars {
