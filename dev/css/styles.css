@@ -936,8 +936,8 @@ table a:not(.btn),
     perspective: 1px;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    height: 100vh;
-    width: 200vw;
+    /*height: 100vh;*/
+    /*width: 200vw;*/
 }
 
 .parallax-layer .planet,
@@ -2312,7 +2312,8 @@ hr.globe-primary:hover:after {
         }
 
         .mobile-company-frame {
-            background: url('../img/bg-space-med.jpg') fixed;
+            background: url('../img/bg-space-med.jpg');
+            background-size: cover;
         }
 
         #modal-energy {
