@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9897491-5837-4602-b0d4-3b9c1622a3c3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/js/app.min.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/img/bg-intro-lrg.jpg" afterPath="$PROJECT_DIR$/dev/img/bg-intro-lrg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/img/bg-intro-med.jpg" afterPath="$PROJECT_DIR$/dev/img/bg-intro-med.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/img/bg-intro-sm.jpg" afterPath="$PROJECT_DIR$/dev/img/bg-intro-sm.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/img/bg-intro-xl.jpg" afterPath="$PROJECT_DIR$/dev/img/bg-intro-xl.jpg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/css/styles.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/img/kvhlogo-lrg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/img/kvhlogo-med.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/img/kvhlogo-sm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/img/kvhlogo-xl.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/css/styles.css" afterPath="$PROJECT_DIR$/dev/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/index.htm" afterPath="$PROJECT_DIR$/dev/index.htm" />
     </list>
     <ignored path="corrgroup.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.htm" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/index.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="837" column="9" selection-start-line="837" selection-start-column="9" selection-end-line="837" selection-end-column="9" />
+            <state relative-caret-position="218">
+              <caret line="403" column="48" selection-start-line="403" selection-start-column="48" selection-end-line="403" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -41,6 +43,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="392">
               <caret line="95" column="36" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dev/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="2878" column="9" selection-start-line="2878" selection-start-column="9" selection-end-line="2878" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -84,8 +96,9 @@
         <option value="$PROJECT_DIR$/css/style.min.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index.htm" />
-        <option value="$PROJECT_DIR$/dev/index.htm" />
         <option value="$PROJECT_DIR$/dev/js/app.js" />
+        <option value="$PROJECT_DIR$/dev/index.htm" />
+        <option value="$PROJECT_DIR$/dev/css/styles.css" />
       </list>
     </option>
   </component>
@@ -406,12 +419,12 @@
       <workItem from="1473943375063" duration="8259000" />
       <workItem from="1474028755004" duration="18329000" />
       <workItem from="1474129760980" duration="13121000" />
-      <workItem from="1474157899487" duration="1678000" />
+      <workItem from="1474157899487" duration="4554000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="716251000" />
+    <option name="totallyTimeSpent" value="719127000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -471,7 +484,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/AnimatedIntro.js" />
     <entry file="file://$PROJECT_DIR$/css/grayscale.css" />
     <entry file="file://$PROJECT_DIR$/img/denial-mathematical-sign.svg" />
     <entry file="file://$PROJECT_DIR$/img/brick.svg" />
@@ -676,6 +688,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dev/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="403" column="48" selection-start-line="403" selection-start-column="48" selection-end-line="403" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dev/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
@@ -684,10 +704,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/index.htm">
+    <entry file="file://$PROJECT_DIR$/dev/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="837" column="9" selection-start-line="837" selection-start-column="9" selection-end-line="837" selection-end-column="9" />
+        <state relative-caret-position="136">
+          <caret line="2878" column="9" selection-start-line="2878" selection-start-column="9" selection-end-line="2878" selection-end-column="9" />
           <folding />
         </state>
       </provider>
