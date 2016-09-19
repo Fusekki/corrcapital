@@ -1277,6 +1277,7 @@ table a:not(.btn),
     margin-top: 15px;
     font-size: 3.5vh;
     line-height: 1.5;
+    z-index: 1;
 }
 
 .map-container {

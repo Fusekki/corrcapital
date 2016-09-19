@@ -162,14 +162,11 @@ function wheelFadein(e) {
 
 function addTouchEvents() {
 
+        $("#email-link").bind( "tap", function(event) {
+            $( event.target ).addClass( "tap" );
+            window.open('mailto:info@corrcapital.com?subject=Information%20Requested');
+        }) ;
 
-    // console.log('in email touch.');
-    $("#email-link").on('touchstart', function(e) {
-        window.open('mailto:info@corrcapital.com?subject=Information%20Requested');
-    }, false);
-
-
-    // console.log('in carousel touch.');
     $("#carousel-planets").swiperight(function() {
         $(this).carousel('prev');
     });
