@@ -1262,6 +1262,7 @@ table a:not(.btn),
     font-family: 'Sansation', 'Sansation Light', 'Sansation Bold';
     letter-spacing: 7px;
 }
+
 .contact-info {
      font-weight: 700;
      line-height: 20px;
@@ -1274,6 +1275,8 @@ table a:not(.btn),
 
 .email-link {
     margin-top: 15px;
+    font-size: 3.5vh;
+    line-height: 1.5;
 }
 
 .map-container {

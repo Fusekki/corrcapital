@@ -1,3 +1,4 @@
+"use strict";
 
 var x = 1;
 var wheel;
@@ -21,6 +22,7 @@ $(function() {
 
 // jQuery to collapse the navbar on scroll
 function collapseNavbar() {
+
     // console.log('here');
     if ($(".navbar").offset().top > 50) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
@@ -78,6 +80,7 @@ function initMap() {
     // console.log('here in initmap.');
     // Basic options for a simple Google Map
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+    var map = null;
     var mapOptions = {
         // How zoomed in you want the map to start at (always required)
         zoom: 16,
@@ -158,14 +161,20 @@ function wheelFadein(e) {
 }
 
 function addTouchEvents() {
-    // console.log('adding touch event');
 
-    var $elem = document.getElementById('contact-email');
 
-    $elem.addEventListener('touchstart', function(e) {
-        e.preventDefault();
-        window.open('mailto:info@corrcapital.com?subject=Information Requested');
+    // console.log('in email touch.');
+    $("#email-link").on('touchstart', function(e) {
+        window.open('mailto:info@corrcapital.com?subject=Information%20Requested');
     }, false);
 
+
+    // console.log('in carousel touch.');
+    $("#carousel-planets").swiperight(function() {
+        $(this).carousel('prev');
+    });
+    $("#carousel-planets").swipeleft(function() {
+        $(this).carousel('next');
+    });
 
 }
