@@ -1,14 +1,11 @@
-"use strict";
-
-var x = 1;
 var wheel;
 var wheels = $('.constellation').get();
-var fade = false;
-var r;
 var c = 0;
 
 $(function() {
+    "use strict";
     new WOW().init();
+    addPageScroll();
     collapseNavbar();
     addFadeListeners();
     addTouchEvents();
@@ -22,8 +19,8 @@ $(function() {
 
 // jQuery to collapse the navbar on scroll
 function collapseNavbar() {
+    "use strict";
 
-    // console.log('here');
     if ($(".navbar").offset().top > 50) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
     } else {
@@ -35,7 +32,8 @@ $(window).scroll(collapseNavbar);
 
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
-$(function() {
+function addPageScroll() {
+    "use strict";
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
         // $('.parallax').stop().animate({
@@ -62,14 +60,15 @@ $(function() {
     });
 
     $("img").mousedown(function(e){
-        e.preventDefault()
+        e.preventDefault();
     });
 
 
-});
+}
 
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
+    "use strict";
     if ($(this).attr('class') != 'dropdown-toggle active' && $(this).attr('class') != 'dropdown-toggle') {
         $('.navbar-toggle:visible').click();
     }
@@ -77,6 +76,7 @@ $('.navbar-collapse ul li a').click(function() {
 
 
 function initMap() {
+    "use strict";
     // console.log('here in initmap.');
     // Basic options for a simple Google Map
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
@@ -105,7 +105,7 @@ function initMap() {
     // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
     // var image = 'img/map-marker.png';
     var myLatLng = new google.maps.LatLng(40.757118, -73.971890);
-    var beachMarker = new google.maps.Marker({
+    var officeMarker = new google.maps.Marker({
         position: myLatLng,
         map: map
         // icon: image
@@ -113,8 +113,8 @@ function initMap() {
 
     google.maps.event.addDomListener(window, 'load', initMap);
     google.maps.event.addDomListener(window, 'resize', function() {
-    map.setCenter(new google.maps.LatLng(40.757118, -73.971890));
-        });
+        map.setCenter(new google.maps.LatLng(40.757118, -73.971890));
+    });
 }
 
 
@@ -123,6 +123,7 @@ function initMap() {
 
 
 function addFadeListeners() {
+    "use strict";
 
     for (var idx = 0; idx < wheels.length; idx++) {
         wheels[idx].addEventListener("transitionend", wheelFadein, false);
@@ -140,6 +141,7 @@ function addFadeListeners() {
 
 
 function wheelFadein(e) {
+    "use strict";
 
     if (!wheel) {
         wheel = $('#constellation-one');
@@ -161,11 +163,7 @@ function wheelFadein(e) {
 }
 
 function addTouchEvents() {
-
-        $("#email-link").bind( "tap", function(event) {
-            $( event.target ).addClass( "tap" );
-            window.open('mailto:info@corrcapital.com?subject=Information%20Requested');
-        }) ;
+    "use strict";
 
     $("#carousel-planets").swiperight(function() {
         $(this).carousel('prev');
