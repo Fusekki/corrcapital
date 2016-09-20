@@ -1280,6 +1280,11 @@ table a:not(.btn),
     z-index: 1;
 }
 
+.g-recaptcha {
+    margin: 0 auto;
+
+}
+
 .map-container {
     background: hsla(215, 2%, 90%, 1);
     width: 100%;
@@ -1306,12 +1311,31 @@ table a:not(.btn),
 /*PAGE 4 CLASS END*/
 
 /*PAGE 4 ID START*/
+
+#contact-container {
+    padding-top: 0;
+}
+
+#contact {
+    background: hsla(215, 2%, 18%, 1);
+}
+
+#contact-container div  h2 {
+    color: hsla(215, 2%, 90%, 1);
+}
+
 .contact-info #call {
     font-size: 13px;
     line-height: 3;
 }
-#contact {
-    background: #252525;
+
+#col-form {
+    padding-top: 8%;
+}
+#contact-info {
+    /*background: #252525;*/
+    background: hsla(215, 2%, 21%, 1);
+    padding-bottom: 25px;
 }
 
 #footer-left-text {
@@ -2624,7 +2648,7 @@ hr.globe-primary:hover:after {
     }
 
     #footer-left-text {
-        margin-top: 2.8%;
+        /*margin-top: 2.8%;*/
     }
 
     .globe-text {
