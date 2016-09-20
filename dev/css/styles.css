@@ -1,9 +1,9 @@
 /** {*/
 /*border: solid 1px red;*/
 /*}*/
-*::selection {
-    background: none; /* WebKit/Blink Browsers */
-}
+/**::selection {*/
+    /*background: none; !* WebKit/Blink Browsers *!*/
+/*}*/
 *::-moz-selection {
     background: none; /* Gecko Browsers */
 }
@@ -2435,7 +2435,7 @@ hr.globe-primary:hover:after {
         }
 
         #planet-fashion {
-            op: 5vh;
+            top: 5vh;
             left: 25%;
             -webkit-transform: scale(1);
             transform: scale(1);
@@ -2668,7 +2668,6 @@ hr.globe-primary:hover:after {
     .navigation-stars {
         position: absolute;
         display: block;
-        top: 750px;
         width: 61%;
 
     }
@@ -2956,13 +2955,6 @@ hr.globe-primary:hover:after {
             -moz-transition: all .3s;
             transition: all .3s;
         }
-        .navigation-stars {
-            position: absolute;
-            display: block;
-            top: 98%;
-            width: 61%;
-
-        }
         .navbar>.container .navbar-brand,
         .navbar>.container-fluid .navbar-brand {
             margin-top: -8px;
@@ -3100,9 +3092,6 @@ hr.globe-primary:hover:after {
         .intro .intro-body {
             height: 90vh;
         }
-        .navigation-stars {
-            top: 103%;
-        }
     }
 
     @media only screen and
@@ -3122,10 +3111,6 @@ hr.globe-primary:hover:after {
             padding: 0 .25em;
             font-family: FontAwesome;
             font-size: 3.4vh;
-        }
-        .navigation-stars {
-            top: 108%;
-            width: 61%;
         }
 
         #text-carousel {
@@ -3200,11 +3185,7 @@ hr.globe-primary:hover:after {
             margin-top: 13%;
         }
 
-        .navigation-stars {
-            top: 85%;
-        }
-
-        .stars-anchor a:nth-of-type(7) {
+         .stars-anchor a:nth-of-type(7) {
             top: -362px;
             left: 260px;
         }
@@ -3212,6 +3193,132 @@ hr.globe-primary:hover:after {
             margin-top: 70px;
         }
     }
+
+
+/*768 Because that is when the navigation first appears*/
+@media screen and (min-aspect-ratio: 1/1) {
+
+    .navigation-stars {
+        padding-top: 39%;
+    }
+
+}
+
+@media screen and (min-aspect-ratio: 6/5) {
+
+    .navigation-stars {
+        padding-top: 37%;
+    }
+
+}
+
+@media screen and (min-aspect-ratio: 5/4) {
+
+    .navigation-stars {
+        padding-top: 34%;
+    }
+
+}
+
+@media screen and (min-aspect-ratio: 4/3) {
+
+    .navigation-stars {
+        padding-top: 30%;
+    }
+
+}
+
+@media screen and (min-aspect-ratio: 1414/1000) {
+
+    .navigation-stars {
+        padding-top: 28%;
+    }
+
+}
+
+@media screen and (min-aspect-ratio: 3/2) {
+
+    .navigation-stars {
+        padding-top: 26%;
+    }
+
+}
+
+@media screen and (min-aspect-ratio: 5/3) {
+
+    .navigation-stars {
+        padding-top: 24%;
+    }
+
+}
+
+@media screen and (min-aspect-ratio: 1681/1000) {
+
+    .navigation-stars {
+        padding-top: 10%;
+    }
+
+}
+
+
+
+
+@media screen and
+(min-width: 1200px) and
+(min-aspect-ratio: 16/10) {
+
+    .navigation-stars {
+
+        padding-top: 28%;
+    }
+
+}
+@media screen and
+(min-width: 2500px) and
+(min-aspect-ratio: 16/10) {
+
+    .navigation-stars {
+
+        padding-top: 9%;
+    }
+
+}
+
+@media screen and (min-aspect-ratio: 16/10) and (min-width: 3500px) {
+    .navigation-stars {
+        padding-top: 9%;
+    }
+}
+@media screen and
+(min-width: 4000px) and
+(min-aspect-ratio: 16/10) {
+    .navigation-stars {
+
+        padding-top: 8%;
+    }
+}
+
+@media screen and
+(min-width: 5000px) and
+(min-aspect-ratio: 16/10) {
+    .navigation-stars {
+
+        padding-top: 5%;
+    }
+}
+
+@media screen and (min-aspect-ratio: 2/1) {
+
+    .navigation-stars {
+
+        padding-top: 27%;
+    }
+
+}
+
+
+
+
 
 /*Microsoft IE*/
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
@@ -3628,7 +3735,6 @@ hr.globe-primary:hover:after {
 /*Microsoft Edge*/
 @supports (-ms-accelerator:true) and (min-width: 1900px) {
 
-
     .parallax-container .parallax-layer-1 {
 
         transform: translateZ(-0.3px) scale(0.9);
@@ -3637,7 +3743,6 @@ hr.globe-primary:hover:after {
     }
 
     /* Benefits */
-
     .parallax-container .parallax-layer-2 {
 
         transform: translateZ(-0.3px) scale(1);
@@ -3646,7 +3751,6 @@ hr.globe-primary:hover:after {
     }
 
     /* Energy */
-
     .parallax-container .parallax-layer-3 {
         transform: translateZ(-0.8px) scale(1.2);
         top: 51%;
@@ -3654,7 +3758,6 @@ hr.globe-primary:hover:after {
     }
 
     /* Real Estate */
-
     .parallax-container .parallax-layer-4 {
         transform: translateZ(-1.4px) scale(1);
         top: 52%;
@@ -3662,7 +3765,6 @@ hr.globe-primary:hover:after {
     }
 
     /* Technology */
-
     .parallax-container .parallax-layer-5 {
 
         transform: translateZ(-1.6px) scale(1);
@@ -3679,7 +3781,6 @@ hr.globe-primary:hover:after {
     }
 
     /* Entertainment */
-
     .parallax-container .parallax-layer-7 {
         -webkit-transform: translateZ(-0.4px) scale(1);
         transform: translateZ(-0.4px) scale(1);
@@ -3693,8 +3794,8 @@ hr.globe-primary:hover:after {
         top: 10%;
         left: 7%;
     }
-    /* Public Relations */
 
+    /* Public Relations */
     .parallax-container .parallax-layer-9 {
         transform: translateZ(-1.2px) scale(1.0);
         top: 75%;
@@ -3702,7 +3803,6 @@ hr.globe-primary:hover:after {
     }
 
     /* Pharma */
-
     .parallax-container .parallax-layer-10 {
         transform: translateZ(-.7px) scale(1);
         top: 33%;
@@ -3710,7 +3810,6 @@ hr.globe-primary:hover:after {
     }
 
     /* Astronaut */
-
     .parallax-container .parallax-layer-11 {
         transform: translateZ(.4px) scale(.25);
         top: 22%;
@@ -3718,7 +3817,6 @@ hr.globe-primary:hover:after {
     }
 
     /* Satellite */
-
     .parallax-container .parallax-layer-12 {
         transform: translateZ(.4px) scale(.5);
         top: 101%;
@@ -3726,7 +3824,6 @@ hr.globe-primary:hover:after {
     }
 
     /* Shuttle */
-
     .parallax-container .parallax-layer-13 {
         transform: translateZ(.5px) scale(0.6);
         top: 26%;
