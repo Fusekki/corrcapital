@@ -17,8 +17,9 @@ $(function() {
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
+            console.log('ajax sequence.');
             $.ajax({
-                url: "././mail/contact_me.php",
+                url: "mail/verify.php",
                 type: "POST",
                 data: {
                     name: name,
