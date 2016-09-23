@@ -20,15 +20,15 @@ $phone = $_POST['phone'];
 $message = $_POST['message'];
 
 //To address and name
-$mail->addAddress("phillip@philliprstafford.com", "Recepient Name");
+$mail->addAddress("phillip@philliprstafford.com", "Recipient Name");
 //Address to which recipient will reply
 $mail->addReplyTo("phptester@corrcapital.philliprstafford.com", "Reply");
-$mail->From = 'phptester@corrcapital.philliprstafford.com';
-$mail->FromName = 'Admin';
+$mail->From = 'noreply@corrcapital.com';
+$mail->FromName = 'Donald Trump';
 
 // Create the email and send the message
 $mail->Subject = "CORR Capital Website Contact Form:  $name";
-$mail->Body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
+$mail->Body = "You have received a new message from your website contact form.<br><br>"."Here are the details:<br><br>Name: $name<br>Email: $email_address<br>Phone: $phone<br>Message:<br>$message";
 $mail->AltBody = "This is the plain text version of the email content";
 
 if(!$mail->send())

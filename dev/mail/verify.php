@@ -1,6 +1,6 @@
  <?php
-  require_once('PHPMailer-master/recaptchalib.php');
-  $privatekey = "your_private_key";
+  require_once('recaptchalib.php');
+  $privatekey = "6LcHNQcUAAAAADcwIJJ8nqn7igoJykCVF9S1I0X7";
   $resp = recaptcha_check_answer ($privatekey,
                                 $_SERVER["REMOTE_ADDR"],
                                 $_POST["recaptcha_challenge_field"],
@@ -14,3 +14,5 @@
     // Your code here to handle a successful verification
   }
   ?>
+
+

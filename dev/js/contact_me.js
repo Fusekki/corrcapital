@@ -19,7 +19,7 @@ $(function() {
             }
             console.log('ajax sequence.');
             $.ajax({
-                url: "mail/verify.php",
+                url: "mail/contact.php",
                 type: "POST",
                 data: {
                     name: name,
@@ -30,6 +30,7 @@ $(function() {
                 cache: false,
                 success: function() {
                     // Success message
+                    console.log('success');
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
@@ -43,6 +44,7 @@ $(function() {
                 },
                 error: function() {
                     // Fail message
+                    console.log('fail');
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");

@@ -150,7 +150,7 @@ body {
     height: 100%;
     font-family: 'PT Sans', sans-serif;
     /*color: black;*/
-    font-size: 2vh;
+    /*font-size: 2vh;*/
     /*overflow: auto;*/
     background: hsla(215, 2%, 90%, 1);
 }
@@ -2593,6 +2593,10 @@ hr.globe-primary:hover:after {
         display: none;
     }
 
+    #col-form {
+        padding-top: 4%;
+    }
+
     .company-modal .close-modal {
         right: 3%;
     }
@@ -2624,9 +2628,9 @@ hr.globe-primary:hover:after {
         font-size: 25px;
     }
 
-    #contact-address {
-        padding: 2.75em 0 2em;
-    }
+    /*#contact-address {*/
+        /*padding: 2.75em 0 2em;*/
+    /*}*/
 
 
     #companies,
@@ -2903,9 +2907,9 @@ hr.globe-primary:hover:after {
             font-size: 55px;
         }
 
-        #contact-address {
-            padding: 2.75em 0 2em;
-        }
+        /*#contact-address {*/
+            /*padding: 2.75em 0 2em;*/
+        /*}*/
 
 
         #companies,
