@@ -17,7 +17,7 @@ $(function() {
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
-            console.log('ajax sequence.');
+            // console.log('ajax sequence.');
             $.ajax({
                 url: "mail/contact.php",
                 type: "POST",
@@ -30,7 +30,7 @@ $(function() {
                 cache: false,
                 success: function() {
                     // Success message
-                    console.log('success');
+                    // console.log('success');
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");

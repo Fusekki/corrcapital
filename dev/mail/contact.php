@@ -22,9 +22,8 @@ $message = $_POST['message'];
 //To address and name
 $mail->addAddress("phillip@philliprstafford.com", "Recipient Name");
 //Address to which recipient will reply
-$mail->addReplyTo("phptester@corrcapital.philliprstafford.com", "Reply");
 $mail->From = 'noreply@corrcapital.com';
-$mail->FromName = 'Donald Trump';
+$mail->FromName = 'Webmaster';
 
 // Create the email and send the message
 $mail->Subject = "CORR Capital Website Contact Form:  $name";
