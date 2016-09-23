@@ -145,6 +145,16 @@ a:focus {
     color: hsla(215, 2%, 90%, 1);
     outline: none;
 }
+
+.alert-success {
+    background: hsla(215, 2%, 13%, 1);
+    border-color: hsla(215, 2%, 13%, 1);
+}
+
+.alert-danger {
+    background: hsla(357, 79%, 25%, 1);
+    border-color: hsla(357, 79%, 25%, 1);
+}
 body {
     width: 100%;
     height: 100%;
