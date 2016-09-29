@@ -11,9 +11,9 @@ $mail->FromName = "Corr Capital Staff";
 
 
 //To address and name
-$mail->addAddress("phillip@philliprstafford.com", "Recepient Name");
+$mail->addAddress("info@corrcapital.com", "Recepient Name");
 //Address to which recipient will reply
-$mail->addReplyTo("phptester@corrcapital.philliprstafford.com", "Reply");
+//$mail->addReplyTo("phptester@corrcapital.philliprstafford.com", "Reply");
 
 //CC and BCC
 
