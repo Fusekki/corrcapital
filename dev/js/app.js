@@ -200,7 +200,7 @@ function initContactForm() {
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
-            console.log('ajax sequence.');
+            // console.log('ajax sequence.');
             $.ajax({
                 url: "mail/contact.php",
                 type: "POST",
@@ -213,7 +213,7 @@ function initContactForm() {
                 cache: false,
                 success: function() {
                     // Success message
-                    console.log('success');
+                    // console.log('success');
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
@@ -227,7 +227,7 @@ function initContactForm() {
                 },
                 error: function() {
                     // Fail message
-                    console.log('fail');
+                    // console.log('fail');
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
@@ -249,81 +249,14 @@ function initContactForm() {
     });
 }
 
-// function recaptchaCallback() {
-//     console.log('in captcha callback');
-//     grecaptcha.render('dvCaptcha', {
-//         'sitekey': '<%=ReCaptcha_Key %>',
-//         'callback': function (response) {
-//             $.ajax({
-//                 type: "POST",
-//                 url: "Default.aspx/VerifyCaptcha",
-//                 data: "{response: '" + response + "'}",
-//                 contentType: "application/json; charset=utf-8",
-//                 dataType: "json",
-//                 success: function (r) {
-//                     var captchaResponse = jQuery.parseJSON(r.d);
-//                     if (captchaResponse.success) {
-//                         $("[id*=txtCaptcha]").val(captchaResponse.success);
-//                         $("[id*=rfvCaptcha]").hide();
-//                     } else {
-//                         $("[id*=txtCaptcha]").val("");
-//                         $("[id*=rfvCaptcha]").show();
-//                         var error = captchaResponse["error-codes"][0];
-//                         $("[id*=rfvCaptcha]").html("RECaptcha error. " + error);
-//                     }
-//                 }
-//             });
-//         }
-//     });
-// };
 
 function recaptchaCallback() {
-    console.log('clicked submit'); // --> works
+    // console.log('clicked submit');
 
-    // var $errors = $('#errors'),
-    //     $status = $('#status');
-
-    //     name = $('#name').val().replace(/<|>/g, ""), // prevent xss
-    //     email = $('#email').val().replace(/<|>/g, ""),
-    //     msg = $('#message').val().replace(/<|>/g, "");
-    //
-    // if (name == '' || email == '' || msg == '') {
-    //     valid = false;
-    //     errors = "All fields are required.";
-    // }
-
-    // pretty sure the problem is here
     var result = grecaptcha.getResponse();
-    //console.log('captcha response: ' + result); // --> captcha response:
-
 
     if (result != '') {
-        console.log('no errors');
+      //  console.log('no errors');
         document.getElementById("form-button").disabled = false;
-
-
-
-        // hide the errors
-        // $errors.slideUp();
-        // ajax to the php file to send the mail
-        // $.ajax({
-        //     type: "POST",
-        //     url: "http://orenurbach.com/assets/sendmail.php",
-        //     data: "email=" + email + "&name=" + name + "&msg=" + msg + "&g-recaptcha-response=" + grecaptcha.getResponse()
-        // }).done(function(status) {
-        //     if (status == "ok") {
-        //         // slide down the "ok" message to the user
-        //         $status.text('Thanks! Your message has been sent, and I will contact you soon.');
-        //         $status.slideDown();
-        //         // clear the form fields
-        //         $('#name').val('');
-        //         $('#email').val('');
-        //         $('#message').val('');
-        //     }
-        // });
-    } else {
-        console.log('errors');
-        // $errors.text(errors);
-        // $errors.slideDown();
     }
 };
