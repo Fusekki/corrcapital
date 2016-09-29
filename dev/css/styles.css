@@ -1168,10 +1168,7 @@ table a:not(.btn),
     z-index: 1;
 }
 
-.g-recaptcha {
-    margin: 0 auto;
-
-}
+.g-recaptcha div { margin-left: auto; margin-right: auto;}
 
 .map-container {
     background: hsla(215, 2%, 90%, 1);
