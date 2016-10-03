@@ -43,20 +43,34 @@
           }).toArray()
         );
 
+        // console.log(uniqueForms);
+
         $(uniqueForms).bind("submit", function (e) {
           var $form = $(this);
           var warningsFound = 0;
-          var $inputs = $form.find("input,textarea,select").not("[type=submit],[type=image]").filter(settings.options.filter);
-          $inputs.trigger("submit.validation").trigger("validationLostFocus.validation");
+          var $inputs = $form.find("input,textarea,select").not(".optional");
+          // var $inputs = $('#feedbackForm input,#feedbackForm textarea').not('.optional').each(function() {
+          var $inputs = $form.find("input,textarea,select").not("[type=submit],[type=image]");
+          // $inputs.trigger("submit.validation").trigger("validationLostFocus.validation");
+          // console.log($inputs);
 
           $inputs.each(function (i, el) {
+            // console.log($(el));
             var $this = $(el),
               $controlGroup = $this.parents(".form-group").first();
-            if (
-              $controlGroup.hasClass("warning")
-            ) {
+            // console.log($controlGroup);
+            if ($controlGroup.hasClass("warning")) {
               $controlGroup.removeClass("warning").addClass("error");
               warningsFound++;
+              // console.log('error found');
+              // console.log($this);
+            } else if(!$this.val()) {
+              warningsFound++;
+              // console.log('error found');
+              // console.log($this);
+              // var parentFormGroup = $input.parents('.form-group');
+              $('#captcha-error').show();
+              // parentFormGroup.addClass('has-error');
             }
           });
 
@@ -843,7 +857,7 @@
 				type: "minchecked",
 				minchecked: 1,
 				message: "Check at least one option<!-- data-validation-checkone-message to override -->"
-			}
+			},
 		}
 	};
 

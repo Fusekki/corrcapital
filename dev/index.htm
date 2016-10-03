@@ -471,13 +471,16 @@
                         </div>
                     </div>
                     <div class="clearfix"></div>
-                    <div class="captcha-wrapper">
+                    <div class="form-group">
                         <!--<input type="hidden" class="hiddenRecaptcha required" name="hiddenRecaptcha" id="hiddenRecaptcha">-->
-                        <div class="g-recaptcha" data-sitekey="6LcHNQcUAAAAADcwIJJ8nqn7igoJykCVF9S1I0X7" data-callback="recaptchaCallback" data-theme="dark"></div>
+                        <!--<div class="g-recaptcha" data-sitekey="6LcHNQcUAAAAADcwIJJ8nqn7igoJykCVF9S1I0X7" data-callback="recaptchaCallback" data-theme="dark"></div>-->
+                        <div class="g-recaptcha" data-sitekey="6LcHNQcUAAAAADcwIJJ8nqn7igoJykCVF9S1I0X7" data-theme="dark"></div>
+                        <p class="help-block text-danger" id="captcha-error" style="display: none;">Please check that you are not a robot.</p>
+
                     </div>
+                    <span class="help-block" style="display: none;">Please enter a the security code.</span>
                     <div class="col-lg-12 text-center">
                         <div id="success"></div>
-
                         <button type="submit" class="btn btn-xl" id="form-button">Send Message</button>
                     </div>
                 </div>
@@ -912,7 +915,8 @@
 <script src="js/jquery.easing.min.js"></script>
 <!--Animation plugin-->
 <script src="js/wow.min.js"></script>
-
+<!--<script src="js/intlTelInput.min.js"></script>-->
+<!--<script src="js/contact-form.js"></script>-->
 <!--<script src="js/app.min.js"></script>-->
 <script src="js/app.js"></script>
 
