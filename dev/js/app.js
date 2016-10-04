@@ -142,7 +142,7 @@ function addFadeListeners() {
     }
 
     // Initiate Fade on first wheel
-    var $elem = $('#constellation-one');
+    var $elem = $('#constellation-art');
     // console.log('Adding show to first wheel');
     $elem.addClass('wheel-show');
 }
@@ -152,7 +152,7 @@ function wheelFadein(e) {
     "use strict";
 
     if (!wheel) {
-        wheel = $('#constellation-one');
+        wheel = $('#constellation-art');
 
     }
     this.removeEventListener("transitionend", wheelFadein, false);

@@ -463,15 +463,6 @@ table a:not(.btn),
 .table a:not(.btn) {
     text-decoration: none;
 }
-.text-italic {
-    font-style: italic;
-}
-.text-uppercase {
-    text-transform: uppercase;
-}
-.text-spacing {
-    letter-spacing: .2em;
-}
 
 .theme-red {
     color: hsla(357, 79%, 47%, 1);
@@ -507,6 +498,13 @@ table a:not(.btn),
 /*GENERAL ID END*/
 /*NAVIGATION START*/
 
+
+#logo-corr {
+    letter-spacing: 3px;
+}
+#logo-capital {
+    letter-spacing: 2px;
+}
 .navbar {
     border: none;
 }
@@ -524,12 +522,7 @@ table a:not(.btn),
     padding-right: 15px;
 }
 
-#logo-corr {
-    letter-spacing: 3px;
-}
-.navbar-brand span:nth-of-type(3) {
-    letter-spacing: 2px;
-}
+
 .navbar-default {
     background-color: transparent;
 }
@@ -540,22 +533,22 @@ table a:not(.btn),
     padding-bottom: 10px;
     color: hsla(215, 2%, 80%, 1);
 }
-.navbar-custom .navbar-brand:focus {
-    outline: 0;
-}
-.navbar-custom .navbar-brand .navbar-toggle {
-    padding: 4px 6px;
-    font-size: 16px;
-    color: #fff;
-}
-.navbar-custom .navbar-brand .navbar-toggle:focus,
-.navbar-custom .navbar-brand .navbar-toggle:active {
-    outline: 0;
-}
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-    color: hsla(215, 2%, 58%, 1);
-}
+/*.navbar-brand:focus {*/
+    /*outline: 0;*/
+/*}*/
+/*.navbar-custom .navbar-brand .navbar-toggle {*/
+    /*padding: 4px 6px;*/
+    /*font-size: 16px;*/
+    /*color: #fff;*/
+/*}*/
+/*.navbar-custom .navbar-brand .navbar-toggle:focus,*/
+/*.navbar-custom .navbar-brand .navbar-toggle:active {*/
+    /*outline: 0;*/
+/*}*/
+/*.navbar-brand:hover,*/
+/*.navbar-brand:focus {*/
+    /*color: hsla(215, 2%, 58%, 1);*/
+/*}*/
 .navbar-custom .nav li a {
     transition: background .3s ease-in-out;
 }
@@ -680,7 +673,7 @@ table a:not(.btn),
 .constellation:hover .globe-text {
     text-shadow: 0 0 1px hsla(215, 2%, 90%, 1);
 }
-.constellation:hover .constellation-planet div {
+.constellation:hover .star-type {
     background: hsla(215, 2%, 90%, 1);
     box-shadow: 0 0 10px 5px hsla(67, 68%, 57%, 1)
 }
@@ -688,7 +681,7 @@ table a:not(.btn),
 .constellation:focus .globe-text {
     text-shadow: 0 0 1px hsla(215, 2%, 58%, 1);;
 }
-.constellation:focus .constellation-planet div {
+.constellation:focus .star-type {
     box-shadow: 0 0 3px 3px hsla(67, 68%, 79%, 1);
 }
 
@@ -702,7 +695,7 @@ table a:not(.btn),
 }
 
 
-.constellation-planet div {
+.star-type {
     margin: auto;
     color: hsla(215, 2%, 90%, 1);
     font-size: 5px;
@@ -740,7 +733,7 @@ table a:not(.btn),
 .intro.fadeOut {
     background-color: hsla(0, 0%, 0%, 1);
 }
-.intro .intro-body {
+.intro-body {
     display: table-cell;
     vertical-align: middle;
     transition: opacity .25s ease-in-out;
@@ -749,9 +742,9 @@ table a:not(.btn),
 .intro-body.fadeAway {
     opacity: 0;
 }
-.intro .intro-body .intro-text {
-    font-size: 18px;
-}
+/*.intro .intro-body .intro-text {*/
+    /*font-size: 18px;*/
+/*}*/
 
 .logo-text-wrapper {
     display: block;
@@ -763,12 +756,12 @@ table a:not(.btn),
     animation: fadein 4s;
 }
 
-.logo-text-wrapper span:nth-of-type(1) {
+#heading-corr {
     letter-spacing: 15px;
 
 }
 
-.logo-text-wrapper span:nth-of-type(3) {
+#heading-capital {
     letter-spacing: 10px;
 
 }
@@ -853,13 +846,17 @@ table a:not(.btn),
     height: 80vh;
 }
 
-.parallax-layer .planet,
-.planet-item img{
+.planet {
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.planet,
+.planet-item-img {
     border-radius: 25em;
     max-height: 180px;
 }
 .parallax-layer:hover .planet,
-.planet-item:hover img{
+.planet-item:hover .planet-item-img {
     box-shadow: 0px 0px 74px 7px hsla(215, 2%, 90%, 1);
 }
 .parallax-layer:focus,
@@ -868,7 +865,7 @@ table a:not(.btn),
     outline: 0;
 }
 /* KVH */
-.parallax-container .parallax-layer-1 {
+.parallax-kvh {
     transform: translateZ(-0.3px) scale(0.9);
     z-index: 4;
     top: 87%;
@@ -877,7 +874,7 @@ table a:not(.btn),
 
 /* Benefits */
 
-.parallax-container .parallax-layer-2 {
+.parallax-benefits {
     transform: translateZ(-0.3px) scale(1);
     z-index: -2;
     top: 9%;
@@ -886,7 +883,7 @@ table a:not(.btn),
 
 /* Energy */
 
-.parallax-container .parallax-layer-3 {
+.parallax-energy {
     transform: translateZ(-0.8px) scale(1.5);
     z-index: 3;
     top: 31%;
@@ -895,7 +892,7 @@ table a:not(.btn),
 
 /* Real Estate */
 
-.parallax-container .parallax-layer-4 {
+.parallax-re{
     transform: translateZ(-1.4px) scale(2);
     z-index: 3;
     top: 74%;
@@ -904,7 +901,7 @@ table a:not(.btn),
 
 /* Technology */
 
-.parallax-container .parallax-layer-5 {
+.parallax-tech {
     transform: translateZ(-1.6px) scale(1.8);
     z-index: -8;
     top: 7%;
@@ -912,7 +909,7 @@ table a:not(.btn),
 }
 
 /* Fashion */
-.parallax-container .parallax-layer-6 {
+.parallax-fashion {
     transform: translateZ(-0.8px) scale(1.3);
     z-index: 3;
     top: 86%;
@@ -921,7 +918,7 @@ table a:not(.btn),
 
 /* Entertainment */
 
-.parallax-container .parallax-layer-7 {
+.parallax-entertainment {
     transform: translateZ(-0.4px) scale(1);
     z-index: 4;
     left: 12%;
@@ -929,7 +926,7 @@ table a:not(.btn),
 }
 
 /*Art*/
-.parallax-container .parallax-layer-8 {
+.parallax-art {
     transform: translateZ(0.35px) scale(0.5);
     z-index: 5;
     top: 14%;
@@ -937,7 +934,7 @@ table a:not(.btn),
 }
 /* Public Relations */
 
-.parallax-container .parallax-layer-9 {
+.parallax-pr{
     transform: translateZ(-1.2px) scale(1.5);
     z-index: 3;
     top: 98%;
@@ -946,7 +943,7 @@ table a:not(.btn),
 
 /* Pharma */
 
-.parallax-container .parallax-layer-10 {
+.parallax-pharma {
     transform: translateZ(-.7px) scale(1.3);
     z-index: 2;
     top: 67%;
@@ -955,7 +952,7 @@ table a:not(.btn),
 
 /* Astronaut */
 
-.parallax-container .parallax-layer-11 {
+.parallax-astronaut {
     transform: translateZ(.5px) scale(.1);
     z-index: 5;
     top: 23%;
@@ -964,7 +961,7 @@ table a:not(.btn),
 
 /* Satellite */
 
-.parallax-container .parallax-layer-12 {
+.parallax-satellite {
     transform: translateZ(.4px) scale(.3);
     z-index: 5;
     top: 27%;
@@ -973,27 +970,24 @@ table a:not(.btn),
 
 /* Shuttle */
 
-.parallax-container .parallax-layer-13 {
+.parallax-shuttle {
     transform: translateZ(.5px) scale(.3);
     z-index: 6;
     top: 35%;
     left: 42%;
 }
 
-.parallax-layer-anchor {
-    position: absolute;
-    left: 150%;
-    width: 1px;
-    height: 1px;
-}
+/*.parallax-layer-anchor {*/
+    /*position: absolute;*/
+    /*left: 150%;*/
+    /*width: 1px;*/
+    /*height: 1px;*/
+/*}*/
 
-.parallax-layer .planet {
-    transition: box-shadow 0.3s ease-in-out;
-}
 /*This way we can specify planets top position by percentages*/
-.mobile-container .parallax-container {
-    height: 100%;
-}
+/*.mobile-container .parallax-container {*/
+    /*height: 100%;*/
+/*}*/
 
 .planet-caption {
     left: 0;
@@ -1184,12 +1178,7 @@ table a:not(.btn),
     font-weight: 700 !important;
     letter-spacing: 15px
 }
-.site-info span:nth-of-type(2) {
-    letter-spacing: 10px;
-}
-.site-info span:nth-of-type(3) {
-    letter-spacing: 0;
-}
+
 .site-info .pipe {
     font-size: 35px;
 }
@@ -1229,6 +1218,13 @@ table a:not(.btn),
 #map {
     width: 100%;
     height: 300px;
+}
+
+#site-info-capita {
+    letter-spacing: 10px;
+}
+#site-info-l {
+    letter-spacing: 0;
 }
 /*PAGE 4 ID END*/
 
@@ -2488,6 +2484,55 @@ hr.globe-primary:hover:after {
         font-size: 26px;
     }
 
+    .line-one {
+        width: 68px;
+        right: -52px;
+        top: 118%;
+        transform: rotate(42deg);
+    }
+    .line-two {
+        width: 50px;
+        left: 15px;
+        top: 126%;
+        transform: rotate(76deg);
+    }
+    .line-three {
+        width: 70px;
+        left: 93px;
+        top: 131%;
+        transform: rotate(49deg);
+    }
+    .line-four {
+        width: 80px;
+        left: 95px;
+        top: 172%;
+        transform: rotate(101deg);
+    }
+    .line-five {
+        width: 65px;
+        left: 107px;
+        top: 106%;
+        transform: rotate(35deg);
+    }
+    .line-six {
+        width: 89px;
+        left: 78px;
+        top: -38%;
+        transform: rotate(-44deg);
+    }
+    .line-seven {
+        width: 74px;
+        left: 56px;
+        top: 64%;
+        transform: rotate(-23deg);
+    }
+    .line-eight {
+        width: 86px;
+        left: 10px;
+        top: -44%;
+        transform: rotate(-61deg);
+    }
+
     #logo-pipe {
         font-size: 40px;
     }
@@ -2551,94 +2596,47 @@ hr.globe-primary:hover:after {
         font-size: 35px;
     }
 
-    .stars-anchor a:nth-of-type(1) {
+    #constellation-art {
         left: -72px;
         top: -591px;
     }
-    .stars-anchor a:nth-of-type(2) {
+    #constellation-benefits {
         left: 47px;
         top: -525px;
     }
-    .stars-anchor a:nth-of-type(3) {
+    #constellation-energy {
         top: -453px;
         left: -3px;
     }
-    .stars-anchor a:nth-of-type(4) {
+    #constellation-entertainment {
         top: -379px;
         left: 10px;
     }
-    .stars-anchor a:nth-of-type(5) {
+    #constellation-fashion {
         top: -268px;
         left: 31px;
     }
-    .stars-anchor a:nth-of-type(6) {
+    #constellation-kvh {
         top: -213px;
         left: 135px;
     }
-    .stars-anchor a:nth-of-type(7) {
+    #constellation-pharma {
         top: -342px;
         left: 260px;
     }
-    .stars-anchor a:nth-of-type(8) {
+    #constellation-pr {
         top: -290px;
         left: 349px;
     }
-    .stars-anchor a:nth-of-type(9) {
+    #constellation-re {
         top: -258px;
         left: 466px;
     }
-    .stars-anchor a:nth-of-type(10) {
+    #constellation-tech {
         top: -358px;
         left: 516px;
     }
-    .stars-anchor a:nth-of-type(1) .line-one {
-        width: 68px;
-        right: -52px;
-        top: 118%;
-        transform: rotate(42deg);
-    }
-    .stars-anchor a:nth-of-type(2) .line-two {
-        width: 50px;
-        left: 15px;
-        top: 126%;
-        transform: rotate(76deg);
-    }
-    .stars-anchor a:nth-of-type(3) .line-three {
-        width: 70px;
-        left: 93px;
-        top: 131%;
-        transform: rotate(49deg);
-    }
-    .stars-anchor a:nth-of-type(4) .line-four {
-        width: 80px;
-        left: 95px;
-        top: 172%;
-        transform: rotate(101deg);
-    }
-    .stars-anchor a:nth-of-type(5) .line-five {
-        width: 65px;
-        left: 107px;
-        top: 106%;
-        transform: rotate(35deg);
-    }
-    .stars-anchor a:nth-of-type(6) .line-six {
-        width: 89px;
-        left: 78px;
-        top: -38%;
-        transform: rotate(-44deg);
-    }
-    .stars-anchor a:nth-of-type(8) .line-seven {
-        width: 74px;
-        left: 56px;
-        top: 64%;
-        transform: rotate(-23deg);
-    }
-    .stars-anchor a:nth-of-type(9) .line-eight {
-        width: 86px;
-        left: 10px;
-        top: -44%;
-        transform: rotate(-61deg);
-    }
+
 
     #text-carousel .row {
         width: 59%;
@@ -3165,7 +3163,7 @@ hr.globe-primary:hover:after {
         transform-style: flat;
     }
 
-    .parallax-container .parallax-layer-1 {
+    .parallax-layer-1 {
 
         transform: translateZ(-0.3px) scale(0.7);
         top: 64%;
@@ -3175,7 +3173,7 @@ hr.globe-primary:hover:after {
 
     /* Benefits */
 
-    .parallax-container .parallax-layer-2 {
+    .parallax-layer-2 {
 
         transform: translateZ(-0.3px) scale(0.7);
         top: 35%;
@@ -3184,7 +3182,7 @@ hr.globe-primary:hover:after {
 
     /* Energy */
 
-    .parallax-container .parallax-layer-3 {
+    .parallax-layer-3 {
         transform: translateZ(-0.8px) scale(0.7);
         top: 51%;
         left: 11%;
@@ -3192,7 +3190,7 @@ hr.globe-primary:hover:after {
 
     /* Real Estate */
 
-    .parallax-container .parallax-layer-4 {
+    .parallax-layer-4 {
         transform: translateZ(-1.4px) scale(0.7);
         top: 52%;
         left: 42%;
@@ -3200,7 +3198,7 @@ hr.globe-primary:hover:after {
 
     /* Technology */
 
-    .parallax-container .parallax-layer-5 {
+    .parallax-layer-5 {
 
         transform: translateZ(-1.6px) scale(0.7);
         top: 41%;
@@ -3208,7 +3206,7 @@ hr.globe-primary:hover:after {
     }
 
     /* Fashion */
-    .parallax-container .parallax-layer-6 {
+    .parallax-layer-6 {
 
         transform: translateZ(-0.8px) scale(0.7);
         top: 87%;
@@ -3217,21 +3215,21 @@ hr.globe-primary:hover:after {
 
     /* Entertainment */
 
-    .parallax-container .parallax-layer-7 {
+    .parallax-layer-7 {
         transform: translateZ(-0.4px) scale(0.7);
         left: 18%;
         top: 70%;
     }
 
     /*Art*/
-    .parallax-container .parallax-layer-8 {
+    .parallax-layer-8 {
         transform: translateZ(0.35px) scale(0.7);
         top: 10%;
         left: 7%;
     }
     /* Public Relations */
 
-    .parallax-container .parallax-layer-9 {
+    .parallax-layer-9 {
         transform: translateZ(-1.2px) scale(0.7);
         top: 75%;
         left: 35%;
@@ -3240,7 +3238,7 @@ hr.globe-primary:hover:after {
 
     /* Pharma */
 
-    .parallax-container .parallax-layer-10 {
+    .parallax-layer-10 {
         transform: translateZ(-.7px) scale(0.7);
         top: 33%;
         left: 34%;
@@ -3249,7 +3247,7 @@ hr.globe-primary:hover:after {
 
     /* Astronaut */
 
-    .parallax-container .parallax-layer-11 {
+    .parallax-layer-11 {
         transform: translateZ(.4px) scale(.25);
         top: 22%;
         left: 83%;
@@ -3258,7 +3256,7 @@ hr.globe-primary:hover:after {
 
     /* Satellite */
 
-    .parallax-container .parallax-layer-12 {
+    .parallax-layer-12 {
         transform: translateZ(.4px) scale(.5);
         top: 101%;
         left: 20%;
@@ -3267,7 +3265,7 @@ hr.globe-primary:hover:after {
 
     /* Shuttle */
 
-    .parallax-container .parallax-layer-13 {
+    .parallax-layer-13 {
         top: 26%;
         left: 42%;
         transform: translateZ(.5px) scale(0.6);
@@ -3279,15 +3277,15 @@ hr.globe-primary:hover:after {
         left: 477px;
     }
 
-    .stars-anchor a:nth-of-type(9) .line-eight{
+    .line-eight{
         left: -3px;
         top: -37%;
         transform: rotate(-57.9deg);
     }
 
-    .stars-anchor a:nth-of-type(10) {
-        left: 536px;
-    }
+    /*.stars-anchor a:nth-of-type(10) {*/
+        /*left: 536px;*/
+    /*}*/
 
 }
 /*Microsoft IE*/
@@ -3303,7 +3301,7 @@ hr.globe-primary:hover:after {
 
         /* Benefits */
 
-        .parallax-container .parallax-layer-2 {
+        .parallax-layer-2 {
 
             transform: translateZ(-0.3px) scale(1);
             top: 35%;
@@ -3312,7 +3310,7 @@ hr.globe-primary:hover:after {
 
         /* Energy */
 
-        .parallax-container .parallax-layer-3 {
+        .parallax-layer-3 {
             transform: translateZ(-0.8px) scale(1.2);
             top: 51%;
             left: 11%;
@@ -3320,14 +3318,14 @@ hr.globe-primary:hover:after {
 
         /* Real Estate */
 
-        .parallax-container .parallax-layer-4 {
+        .parallax-layer-4 {
             transform: translateZ(-1.4px) scale(1);
             top: 52%;
             left: 42%;
         }
         /* Technology */
 
-        .parallax-container .parallax-layer-5 {
+        .parallax-layer-5 {
 
             transform: translateZ(-1.6px) scale(1);
             top: 41%;
@@ -3335,7 +3333,7 @@ hr.globe-primary:hover:after {
         }
 
         /* Fashion */
-        .parallax-container .parallax-layer-6 {
+        .parallax-layer-6 {
 
             transform: translateZ(-0.8px) scale(0.95);
             top: 87%;
@@ -3344,21 +3342,21 @@ hr.globe-primary:hover:after {
 
         /* Entertainment */
 
-        .parallax-container .parallax-layer-7 {
+        .parallax-layer-7 {
             transform: translateZ(-0.4px) scale(1);
             left: 18%;
             top: 70%;
         }
 
         /*Art*/
-        .parallax-container .parallax-layer-8 {
+        .parallax-layer-8 {
             transform: translateZ(0.35px) scale(0.9);
             top: 10%;
             left: 7%;
         }
         /* Public Relations */
 
-        .parallax-container .parallax-layer-9 {
+        .parallax-layer-9 {
             transform: translateZ(-1.2px) scale(1.0);
             top: 75%;
             left: 35%;
@@ -3366,7 +3364,7 @@ hr.globe-primary:hover:after {
 
         /* Pharma */
 
-        .parallax-container .parallax-layer-10 {
+        .parallax-layer-10 {
             transform: translateZ(-.7px) scale(1);
             top: 33%;
             left: 34%;
@@ -3374,7 +3372,7 @@ hr.globe-primary:hover:after {
 
         /* Astronaut */
 
-        .parallax-container .parallax-layer-11 {
+        .parallax-layer-11 {
 
             transform: translateZ(.4px) scale(.25);
             top: 22%;
@@ -3383,7 +3381,7 @@ hr.globe-primary:hover:after {
 
         /* Satellite */
 
-        .parallax-container .parallax-layer-12 {
+        .parallax-layer-12 {
 
             transform: translateZ(.4px) scale(.5);
             top: 101%;
@@ -3392,7 +3390,7 @@ hr.globe-primary:hover:after {
 
         /* Shuttle */
 
-        .parallax-container .parallax-layer-13 {
+        .parallax-layer-13 {
 
             transform: translateZ(.5px) scale(0.6);
             top: 26%;
@@ -3417,6 +3415,11 @@ hr.globe-primary:hover:after {
 }
 /*Microsoft Edge*/
 @supports (-ms-accelerator:true) and (min-width: 1024px) {
+
+    /*#constellation-tech {*/
+        /*left: 536px;*/
+    /*}*/
+
     .selector {
         property: value;
     }
@@ -3431,20 +3434,20 @@ hr.globe-primary:hover:after {
         transform-style: flat;
     }
 
-    .parallax-container .parallax-layer-1 {
+    .parallax-layer-1 {
         transform: translateZ(-0.3px) scale(0.7);
         top: 64%;
         left: 49.7%;
     }
     /* Benefits */
-    .parallax-container .parallax-layer-2 {
+    .parallax-layer-2 {
         transform: translateZ(-0.3px) scale(0.7);
         top: 35%;
         left: 3%;
     }
     /* Energy */
 
-    .parallax-container .parallax-layer-3 {
+    .parallax-layer-3 {
         transform: translateZ(-0.8px) scale(0.7);
         top: 51%;
         left: 11%;
@@ -3452,7 +3455,7 @@ hr.globe-primary:hover:after {
 
     /* Real Estate */
 
-    .parallax-container .parallax-layer-4 {
+    .parallax-layer-4 {
         transform: translateZ(-1.4px) scale(0.7);
         top: 52%;
         left: 42%;
@@ -3460,7 +3463,7 @@ hr.globe-primary:hover:after {
 
     /* Technology */
 
-    .parallax-container .parallax-layer-5 {
+    .parallax-layer-5 {
 
         transform: translateZ(-1.6px) scale(0.7);
         top: 41%;
@@ -3468,7 +3471,7 @@ hr.globe-primary:hover:after {
     }
 
     /* Fashion */
-    .parallax-container .parallax-layer-6 {
+    .parallax-layer-6 {
 
         transform: translateZ(-0.8px) scale(0.7);
         top: 87%;
@@ -3477,21 +3480,21 @@ hr.globe-primary:hover:after {
 
     /* Entertainment */
 
-    .parallax-container .parallax-layer-7 {
+    .parallax-layer-7 {
         transform: translateZ(-0.4px) scale(0.7);
         left: 18%;
         top: 70%;
     }
 
     /*Art*/
-    .parallax-container .parallax-layer-8 {
+    .parallax-layer-8 {
         transform: translateZ(0.35px) scale(0.7);
         top: 10%;
         left: 7%;
     }
     /* Public Relations */
 
-    .parallax-container .parallax-layer-9 {
+    .parallax-layer-9 {
         transform: translateZ(-1.2px) scale(0.7);
         top: 75%;
         left: 35%;
@@ -3500,7 +3503,7 @@ hr.globe-primary:hover:after {
 
     /* Pharma */
 
-    .parallax-container .parallax-layer-10 {
+    .parallax-layer-10 {
         transform: translateZ(-.7px) scale(0.7);
         top: 33%;
         left: 34%;
@@ -3509,7 +3512,7 @@ hr.globe-primary:hover:after {
 
     /* Astronaut */
 
-    .parallax-container .parallax-layer-11 {
+    .parallax-layer-11 {
 
         transform: translateZ(.4px) scale(.25);
         top: 22%;
@@ -3517,7 +3520,7 @@ hr.globe-primary:hover:after {
     }
     /* Satellite */
 
-    .parallax-container .parallax-layer-12 {
+    .parallax-layer-12 {
         transform: translateZ(.4px) scale(.5);
         top: 101%;
         left: 20%;
@@ -3525,27 +3528,25 @@ hr.globe-primary:hover:after {
 
     /* Shuttle */
 
-    .parallax-container .parallax-layer-13 {
+    .parallax-layer-13 {
         top: 26%;
         left: 42%;
         transform: translateZ(.5px) scale(0.6);
 
     }
 
-    .stars-anchor a:nth-of-type(9) {
+    #constellation-re {
         top: -263px;
         left: 477px;
     }
 
-    .stars-anchor a:nth-of-type(9) .line-eight{
-        left: -3px;
-        top: -37%;
-        transform: rotate(-57.9deg);
+    .line-eight{
+        width: 72px;
+        left: 13px;
+        top: -41%;
+        transform: rotate(-63.9deg);
     }
 
-    .stars-anchor a:nth-of-type(10) {
-        left: 536px;
-    }
 
 }
 
