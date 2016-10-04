@@ -524,7 +524,7 @@ table a:not(.btn),
     padding-right: 15px;
 }
 
-.navbar-brand span:nth-of-type(1) {
+#logo-corr {
     letter-spacing: 3px;
 }
 .navbar-brand span:nth-of-type(3) {
@@ -1824,15 +1824,17 @@ hr.globe-primary:hover:after {
             display: block;
         }
 
+        #logo-pipe {
+            font-size: 9vh;
+        }
+
         .mobile-company-frame {
             height: 250px;
         }
         .navbar-brand {
             font-size: 6.5vh;
         }
-        .navbar-custom .navbar-brand span:nth-of-type(2) {
-            font-size: 9vh;
-        }
+
         .navbar-nav {
             font-size: 4.3vh;
         }
@@ -2152,6 +2154,11 @@ hr.globe-primary:hover:after {
             width: 80px;
         }
 
+
+        #logo-pipe {
+            font-size: 4vh;
+        }
+
         .mask-text h2,
         .mask-text p {
             font-size: 2vh;
@@ -2222,10 +2229,6 @@ hr.globe-primary:hover:after {
 
         .navbar-brand {
             font-size: 3.5vw;
-        }
-
-        .navbar-custom .navbar-brand span:nth-of-type(2) {
-            font-size: 4vh;
         }
 
         .navbar-nav {
@@ -2485,6 +2488,10 @@ hr.globe-primary:hover:after {
         font-size: 26px;
     }
 
+    #logo-pipe {
+        font-size: 40px;
+    }
+
     .navbar-custom {
         padding: 15px 0;
         letter-spacing: 1px;
@@ -2514,9 +2521,6 @@ hr.globe-primary:hover:after {
     }
     .navbar-nav {
         font-size: 16px;
-    }
-    .navbar-custom .navbar-brand span:nth-of-type(2) {
-        font-size: 40px;
     }
 
     .photo-container img {
@@ -2753,6 +2757,9 @@ hr.globe-primary:hover:after {
         .intro .intro-body .intro-text {
             font-size: 26px;
         }
+        #logo-pipe {
+            font-size: 40px;
+        }
 
         .mask-text h2, .mask-text p {
             font-size: 20px;
@@ -2781,9 +2788,6 @@ hr.globe-primary:hover:after {
         }
         .navbar-nav {
             font-size: 16px;
-        }
-        .navbar-custom .navbar-brand span:nth-of-type(2) {
-            font-size: 40px;
         }
 
         .photo-container img {
