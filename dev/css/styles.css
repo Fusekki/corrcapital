@@ -381,6 +381,7 @@ hr {
 .hvr-shutter-out-horizontal:active, .hvr-shutter-out-horizontal:focus, .hvr-shutter-out-horizontal:hover {
     color: hsla(215, 2%, 90%, 1);
     background: hsla(215, 2%, 90%, 0.55);
+    border: 10px solid hsla(215, 2%, 51%, 1);
 }
 
 .hvr-back-pulse:hover,
