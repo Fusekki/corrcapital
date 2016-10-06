@@ -7,11 +7,11 @@ $(function() {
     new WOW().init();
     addPageScroll();
     collapseNavbar();
+    handleHamburger();
     addFadeListeners();
     addTouchEvents();
     initContactForm();
 
-    // disable to submit button on load
     // document.getElementById("form-button").disabled = true;
     $('.text-carousel').carousel({
         pause: "false"
@@ -24,6 +24,13 @@ $(function() {
 
 });
 
+function handleHamburger() {
+    console.log('here');
+    $('#navbar-container').click(function() {
+        console.log('click');
+        $('#nav-icon').toggleClass('open');
+    });
+}
 
 // jQuery to collapse the navbar on scroll
 function collapseNavbar() {
@@ -78,6 +85,7 @@ function addPageScroll() {
 $('.navbar-collapse ul li a').click(function() {
     "use strict";
     if ($(this).attr('class') != 'dropdown-toggle active' && $(this).attr('class') != 'dropdown-toggle') {
+        // $('#nav-icon3').toggleClass('open');
         $('.navbar-toggle:visible').click();
     }
 });
