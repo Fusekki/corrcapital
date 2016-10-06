@@ -107,6 +107,17 @@
     }
 }
 
+@keyframes myanimation
+{
+    from {
+        transform: translate3d(30vw, -30vh, 0);
+    }
+
+    to {
+        transform: translate3d(110vw, 30vh, 0);
+    }
+}
+
 /*GENERAL CLASSES START*/
 
 a {
@@ -1050,6 +1061,18 @@ table a:not(.btn),
     z-index: 6;
     top: 35%;
     left: 42%;
+}
+
+/* Asteroid */
+
+.parallax-asteroid {
+    /*transform: translateZ(.5px) scale(.3);*/
+    z-index: 6;
+    top: 29%;
+    left: -5%;
+    animation: myanimation 30s;
+    /*transition: 10s ease-in-out;*/
+    /*transform: translateX(70%);*/
 }
 
 /*.parallax-layer-anchor {*/
