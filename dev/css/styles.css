@@ -107,14 +107,14 @@
     }
 }
 
-@keyframes myanimation
+@keyframes asteroidMove
 {
     from {
-        transform: translate3d(30vw, -30vh, 0);
+        transform: translate3d(30vw, -31vh, 1px);
     }
 
     to {
-        transform: translate3d(110vw, 30vh, 0);
+        transform: translate3d(110vw, 30vh, -20px);
     }
 }
 
@@ -1070,7 +1070,7 @@ table a:not(.btn),
     z-index: 6;
     top: 29%;
     left: -5%;
-    animation: myanimation 30s;
+    animation: asteroidMove 30s;
     /*transition: 10s ease-in-out;*/
     /*transform: translateX(70%);*/
 }
