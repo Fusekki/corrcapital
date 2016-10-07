@@ -733,7 +733,7 @@ table a:not(.btn),
     border: 2px transparent solid;
 }
 
-.constellation.wheel-show {
+.constellation.star-show {
     opacity: 1;
 }
 .constellation:hover .globe-text {
@@ -782,7 +782,6 @@ table a:not(.btn),
     outline: none;
 }
 .globe-text {
-    -webkit-text-stroke: 1px black;
     padding: 0;
     font-size: 15px;
     border: 2px transparent solid;
@@ -1182,7 +1181,7 @@ table a:not(.btn),
 
 .site-info {
     display: block;
-    font-size: 4vh;
+    font-size: 3vh;
     font-family: 'Sansation', 'Sansation Light', 'Sansation Bold';
     line-height: 1;
     font-weight: 700 !important;

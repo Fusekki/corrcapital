@@ -1,5 +1,5 @@
-var wheel;
-var wheels = $('.constellation').get();
+var star;
+var stars = $('.constellation').get();
 var c = 0;
 
 $(function() {
@@ -141,40 +141,40 @@ function initMap() {
 function addFadeListeners() {
     "use strict";
 
-    for (var idx = 0; idx < wheels.length; idx++) {
-        wheels[idx].addEventListener("transitionend", wheelFadein, false);
-        wheels[idx].addEventListener("webkitTransitionEnd", wheelFadein, false);
-        wheels[idx].addEventListener("mozTransitionEnd", wheelFadein, false);
-        wheels[idx].addEventListener("msTransitionEnd", wheelFadein, false);
-        wheels[idx].addEventListener("oTransitionEnd", wheelFadein, false);
+    for (var idx = 0; idx < stars.length; idx++) {
+        stars[idx].addEventListener("transitionend", starFadeIn, false);
+        stars[idx].addEventListener("webkitTransitionEnd", starFadeIn, false);
+        stars[idx].addEventListener("mozTransitionEnd", starFadeIn, false);
+        stars[idx].addEventListener("msTransitionEnd", starFadeIn, false);
+        stars[idx].addEventListener("oTransitionEnd", starFadeIn, false);
     }
 
     // Initiate Fade on first wheel
     var $elem = $('#constellation-art');
     // console.log('Adding show to first wheel');
-    $elem.addClass('wheel-show');
+    $elem.addClass('star-show');
 }
 
 
-function wheelFadein(e) {
+function starFadeIn(e) {
     "use strict";
 
-    if (!wheel) {
-        wheel = $('#constellation-art');
+    if (!star) {
+        star = $('#constellation-art');
 
     }
-    this.removeEventListener("transitionend", wheelFadein, false);
-    this.removeEventListener("webkitTransitionEnd", wheelFadein, false);
-    this.removeEventListener("mozTransitionEnd", wheelFadein, false);
-    this.removeEventListener("msTransitionEnd", wheelFadein, false);
-    this.removeEventListener("oTransitionEnd", wheelFadein, false);
+    this.removeEventListener("transitionend", starFadeIn, false);
+    this.removeEventListener("webkitTransitionEnd", starFadeIn, false);
+    this.removeEventListener("mozTransitionEnd", starFadeIn, false);
+    this.removeEventListener("msTransitionEnd", starFadeIn, false);
+    this.removeEventListener("oTransitionEnd", starFadeIn, false);
 
-    wheel = wheels.splice(c, 1);
+    star = stars.splice(c, 1);
 
-    wheel = wheels[c];
+    star = stars[c];
 
 
-    $(wheel).addClass('wheel-show');
+    $(star).addClass('star-show');
 
 }
 
