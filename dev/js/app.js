@@ -143,10 +143,6 @@ function addFadeListeners() {
 
     for (var idx = 0; idx < stars.length; idx++) {
         stars[idx].addEventListener("transitionend", starFadeIn, false);
-        stars[idx].addEventListener("webkitTransitionEnd", starFadeIn, false);
-        stars[idx].addEventListener("mozTransitionEnd", starFadeIn, false);
-        stars[idx].addEventListener("msTransitionEnd", starFadeIn, false);
-        stars[idx].addEventListener("oTransitionEnd", starFadeIn, false);
     }
 
     // Initiate Fade on first wheel

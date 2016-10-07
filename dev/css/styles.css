@@ -3250,6 +3250,10 @@ hr.globe-primary:hover:after {
     }
 /*Microsoft Edge*/
 @supports (-ms-accelerator:true) {
+    /*Hack specific to Edge because it is the only one changing color on hover*/
+    .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+        color: white;
+    }
     .selector {
         property: value;
     }

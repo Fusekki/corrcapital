@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9897491-5837-4602-b0d4-3b9c1622a3c3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/css/styles.css" afterPath="$PROJECT_DIR$/dev/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/index.htm" afterPath="$PROJECT_DIR$/dev/index.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/js/app.js" afterPath="$PROJECT_DIR$/dev/js/app.js" />
     </list>
     <ignored path="corrgroup.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,14 +25,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.htm" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/index.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="657">
-              <caret line="448" column="159" selection-start-line="0" selection-start-column="0" selection-end-line="968" selection-end-column="7" />
+            <state relative-caret-position="595">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="40" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#3;n#div#0;n#form#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#28063#28069#0" expanded="true" />
+                <element signature="e#28057#28063#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -41,21 +41,21 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+            <state relative-caret-position="374">
+              <caret line="145" column="0" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
               <folding>
-                <marker date="1475853555129" expanded="true" signature="6991:6998" ph="×" />
-                <marker date="1475853555129" expanded="true" signature="7713:7720" ph="×" />
+                <marker date="1475854038862" expanded="true" signature="6687:6694" ph="×" />
+                <marker date="1475854038862" expanded="true" signature="7409:7416" ph="×" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dev/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="854" column="10" selection-start-line="854" selection-start-column="1" selection-end-line="854" selection-end-column="10" />
+            <state relative-caret-position="171">
+              <caret line="3253" column="78" selection-start-line="3253" selection-start-column="78" selection-end-line="3253" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -127,9 +127,9 @@
         <option value="$PROJECT_DIR$/dev/js/intlTellnput.min.js" />
         <option value="$PROJECT_DIR$/dev/js/jqBootstrapValidation.js" />
         <option value="$PROJECT_DIR$/live/css/styles.min.css" />
+        <option value="$PROJECT_DIR$/dev/index.htm" />
         <option value="$PROJECT_DIR$/dev/js/app.js" />
         <option value="$PROJECT_DIR$/dev/css/styles.css" />
-        <option value="$PROJECT_DIR$/dev/index.htm" />
       </list>
     </option>
   </component>
@@ -533,12 +533,12 @@
       <workItem from="1475589684764" duration="9465000" />
       <workItem from="1475600087356" duration="323000" />
       <workItem from="1475759044273" duration="17097000" />
-      <workItem from="1475845301036" duration="8235000" />
+      <workItem from="1475845301036" duration="9422000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="864664000" />
+    <option name="totallyTimeSpent" value="865851000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -830,33 +830,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dev/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="40" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#3;n#div#0;n#form#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#28057#28063#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dev/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        <state relative-caret-position="374">
+          <caret line="145" column="0" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
           <folding>
-            <marker date="1475853555129" expanded="true" signature="6991:6998" ph="×" />
-            <marker date="1475853555129" expanded="true" signature="7713:7720" ph="×" />
+            <marker date="1475854038862" expanded="true" signature="6687:6694" ph="×" />
+            <marker date="1475854038862" expanded="true" signature="7409:7416" ph="×" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="854" column="10" selection-start-line="854" selection-start-column="1" selection-end-line="854" selection-end-column="10" />
+        <state relative-caret-position="171">
+          <caret line="3253" column="78" selection-start-line="3253" selection-start-column="78" selection-end-line="3253" selection-end-column="78" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/index.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="448" column="159" selection-start-line="0" selection-start-column="0" selection-end-line="968" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#3;n#div#0;n#form#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#28063#28069#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
