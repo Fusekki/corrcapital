@@ -7,7 +7,7 @@ $(function() {
     new WOW().init();
     addPageScroll();
     collapseNavbar();
-    handleHamburger();
+    animateHamburger();
     addFadeListeners();
     addTouchEvents();
     initContactForm();
@@ -24,7 +24,7 @@ $(function() {
 
 });
 
-function handleHamburger() {
+function animateHamburger() {
     console.log('here');
     $('#navbar-container').click(function() {
         console.log('click');
