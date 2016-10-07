@@ -1100,7 +1100,7 @@ table a:not(.btn),
     width: 100%;
     height: 100%;
     background: hsla(215, 2%, 79%, 0.7);
-    transition: all 0.7s ease-in-out;
+    transition: color 0.7s ease-in-out;
 }
 
 
@@ -2992,7 +2992,7 @@ hr.globe-primary:hover:after {
 
 
 /*Microsoft IE*/
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+@media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
 
     .hvr-pulse {
         translation: scale .5s ease-in-out;
@@ -3006,13 +3006,21 @@ hr.globe-primary:hover:after {
     .btn-default:focus, .btn-default:focus:active, .btn-default.active:focus, .btn-default.focus, .btn-default.focus:active, .btn-default.active.focus {
         color: black;
     }
+
+    .view-frame .mask-text {
+        transition: all 4s ease-in-out;
+    }
 }
 /*Microsoft IE*/
-@media all and (min-width: 1024px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+@media screen and (min-width: 1024px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
 
     #constellation-re{
-        top: -263px;
-        left: 477px;
+        top: -254px;
+        left: 472px;
+    }
+
+    #constellation-tech {
+        left: 532px;
     }
     .parallax-container {
         width: 100%;
@@ -3136,8 +3144,8 @@ hr.globe-primary:hover:after {
 
     .line-eight{
         left: -3px;
-        top: -37%;
-        transform: rotate(-57.9deg);
+        top: -49%;
+        transform: rotate(-60deg);
     }
 
     /*.stars-anchor a:nth-of-type(10) {*/
@@ -3256,6 +3264,7 @@ hr.globe-primary:hover:after {
 
 
 
+
     }
 /*Microsoft Edge*/
 @supports (-ms-accelerator:true) {
@@ -3264,7 +3273,9 @@ hr.globe-primary:hover:after {
     }
 
     .hvr-shutter-out-horizontal:hover, .hvr-shutter-out-horizontal:focus, .hvr-shutter-out-horizontal:active {
-        color: black;
+        color: hsla(215, 2%, 97%, 1);
+        background: hsla(215, 2%, 90%, 0.55);
+        border: 10px solid hsla(215, 2%, 51%, 1);
 
     }
 
