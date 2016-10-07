@@ -4,7 +4,6 @@
     <list default="true" id="c9897491-5837-4602-b0d4-3b9c1622a3c3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/css/styles.css" afterPath="$PROJECT_DIR$/dev/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/index.htm" afterPath="$PROJECT_DIR$/dev/index.htm" />
     </list>
     <ignored path="corrgroup.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/dev/index.htm">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="327">
-              <caret line="635" column="112" selection-start-line="635" selection-start-column="107" selection-end-line="635" selection-end-column="112" />
+              <caret line="226" column="51" selection-start-line="226" selection-start-column="51" selection-end-line="226" selection-end-column="63" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#3;n#div#0;n#form#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#28103#28109#0" expanded="true" />
@@ -37,10 +36,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dev/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40290">
+              <caret line="2499" column="0" selection-start-line="2499" selection-start-column="0" selection-end-line="2499" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="animate.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/css/animate.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
+            <state relative-caret-position="21131">
               <caret line="1243" column="0" selection-start-line="1243" selection-start-column="0" selection-end-line="1253" selection-end-column="3" />
               <folding />
             </state>
@@ -50,18 +59,8 @@
       <file leaf-file-name="wow.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/js/wow.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3620">
+            <state relative-caret-position="4165">
               <caret line="245" column="44" selection-start-line="245" selection-start-column="44" selection-end-line="245" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dev/css/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="394" column="33" selection-start-line="394" selection-start-column="33" selection-end-line="394" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -70,7 +69,7 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
+            <state relative-caret-position="2448">
               <caret line="144" column="43" selection-start-line="144" selection-start-column="38" selection-end-line="144" selection-end-column="43" />
               <folding>
                 <marker date="1475761489943" expanded="true" signature="7017:7024" ph="×" />
@@ -180,6 +179,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -250,7 +250,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -487,12 +486,13 @@
       <workItem from="1475506411607" duration="8513000" />
       <workItem from="1475589684764" duration="9465000" />
       <workItem from="1475600087356" duration="323000" />
-      <workItem from="1475759044273" duration="9022000" />
+      <workItem from="1475759044273" duration="17097000" />
+      <workItem from="1475845301036" duration="1383000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="848354000" />
+    <option name="totallyTimeSpent" value="857812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -678,9 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="868" column="37" selection-start-line="868" selection-start-column="37" selection-end-line="868" selection-end-column="37" />
-          <folding>
-            <element signature="e#27819#27825#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -723,7 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="514">
           <caret line="832" column="44" selection-start-line="832" selection-start-column="44" selection-end-line="832" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -755,13 +751,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="45" column="18" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/js/wow.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3620">
+        <state relative-caret-position="4165">
           <caret line="245" column="44" selection-start-line="245" selection-start-column="44" selection-end-line="245" selection-end-column="44" />
           <folding />
         </state>
@@ -769,26 +764,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/css/animate.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
+        <state relative-caret-position="21131">
           <caret line="1243" column="0" selection-start-line="1243" selection-start-column="0" selection-end-line="1253" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/index.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="635" column="112" selection-start-line="635" selection-start-column="107" selection-end-line="635" selection-end-column="112" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#3;n#div#0;n#form#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#28103#28109#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
+        <state relative-caret-position="2448">
           <caret line="144" column="43" selection-start-line="144" selection-start-column="38" selection-end-line="144" selection-end-column="43" />
           <folding>
             <marker date="1475761489943" expanded="true" signature="7017:7024" ph="×" />
@@ -797,10 +781,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dev/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="226" column="51" selection-start-line="226" selection-start-column="51" selection-end-line="226" selection-end-column="63" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#3;n#div#0;n#form#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#28103#28109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dev/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="394" column="33" selection-start-line="394" selection-start-column="33" selection-end-line="394" selection-end-column="33" />
+        <state relative-caret-position="40290">
+          <caret line="2499" column="0" selection-start-line="2499" selection-start-column="0" selection-end-line="2499" selection-end-column="0" />
           <folding />
         </state>
       </provider>
