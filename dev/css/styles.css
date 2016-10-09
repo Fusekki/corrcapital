@@ -24,6 +24,20 @@
 /*ANIMATIONS START*/
 
 
+@keyframes draw-it {
+    100% {
+        fill: #6fbc5d;
+    }
+}
+
+@keyframes offset {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+
+
 @keyframes blink {
     to {
         opacity: .0;
@@ -2416,6 +2430,22 @@ hr.globe-primary:hover:after {
         display: block;
         border-bottom: 1px solid hsla(215, 2%, 58%, 1);;
         position: absolute;
+    }
+
+
+    .svg-line {
+        position: absolute;
+        /*top: 47px;*/
+        /*left: 74px;*/
+        right: -52px;
+        top: 118%;
+        transform: rotate(42deg);
+        width: 88%;
+        stroke: hsla(215, 2%, 58%, 1);
+        stroke-width: 10;
+        stroke-dasharray: 100;
+        stroke-dashoffset: 100;
+        animation: offset 2s linear forwards, draw-it .8s 5s forwards;
     }
     .container {
         padding-left: 15px;
