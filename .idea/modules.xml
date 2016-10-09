@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/corrgroup.iml" filepath="$PROJECT_DIR$/.idea/corrgroup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/corrcapital.iml" filepath="$PROJECT_DIR$/.idea/corrcapital.iml" />
     </modules>
   </component>
 </project>

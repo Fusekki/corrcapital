@@ -711,8 +711,38 @@ table a:not(.btn),
 .constellation {
     position: absolute;
     opacity: 0;
-    transition: opacity .25s ease-in-out;
+    /*transition: opacity .25s ease-in-out;*/
     border: 2px transparent solid;
+    animation: fadeIn 1s forwards;
+}
+
+.constellation:nth-of-type(2) {
+    animation-delay: .25s;
+}
+
+.constellation:nth-of-type(3) {
+    animation-delay: .5s;
+}
+.constellation:nth-of-type(4) {
+    animation-delay: .75s;
+}
+.constellation:nth-of-type(5) {
+    animation-delay: 1s;
+}
+.constellation:nth-of-type(6) {
+    animation-delay: 1.25s;
+}
+.constellation:nth-of-type(7) {
+    animation-delay: 1.5s;
+}
+.constellation:nth-of-type(8) {
+    animation-delay: 1.75s;
+}
+.constellation:nth-of-type(9) {
+    animation-delay: 2s;
+}
+.constellation:nth-of-type(10) {
+    animation-delay: 2.25s;
 }
 
 .constellation.star-show {

@@ -8,7 +8,7 @@ $(function() {
     addPageScroll();
     collapseNavbar();
     animateHamburger();
-    addFadeListeners();
+    // addFadeListeners();
     addTouchEvents();
     initContactForm();
 
@@ -133,46 +133,6 @@ function initMap() {
     });
 }
 
-
-
-
-
-
-function addFadeListeners() {
-    "use strict";
-
-    for (var idx = 0; idx < stars.length; idx++) {
-        stars[idx].addEventListener("transitionend", starFadeIn, false);
-    }
-
-    // Initiate Fade on first wheel
-    var $elem = $('#constellation-art');
-    // console.log('Adding show to first wheel');
-    $elem.addClass('star-show');
-}
-
-
-function starFadeIn(e) {
-    "use strict";
-
-    if (!star) {
-        star = $('#constellation-art');
-
-    }
-    this.removeEventListener("transitionend", starFadeIn, false);
-    this.removeEventListener("webkitTransitionEnd", starFadeIn, false);
-    this.removeEventListener("mozTransitionEnd", starFadeIn, false);
-    this.removeEventListener("msTransitionEnd", starFadeIn, false);
-    this.removeEventListener("oTransitionEnd", starFadeIn, false);
-
-    star = stars.splice(c, 1);
-
-    star = stars[c];
-
-
-    $(star).addClass('star-show');
-
-}
 
 function addTouchEvents() {
     "use strict";
