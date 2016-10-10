@@ -2385,68 +2385,76 @@ hr.globe-primary:hover:after {
 
     #constellation-art {
         left: -72px;
-        top: -591px;
+        top: -587px;
     }
     #constellation-benefits {
         left: 47px;
-        top: -525px;
+        top: -522px;
     }
     #constellation-energy {
         top: -453px;
         left: -3px;
     }
     #constellation-entertainment {
-        top: -379px;
+        top: -376px;
         left: 10px;
     }
     #constellation-fashion {
-        top: -268px;
-        left: 31px;
+        top: -264px;
+        left: 30px;
     }
     #constellation-kvh {
-        top: -213px;
-        left: 135px;
+        top: -210px;
+        left: 136px;
     }
     #constellation-pharma {
         top: -342px;
         left: 260px;
     }
     #constellation-pr {
-        top: -290px;
+        top: -271px;
         left: 349px;
     }
     #constellation-re {
-        top: -258px;
-        left: 466px;
+        top: -256px;
+        left: 467px;
     }
     #constellation-tech {
-        top: -358px;
-        left: 516px;
+        top: -349px;
+        left: 514px;
     }
 
 
     .constellation-line {
-        content: "";
-        display: block;
-        border-bottom: 1px solid hsla(215, 2%, 58%, 1);;
-        position: absolute;
+        /*content: "";*/
+        /*display: block;*/
+        /*border-bottom: 1px solid hsla(215, 2%, 58%, 1);;*/
+        /*position: absolute;*/
+        display: none;
     }
 
 
-    .svg-line {
+
+    .constellation-outline-left,
+    .constellation-outline-right {
         position: absolute;
-        /*top: 47px;*/
-        /*left: 74px;*/
-        right: -52px;
-        top: 118%;
-        transform: rotate(42deg);
-        width: 88%;
+        top: -616px;
+        left: -105px;
         stroke: hsla(215, 2%, 58%, 1);
-        stroke-width: 10;
-        stroke-dasharray: 100;
-        stroke-dashoffset: 100;
+        stroke-width: 6;
+        stroke-dasharray: 600;
+        stroke-dashoffset: 600;
         animation: offset 2s linear forwards, draw-it .8s 5s forwards;
+        opacity: .5;
     }
+    .constellation-outline-left {
+             animation-delay: 2s;
+         }
+
+    .constellation-outline-right {
+        animation-delay: 4s;
+    }
+
     .container {
         padding-left: 15px;
         padding-right: 15px;
@@ -2474,54 +2482,54 @@ hr.globe-primary:hover:after {
         font-size: 26px;
     }
 
-    .line-one {
-        width: 68px;
-        right: -52px;
-        top: 118%;
-        transform: rotate(42deg);
-    }
-    .line-two {
-        width: 50px;
-        left: 15px;
-        top: 126%;
-        transform: rotate(76deg);
-    }
-    .line-three {
-        width: 70px;
-        left: 93px;
-        top: 131%;
-        transform: rotate(49deg);
-    }
-    .line-four {
-        width: 80px;
-        left: 95px;
-        top: 172%;
-        transform: rotate(101deg);
-    }
-    .line-five {
-        width: 65px;
-        left: 107px;
-        top: 106%;
-        transform: rotate(35deg);
-    }
-    .line-six {
-        width: 89px;
-        left: 78px;
-        top: -38%;
-        transform: rotate(-44deg);
-    }
-    .line-seven {
-        width: 74px;
-        left: 56px;
-        top: 64%;
-        transform: rotate(-23deg);
-    }
-    .line-eight {
-        width: 86px;
-        left: 10px;
-        top: -44%;
-        transform: rotate(-61deg);
-    }
+    /*.line-one {*/
+        /*width: 68px;*/
+        /*right: -52px;*/
+        /*top: 118%;*/
+        /*transform: rotate(42deg);*/
+    /*}*/
+    /*.line-two {*/
+        /*width: 50px;*/
+        /*left: 15px;*/
+        /*top: 126%;*/
+        /*transform: rotate(76deg);*/
+    /*}*/
+    /*.line-three {*/
+        /*width: 70px;*/
+        /*left: 93px;*/
+        /*top: 131%;*/
+        /*transform: rotate(49deg);*/
+    /*}*/
+    /*.line-four {*/
+        /*width: 80px;*/
+        /*left: 95px;*/
+        /*top: 172%;*/
+        /*transform: rotate(101deg);*/
+    /*}*/
+    /*.line-five {*/
+        /*width: 65px;*/
+        /*left: 107px;*/
+        /*top: 106%;*/
+        /*transform: rotate(35deg);*/
+    /*}*/
+    /*.line-six {*/
+        /*width: 89px;*/
+        /*left: 78px;*/
+        /*top: -38%;*/
+        /*transform: rotate(-44deg);*/
+    /*}*/
+    /*.line-seven {*/
+        /*width: 74px;*/
+        /*left: 56px;*/
+        /*top: 64%;*/
+        /*transform: rotate(-23deg);*/
+    /*}*/
+    /*.line-eight {*/
+        /*width: 86px;*/
+        /*left: 10px;*/
+        /*top: -44%;*/
+        /*transform: rotate(-61deg);*/
+    /*}*/
 
     #logo-pipe {
         font-size: 40px;
@@ -2645,12 +2653,12 @@ hr.globe-primary:hover:after {
             margin-top: -2px;
         }
 
-        .constellation-line {
-            content: "";
-            display: block;
-            border-bottom: 1px solid hsla(215, 2%, 58%, 1);;
-            position: absolute;
-        }
+        /*.constellation-line {*/
+            /*content: "";*/
+            /*display: block;*/
+            /*border-bottom: 1px solid hsla(215, 2%, 58%, 1);;*/
+            /*position: absolute;*/
+        /*}*/
         .container {
             padding-left: 15px;
             padding-right: 15px;
@@ -3036,6 +3044,13 @@ hr.globe-primary:hover:after {
 /*Microsoft IE*/
 @media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
 
+    .constellation-line {
+        content: "";
+        display: block;
+        border-bottom: 1px solid hsla(215, 2%, 58%, 1);;
+        position: absolute;
+    }
+
     .hvr-pulse {
         translation: scale .5s ease-in-out;
         transform: scale(1);
@@ -3051,6 +3066,55 @@ hr.globe-primary:hover:after {
 
     .view-frame .mask-text {
         transition: all 4s ease-in-out;
+    }
+
+    .line-one {
+    width: 68px;
+    right: -52px;
+    top: 118%;
+    transform: rotate(42deg);
+    }
+    .line-two {
+    width: 50px;
+    left: 15px;
+    top: 126%;
+    transform: rotate(76deg);
+    }
+    .line-three {
+    width: 70px;
+    left: 93px;
+    top: 131%;
+    transform: rotate(49deg);
+    }
+    .line-four {
+    width: 80px;
+    left: 95px;
+    top: 172%;
+    transform: rotate(101deg);
+    }
+    .line-five {
+    width: 65px;
+    left: 107px;
+    top: 106%;
+    transform: rotate(35deg);
+    }
+    .line-six {
+    width: 89px;
+    left: 78px;
+    top: -38%;
+    transform: rotate(-44deg);
+    }
+    .line-seven {
+    width: 74px;
+    left: 52px;
+    top: 57%;
+    transform: rotate(-39deg);
+    }
+    .line-eight {
+    width: 86px;
+    left: 10px;
+    top: -44%;
+    transform: rotate(-61deg);
     }
 }
 /*Microsoft IE*/
@@ -3310,6 +3374,63 @@ hr.globe-primary:hover:after {
     }
 /*Microsoft Edge*/
 @supports (-ms-accelerator:true) {
+    .constellation-line {
+        content: "";
+        display: block;
+        border-bottom: 1px solid hsla(215, 2%, 58%, 1);;
+        position: absolute;
+    }
+
+
+    .line-one {
+        width: 68px;
+        right: -52px;
+        top: 118%;
+        transform: rotate(42deg);
+    }
+    .line-two {
+        width: 50px;
+        left: 15px;
+        top: 126%;
+        transform: rotate(76deg);
+    }
+    .line-three {
+        width: 70px;
+        left: 93px;
+        top: 131%;
+        transform: rotate(49deg);
+    }
+    .line-four {
+        width: 80px;
+        left: 95px;
+        top: 172%;
+        transform: rotate(101deg);
+    }
+    .line-five {
+        width: 65px;
+        left: 107px;
+        top: 106%;
+        transform: rotate(35deg);
+    }
+    .line-six {
+        width: 89px;
+        left: 78px;
+        top: -38%;
+        transform: rotate(-44deg);
+    }
+    .line-seven {
+        width: 74px;
+        left: 52px;
+        top: 57%;
+        transform: rotate(-39deg);
+    }
+    .line-eight {
+        width: 86px;
+        left: 10px;
+        top: -44%;
+        transform: rotate(-61deg);
+    }
+
     /*Hack specific to Edge because it is the only one changing color on hover*/
     .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
         color: white;
