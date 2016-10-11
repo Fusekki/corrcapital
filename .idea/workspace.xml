@@ -2,8 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9897491-5837-4602-b0d4-3b9c1622a3c3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/live/js/jqBootstrapValidation.min.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/css/styles.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/js/app.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/js/app.min.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/js/app.min.min.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/js/app.min.min.min.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/js/app.min.min.min.min.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/js/app.min.min.min.min.min.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/js/app.min.min.min.min.min.min.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/js/app.min.min.min.min.min.min.min.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/js/app.min.min.min.min.min.min.min.min.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/js/app.min.min.min.min.min.min.min.min.min.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/js/app.min.min.min.min.min.min.min.min.min.min.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/js/app.min.min.min.min.min.min.min.min.min.min.min.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/js/app.min.min.min.min.min.min.min.min.min.min.min.min.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/js/app.min.min.min.min.min.min.min.min.min.min.min.min.min.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/js/app.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/js/app.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/js/app.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/js/app.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/js/app.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/js/app.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/js/app.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/js/app.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/js/app.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/js/app.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/js/app.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/js/app.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/js/app.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/js/app.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/js/app.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/js/app.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/js/app.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/js/app.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/js/app.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/js/app.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/js/app.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev/js/app.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/live/js/jqBootstrapValidation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/live/mail/contact.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/css/styles.css" afterPath="$PROJECT_DIR$/dev/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/js/app.js" afterPath="$PROJECT_DIR$/dev/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/js/jqBootstrapValidation.js" afterPath="$PROJECT_DIR$/dev/js/jqBootstrapValidation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.htm" afterPath="$PROJECT_DIR$/index.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/live/css/styles.min.css" afterPath="$PROJECT_DIR$/live/css/styles.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/live/index.htm" afterPath="$PROJECT_DIR$/live/index.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/live/js/app.min.js" afterPath="$PROJECT_DIR$/live/js/app.min.js" />
     </list>
     <ignored path="corrgroup.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,8 +72,21 @@
       <file leaf-file-name="index.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/index.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2414">
-              <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+            <state relative-caret-position="327">
+              <caret line="945" column="22" selection-start-line="945" selection-start-column="16" selection-end-line="945" selection-end-column="22" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#div#3;n#div#0;n#form#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#29326#29332#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/live/index.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5500">
+              <caret line="951" column="21" selection-start-line="951" selection-start-column="21" selection-end-line="951" selection-end-column="21" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#3;n#div#0;n#form#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#29326#29332#0" expanded="true" />
@@ -39,21 +98,71 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2295">
-              <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+            <state relative-caret-position="85">
+              <caret line="149" column="61" selection-start-line="149" selection-start-column="50" selection-end-line="149" selection-end-column="61" />
               <folding>
-                <marker date="1476044864990" expanded="true" signature="5797:5804" ph="×" />
-                <marker date="1476044864990" expanded="true" signature="6519:6526" ph="×" />
+                <marker date="1476196077193" expanded="true" signature="5797:5804" ph="×" />
+                <marker date="1476196077193" expanded="true" signature="6519:6526" ph="×" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dev/css/styles.css">
+      <file leaf-file-name="processForm.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/mail/processForm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2091">
-              <caret line="207" column="9" selection-start-line="207" selection-start-column="9" selection-end-line="207" selection-end-column="9" />
+            <state relative-caret-position="17">
+              <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="process_Form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/mail/process_Form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="42" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="process_Form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/live/mail/process_Form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="59" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="php.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/php.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="370" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="1081" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="php.ini" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/live/mail/php.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1283">
+              <caret line="1081" column="0" selection-start-line="1081" selection-start-column="0" selection-end-line="1081" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/live/css/styles.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-191">
+              <caret line="0" column="12853" selection-start-line="0" selection-start-column="12853" selection-end-line="0" selection-end-column="12853" />
               <folding />
             </state>
           </provider>
@@ -62,8 +171,8 @@
       <file leaf-file-name="index.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14144">
-              <caret line="832" column="20" selection-start-line="832" selection-start-column="20" selection-end-line="832" selection-end-column="20" />
+            <state relative-caret-position="-782">
+              <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -77,9 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/water.js" />
-        <option value="$PROJECT_DIR$/js/demo-2.js" />
-        <option value="$PROJECT_DIR$/css/interactions.css" />
         <option value="$PROJECT_DIR$/js/AnimatedIntro.js" />
         <option value="$PROJECT_DIR$/css/grayscale.css" />
         <option value="$PROJECT_DIR$/js/smoke-2.js" />
@@ -112,22 +218,25 @@
         <option value="$PROJECT_DIR$/dev/mail/contact_me.php" />
         <option value="$PROJECT_DIR$/dev/js/contact.js" />
         <option value="$PROJECT_DIR$/dev/mail/verify.php" />
-        <option value="$PROJECT_DIR$/live/js/app.min.js" />
         <option value="$PROJECT_DIR$/dev/js/contact_me.js" />
         <option value="$PROJECT_DIR$/dev/mail/contact.php" />
         <option value="$PROJECT_DIR$/live/mail/contact.php" />
-        <option value="$PROJECT_DIR$/live/index.htm" />
         <option value="$PROJECT_DIR$/dev/mail/processForm.php" />
         <option value="$PROJECT_DIR$/dev/mail/process_Form.php" />
-        <option value="$PROJECT_DIR$/index.htm" />
         <option value="$PROJECT_DIR$/dev/js/isValidNumber.js" />
         <option value="$PROJECT_DIR$/dev/js/contact-form.js" />
         <option value="$PROJECT_DIR$/dev/js/intlTellnput.min.js" />
-        <option value="$PROJECT_DIR$/dev/js/jqBootstrapValidation.js" />
-        <option value="$PROJECT_DIR$/live/css/styles.min.css" />
-        <option value="$PROJECT_DIR$/dev/js/app.js" />
         <option value="$PROJECT_DIR$/dev/index.htm" />
         <option value="$PROJECT_DIR$/dev/css/styles.css" />
+        <option value="$PROJECT_DIR$/dev/js/app.js" />
+        <option value="$PROJECT_DIR$/dev/js/jqBootstrapValidation.js" />
+        <option value="$PROJECT_DIR$/live/css/styles.min.css" />
+        <option value="$PROJECT_DIR$/live/js/app.min.js" />
+        <option value="$PROJECT_DIR$/live/js/jqBootstrapValidation.js" />
+        <option value="$PROJECT_DIR$/index.htm" />
+        <option value="$PROJECT_DIR$/live/index.htm" />
+        <option value="$PROJECT_DIR$/live/mail/process_Form.php" />
+        <option value="$PROJECT_DIR$/live/mail/php.ini" />
       </list>
     </option>
   </component>
@@ -216,7 +325,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="mail" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -230,21 +339,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="corrcapital" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="corrgroup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dev" />
+              <option name="myItemId" value="live" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -265,13 +360,23 @@
               <option name="myItemId" value="dev" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="corrcapital" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="corrgroup" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="styles.css" />
-              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
+              <option name="myItemId" value="dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mail" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -288,7 +393,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -535,12 +640,12 @@
       <workItem from="1475938678430" duration="24000" />
       <workItem from="1476044242495" duration="3049000" />
       <workItem from="1476110802250" duration="4013000" />
-      <workItem from="1476195362293" duration="179000" />
+      <workItem from="1476195362293" duration="1398000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="875728000" />
+    <option name="totallyTimeSpent" value="876947000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -549,6 +654,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21770833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -561,7 +667,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -584,28 +689,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/UC/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.css" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/common.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="181" column="4" selection-start-line="181" selection-start-column="4" selection-end-line="181" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UC/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="723">
-          <caret line="238" column="1" selection-start-line="238" selection-start-column="1" selection-end-line="238" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UC/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
@@ -672,13 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/php.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6987">
-          <caret line="411" column="50" selection-start-line="411" selection-start-column="50" selection-end-line="411" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/phpinfo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -704,20 +780,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/live/js/app.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3672">
-          <caret line="216" column="45" selection-start-line="216" selection-start-column="45" selection-end-line="216" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/live/index.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="868" column="37" selection-start-line="868" selection-start-column="37" selection-end-line="868" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -756,30 +818,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/mail/process_Form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/mail/processForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/js/intlTelInput.min.js" />
     <entry file="file://$PROJECT_DIR$/dev/js/isValidNumber.js" />
     <entry file="file://$PROJECT_DIR$/dev/js/contact-form.js" />
-    <entry file="file://$PROJECT_DIR$/dev/js/jqBootstrapValidation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="45" column="18" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/js/wow.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4165">
@@ -791,13 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21131">
           <caret line="1243" column="0" selection-start-line="1243" selection-start-column="0" selection-end-line="1253" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/live/css/styles.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2626">
-          <caret line="0" column="41470" selection-start-line="0" selection-start-column="41470" selection-end-line="0" selection-end-column="41470" />
         </state>
       </provider>
     </entry>
@@ -815,29 +849,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.htm">
+    <entry file="file://$PROJECT_DIR$/dev/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14144">
-          <caret line="832" column="20" selection-start-line="832" selection-start-column="20" selection-end-line="832" selection-end-column="20" />
+        <state relative-caret-position="187">
+          <caret line="17" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="3607" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/js/app.js">
+    <entry file="file://$PROJECT_DIR$/live/js/app.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2295">
-          <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="3514" selection-start-line="0" selection-start-column="3514" selection-end-line="0" selection-end-column="3514" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/js/jqBootstrapValidation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="19" column="83" selection-start-line="0" selection-start-column="0" selection-end-line="926" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/live/js/jqBootstrapValidation.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14741" selection-start-line="0" selection-start-column="14741" selection-end-line="0" selection-end-column="14741" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/live/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1476044864990" expanded="true" signature="5797:5804" ph="×" />
-            <marker date="1476044864990" expanded="true" signature="6519:6526" ph="×" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-782">
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/live/css/styles.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-191">
+          <caret line="0" column="12853" selection-start-line="0" selection-start-column="12853" selection-end-line="0" selection-end-column="12853" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/index.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2414">
-          <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+        <state relative-caret-position="327">
+          <caret line="945" column="22" selection-start-line="945" selection-start-column="16" selection-end-line="945" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#span#0;n#div#3;n#div#0;n#form#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#29326#29332#0" expanded="true" />
@@ -845,10 +918,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/live/index.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2091">
-          <caret line="207" column="9" selection-start-line="207" selection-start-column="9" selection-end-line="207" selection-end-column="9" />
+        <state relative-caret-position="5500">
+          <caret line="951" column="21" selection-start-line="951" selection-start-column="21" selection-end-line="951" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#3;n#div#0;n#form#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#29326#29332#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="149" column="61" selection-start-line="149" selection-start-column="50" selection-end-line="149" selection-end-column="61" />
+          <folding>
+            <marker date="1476196077193" expanded="true" signature="5797:5804" ph="×" />
+            <marker date="1476196077193" expanded="true" signature="6519:6526" ph="×" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/mail/processForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/mail/process_Form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="42" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/live/mail/process_Form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="59" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/php.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="370" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="1081" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/live/mail/php.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1283">
+          <caret line="1081" column="0" selection-start-line="1081" selection-start-column="0" selection-end-line="1081" selection-end-column="0" />
           <folding />
         </state>
       </provider>

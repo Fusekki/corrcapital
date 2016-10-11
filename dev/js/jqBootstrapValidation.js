@@ -48,7 +48,7 @@
         $(uniqueForms).bind("submit", function (e) {
           var $form = $(this);
           var warningsFound = 0;
-          var $inputs = $form.find("input,textarea,select").not(".optional");
+          // var $inputs = $form.find("input,textarea,select").not(".optional");
           // var $inputs = $('#feedbackForm input,#feedbackForm textarea').not('.optional').each(function() {
           var $inputs = $form.find("input,textarea,select").not("[type=submit],[type=image]");
           // $inputs.trigger("submit.validation").trigger("validationLostFocus.validation");

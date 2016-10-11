@@ -13,7 +13,7 @@
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <!-- Custom CSS -->
     <link href="css/animate.min.css" rel="stylesheet" media="screen">
-    <link href="css/hover-min.css" rel="stylesheet"  media="screen">
+    <link href="css/hover-min.css" rel="stylesheet" media="screen">
     <!--<link href="css/styles.css" rel="stylesheet">-->
     <link href="css/styles.min.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -31,12 +31,20 @@
 <nav class="navbar navbar-custom navbar-fixed-top navbar-default wow fadeIn">
     <div class="container" id="nav-container">
         <div class="navbar-header">
-            <button class="navbar-toggle" data-target=".navbar-main-collapse" data-toggle="collapse" type="button"><i class="fa fa-bars"></i>
-            </button>
-            <a class="navbar-brand page-scroll light-gray" href="#page-top" >
+            <!--<button class="navbar-toggle" data-target=".navbar-main-collapse" data-toggle="collapse" type="button">-->
+            <div class="navbar-toggle" id="navbar-container" data-target=".navbar-main-collapse" data-toggle="collapse">
+                <div id="nav-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!--<i class="fa fa-bars"></i>-->
+            </div>
+            <a class="navbar-brand page-scroll light-gray" href="#page-top">
                 <div class="logo-text-wrapper-nav">
-                    <span class="theme-red">Corr</span>
-                    <span class="pipe-nav">|</span><span class="theme-grey">Capital</span>
+                    <span id="logo-corr" class="theme-red">Corr</span>
+                    <span id="logo-pipe" class="pipe-nav">|</span><span id="logo-capital" class="theme-grey">Capital</span>
                 </div>
             </a>
         </div>
@@ -70,15 +78,16 @@
                     <div class="heading-container">
                     </div>
                     <div class="heading-wrapper wow fadeIn">
-                        <div class="logo-text-wrapper" >
-                            <span class="theme-red">Corr</span>
-                            <span class="pipe">|</span>
-                            <span class="theme-grey" id="logo-second-word">Capital</span>
+                        <div class="logo-text-wrapper">
+                            <span id="heading-corr" class="theme-red">Corr</span>
+                            <span  class="pipe">|</span>
+                            <span id="heading-capital" class="theme-grey">Capital</span>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="carousel slide vertical wow zoomInDown text-carousel" data-ride="carousel" data-wow-delay="0.75s" id="text-carousel">
+            <div class="carousel slide vertical wow zoomInDown text-carousel" data-ride="carousel"
+                 data-wow-delay="0.75s" id="text-carousel">
                 <!-- Wrapper for slides -->
                 <div class="row">
                     <div class="col-xs-12">
@@ -87,15 +96,7 @@
                                 <div class="carousel-content">
                                     <div>
                                         <p>
-                                            <i class="">CORR
-                                                Capital
-                                                implements
-                                                innovative
-                                                concepts
-                                                to
-                                                assure
-                                                corporate
-                                                success.</i>
+                                            <i>CORR Capital implements innovative concepts to assure corporate success.</i>
                                         </p>
                                     </div>
                                 </div>
@@ -104,19 +105,7 @@
                                 <div class="carousel-content">
                                     <div>
                                         <p>
-                                            <i class="">We
-                                                analyze
-                                                the
-                                                path
-                                                to
-                                                increase
-                                                your
-                                                profits
-                                                and
-                                                provide
-                                                the
-                                                solutions.
-                                            </i>
+                                            <i>We analyze the path to increase your profits and provide the solutions.</i>
                                         </p>
                                     </div>
                                 </div>
@@ -126,91 +115,108 @@
                 </div>
             </div>
             <div class="navigation-stars">
-
                 <div class="stars-anchor">
-                    <a class="constellation inline-flex" data-toggle="modal" href="#companyModal5" id="constellation-one">
+                    <svg class="constellation-outline-left" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="960px"
+                                 height="560px" viewBox="0 0 960 560" enable-background="new 0 0 960 560" xml:space="preserve">
+                       <g id="Layer_3">
+                        <polyline fill="none" stroke="#999999" stroke-width="2" stroke-miterlimit="10" points="109.573,53.786 184.854,118.393
+                            203.393,190.864 262.944,265.022 240.472,376.258 324.742,430.752 410.697,343.111 	"/>
+                        </g>
+                    </svg>
+                    <svg class="constellation-outline-right" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="960px"
+                             height="560px" viewBox="0 0 960 560" enable-background="new 0 0 960 560" xml:space="preserve">
+                        <g id="Layer_2">
+                            <polyline fill="none" stroke="#999999" stroke-width="2" stroke-miterlimit="10" points="501.708,437.493 597.775,385.246
+                                650.022,293.111 	"/>
+                        </g>
+                    </svg>
+
+
+                    <a class="constellation inline-flex" data-toggle="modal" href="#companyModal5" id="constellation-art">
                         <div class="globe-text" id="globe-text-first">
                             Art
                         </div>
                         <div class="constellation-planet globe">
-                            <div aria-hidden="true" class="star-type1"></div>
+                            <div aria-hidden="true" class="star-type star-type1"></div>
                         </div>
                         <div class="constellation-line line-one"></div>
+
+
                     </a>
-                    <a class="constellation inline-flex" data-toggle="modal" href="#companyModal4">
+                    <a class="constellation inline-flex" data-toggle="modal" href="#companyModal4" id="constellation-benefits">
                         <div class="constellation-planet globe">
-                            <div aria-hidden="true" class="star-type2"></div>
+                            <div aria-hidden="true" class="star-type star-type2"></div>
                         </div>
                         <div class="globe-text">
                             Benefits
                         </div>
                         <div class="constellation-line line-two"></div>
                     </a>
-                    <a class="constellation inline-flex " data-toggle="modal" href="#companyModal3" id="globe_three">
+                    <a class="constellation inline-flex " data-toggle="modal" href="#companyModal3" id="constellation-energy">
                         <div class="globe-text" id="globe_three_text">
                             Energy
                         </div>
                         <div class="constellation-planet globe">
-                            <div aria-hidden="true" class="star-type3"></div>
+                            <div aria-hidden="true" class="star-type star-type3"></div>
                         </div>
                         <div class="constellation-line line-three"></div>
                     </a>
-                    <a class="constellation inline-flex " data-toggle="modal" href="#companyModal13">
+                    <a class="constellation inline-flex " data-toggle="modal" href="#companyModal13" id="constellation-entertainment">
                         <div class="globe-text globe-text-right">
                             Entertainment
                         </div>
                         <div class="constellation-planet globe">
-                            <div aria-hidden="true" class="star-type1"></div>
+                            <div aria-hidden="true" class="star-type star-type1"></div>
                         </div>
                         <div class="constellation-line line-four"></div>
                     </a>
-                    <a class="constellation inline-flex " data-toggle="modal" href="#companyModal10">
+                    <a class="constellation inline-flex " data-toggle="modal" href="#companyModal10" id="constellation-fashion">
                         <div class="globe-text globe-text-right">
                             Fashion
                         </div>
                         <div class="constellation-planet globe">
-                            <div aria-hidden="true" class="star-type2"></div>
+                            <div aria-hidden="true" class="star-type star-type2"></div>
                         </div>
                         <div class="constellation-line line-five"></div>
                     </a>
-                    <a class="constellation inline-flex " data-toggle="modal" href="#companyModal1">
+                    <a class="constellation inline-flex " data-toggle="modal" href="#companyModal1" id="constellation-kvh">
                         <div class="globe-text globe-text-right">
                             KVH
                         </div>
                         <div class="constellation-planet globe">
-                            <div aria-hidden="true" class="star-type3"></div>
+                            <div aria-hidden="true" class="star-type star-type3"></div>
                         </div>
                         <div class="constellation-line line-six"></div>
                     </a>
-                    <a class="constellation " data-toggle="modal" href="#companyModal2">
+                    <a class="constellation " data-toggle="modal" href="#companyModal2" id="constellation-pharma">
                         <div class="globe-text globe-text-right">
                             Pharma
                         </div>
                         <div class="constellation-planet globe">
-                            <div aria-hidden="true" class="star-type1"></div>
+                            <div aria-hidden="true" class="star-type star-type1"></div>
                         </div>
                     </a>
-                    <a class="constellation " data-toggle="modal" href="#companyModal14">
+                    <a class="constellation " data-toggle="modal" href="#companyModal14" id="constellation-pr">
                         <div class="globe-text globe-text-right">
                             Public Relations
                         </div>
                         <div class="constellation-planet globe">
-                            <div aria-hidden="true" class="star-type2"></div>
+                            <div aria-hidden="true" class="star-type star-type2"></div>
                         </div>
                         <div class="constellation-line line-seven"></div>
                     </a>
-                    <a class="constellation inline-flex " data-toggle="modal" href="#companyModal11">
+                    <a class="constellation inline-flex " data-toggle="modal" href="#companyModal11" id="constellation-re">
                         <div class="constellation-planet globe">
-                            <div aria-hidden="true" class="star-type3"></div>
+                            <div aria-hidden="true" class="star-type star-type3"></div>
                         </div>
                         <div class="globe-text globe-text-right">
                             Real-Estate
                         </div>
                         <div class="constellation-line line-eight"></div>
                     </a>
-                    <a class="constellation inline-flex " data-toggle="modal" href="#companyModal12">
+                    <a class="constellation inline-flex " data-toggle="modal" href="#companyModal12" id="constellation-tech">
                         <div class="constellation-planet globe">
-                            <div aria-hidden="true" class="star-type1"></div>
+                            <div aria-hidden="true" class="star-type star-type1"></div>
                         </div>
                         <div class="globe-text globe-text-right">
                             Technology
@@ -219,7 +225,8 @@
                 </div>
             </div>
             <div class="btn-circle-wrapper wow fadeIn" data-wow-delay="2s">
-                <a class="btn btn-circle page-scroll animated pulse infinite" href="#company"><i class="fa fa-angle-double-down"></i>
+                <a class="btn btn-circle page-scroll animated pulse infinite" href="#company"><i
+                        class="fa fa-angle-double-down"></i>
                 </a>
             </div>
         </div>
@@ -234,72 +241,71 @@
             <div class="parallax-background">
                 <div class="parallax-root wow zoomIn">
                     <div class="parallax-container">
-                        <div class="parallax-layer parallax-layer-1" data-target="#companyModal1" data-toggle="modal">
+                        <div class="parallax-layer parallax-kvh" data-target="#companyModal1" data-toggle="modal">
                             <div class="text-overlay">
                                 <span class="planet-label theme-white">KVH</span>
                             </div>
                             <img alt="Planet Mercury" class="planet" src="img/planets/mercury.png">
                         </div>
-                        <div class="parallax-layer parallax-layer-2" data-target="#companyModal4" data-toggle="modal">
+                        <div class="parallax-layer parallax-benefits" data-target="#companyModal4" data-toggle="modal">
                             <div class="text-overlay">
                                 <span class="planet-label theme-white">Benefits</span>
                             </div>
                             <img alt="Planet Venus" class="planet" src="img/planets/venus.png">
                         </div>
-                        <div class="parallax-layer parallax-layer-3" data-target="#companyModal3" data-toggle="modal">
+                        <div class="parallax-layer parallax-energy" data-target="#companyModal3" data-toggle="modal">
                             <div class="text-overlay">
                                 <span class="planet-label theme-white">Energy</span>
                             </div>
                             <img alt="Planet Mars" class="planet" src="img/planets/mars.png">
                         </div>
-                        <div class="parallax-layer parallax-layer-4" data-target="#companyModal11" data-toggle="modal">
+                        <div class="parallax-layer parallax-re" data-target="#companyModal11" data-toggle="modal">
                             <div class="text-overlay">
                                 <span class="planet-label theme-white">Real Estate</span>
                             </div>
                             <img alt="Planet Jupiter" class="planet" src="img/planets/jupiter.png">
                         </div>
-                        <div class="parallax-layer parallax-layer-5" data-target="#companyModal12" data-toggle="modal">
+                        <div class="parallax-layer parallax-tech" data-target="#companyModal12" data-toggle="modal">
                             <div class="text-overlay">
                                 <span class="planet-label theme-white">Technology</span>
                             </div>
                             <img alt="Planet Uranus" class="planet" src="img/planets/uranus.png">
                         </div>
-                        <div class="parallax-layer parallax-layer-6" data-target="#companyModal10" data-toggle="modal">
+                        <div class="parallax-layer parallax-fashion" data-target="#companyModal10" data-toggle="modal">
                             <div class="text-overlay">
                                 <span class="planet-label theme-white">Fashion</span>
                             </div>
                             <img alt="Planet Ganymede" class="planet" src="img/planets/ganymede.png">
                         </div>
-                        <div class="parallax-layer parallax-layer-7" data-target="#companyModal13" data-toggle="modal">
+                        <div class="parallax-layer parallax-entertainment" data-target="#companyModal13" data-toggle="modal">
                             <div class="text-overlay">
                                 <span class="planet-label theme-white">Entertainment</span>
                             </div>
                             <img alt="Planet Pluto" class="planet" src="img/planets/pluto.png">
                         </div>
-                        <div class="parallax-layer parallax-layer-8" data-target="#companyModal5" data-toggle="modal">
+                        <div class="parallax-layer parallax-art" data-target="#companyModal5" data-toggle="modal">
                             <div class="text-overlay">
                                 <span class="planet-label theme-white">Art</span>
                             </div>
                             <img alt="Planet Tethys" class="planet" src="img/planets/tethys.png">
                         </div>
-                        <div class="parallax-layer parallax-layer-9" data-target="#companyModal14" data-toggle="modal">
+                        <div class="parallax-layer parallax-pr" data-target="#companyModal14" data-toggle="modal">
                             <div class="text-overlay">
                                 <span class="planet-label theme-white">Public Relations</span>
                             </div>
                             <img alt="Planet Lapetus" class="planet" src="img/planets/lapetus.png">
                         </div>
-                        <div class="parallax-layer parallax-layer-10" data-target="#companyModal2" data-toggle="modal">
+                        <div class="parallax-layer parallax-pharma" data-target="#companyModal2" data-toggle="modal">
                             <div class="text-overlay">
                                 <span class="planet-label theme-white">Pharma</span>
                             </div>
-                            <img alt="Planet Europa" class="planet" src="img/planets/europa.png">
+                            <img alt="Planet Europa" class="planet" src="img/planets/europa.png" />
                         </div>
-                        <div class="parallax-layer parallax-layer-11"><img alt="Astronaut floating" class="" src="img/planets/astronaut.png">
-                        </div>
-                        <div class="parallax-layer parallax-layer-12"><img alt="Space Satellite" class="" src="img/planets/satellite.png">
-                        </div>
-                        <div class="parallax-layer parallax-layer-13"><img alt="Space Shuttle" class="" src="img/planets/shuttle.png">
-                        </div>
+                        <div class="parallax-layer parallax-astronaut"><img alt="Astronaut floating" src="img/planets/astronaut.png" /></div>
+                        <div class="parallax-layer parallax-satellite"><img alt="Space Satellite" src="img/planets/satellite.png" /></div>
+                        <div class="parallax-layer parallax-shuttle"><img alt="Space Shuttle" src="img/planets/shuttle.png" /></div>
+                        <div class="parallax-layer parallax-asteroid"><img alt="Asteroid" src="img/planets/asteroid.png" /> </div>
+
                         <!--<div class="parallax-layer-anchor"></div>-->
                     </div>
                 </div>
@@ -318,25 +324,25 @@
                     <div class="carousel-inner carousel-planets" role="listbox">
                         <div class="item active">
                             <div class="planet-item" id="planet-art">
-                                <img alt="Planet Tethus" class="wow zoomIn" data-target="#companyModal5" data-toggle="modal" src="img/planets/tethys.png">
+                                <img alt="Planet Tethus" class="planet-item-img wow zoomIn" data-target="#companyModal5" data-toggle="modal" src="img/planets/tethys.png">
                                 <div class="carousel-caption planet-caption">
                                     <h3>Art</h3>
                                 </div>
                             </div>
                             <div class="planet-item" id="planet-benefits">
-                                <img alt="Planet Venus" class="wow zoomIn" data-target="#companyModal4" data-toggle="modal" src="img/planets/venus.png">
+                                <img alt="Planet Venus" class="planet-item-img wow zoomIn" data-target="#companyModal4" data-toggle="modal" src="img/planets/venus.png">
                                 <div class="carousel-caption planet-caption">
                                     <h3>Benefits</h3>
                                 </div>
                             </div>
                             <div class="planet-item" id="planet-energy">
-                                <img alt="Planet Mars" class="wow zoomIn" data-target="#companyModal3" data-toggle="modal" src="img/planets/mars.png">
+                                <img alt="Planet Mars" class="planet-item-img wow zoomIn" data-target="#companyModal3" data-toggle="modal" src="img/planets/mars.png">
                                 <div class="carousel-caption planet-caption">
                                     <h3>Energy</h3>
                                 </div>
                             </div>
                             <div class="planet-item" id="planet-entertainment">
-                                <img alt="Planet Pluto" class="wow zoomIn" data-target="#companyModal13" data-toggle="modal" src="img/planets/pluto.png">
+                                <img alt="Planet Pluto" class="planet-item-img wow zoomIn" data-target="#companyModal13" data-toggle="modal" src="img/planets/pluto.png">
                                 <div class="carousel-caption planet-caption">
                                     <h3>Entertainment</h3>
                                 </div>
@@ -344,25 +350,25 @@
                         </div>
                         <div class="item">
                             <div class="planet-item" id="planet-fashion">
-                                <img alt="Planet Ganymede" class="" data-target="#companyModal10" data-toggle="modal" src="img/planets/ganymede.png">
+                                <img alt="Planet Ganymede" data-target="#companyModal10" data-toggle="modal" src="img/planets/ganymede.png">
                                 <div class="carousel-caption planet-caption">
                                     <h3>Fashion</h3>
                                 </div>
                             </div>
                             <div class="planet-item" id="planet-kvh">
-                                <img alt="Planet Mercury" class="" data-target="#companyModal1" data-toggle="modal" src="img/planets/mercury.png">
+                                <img alt="Planet Mercury"  data-target="#companyModal1" data-toggle="modal" src="img/planets/mercury.png">
                                 <div class="carousel-caption planet-caption">
                                     <h3>KVH</h3>
                                 </div>
                             </div>
                             <div class="planet-item" id="planet-pharma">
-                                <img alt="Planet Europa" class="" data-target="#companyModal2" data-toggle="modal" src="img/planets/europa.png">
+                                <img alt="Planet Europa" data-target="#companyModal2" data-toggle="modal" src="img/planets/europa.png">
                                 <div class="carousel-caption planet-caption">
                                     <h3>Pharma</h3>
                                 </div>
                             </div>
                             <div class="planet-item" id="planet-pr">
-                                <img alt="Planet Lapetus" class="n" data-target="#companyModal14" data-toggle="modal" src="img/planets/lapetus.png">
+                                <img alt="Planet Lapetus" data-target="#companyModal14" data-toggle="modal" src="img/planets/lapetus.png">
                                 <div class="carousel-caption planet-caption">
                                     <h3>PR</h3>
                                 </div>
@@ -370,13 +376,13 @@
                         </div>
                         <div class="item">
                             <div class="planet-item" id="planet-re">
-                                <img alt="Planet Jupiter" class="" data-target="#companyModal11" data-toggle="modal" src="img/planets/jupiter.png">
+                                <img alt="Planet Jupiter" data-target="#companyModal11" data-toggle="modal" src="img/planets/jupiter.png">
                                 <div class="carousel-caption planet-caption">
                                     <h3>Real Estate</h3>
                                 </div>
                             </div>
                             <div class="planet-item" id="planet-tech">
-                                <img alt="Planet Uranus" class="" data-target="#companyModal12" data-toggle="modal" src="img/planets/uranus.png">
+                                <img alt="Planet Uranus" data-target="#companyModal12" data-toggle="modal" src="img/planets/uranus.png">
                                 <div class="carousel-caption planet-caption">
                                     <h3>Technology</h3>
                                 </div>
@@ -386,12 +392,10 @@
                 </div>
                 <!-- Left and right controls -->
                 <a class="left carousel-control planet-carousel-control" data-slide="prev" href="#carousel-planets" role="button">
-
                     <span><i aria-hidden="true" class="fa fa-caret-left glyphicon-chevron-right"></i></span>
                     <span class="sr-only">Previous</span>
                 </a>
                 <a class="right carousel-control planet-carousel-control" data-slide="next" href="#carousel-planets" role="button">
-
                     <span><i aria-hidden="true" class="fa fa-caret-right glyphicon-chevron-right"></i></span>
                     <span class="sr-only">Next</span>
                 </a>
@@ -413,7 +417,8 @@
             <div class="mask-text">
                 <h2>Moses Gross</h2>
                 <p>Managing Member</p>
-                <div class="info-big-wrapper"></div><a class="info-big hvr-reveal" data-target="#companyModal6" data-toggle="modal">Bio</a>
+                <div class="info-big-wrapper"></div>
+                <a class="info-big hvr-reveal" data-target="#companyModal6" data-toggle="modal">Bio</a>
             </div>
         </div>
     </div>
@@ -422,7 +427,8 @@
             <div class="mask-text">
                 <h2>David Redlener</h2>
                 <p>Managing Member</p>
-                <div class="info-big-wrapper"></div><a class="info-big hvr-reveal" data-target="#companyModal7" data-toggle="modal">Bio</a>
+                <div class="info-big-wrapper"></div>
+                <a class="info-big hvr-reveal" data-target="#companyModal7" data-toggle="modal">Bio</a>
             </div>
         </div>
     </div>
@@ -431,7 +437,8 @@
             <div class="mask-text">
                 <h2>Nick Stefanov</h2>
                 <p>Managing Member</p>
-                <div class="info-big-wrapper"></div><a class="info-big hvr-reveal" data-target="#companyModal8" data-toggle="modal">Bio</a>
+                <div class="info-big-wrapper"></div>
+                <a class="info-big hvr-reveal" data-target="#companyModal8" data-toggle="modal">Bio</a>
             </div>
 
         </div>
@@ -441,7 +448,8 @@
             <div class="mask-text">
                 <h2>Roseann Ragano</h2>
                 <p>Managing Member</p>
-                <div class="info-big-wrapper"></div><a class="info-big hvr-reveal" data-target="#companyModal9" data-toggle="modal">Bio</a>
+                <div class="info-big-wrapper"></div>
+                <a class="info-big hvr-reveal" data-target="#companyModal9" data-toggle="modal">Bio</a>
             </div>
         </div>
     </div>
@@ -454,10 +462,9 @@
     </div>
     <div class="row" id="contact-info">
         <div class="section-header col-xs-12 col-sm-12 col-md-6 col-lg-6" id="footer-left-text">
-            <div class="site-info theme-red">CORR<span class="pipe">|</span><span class="theme-grey">CAPITA</span><span class="theme-grey">L</span></div>
+            <div class="site-info theme-red">CORR<span class="pipe">|</span><span id="site-info-capita" class="theme-grey">CAPITA</span><span id="site-info-l" class="theme-grey">L</span></div>
             <div class="contact-info" id="contact-address">
-                <p class="address theme-lt-dark-grey"> 801 Second Ave 22nd Floor
-                    <br> New York, NY 10017</p>
+                <p class="address theme-lt-dark-grey"> 801 Second Ave 22nd Floor <br> New York, NY 10017</p>
                 <span class="theme-light-grey">212-679-2590</span>
             </div>
         </div>
@@ -466,32 +473,38 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                            <input type="text" class="form-control" placeholder="Your Name *" id="name" required
+                                   data-validation-required-message="Please enter your name.">
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                            <input type="email" class="form-control" placeholder="Your Email *" id="email" required
+                                   data-validation-required-message="Please enter your email address.">
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="form-group">
-                            <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                            <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required
+                                   data-validation-required-message="Please enter your phone number.">
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
-                            <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                            <textarea class="form-control" placeholder="Your Message *" id="message" required
+                                      data-validation-required-message="Please enter a message."></textarea>
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
                     <div class="clearfix"></div>
-                    <!--<div class="captcha-wrapper">-->
-                    <!--<div class="g-recaptcha" data-sitekey="6LcHNQcUAAAAADcwIJJ8nqn7igoJykCVF9S1I0X7" data-theme="dark"></div>-->
-                    <!--</div>-->
+                    <div class="form-group">
+                        <div class="g-recaptcha" data-sitekey="6LcHNQcUAAAAADcwIJJ8nqn7igoJykCVF9S1I0X7" data-theme="dark"></div>
+                        <span class="help-block text-danger" id="captcha-error" style="display: none;">Please check that you are not a robot.</span>
+
+                    </div>
+                    <span class="help-block" style="display: none;">Please enter a the security code.</span>
                     <div class="col-lg-12 text-center">
                         <div id="success"></div>
-
-                        <button type="submit" class="btn btn-xl">Send Message</button>
+                        <button type="submit" class="btn btn-xl" id="form-button">Send Message</button>
                     </div>
                 </div>
             </form>
@@ -506,7 +519,7 @@
 <!-- Footer -->
 <footer>
     <div class="container text-center wow fadeIn">
-        <p class="theme-grey copyright" > <a href="http://www.philliprstafford.com" target="_blank" >&copy; Phillip Stafford 2016 </a></p>
+        <p class="theme-grey copyright">&copy; CORR Capital 2016 design by <a href="http://www.philliprstafford.com" target="_blank">PS</a></p>
     </div>
 </footer>
 <!-- Modals -->
@@ -526,10 +539,11 @@
                         <img class="img-responsive img-center img-medium" src="img/kvhlogo.png" alt="KVH Logo">
                         <hr class="globe-primary">
                         <hr class="hr-span">
-                        <p><span class="theme-red">CORR KVH</span> is a full-service concierge jewelry service, for concept and cosmetic line. Martha Steward meets Tory Burch concept.
+                        <p><span class="theme-red">CORR KVH</span> is a full-service concierge jewelry service, for
+                            concept and cosmetic line. Martha Steward meets Tory Burch concept.
                         </p>
                         <hr>
-                        <button class="btn btn-default hvr-pulse" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close</button>
+                        <button class="btn btn-default hvr-pulse" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close </button>
                     </div>
                 </div>
             </div>
@@ -547,14 +561,15 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2 class="h2-medium"><span class="theme-red">CORR</span> <span class=
-                                                                                                "theme-lt-dark-grey">Pharma</span></h2>
+                        <h2 class="h2-medium"><span class="theme-red">CORR</span> <span class="theme-lt-dark-grey">Pharma</span></h2>
                         <hr class="globe-primary">
                         <hr class="hr-span">
-                        <p>CORR Pharma combines robust international pharmacy benefit management expertise with localized systems and vast outreach to provide the first global specialized pharmacy benefit management expertise.
+                        <p>CORR Pharma combines robust international pharmacy benefit management expertise with
+                            localized systems and vast outreach to provide the first global specialized pharmacy benefit
+                            management expertise.
                         </p>
                         <hr>
-                        <button class="btn btn-default hvr-pulse" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close</button>
+                        <button class="btn btn-default hvr-pulse" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close </button>
                     </div>
                 </div>
             </div>
@@ -572,13 +587,15 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2 class="h2-medium"><span class="theme-red">CORR</span> <span class=
-                                                                                                "theme-lt-dark-grey">Energy</span></h2>
+                        <h2 class="h2-medium"><span class="theme-red">CORR</span> <span class="theme-lt-dark-grey">Energy</span></h2>
                         <hr class="globe-primary">
                         <hr class="hr-span">
-                        <p>CORR ENERGY provides comprehensive green energy solutions across a broad range of industries around the globe. From consumers to corporations to governments, CORR Energy identifies, orchestrates and implements custom-tailored energy solutions that reduce our clients carbon footprints and increases their profitability.</p>
+                        <p>CORR ENERGY provides comprehensive green energy solutions across a broad range of industries
+                            around the globe. From consumers to corporations to governments, CORR Energy identifies,
+                            orchestrates and implements custom-tailored energy solutions that reduce our clients carbon
+                            footprints and increases their profitability.</p>
                         <hr>
-                        <button class="btn btn-default hvr-pulse" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close</button>
+                        <button class="btn btn-default hvr-pulse" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close </button>
                     </div>
                 </div>
             </div>
@@ -596,15 +613,22 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2 class="h2-medium" id="header-benefits"><span class="theme-red">CORR</span> <span class=
-                                                                                                                     "theme-lt-dark-grey">Benefits</span></h2>
+                        <h2 class="h2-medium" id="header-benefits"><span class="theme-red">CORR</span> <span class="theme-lt-dark-grey">Benefits</span></h2>
                         <h4><span class="theme-grey">Healthcare Cost Management Solutions</span></h4>
                         <hr class="globe-primary">
                         <hr class="hr-span">
-                        <p><b>CORR Benefits</b> (“CORR”) and its strategic partners provide public and private employers with concept-proven, non-disruptive, cost containment strategies that maximize savings and shareholder value, by design. Our partners and us represent more than 3,000 companies, all 50 US states, 30 million lives and over $30 billion USD in annual drug spend. Our proven solutions are wholly non-disruptive, seamlessly integrated into existing platforms and require no changes to existing vendor relationships. Our clients – which include Fortune 100 corporations, state and local government agencies (including self-insured and self-funded) organizations) – assume no financial risk while reaping the corporate responsibility benefits of a healthier workforce, and a healthier America.
+                        <p><b>CORR Benefits</b> (“CORR”) and its strategic partners provide public and private employers
+                            with concept-proven, non-disruptive, cost containment strategies that maximize savings and
+                            shareholder value, by design. Our partners and us represent more than 3,000 companies, all
+                            50 US states, 30 million lives and over $30 billion USD in annual drug spend. Our proven
+                            solutions are wholly non-disruptive, seamlessly integrated into existing platforms and
+                            require no changes to existing vendor relationships. Our clients – which include Fortune 100
+                            corporations, state and local government agencies (including self-insured and self-funded)
+                            organizations) – assume no financial risk while reaping the corporate responsibility
+                            benefits of a healthier workforce, and a healthier America.
                         </p>
                         <hr>
-                        <button class="btn btn-default hvr-pulse" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close</button>
+                        <button class="btn btn-default hvr-pulse" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close </button>
                     </div>
                 </div>
             </div>
@@ -623,14 +647,13 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2 class="h2-medium"><span class="theme-red">CORR</span> <span class=
-                                                                                                "theme-lt-dark-grey">Art</span></h2>
+                        <h2 class="h2-medium"><span class="theme-red">CORR</span> <span class="theme-lt-dark-grey">Art</span></h2>
                         <hr class="globe-primary">
                         <hr class="hr-span">
                         <p>CORR Art unites global buyers and sellers of fine works of art for private sale transactions.
                         </p>
                         <hr>
-                        <button class="btn btn-default hvr-pulse" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close</button>
+                        <button class="btn btn-default hvr-pulse" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close </button>
                     </div>
                 </div>
             </div>
@@ -648,13 +671,13 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2 class="h2-medium"><span class="theme-red">CORR</span> <span class=
-                                                                                                "theme-dark-grey h2-medium">Fashion</span></h2>
+                        <h2 class="h2-medium"><span class="theme-red">CORR</span> <span class="theme-dark-grey h2-medium">Fashion</span></h2>
                         <hr class="globe-primary">
                         <hr class="hr-span">
-                        <p><span class="theme-red">CORR FASHION</span> represents AMARA Swimwear, casual wear and skincare. One of the premiere luxury lines.</p>
+                        <p><span class="theme-red">CORR FASHION</span> represents AMARA Swimwear, casual wear and
+                            skincare. One of the premiere luxury lines.</p>
                         <hr>
-                        <button class="btn btn-default hvr-pulse" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close</button>
+                        <button class="btn btn-default hvr-pulse" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close </button>
                     </div>
                 </div>
             </div>
@@ -672,14 +695,16 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2 class="h2-medium" id="header-re"><span class="theme-red">CORR</span> <span class=
-                                                                                                               "theme-lt-dark-grey h2-medium">Real-Estate</span></h2>
+                        <h2 class="h2-medium" id="header-re"><span class="theme-red">CORR</span> <span class="theme-lt-dark-grey h2-medium">Real-Estate</span></h2>
                         <hr class="globe-primary">
                         <hr class="hr-span">
-                        <p><span class="theme-red">CORR REAL-ESTATE</span> leverages its network of contacts to access off-market, AAA, commercial properties around th world. We specialize in boutique hotels and resorts. We have a division that has a presence in real estate development in the USA and South America.
+                        <p><span class="theme-red">CORR REAL-ESTATE</span> leverages its network of contacts to access
+                            off-market, AAA, commercial properties around th world. We specialize in boutique hotels and
+                            resorts. We have a division that has a presence in real estate development in the USA and
+                            South America.
                         </p>
                         <hr>
-                        <button class="btn btn-default hvr-pulse" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close</button>
+                        <button class="btn btn-default hvr-pulse" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close </button>
                     </div>
                 </div>
             </div>
@@ -697,14 +722,15 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2 class="h2-medium" id="header-tech"><span class="theme-red">CORR</span> <span class=
-                                                                                                                 "theme-lt-dark-grey h2-medium">Technology</span></h2>
+                        <h2 class="h2-medium" id="header-tech"><span class="theme-red">CORR</span> <span class="theme-lt-dark-grey h2-medium">Technology</span></h2>
                         <hr class="globe-primary">
                         <hr class="hr-span">
-                        <p><span class="theme-red">CORR TECHNOLOGY</span> is a leading incubator and investment portal for innovative technological solutions. We give access to global markets and expertise in expanding the corporate footprint, to new and expanding technology companies.
+                        <p><span class="theme-red">CORR TECHNOLOGY</span> is a leading incubator and investment portal
+                            for innovative technological solutions. We give access to global markets and expertise in
+                            expanding the corporate footprint, to new and expanding technology companies.
                         </p>
                         <hr>
-                        <button class="btn btn-default hvr-pulse" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close</button>
+                        <button class="btn btn-default hvr-pulse" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close </button>
                     </div>
                 </div>
             </div>
@@ -722,14 +748,15 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2 id="header-entertainment"><span class="theme-red">CORR</span> <span class=
-                                                                                                        "theme-dark-grey h2-medium">Entertainment</span></h2>
+                        <h2 id="header-entertainment"><span class="theme-red">CORR</span> <span class="theme-dark-grey h2-medium">Entertainment</span></h2>
                         <hr class="globe-primary">
                         <hr class="hr-span">
-                        <p><b>CORR ENTERTAINMENT</b> leverages its access to major names in film, fashion, and music to book A-list talent in venues and private functions across the world. Our partners bring a combined 50 years of entertainment booking.
+                        <p><b>CORR ENTERTAINMENT</b> leverages its access to major names in film, fashion, and music to
+                            book A-list talent in venues and private functions across the world. Our partners bring a
+                            combined 50 years of entertainment booking.
                         </p>
                         <hr>
-                        <button class="btn btn-default hvr-pulse" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close</button>
+                        <button class="btn btn-default hvr-pulse" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close </button>
                     </div>
                 </div>
             </div>
@@ -747,15 +774,15 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2 id="header-pr"><span class="theme-red">CORR</span> <span class=
-                                                                                             "theme-lt-dark-grey h2-medium">Public Relations</span></h2>
+                        <h2 id="header-pr"><span class="theme-red">CORR</span> <span class="theme-lt-dark-grey h2-medium">Public Relations</span></h2>
                         <hr class="globe-primary">
 
                         <hr class="hr-span">
-                        <p>360 Bespoke has joined forces with CORR Entertainment to provide branding, marketing and imaging to companies around the world.
+                        <p>360 Bespoke has joined forces with CORR Entertainment to provide branding, marketing and
+                            imaging to companies around the world.
                         </p>
                         <hr>
-                        <button class="btn btn-default hvr-pulse" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close</button>
+                        <button class="btn btn-default hvr-pulse" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close </button>
                     </div>
                 </div>
             </div>
@@ -776,10 +803,26 @@
                         <h2><span class="theme-white h2-medium">Moses Gross</span></h2>
                         <h4><span class="theme-medium-grey h4-medium">Managing Member</span></h4>
                         <hr class="bio">
-                        <p class="theme-light-grey">MOSES GROSS, President and CEO of ANM Group | ANM Management | ANM Real Estate | MG Builders Watermark Center, Watermark Lofts, Watermark 920 and Watermark Studios | Watermark Group (a Publicly traded company). Moses Gross is the team leader of a solidly successful commercial and residential real estate development and a syndicate management firm. As an exceptionally talented investor, Moses researches potential markets to identify demands and trends, analyzes growth possibilities, and combines his firm commitment and excellent rapport of his associates and clientele for continued optimum success. With years of specialty real estate experience, prior of which he competently advised various significant corporate companies on investment and fiscal strategy and administrations. His ability to recognize and accurately distinguish strategic environments, aggressively launch and achieve results, enthusiastic, charismatic and dependable personality and continuously successful performance record have established Moses as a vibrant fundamental power in any business opportunities. Moses has consistently and expertly promoted the closing of over 500 various use investment closings. Mr. Gross founded ANM Real Estate and ANM Management in 1997 and completed his first development in 1999. In the last 18 years, ANM Group has prospered into a full service integrated real estate firm and has developed more than 50 properties totaling over 5 million square feet of property and over $200 million in project developments.
+                        <p class="theme-light-grey">MOSES GROSS, President and CEO of ANM Group | ANM Management | ANM
+                            Real Estate | MG Builders Watermark Center, Watermark Lofts, Watermark 920 and Watermark
+                            Studios | Watermark Group (a Publicly traded company). Moses Gross is the team leader of a
+                            solidly successful commercial and residential real estate development and a syndicate
+                            management firm. As an exceptionally talented investor, Moses researches potential markets
+                            to identify demands and trends, analyzes growth possibilities, and combines his firm
+                            commitment and excellent rapport of his associates and clientele for continued optimum
+                            success. With years of specialty real estate experience, prior of which he competently
+                            advised various significant corporate companies on investment and fiscal strategy and
+                            administrations. His ability to recognize and accurately distinguish strategic environments,
+                            aggressively launch and achieve results, enthusiastic, charismatic and dependable
+                            personality and continuously successful performance record have established Moses as a
+                            vibrant fundamental power in any business opportunities. Moses has consistently and expertly
+                            promoted the closing of over 500 various use investment closings. Mr. Gross founded ANM Real
+                            Estate and ANM Management in 1997 and completed his first development in 1999. In the last
+                            18 years, ANM Group has prospered into a full service integrated real estate firm and has
+                            developed more than 50 properties totaling over 5 million square feet of property and over
+                            $200 million in project developments.
                         </p>
-                        <button class="btn btn-default hvr-pulse" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close
-                        </button>
+                        <button class="btn btn-default hvr-pulse" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close </button>
                     </div>
                 </div>
             </div>
@@ -800,9 +843,18 @@
                         <h2><span class="theme-white h2-medium">David Redlener</span></h2>
                         <h4><span class="theme-medium-grey h4-medium">Managing Member</span></h4>
                         <hr class="bio">
-                        <p class="theme-light-grey">David is a licensed attorney with a background in commercial lending and public relations. David began his career as an Assistant District Attorney in the Bronx County District Attorney’s Office. In 1997, David began a decade-long role as the Senior Vice President and Deputy Director of Loan Services at one of the largest non -bank small business financing companies in the nation. In this capacity, David played a critical role in supporting the firm’s portfolio growth from under $70 million to an excess of $2.7 billion. Prior to joining Watermark, David had leveraged his legal, commercial lending and communications expertise to provide public relations and communications consulting services while at DKC, a Public Relations Consulting and Management firm, ranked #1 on The Observer’s 2015 PR Power firms in NYC, and through his own firm, CMJ Advisory Consultants.
+                        <p class="theme-light-grey">David is a licensed attorney with a background in commercial lending
+                            and public relations. David began his career as an Assistant District Attorney in the Bronx
+                            County District Attorney’s Office. In 1997, David began a decade-long role as the Senior
+                            Vice President and Deputy Director of Loan Services at one of the largest non -bank small
+                            business financing companies in the nation. In this capacity, David played a critical role
+                            in supporting the firm’s portfolio growth from under $70 million to an excess of $2.7
+                            billion. Prior to joining Watermark, David had leveraged his legal, commercial lending and
+                            communications expertise to provide public relations and communications consulting services
+                            while at DKC, a Public Relations Consulting and Management firm, ranked #1 on The Observer’s
+                            2015 PR Power firms in NYC, and through his own firm, CMJ Advisory Consultants.
                         </p>
-                        <button class="btn btn-default hvr-pulse" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close</button>
+                        <button class="btn btn-default hvr-pulse" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close </button>
                     </div>
                 </div>
             </div>
@@ -823,9 +875,22 @@
                         <h2><span class="theme-white h2-medium">Nick Stefanov</span></h2>
                         <h4><span class="theme-medium-grey h4-medium">Managing Member</span></h4>
                         <hr class="bio">
-                        <p class="theme-light-grey">Nicholas Stefanov is an American investor and fund-manager. As President of Watermark Capital, Nick brings his experience in deal development and execution to the team in Watermark’s endeavor to develop a portfolio of highly valuable real estate assets. Prior to Watermark, Nick was managing partner at International Electric Power. IEP’s mission was to develop Green and Sustainable power production in emerging markets. Deal sizes for this fund were between $200M - $600M. Before IEP, Nick was a Principal and Managing Partner at the Barish Fund, a middle-market private Equity fund. Investment focus at this fund was on healthcare, business to business solutions, manufacturing and consumer products. Deal sizes were typically between $50M-$150M. Nick has shepherded his Venture-Capital holding company, NIS holdings through the development and early round funding and mentorship of such companies such as the tech giant, Terremark, which was recently sold to Verizon for total transaction value in excess of $2B and the creation of The Light Group; one of the largest hospitality companies in Las Vegas and abroad. Nick sits on the boards of several businesses as well as those of City Government.
+                        <p class="theme-light-grey">Nicholas Stefanov is an American investor and fund-manager. As
+                            President of Watermark Capital, Nick brings his experience in deal development and execution
+                            to the team in Watermark’s endeavor to develop a portfolio of highly valuable real estate
+                            assets. Prior to Watermark, Nick was managing partner at International Electric Power. IEP’s
+                            mission was to develop Green and Sustainable power production in emerging markets. Deal
+                            sizes for this fund were between $200M - $600M. Before IEP, Nick was a Principal and
+                            Managing Partner at the Barish Fund, a middle-market private Equity fund. Investment focus
+                            at this fund was on healthcare, business to business solutions, manufacturing and consumer
+                            products. Deal sizes were typically between $50M-$150M. Nick has shepherded his
+                            Venture-Capital holding company, NIS holdings through the development and early round
+                            funding and mentorship of such companies such as the tech giant, Terremark, which was
+                            recently sold to Verizon for total transaction value in excess of $2B and the creation of
+                            The Light Group; one of the largest hospitality companies in Las Vegas and abroad. Nick sits
+                            on the boards of several businesses as well as those of City Government.
                         </p>
-                        <button class="btn btn-default hvr-pulse" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close</button>
+                        <button class="btn btn-default hvr-pulse" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close </button>
                     </div>
                 </div>
             </div>
@@ -846,10 +911,15 @@
                         <h2><span class="theme-white h2-medium">Roseann Ragano</span></h2>
                         <h4><span class="theme-medium-grey h4-medium">Managing Member</span></h4>
                         <hr class="bio">
-                        <p class="theme-light-grey">Roseann is a highly skilled professional who brings her years of experience and diversity to CORR. Roseann began her early career working in the accounting department of a publicly traded closed-end investment firm. She has spent the last twenty years working in different areas of financial management with a concentration on high net worth individuals and their companies. Roseann worked as the Controller of a financial management firm with 80+employees where in addition to her financial role, she oversaw all areas of operation including HR, IT and Office Management.
+                        <p class="theme-light-grey">Roseann is a highly skilled professional who brings her years of
+                            experience and diversity to CORR. Roseann began her early career working in the accounting
+                            department of a publicly traded closed-end investment firm. She has spent the last twenty
+                            years working in different areas of financial management with a concentration on high net
+                            worth individuals and their companies. Roseann worked as the Controller of a financial
+                            management firm with 80+employees where in addition to her financial role, she oversaw all
+                            areas of operation including HR, IT and Office Management.
                         </p>
-                        <button class="btn btn-default hvr-pulse" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close
-                        </button>
+                        <button class="btn btn-default hvr-pulse" data-dismiss="modal" type="button"><i class="fa fa-times"></i> Close </button>
                     </div>
                 </div>
             </div>
@@ -867,14 +937,16 @@
 <script src="js/jquery.easing.min.js"></script>
 <!--Animation plugin-->
 <script src="js/wow.min.js"></script>
-
+<!--<script src="js/intlTelInput.min.js"></script>-->
+<!--<script src="js/contact-form.js"></script>-->
 <script src="js/app.min.js"></script>
 <!--<script src="js/app.js"></script>-->
 
 <!-- Contact Form JavaScript -->
-<script src="js/jqBootstrapValidation.js"></script>
+<script src="js/jqBootstrapValidation.min.js"></script>
 
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0lP_moM9Kig0rSywmOTtxpy_6ze0qq20&callback=initMap"></script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0lP_moM9Kig0rSywmOTtxpy_6ze0qq20&callback=initMap"></script>
 <!-- Added the Webloader script to optimize font loading. -->
 <script>
     WebFontConfig = {
@@ -886,7 +958,7 @@
             ]
         }
     };
-    (function(d) {
+    (function (d) {
         var wf = d.createElement(
                 'script'),
                 s = d.scripts[0];

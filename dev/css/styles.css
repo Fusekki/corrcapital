@@ -26,7 +26,7 @@
 
 @keyframes draw-it {
     100% {
-        fill: #6fbc5d;
+        fill: hsla(215, 2%, 58%, 1);
     }
 }
 
