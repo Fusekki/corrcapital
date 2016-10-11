@@ -25,7 +25,7 @@ $(function() {
 });
 
 function animateHamburger() {
-    console.log('here');
+    // console.log('here');
     $('#navbar-container').click(function() {
         console.log('click');
         $('#nav-icon').toggleClass('open');

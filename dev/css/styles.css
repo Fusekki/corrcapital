@@ -2299,8 +2299,8 @@ hr.globe-primary:hover:after {
     .parallax-astronaut {
         transform: translateZ(.5px) scale(.1);
         z-index: 5;
-        top: 23%;
-        left: 44%;
+        top: 45%;
+        left: 28%;
     }
 
     /* Satellite */
@@ -2308,8 +2308,8 @@ hr.globe-primary:hover:after {
     .parallax-satellite {
         transform: translateZ(.4px) scale(.3);
         z-index: 5;
-        top: 27%;
-        left: 34%;
+        top: 31%;
+        left: 44%;
     }
 
     /* Shuttle */
@@ -2317,8 +2317,8 @@ hr.globe-primary:hover:after {
     .parallax-shuttle {
         transform: translateZ(.5px) scale(.3);
         z-index: 6;
-        top: 35%;
-        left: 42%;
+        top: 48%;
+        left: 26%;
     }
 
     /* Asteroid */
@@ -3148,33 +3148,23 @@ hr.globe-primary:hover:after {
         perspective: 0;
         transform-style: flat;
     }
-
     .parallax-kvh {
-
         transform: translateZ(-0.3px) scale(0.7);
-        top: 64%;
-        left: 49.7%;
-
+        top: 74%;
+        left: 25%;
     }
-
-    /* Benefits */
 
     .parallax-benefits {
-
         transform: translateZ(-0.3px) scale(0.7);
-        top: 35%;
-        left: 3%;
+        top: 19%;
+        left: 10%;
     }
-
-    /* Energy */
 
     .parallax-energy {
         transform: translateZ(-0.8px) scale(0.7);
-        top: 51%;
-        left: 11%;
+        top: 34%;
+        left: 13%;
     }
-
-    /* Real Estate */
 
     .parallax-re {
         transform: translateZ(-1.4px) scale(0.7);
@@ -3182,38 +3172,31 @@ hr.globe-primary:hover:after {
         left: 42%;
     }
 
-    /* Technology */
-
     .parallax-tech {
 
         transform: translateZ(-1.6px) scale(0.7);
         top: 41%;
-        left: 55%;
+        left: 49%;
     }
 
-    /* Fashion */
     .parallax-fashion {
 
         transform: translateZ(-0.8px) scale(0.7);
-        top: 87%;
-        left: 26.7%;
+        top: 65%;
+        left: 17%;
     }
-
-    /* Entertainment */
 
     .parallax-entertainment {
         transform: translateZ(-0.4px) scale(0.7);
         left: 18%;
-        top: 70%;
+        top: 48%;
     }
 
-    /*Art*/
     .parallax-art {
         transform: translateZ(0.35px) scale(0.7);
-        top: 10%;
-        left: 7%;
+        top: 3%;
+        left: 6%;
     }
-    /* Public Relations */
 
     .parallax-pr {
         transform: translateZ(-1.2px) scale(0.7);
@@ -3222,38 +3205,30 @@ hr.globe-primary:hover:after {
 
     }
 
-    /* Pharma */
-
     .parallax-pharma {
         transform: translateZ(-.7px) scale(0.7);
-        top: 33%;
-        left: 34%;
+        top: 55%;
+        left: 30%;
 
     }
-
-    /* Astronaut */
 
     .parallax-astronaut {
-        transform: translateZ(.4px) scale(.25);
-        top: 22%;
-        left: 83%;
 
+        transform: translateZ(.4px) scale(.25);
+        top: 47%;
+        left: 11%;
     }
 
-    /* Satellite */
 
     .parallax-satellite {
         transform: translateZ(.4px) scale(.5);
-        top: 101%;
-        left: 20%;
-
+        top: 32%;
+        left: 35%;
     }
 
-    /* Shuttle */
-
     .parallax-shuttle {
-        top: 26%;
-        left: 42%;
+        top: 54%;
+        left: 9%;
         transform: translateZ(.5px) scale(0.6);
 
     }
@@ -3270,119 +3245,7 @@ hr.globe-primary:hover:after {
     /*}*/
 
 }
-/*Microsoft IE*/
-    @media all and (min-width: 1900px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
 
-
-        .parallax-container .parallax-layer-1 {
-
-            transform: translateZ(-0.3px) scale(0.9);
-            top: 64%;
-            left: 49.7%;
-        }
-
-        /* Benefits */
-
-        .parallax-benefits {
-
-            transform: translateZ(-0.3px) scale(1);
-            top: 35%;
-            left: 3%;
-        }
-
-        /* Energy */
-
-        .parallax-energy {
-            transform: translateZ(-0.8px) scale(1.2);
-            top: 51%;
-            left: 11%;
-        }
-
-        /* Real Estate */
-
-        .parallax-re {
-            transform: translateZ(-1.4px) scale(1);
-            top: 52%;
-            left: 42%;
-        }
-        /* Technology */
-
-        .parallax-tech {
-
-            transform: translateZ(-1.6px) scale(1);
-            top: 41%;
-            left: 55%;
-        }
-
-        /* Fashion */
-        .parallax-fashion {
-
-            transform: translateZ(-0.8px) scale(0.95);
-            top: 87%;
-            left: 26.7%;
-        }
-
-        /* Entertainment */
-
-        .parallax-entertainment {
-            transform: translateZ(-0.4px) scale(1);
-            left: 18%;
-            top: 70%;
-        }
-
-        /*Art*/
-        .parallax-art {
-            transform: translateZ(0.35px) scale(0.9);
-            top: 10%;
-            left: 7%;
-        }
-        /* Public Relations */
-
-        .parallax-pr {
-            transform: translateZ(-1.2px) scale(1.0);
-            top: 75%;
-            left: 35%;
-        }
-
-        /* Pharma */
-
-        .parallax-pharma {
-            transform: translateZ(-.7px) scale(1);
-            top: 33%;
-            left: 34%;
-        }
-
-        /* Astronaut */
-
-        .parallax-astronaut {
-
-            transform: translateZ(.4px) scale(.25);
-            top: 22%;
-            left: 83%;
-        }
-
-        /* Satellite */
-
-        .parallax-satellite {
-
-            transform: translateZ(.4px) scale(.5);
-            top: 101%;
-            left: 20%;
-        }
-
-        /* Shuttle */
-
-        .parallax-shuttle {
-
-            transform: translateZ(.5px) scale(0.6);
-            top: 26%;
-            left: 42%;
-        }
-
-
-
-
-    }
 /*Microsoft Edge*/
 @supports (-ms-accelerator:true) {
     .constellation-line {
@@ -3494,20 +3357,20 @@ hr.globe-primary:hover:after {
     .parallax-astronaut {
 
         transform: translateZ(.4px) scale(.25);
-        top: 22%;
-        left: 83%;
+        top: 45%;
+        left: 28%;
     }
 
 
     .parallax-satellite {
         transform: translateZ(.4px) scale(.5);
-        top: 101%;
-        left: 20%;
+        top: 31%;
+        left: 44%;
     }
 
     .parallax-shuttle {
-        top: 26%;
-        left: 42%;
+        top: 48%;
+        left: 26%;
         transform: translateZ(.5px) scale(0.6);
 
     }
@@ -3515,6 +3378,48 @@ hr.globe-primary:hover:after {
     #constellation-re {
         top: -263px;
         left: 477px;
+    }
+    .line-one {
+        width: 68px;
+        right: -52px;
+        top: 118%;
+        transform: rotate(42deg);
+    }
+    .line-two {
+        width: 50px;
+        left: 15px;
+        top: 126%;
+        transform: rotate(76deg);
+    }
+    .line-three {
+        width: 70px;
+        left: 93px;
+        top: 131%;
+        transform: rotate(49deg);
+    }
+    .line-four {
+        width: 80px;
+        left: 95px;
+        top: 172%;
+        transform: rotate(101deg);
+    }
+    .line-five {
+        width: 65px;
+        left: 107px;
+        top: 106%;
+        transform: rotate(35deg);
+    }
+    .line-six {
+        width: 89px;
+        left: 78px;
+        top: -38%;
+        transform: rotate(-44deg);
+    }
+    .line-seven {
+        width: 74px;
+        left: 52px;
+        top: 57%;
+        transform: rotate(-39deg);
     }
 
     .line-eight{
@@ -3533,26 +3438,26 @@ hr.globe-primary:hover:after {
     .parallax-kvh {
 
         transform: translateZ(-0.3px) scale(0.9);
-        top: 64%;
-        left: 49.7%;
+        top: 78%;
+        left: 25%;
     }
 
     .parallax-benefits {
         transform: translateZ(-0.3px) scale(1);
-        top: 35%;
-        left: 3%;
+        top: 19%;
+        left: 10%;
     }
 
     .parallax-energy {
         transform: translateZ(-0.8px) scale(1.2);
-        top: 51%;
-        left: 11%;
+        top: 39%;
+        left: 13%;
     }
 
     .parallax-re {
         transform: translateZ(-1.4px) scale(1);
-        top: 52%;
-        left: 42%;
+        top: 59%;
+        left: 47%;
     }
 
     .parallax-tech {
@@ -3564,49 +3469,49 @@ hr.globe-primary:hover:after {
     .parallax-fashion {
 
         transform: translateZ(-0.8px) scale(0.95);
-        top: 87%;
-        left: 26.7%;
+        top: 70%;
+        left: 15%;
     }
 
     .parallax-entertainment {
         transform: translateZ(-0.4px) scale(1);
-        left: 18%;
-        top: 70%;
+        left: 19%;
+        top: 55%;
     }
 
     .parallax-art {
         transform: translateZ(0.35px) scale(0.9);
-        top: 10%;
-        left: 7%;
+        top: 0;
+        left: 5%;
     }
 
     .parallax-pr {
         transform: translateZ(-1.2px) scale(1.0);
-        top: 75%;
-        left: 35%;
+        top: 72%;
+        left: 38%;
     }
 
     .parallax-pharma {
         transform: translateZ(-.7px) scale(1);
-        top: 33%;
-        left: 34%;
+        top: 60%;
+        left: 31%;
     }
 
     .parallax-astronaut {
         transform: translateZ(.4px) scale(.25);
-        top: 22%;
-        left: 83%;
+        top: 53%;
+        left: 6%;
     }
 
     .parallax-satellite {
         transform: translateZ(.4px) scale(.5);
-        top: 101%;
-        left: 20%;
+        top: 31%;
+        left: 36%;
     }
 
     .parallax-shuttle {
         transform: translateZ(.5px) scale(0.6);
-        top: 26%;
-        left: 42%;
+        top: 60%;
+        left: 4%;
     }
 }
