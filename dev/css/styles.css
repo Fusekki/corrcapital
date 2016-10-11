@@ -169,6 +169,7 @@ body {
     color: hsla(357, 79%, 47%, 1);
     background: hsla(215, 2%, 90%, 1);
 }
+
 .btn-default:focus,
 .btn-default:active:focus,
 .btn-default.active:focus,
@@ -198,6 +199,11 @@ body {
     color: #ffffff;
     background: hsla(357, 79%, 34%, 1);
     border-color: hsla(357, 79%, 34%, 1);
+}
+
+.btn-xl {
+    background: hsla(215, 2%, 41%, 1);
+    color: hsla(215, 2%, 90%, 1);
 }
 .button {
     font-weight: 700;
@@ -3381,55 +3387,6 @@ hr.globe-primary:hover:after {
         position: absolute;
     }
 
-
-    .line-one {
-        width: 68px;
-        right: -52px;
-        top: 118%;
-        transform: rotate(42deg);
-    }
-    .line-two {
-        width: 50px;
-        left: 15px;
-        top: 126%;
-        transform: rotate(76deg);
-    }
-    .line-three {
-        width: 70px;
-        left: 93px;
-        top: 131%;
-        transform: rotate(49deg);
-    }
-    .line-four {
-        width: 80px;
-        left: 95px;
-        top: 172%;
-        transform: rotate(101deg);
-    }
-    .line-five {
-        width: 65px;
-        left: 107px;
-        top: 106%;
-        transform: rotate(35deg);
-    }
-    .line-six {
-        width: 89px;
-        left: 78px;
-        top: -38%;
-        transform: rotate(-44deg);
-    }
-    .line-seven {
-        width: 74px;
-        left: 52px;
-        top: 57%;
-        transform: rotate(-39deg);
-    }
-    .line-eight {
-        width: 86px;
-        left: 10px;
-        top: -44%;
-        transform: rotate(-61deg);
-    }
 
     /*Hack specific to Edge because it is the only one changing color on hover*/
     .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
