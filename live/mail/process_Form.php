@@ -20,7 +20,7 @@ if ($captcha_success->success==false) {
 else if ($captcha_success->success==true) {
         echo "<p>You are not a bot!</p>";
         //To address and name
-        $mail->addAddress("phillip@philliprstafford.com", "Recipient Name");
+        $mail->addAddress("info@corrcapital.com", "Recipient Name");
         //Address to which recipient will reply
         $mail->From = 'noreply@corrcapital.com';
         $mail->FromName = 'Webmaster';

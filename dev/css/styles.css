@@ -109,11 +109,82 @@
 @keyframes asteroidMove
 {
     from {
-        transform: translate3d(30vw, -31vh, 1px);
+        opacity: 1;
+        transform: translate3d(-7vw, 72vh, 0) rotate(-60deg) scale(1);
     }
 
     to {
-        transform: translate3d(110vw, 30vh, -20px);
+        opacity: 1;
+        transform: translate3d(60vw, 18vh, 0) rotate(-60deg) scale(.4)
+    }
+}
+
+@keyframes shuttleFly
+ {
+     from {
+         opacity: 1;
+         transform: translate3d(31vw, 41vh, 0) scale(.1) rotate(-83deg);
+     }
+     to {
+         opacity: 1;
+         transform: translate3d(53vw, 24vh, 0) scale(.5) rotate(0);
+     }
+}
+
+@keyframes astronautFloat
+{
+    from {
+        transform: translate3d(53vw, 24vh, 0) scale(.1);
+
+    }
+    to {
+        transform: translate3d(61vw, 14vh, 0) scale(.1) rotate(-49deg)
+    }
+}
+
+@keyframes satelliteLaunch {
+    from {
+        transform: translate3d(35vw, 39vh, 0) scale(0);
+    }
+
+    to {
+        transform: translate3d(62vw, 17vh, 0) scale(.6);
+    }
+}
+
+@keyframes satelliteMove {
+    from {
+        transform: scale(1);
+
+    }
+    to {
+        transform: scale(.3);
+    }
+}
+
+@keyframes explosion
+{
+    from {
+        transform: translate3d(62vw, 17vh, 0) scale(.6);
+
+    }
+
+    to {
+        transform: translate3d(62.2vw, 16.2vh, 0) scale(.6);
+
+    }
+}
+
+@keyframes smokemove
+{
+    from {
+        transform: translate3d(62vw, 17vh, 0) scale(.6);
+
+    }
+
+    to {
+        transform: translate3d(62.2vw, 16.2vh, 0) scale(.6);
+
     }
 }
 
@@ -423,6 +494,7 @@ hr {
 .img-medium {
     width: 40px;
 }
+
 .inline-flex {
     display: inline-flex;
 }
@@ -2297,37 +2369,46 @@ hr.globe-primary:hover:after {
     /* Astronaut */
 
     .parallax-astronaut {
-        transform: translateZ(.5px) scale(.1);
-        z-index: 5;
-        top: 45%;
-        left: 28%;
+        opacity: 0;
+        z-index: 7;
+        animation: fadeIn 1s forwards, astronautFloat 35s forwards;
+        animation-delay: 43s;
     }
 
     /* Satellite */
 
     .parallax-satellite {
-        transform: translateZ(.4px) scale(.3);
         z-index: 5;
-        top: 31%;
-        left: 44%;
+        animation: satelliteLaunch 20s forwards, explosion ease .3s forwards;
+        animation-delay: 0s, 20s;
+    }
+
+    .parallax-explosion {
+        transform: scale(.4);
+        z-index: 5;
+        top: 14vh;
+        left: 62vw;
+        opacity: 0;
+        animation: fadeIn 2s forwards, flash 10s ease infinite;
+        animation-delay: 21s, 23s;
     }
 
     /* Shuttle */
 
     .parallax-shuttle {
-        transform: translateZ(.5px) scale(.3);
+        opacity: 0;
         z-index: 6;
-        top: 48%;
-        left: 26%;
+        animation: shuttleFly 20s forwards;
+        animation-delay: 25s;
     }
 
     /* Asteroid */
 
     .parallax-asteroid {
+        opacity: 0;
         z-index: 6;
-        top: 29%;
-        left: -5%;
-        animation: asteroidMove 45s;
+        animation: asteroidMove ease-in 15s forwards, fadeOut .1s forwards;
+        animation-delay: 5s, 20s;
 
     }
 
@@ -3214,22 +3295,22 @@ hr.globe-primary:hover:after {
 
     .parallax-astronaut {
 
-        transform: translateZ(.4px) scale(.25);
-        top: 47%;
-        left: 11%;
+        /*transform: translateZ(.4px) scale(.25);*/
+        /*top: 47%;*/
+        /*left: 11%;*/
     }
 
 
     .parallax-satellite {
-        transform: translateZ(.4px) scale(.5);
-        top: 32%;
-        left: 35%;
+        /*transform: translateZ(.4px) scale(.5);*/
+        /*top: 32%;*/
+        /*left: 35%;*/
     }
 
     .parallax-shuttle {
-        top: 54%;
-        left: 9%;
-        transform: translateZ(.5px) scale(0.6);
+        /*top: 54%;*/
+        /*left: 9%;*/
+        /*transform: translateZ(.5px) scale(0.6);*/
 
     }
 
@@ -3356,22 +3437,22 @@ hr.globe-primary:hover:after {
 
     .parallax-astronaut {
 
-        transform: translateZ(.4px) scale(.25);
-        top: 45%;
-        left: 28%;
+        /*transform: translateZ(.4px) scale(.25);*/
+        /*top: 45%;*/
+        /*left: 28%;*/
     }
 
 
     .parallax-satellite {
-        transform: translateZ(.4px) scale(.5);
-        top: 31%;
-        left: 44%;
+        /*transform: translateZ(.4px) scale(.5);*/
+        /*top: 31%;*/
+        /*left: 44%;*/
     }
 
     .parallax-shuttle {
-        top: 48%;
-        left: 26%;
-        transform: translateZ(.5px) scale(0.6);
+        /*top: 48%;*/
+        /*left: 26%;*/
+        /*transform: translateZ(.5px) scale(0.6);*/
 
     }
 
@@ -3498,20 +3579,20 @@ hr.globe-primary:hover:after {
     }
 
     .parallax-astronaut {
-        transform: translateZ(.4px) scale(.25);
-        top: 53%;
-        left: 6%;
+        /*transform: translateZ(.4px) scale(.25);*/
+        /*top: 53%;*/
+        /*left: 6%;*/
     }
 
     .parallax-satellite {
-        transform: translateZ(.4px) scale(.5);
-        top: 31%;
-        left: 36%;
+        /*transform: translateZ(.4px) scale(.5);*/
+        /*top: 31%;*/
+        /*left: 36%;*/
     }
 
     .parallax-shuttle {
-        transform: translateZ(.5px) scale(0.6);
-        top: 60%;
-        left: 4%;
+        /*transform: translateZ(.5px) scale(0.6);*/
+        /*top: 60%;*/
+        /*left: 4%;*/
     }
 }
