@@ -4,7 +4,7 @@ Live site: www.corrcapital.com
 
 **Dependencies:**
 
-1. jQuery & JQuery Movbile
+1. jQuery & JQuery Mobile
 2. bootstrap.js and bootstrap.css
 3. animate.css (for page-loading animation effects)
 4. hover.css (for hover effects on elements)
